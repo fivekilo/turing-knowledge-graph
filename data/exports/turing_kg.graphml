@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d12" for="edge" attr.name="confidence" attr.type="string"/>
+<key id="d11" for="edge" attr.name="source" attr.type="string"/>
+<key id="d10" for="edge" attr.name="predicate_label" attr.type="string"/>
+<key id="d9" for="edge" attr.name="predicate" attr.type="string"/>
+<key id="d8" for="node" attr.name="has_year__values" attr.type="string"/>
+<key id="d7" for="node" attr.name="has_alias__values" attr.type="string"/>
+<key id="d6" for="node" attr.name="has_nationality__values" attr.type="string"/>
+<key id="d5" for="node" attr.name="has_death_date__values" attr.type="string"/>
+<key id="d4" for="node" attr.name="has_birth_date__values" attr.type="string"/>
+<key id="d3" for="node" attr.name="source" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="class_id" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="alan_turing">
+  <data key="d0">Alan Turing</data>
+  <data key="d1">Person</data>
+  <data key="d2">英国数学家逻辑学家计算机科学奠基者</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+  <data key="d4">[{"value": "1912-06-23", "datatype": "date", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
+  <data key="d5">[{"value": "1954-06-07", "datatype": "date", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
+  <data key="d6">[{"value": "British", "datatype": "string", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
+  <data key="d7">[{"value": "艾伦·图灵", "datatype": "string", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
+</node>
+<node id="joan_clarke">
+  <data key="d0">Joan Clarke</data>
+  <data key="d1">Person</data>
+  <data key="d2">英国密码分析学家二战期间在布莱切利园工作</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="alonzo_church">
+  <data key="d0">Alonzo Church</data>
+  <data key="d1">Person</data>
+  <data key="d2">逻辑学家图灵在普林斯顿期间的重要学术关联人物</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="kings_college_cambridge">
+  <data key="d0">King's College Cambridge</data>
+  <data key="d1">Organization</data>
+  <data key="d2">图灵本科求学机构</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="princeton_university">
+  <data key="d0">Princeton University</data>
+  <data key="d1">Organization</data>
+  <data key="d2">图灵攻读博士的大学</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="bletchley_park">
+  <data key="d0">Bletchley Park</data>
+  <data key="d1">Organization</data>
+  <data key="d2">英国二战密码分析中心</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="national_physical_laboratory">
+  <data key="d0">National Physical Laboratory</data>
+  <data key="d1">Organization</data>
+  <data key="d2">英国国家物理实验室</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="maida_vale">
+  <data key="d0">Maida Vale</data>
+  <data key="d1">Place</data>
+  <data key="d2">图灵出生地位于伦敦</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="wilmslow">
+  <data key="d0">Wilmslow</data>
+  <data key="d1">Place</data>
+  <data key="d2">图灵逝世地</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="cambridge">
+  <data key="d0">Cambridge</data>
+  <data key="d1">Place</data>
+  <data key="d2">剑桥大学所在地</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="princeton">
+  <data key="d0">Princeton</data>
+  <data key="d1">Place</data>
+  <data key="d2">普林斯顿大学所在地</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="bletchley">
+  <data key="d0">Bletchley</data>
+  <data key="d1">Place</data>
+  <data key="d2">布莱切利园所在地</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="london">
+  <data key="d0">London</data>
+  <data key="d1">Place</data>
+  <data key="d2">英国首都</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="on_computable_numbers">
+  <data key="d0">On Computable Numbers</data>
+  <data key="d1">Work</data>
+  <data key="d2">1936 年发表的经典论文</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+  <data key="d8">[{"value": "1936", "datatype": "gYear", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
+</node>
+<node id="computing_machinery_and_intelligence">
+  <data key="d0">Computing Machinery and Intelligence</data>
+  <data key="d1">Work</data>
+  <data key="d2">1950 年提出图灵测试的重要论文</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+  <data key="d8">[{"value": "1950", "datatype": "gYear", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
+</node>
+<node id="proceedings_lms">
+  <data key="d0">Proceedings of the London Mathematical Society</data>
+  <data key="d1">PublicationVenue</data>
+  <data key="d2">图灵论文发表期刊之一</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="mind_journal">
+  <data key="d0">Mind</data>
+  <data key="d1">PublicationVenue</data>
+  <data key="d2">图灵测试论文发表期刊</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="turing_machine">
+  <data key="d0">Turing Machine</data>
+  <data key="d1">Concept</data>
+  <data key="d2">可计算性理论中的核心概念</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+  <data key="d8">[{"value": "1936", "datatype": "gYear", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
+</node>
+<node id="turing_test">
+  <data key="d0">Turing Test</data>
+  <data key="d1">Concept</data>
+  <data key="d2">人工智能领域经典测试思想</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+  <data key="d8">[{"value": "1950", "datatype": "gYear", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
+</node>
+<node id="church_turing_thesis">
+  <data key="d0">Church-Turing Thesis</data>
+  <data key="d1">Concept</data>
+  <data key="d2">可计算性理论中的关键思想</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="automatic_computing_engine">
+  <data key="d0">Automatic Computing Engine</data>
+  <data key="d1">Machine</data>
+  <data key="d2">ACE 计算机设计方案</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+  <data key="d7">[{"value": "ACE", "datatype": "string", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
+</node>
+<node id="bombe_machine">
+  <data key="d0">Bombe</data>
+  <data key="d1">Machine</data>
+  <data key="d2">用于辅助破译恩尼格玛的设备</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="enigma_machine">
+  <data key="d0">Enigma Machine</data>
+  <data key="d1">Machine</data>
+  <data key="d2">德国使用的密码机</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="allied_codebreaking">
+  <data key="d0">Allied Codebreaking</data>
+  <data key="d1">Event</data>
+  <data key="d2">二战期间盟军密码破译项目</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="computer_science">
+  <data key="d0">Computer Science</data>
+  <data key="d1">Field</data>
+  <data key="d2">计算机科学</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="artificial_intelligence">
+  <data key="d0">Artificial Intelligence</data>
+  <data key="d1">Field</data>
+  <data key="d2">人工智能</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="cryptanalysis">
+  <data key="d0">Cryptanalysis</data>
+  <data key="d1">Field</data>
+  <data key="d2">密码分析</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<node id="mathematical_logic">
+  <data key="d0">Mathematical Logic</data>
+  <data key="d1">Field</data>
+  <data key="d2">数理逻辑</data>
+  <data key="d3">课程PPT与百科常识整理</data>
+</node>
+<edge source="alan_turing" target="maida_vale">
+  <data key="d9">born_in</data>
+  <data key="d10">出生于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="alan_turing" target="wilmslow">
+  <data key="d9">died_in</data>
+  <data key="d10">逝世于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="alan_turing" target="kings_college_cambridge">
+  <data key="d9">studied_at</data>
+  <data key="d10">就读于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="alan_turing" target="princeton_university">
+  <data key="d9">studied_at</data>
+  <data key="d10">就读于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="alan_turing" target="bletchley_park">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="alan_turing" target="national_physical_laboratory">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="alan_turing" target="joan_clarke">
+  <data key="d9">collaborated_with</data>
+  <data key="d10">合作于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">0.8</data>
+</edge>
+<edge source="alan_turing" target="alonzo_church">
+  <data key="d9">collaborated_with</data>
+  <data key="d10">合作于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="alan_turing" target="on_computable_numbers">
+  <data key="d9">authored</data>
+  <data key="d10">撰写</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="alan_turing" target="computing_machinery_and_intelligence">
+  <data key="d9">authored</data>
+  <data key="d10">撰写</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="alan_turing" target="turing_machine">
+  <data key="d9">proposed</data>
+  <data key="d10">提出</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="alan_turing" target="turing_test">
+  <data key="d9">proposed</data>
+  <data key="d10">提出</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="alan_turing" target="automatic_computing_engine">
+  <data key="d9">designed</data>
+  <data key="d10">设计</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="alan_turing" target="bombe_machine">
+  <data key="d9">designed</data>
+  <data key="d10">设计</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="alan_turing" target="allied_codebreaking">
+  <data key="d9">contributed_to</data>
+  <data key="d10">贡献于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="kings_college_cambridge" target="cambridge">
+  <data key="d9">located_in</data>
+  <data key="d10">位于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="princeton_university" target="princeton">
+  <data key="d9">located_in</data>
+  <data key="d10">位于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="bletchley_park" target="bletchley">
+  <data key="d9">located_in</data>
+  <data key="d10">位于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="national_physical_laboratory" target="london">
+  <data key="d9">located_in</data>
+  <data key="d10">位于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="on_computable_numbers" target="proceedings_lms">
+  <data key="d9">published_in</data>
+  <data key="d10">发表于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="on_computable_numbers" target="computer_science">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="on_computable_numbers" target="mathematical_logic">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="computing_machinery_and_intelligence" target="mind_journal">
+  <data key="d9">published_in</data>
+  <data key="d10">发表于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="computing_machinery_and_intelligence" target="artificial_intelligence">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="turing_machine" target="computer_science">
+  <data key="d9">foundation_of</data>
+  <data key="d10">奠定基础</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="turing_test" target="artificial_intelligence">
+  <data key="d9">foundation_of</data>
+  <data key="d10">奠定基础</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="church_turing_thesis" target="computer_science">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">0.8</data>
+</edge>
+<edge source="church_turing_thesis" target="mathematical_logic">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">0.8</data>
+</edge>
+<edge source="automatic_computing_engine" target="computer_science">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="bombe_machine" target="cryptanalysis">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+<edge source="allied_codebreaking" target="bletchley_park">
+  <data key="d9">occurred_at</data>
+  <data key="d10">发生于</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="allied_codebreaking" target="enigma_machine">
+  <data key="d9">targeted_machine</data>
+  <data key="d10">目标机器</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="allied_codebreaking" target="cryptanalysis">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">课程PPT与百科常识整理</data>
+  <data key="d12">1.0</data>
+</edge>
+</graph></graphml>

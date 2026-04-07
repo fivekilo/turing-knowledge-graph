@@ -1,0 +1,29 @@
+﻿id,label,class_id,description,source
+alan_turing,Alan Turing,Person,英国数学家逻辑学家计算机科学奠基者,课程PPT与百科常识整理
+joan_clarke,Joan Clarke,Person,英国密码分析学家二战期间在布莱切利园工作,课程PPT与百科常识整理
+alonzo_church,Alonzo Church,Person,逻辑学家图灵在普林斯顿期间的重要学术关联人物,课程PPT与百科常识整理
+kings_college_cambridge,King's College Cambridge,Organization,图灵本科求学机构,课程PPT与百科常识整理
+princeton_university,Princeton University,Organization,图灵攻读博士的大学,课程PPT与百科常识整理
+bletchley_park,Bletchley Park,Organization,英国二战密码分析中心,课程PPT与百科常识整理
+national_physical_laboratory,National Physical Laboratory,Organization,英国国家物理实验室,课程PPT与百科常识整理
+maida_vale,Maida Vale,Place,图灵出生地位于伦敦,课程PPT与百科常识整理
+wilmslow,Wilmslow,Place,图灵逝世地,课程PPT与百科常识整理
+cambridge,Cambridge,Place,剑桥大学所在地,课程PPT与百科常识整理
+princeton,Princeton,Place,普林斯顿大学所在地,课程PPT与百科常识整理
+bletchley,Bletchley,Place,布莱切利园所在地,课程PPT与百科常识整理
+london,London,Place,英国首都,课程PPT与百科常识整理
+on_computable_numbers,On Computable Numbers,Work,1936 年发表的经典论文,课程PPT与百科常识整理
+computing_machinery_and_intelligence,Computing Machinery and Intelligence,Work,1950 年提出图灵测试的重要论文,课程PPT与百科常识整理
+proceedings_lms,Proceedings of the London Mathematical Society,PublicationVenue,图灵论文发表期刊之一,课程PPT与百科常识整理
+mind_journal,Mind,PublicationVenue,图灵测试论文发表期刊,课程PPT与百科常识整理
+turing_machine,Turing Machine,Concept,可计算性理论中的核心概念,课程PPT与百科常识整理
+turing_test,Turing Test,Concept,人工智能领域经典测试思想,课程PPT与百科常识整理
+church_turing_thesis,Church-Turing Thesis,Concept,可计算性理论中的关键思想,课程PPT与百科常识整理
+automatic_computing_engine,Automatic Computing Engine,Machine,ACE 计算机设计方案,课程PPT与百科常识整理
+bombe_machine,Bombe,Machine,用于辅助破译恩尼格玛的设备,课程PPT与百科常识整理
+enigma_machine,Enigma Machine,Machine,德国使用的密码机,课程PPT与百科常识整理
+allied_codebreaking,Allied Codebreaking,Event,二战期间盟军密码破译项目,课程PPT与百科常识整理
+computer_science,Computer Science,Field,计算机科学,课程PPT与百科常识整理
+artificial_intelligence,Artificial Intelligence,Field,人工智能,课程PPT与百科常识整理
+cryptanalysis,Cryptanalysis,Field,密码分析,课程PPT与百科常识整理
+mathematical_logic,Mathematical Logic,Field,数理逻辑,课程PPT与百科常识整理

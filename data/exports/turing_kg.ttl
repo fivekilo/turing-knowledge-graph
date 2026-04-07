@@ -1,0 +1,328 @@
+@prefix ex: <http://example.org/turing/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Concept a rdfs:Class ;
+    rdfs:label "概念"@zh ;
+    rdfs:comment "理论概念测试模型等抽象概念"@zh ;
+    rdfs:subClassOf ex:Entity .
+
+ex:Entity a rdfs:Class ;
+    rdfs:label "实体"@zh ;
+    rdfs:comment "知识图谱中的基础实体类型"@zh .
+
+ex:Event a rdfs:Class ;
+    rdfs:label "事件"@zh ;
+    rdfs:comment "具有时间和背景的历史事件或项目"@zh ;
+    rdfs:subClassOf ex:Entity .
+
+ex:Field a rdfs:Class ;
+    rdfs:label "学科"@zh ;
+    rdfs:comment "知识领域或研究方向"@zh ;
+    rdfs:subClassOf ex:Entity .
+
+ex:Machine a rdfs:Class ;
+    rdfs:label "机器"@zh ;
+    rdfs:comment "密码机计算机设计等设备或机器"@zh ;
+    rdfs:subClassOf ex:Entity .
+
+ex:Organization a rdfs:Class ;
+    rdfs:label "机构"@zh ;
+    rdfs:comment "学校机构研究机构等组织"@zh ;
+    rdfs:subClassOf ex:Entity .
+
+ex:Person a rdfs:Class ;
+    rdfs:label "人物"@zh ;
+    rdfs:comment "真实世界中的人物"@zh ;
+    rdfs:subClassOf ex:Entity .
+
+ex:Place a rdfs:Class ;
+    rdfs:label "地点"@zh ;
+    rdfs:comment "城市建筑地理位置等地点"@zh ;
+    rdfs:subClassOf ex:Entity .
+
+ex:PublicationVenue a rdfs:Class ;
+    rdfs:label "发表载体"@zh ;
+    rdfs:comment "论文发表的期刊或会议"@zh ;
+    rdfs:subClassOf ex:Entity .
+
+ex:Work a rdfs:Class ;
+    rdfs:label "作品"@zh ;
+    rdfs:comment "论文文章等知识作品"@zh ;
+    rdfs:subClassOf ex:Entity .
+
+ex:alan_turing a ex:Person ;
+    rdfs:label "Alan Turing" ;
+    ex:authored ex:computing_machinery_and_intelligence,
+        ex:on_computable_numbers ;
+    ex:born_in ex:maida_vale ;
+    ex:collaborated_with ex:alonzo_church,
+        ex:joan_clarke ;
+    ex:contributed_to ex:allied_codebreaking ;
+    ex:designed ex:automatic_computing_engine,
+        ex:bombe_machine ;
+    ex:died_in ex:wilmslow ;
+    ex:has_alias "艾伦·图灵"^^xsd:string ;
+    ex:has_birth_date "1912-06-23"^^xsd:date ;
+    ex:has_death_date "1954-06-07"^^xsd:date ;
+    ex:has_nationality "British"^^xsd:string ;
+    ex:proposed ex:turing_machine,
+        ex:turing_test ;
+    ex:studied_at ex:kings_college_cambridge,
+        ex:princeton_university ;
+    ex:worked_at ex:bletchley_park,
+        ex:national_physical_laboratory ;
+    rdfs:comment "英国数学家逻辑学家计算机科学奠基者"@zh .
+
+ex:authored a rdf:Property ;
+    rdfs:label "撰写"@zh ;
+    rdfs:comment "人物撰写作品"@zh ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Work .
+
+ex:born_in a rdf:Property ;
+    rdfs:label "出生于"@zh ;
+    rdfs:comment "人物出生地点"@zh ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Place .
+
+ex:church_turing_thesis a ex:Concept ;
+    rdfs:label "Church-Turing Thesis" ;
+    ex:related_to_field ex:computer_science,
+        ex:mathematical_logic ;
+    rdfs:comment "可计算性理论中的关键思想"@zh .
+
+ex:collaborated_with a rdf:Property ;
+    rdfs:label "合作于"@zh ;
+    rdfs:comment "人物之间的合作关系"@zh ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Person .
+
+ex:contributed_to a rdf:Property ;
+    rdfs:label "贡献于"@zh ;
+    rdfs:comment "人物参与或贡献的事件项目"@zh ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Event .
+
+ex:designed a rdf:Property ;
+    rdfs:label "设计"@zh ;
+    rdfs:comment "人物设计的机器或系统"@zh ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Machine .
+
+ex:died_in a rdf:Property ;
+    rdfs:label "逝世于"@zh ;
+    rdfs:comment "人物逝世地点"@zh ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Place .
+
+ex:foundation_of a rdf:Property ;
+    rdfs:label "奠定基础"@zh ;
+    rdfs:comment "概念对学科的基础作用"@zh ;
+    rdfs:domain ex:Concept ;
+    rdfs:range ex:Field .
+
+ex:has_alias a rdf:Property ;
+    rdfs:label "别名"@zh ;
+    rdfs:comment "实体的别名或简称"@zh ;
+    rdfs:domain ex:Entity ;
+    rdfs:range rdfs:Literal .
+
+ex:has_birth_date a rdf:Property ;
+    rdfs:label "出生日期"@zh ;
+    rdfs:comment "人物出生日期"@zh ;
+    rdfs:domain ex:Person ;
+    rdfs:range rdfs:Literal .
+
+ex:has_death_date a rdf:Property ;
+    rdfs:label "逝世日期"@zh ;
+    rdfs:comment "人物逝世日期"@zh ;
+    rdfs:domain ex:Person ;
+    rdfs:range rdfs:Literal .
+
+ex:has_nationality a rdf:Property ;
+    rdfs:label "国籍"@zh ;
+    rdfs:comment "人物国籍"@zh ;
+    rdfs:domain ex:Person ;
+    rdfs:range rdfs:Literal .
+
+ex:has_year a rdf:Property ;
+    rdfs:label "年份"@zh ;
+    rdfs:comment "实体相关年份"@zh ;
+    rdfs:domain ex:Entity ;
+    rdfs:range rdfs:Literal .
+
+ex:located_in a rdf:Property ;
+    rdfs:label "位于"@zh ;
+    rdfs:comment "实体所处地点"@zh ;
+    rdfs:domain ex:Entity ;
+    rdfs:range ex:Place .
+
+ex:occurred_at a rdf:Property ;
+    rdfs:label "发生于"@zh ;
+    rdfs:comment "事件发生的机构或场所"@zh ;
+    rdfs:domain ex:Event ;
+    rdfs:range ex:Organization .
+
+ex:proposed a rdf:Property ;
+    rdfs:label "提出"@zh ;
+    rdfs:comment "人物提出某个理论或概念"@zh ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Concept .
+
+ex:published_in a rdf:Property ;
+    rdfs:label "发表于"@zh ;
+    rdfs:comment "作品发表的期刊或载体"@zh ;
+    rdfs:domain ex:Work ;
+    rdfs:range ex:PublicationVenue .
+
+ex:related_to_field a rdf:Property ;
+    rdfs:label "相关领域"@zh ;
+    rdfs:comment "实体与学科方向的关联"@zh ;
+    rdfs:domain ex:Entity ;
+    rdfs:range ex:Field .
+
+ex:studied_at a rdf:Property ;
+    rdfs:label "就读于"@zh ;
+    rdfs:comment "人物学习经历所属机构"@zh ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Organization .
+
+ex:targeted_machine a rdf:Property ;
+    rdfs:label "目标机器"@zh ;
+    rdfs:comment "事件或项目所针对的机器"@zh ;
+    rdfs:domain ex:Event ;
+    rdfs:range ex:Machine .
+
+ex:worked_at a rdf:Property ;
+    rdfs:label "工作于"@zh ;
+    rdfs:comment "人物工作经历所属机构"@zh ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Organization .
+
+ex:allied_codebreaking a ex:Event ;
+    rdfs:label "Allied Codebreaking" ;
+    ex:occurred_at ex:bletchley_park ;
+    ex:related_to_field ex:cryptanalysis ;
+    ex:targeted_machine ex:enigma_machine ;
+    rdfs:comment "二战期间盟军密码破译项目"@zh .
+
+ex:alonzo_church a ex:Person ;
+    rdfs:label "Alonzo Church" ;
+    rdfs:comment "逻辑学家图灵在普林斯顿期间的重要学术关联人物"@zh .
+
+ex:automatic_computing_engine a ex:Machine ;
+    rdfs:label "Automatic Computing Engine" ;
+    ex:has_alias "ACE"^^xsd:string ;
+    ex:related_to_field ex:computer_science ;
+    rdfs:comment "ACE 计算机设计方案"@zh .
+
+ex:bletchley a ex:Place ;
+    rdfs:label "Bletchley" ;
+    rdfs:comment "布莱切利园所在地"@zh .
+
+ex:bombe_machine a ex:Machine ;
+    rdfs:label "Bombe" ;
+    ex:related_to_field ex:cryptanalysis ;
+    rdfs:comment "用于辅助破译恩尼格玛的设备"@zh .
+
+ex:cambridge a ex:Place ;
+    rdfs:label "Cambridge" ;
+    rdfs:comment "剑桥大学所在地"@zh .
+
+ex:computing_machinery_and_intelligence a ex:Work ;
+    rdfs:label "Computing Machinery and Intelligence" ;
+    ex:has_year "1950"^^xsd:gYear ;
+    ex:published_in ex:mind_journal ;
+    ex:related_to_field ex:artificial_intelligence ;
+    rdfs:comment "1950 年提出图灵测试的重要论文"@zh .
+
+ex:enigma_machine a ex:Machine ;
+    rdfs:label "Enigma Machine" ;
+    rdfs:comment "德国使用的密码机"@zh .
+
+ex:joan_clarke a ex:Person ;
+    rdfs:label "Joan Clarke" ;
+    rdfs:comment "英国密码分析学家二战期间在布莱切利园工作"@zh .
+
+ex:kings_college_cambridge a ex:Organization ;
+    rdfs:label "King's College Cambridge" ;
+    ex:located_in ex:cambridge ;
+    rdfs:comment "图灵本科求学机构"@zh .
+
+ex:london a ex:Place ;
+    rdfs:label "London" ;
+    rdfs:comment "英国首都"@zh .
+
+ex:maida_vale a ex:Place ;
+    rdfs:label "Maida Vale" ;
+    rdfs:comment "图灵出生地位于伦敦"@zh .
+
+ex:mind_journal a ex:PublicationVenue ;
+    rdfs:label "Mind" ;
+    rdfs:comment "图灵测试论文发表期刊"@zh .
+
+ex:national_physical_laboratory a ex:Organization ;
+    rdfs:label "National Physical Laboratory" ;
+    ex:located_in ex:london ;
+    rdfs:comment "英国国家物理实验室"@zh .
+
+ex:on_computable_numbers a ex:Work ;
+    rdfs:label "On Computable Numbers" ;
+    ex:has_year "1936"^^xsd:gYear ;
+    ex:published_in ex:proceedings_lms ;
+    ex:related_to_field ex:computer_science,
+        ex:mathematical_logic ;
+    rdfs:comment "1936 年发表的经典论文"@zh .
+
+ex:princeton a ex:Place ;
+    rdfs:label "Princeton" ;
+    rdfs:comment "普林斯顿大学所在地"@zh .
+
+ex:princeton_university a ex:Organization ;
+    rdfs:label "Princeton University" ;
+    ex:located_in ex:princeton ;
+    rdfs:comment "图灵攻读博士的大学"@zh .
+
+ex:proceedings_lms a ex:PublicationVenue ;
+    rdfs:label "Proceedings of the London Mathematical Society" ;
+    rdfs:comment "图灵论文发表期刊之一"@zh .
+
+ex:turing_machine a ex:Concept ;
+    rdfs:label "Turing Machine" ;
+    ex:foundation_of ex:computer_science ;
+    ex:has_year "1936"^^xsd:gYear ;
+    rdfs:comment "可计算性理论中的核心概念"@zh .
+
+ex:turing_test a ex:Concept ;
+    rdfs:label "Turing Test" ;
+    ex:foundation_of ex:artificial_intelligence ;
+    ex:has_year "1950"^^xsd:gYear ;
+    rdfs:comment "人工智能领域经典测试思想"@zh .
+
+ex:wilmslow a ex:Place ;
+    rdfs:label "Wilmslow" ;
+    rdfs:comment "图灵逝世地"@zh .
+
+ex:artificial_intelligence a ex:Field ;
+    rdfs:label "Artificial Intelligence" ;
+    rdfs:comment "人工智能"@zh .
+
+ex:bletchley_park a ex:Organization ;
+    rdfs:label "Bletchley Park" ;
+    ex:located_in ex:bletchley ;
+    rdfs:comment "英国二战密码分析中心"@zh .
+
+ex:cryptanalysis a ex:Field ;
+    rdfs:label "Cryptanalysis" ;
+    rdfs:comment "密码分析"@zh .
+
+ex:mathematical_logic a ex:Field ;
+    rdfs:label "Mathematical Logic" ;
+    rdfs:comment "数理逻辑"@zh .
+
+ex:computer_science a ex:Field ;
+    rdfs:label "Computer Science" ;
+    rdfs:comment "计算机科学"@zh .
+

@@ -1,238 +1,467 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-图灵知识图谱构建脚本
 Turing Knowledge Graph Builder
 
-作者：李嘉轩
-日期：2026-04-01
+按当前课程前 5 章的内容实现一个可扩展的知识图谱工程：
+1. 模式层：类层级、关系约束（本体 / schema）
+2. 实例层：实体与三元组
+3. 验证层：检查 relation 的 domain / range
+4. 导出层：CSV、RDF/Turtle、GraphML、可视化图片
 """
 
-import networkx as nx
+from __future__ import annotations
+
+import csv
+import json
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Dict, List
+
 import matplotlib.pyplot as plt
-from datetime import datetime
+import networkx as nx
+from rdflib import Graph, Literal, Namespace, RDF, RDFS
+from rdflib.namespace import XSD
 
 
-class TuringKnowledgeGraph:
-    """图灵知识图谱构建类"""
-    
-    def __init__(self):
+ROOT_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT_DIR / "data"
+SCHEMA_DIR = DATA_DIR / "schema"
+INSTANCE_DIR = DATA_DIR / "instances"
+EXPORT_DIR = DATA_DIR / "exports"
+
+
+@dataclass
+class ClassDef:
+    class_id: str
+    label: str
+    parent_class: str
+    description: str
+
+
+@dataclass
+class RelationDef:
+    relation_id: str
+    label: str
+    domain: str
+    range: str
+    description: str
+
+
+@dataclass
+class EntityDef:
+    entity_id: str
+    label: str
+    class_id: str
+    description: str
+    source: str
+
+
+@dataclass
+class TripleDef:
+    subject: str
+    predicate: str
+    object_value: str
+    object_type: str
+    object_datatype: str
+    source: str
+    confidence: str
+
+
+class TuringKnowledgeGraphBuilder:
+    def __init__(self) -> None:
+        self.class_defs: Dict[str, ClassDef] = {}
+        self.relation_defs: Dict[str, RelationDef] = {}
+        self.entity_defs: Dict[str, EntityDef] = {}
+        self.triples: List[TripleDef] = []
         self.graph = nx.DiGraph()
-        self.nodes = []
-        self.edges = []
-    
-    def add_node(self, node_id: str, label: str, node_type: str, properties: dict = None):
-        """添加节点"""
-        self.graph.add_node(node_id, label=label, type=node_type, **(properties or {}))
-        self.nodes.append({
-            'id': node_id,
-            'label': label,
-            'type': node_type,
-            'properties': properties or {}
-        })
-    
-    def add_edge(self, source: str, target: str, relation: str, properties: dict = None):
-        """添加边（关系）"""
-        self.graph.add_edge(source, target, relation=relation, **(properties or {}))
-        self.edges.append({
-            'source': source,
-            'target': target,
-            'relation': relation,
-            'properties': properties or {}
-        })
-    
-    def build_basic_turing_kg(self):
-        """构建基础的图灵知识图谱"""
-        
-        # ========== 节点 ==========
-        # 人物
-        self.add_node('turing', 'Alan Turing', 'Person', {
-            'birth': '1912-06-23',
-            'death': '1954-06-07',
-            'nationality': 'British',
-            'occupation': 'Mathematician, Computer Scientist, Logician'
-        })
-        
-        # 机构
-        self.add_node('bletchley_park', 'Bletchley Park', 'Organization', {
-            'location': 'Milton Keynes, England',
-            'type': 'Codebreaking Center'
-        })
-        
-        self.add_node('cam', 'University of Cambridge', 'Organization', {
-            'location': 'Cambridge, England',
-            'type': 'University'
-        })
-        
-        self.add_node('princeton', 'Princeton University', 'Organization', {
-            'location': 'New Jersey, USA',
-            'type': 'University'
-        })
-        
-        # 重要概念
-        self.add_node('turing_machine', 'Turing Machine', 'Concept', {
-            'year': '1936',
-            'field': 'Computer Science'
-        })
-        
-        self.add_node('enigma', 'Enigma Machine', 'Concept', {
-            'type': 'Cipher Device',
-            'origin': 'Germany'
-        })
-        
-        self.add_node('turing_test', 'Turing Test', 'Concept', {
-            'year': '1950',
-            'field': 'Artificial Intelligence'
-        })
-        
-        self.add_node('ace', 'Automatic Computing Engine (ACE)', 'Concept', {
-            'year': '1945',
-            'type': 'Computer Design'
-        })
-        
-        # 著作/论文
-        self.add_node('on_computable', 'On Computable Numbers', 'Work', {
-            'year': '1936',
-            'journal': 'Proceedings of the London Mathematical Society'
-        })
-        
-        self.add_node('computing_machinery', 'Computing Machinery and Intelligence', 'Work', {
-            'year': '1950',
-            'journal': 'Mind'
-        })
-        
-        # ========== 关系（边） ==========
-        # 教育关系
-        self.add_edge('turing', 'cam', 'studied_at', {'department': 'Mathematics'})
-        self.add_edge('turing', 'princeton', 'studied_at', {'degree': 'PhD', 'year': '1938'})
-        
-        # 工作关系
-        self.add_edge('turing', 'bletchley_park', 'worked_at', {'year': '1938-1942', 'role': 'Cryptanalyst'})
-        
-        # 贡献关系
-        self.add_edge('turing', 'turing_machine', 'invented', {'year': '1936'})
-        self.add_edge('turing', 'turing_test', 'proposed', {'year': '1950'})
-        self.add_edge('turing', 'enigma', 'broke', {'year': '1942', 'role': 'Bombe development'})
-        self.add_edge('turing', 'ace', 'designed', {'year': '1945'})
-        
-        # 论文关系
-        self.add_edge('turing', 'on_computable', 'wrote', {'year': '1936'})
-        self.add_edge('turing', 'computing_machinery', 'wrote', {'year': '1950'})
-        
-        # 概念关联
-        self.add_edge('turing_machine', 'computer_science', 'foundation_of', {})
-        self.add_edge('turing_test', 'ai', 'foundation_of', {})
-        self.add_edge('enigma', 'wwii', 'used_in', {})
-        
-        print(f"✅ 知识图谱构建完成！")
-        print(f"   - 节点数: {len(self.nodes)}")
-        print(f"   - 边数: {len(self.edges)}")
-    
-    def visualize(self, output_path: str = None):
-        """可视化知识图谱"""
-        plt.figure(figsize=(16, 12))
-        
-        # 按类型给节点着色
-        node_colors = []
-        color_map = {
-            'Person': '#FF6B6B',
-            'Organization': '#4ECDC4',
-            'Concept': '#45B7D1',
-            'Work': '#96CEB4'
+
+    def load(self) -> None:
+        self.class_defs = {
+            item.class_id: item for item in self._read_classes(SCHEMA_DIR / "classes.csv")
         }
-        
-        for node in self.graph.nodes():
-            node_type = self.graph.nodes[node].get('type', 'Concept')
-            node_colors.append(color_map.get(node_type, '#95A5A6'))
-        
-        # 布局
-        pos = nx.spring_layout(self.graph, k=2, iterations=50, seed=42)
-        
-        # 绘制
-        nx.draw(self.graph, pos,
-                with_labels=True,
-                node_color=node_colors,
-                node_size=2500,
-                font_size=10,
-                font_weight='bold',
-                arrows=True,
-                arrowsize=20,
-                edge_color='#555555',
-                width=2,
-                alpha=0.9)
-        
-        plt.title("Alan Turing Knowledge Graph | 图灵知识图谱", fontsize=16, fontweight='bold')
-        plt.axis('off')
-        
-        if output_path:
-            plt.savefig(output_path, dpi=300, bbox_inches='tight', facecolor='white')
-            print(f"📊 知识图谱已保存至: {output_path}")
-        else:
-            plt.show()
-    
-    def save(self, nodes_path: str = 'data/nodes.csv', edges_path: str = 'data/edges.csv'):
-        """保存知识图谱数据"""
-        import pandas as pd
-        
-        # 保存节点
-        if self.nodes:
-            pd.DataFrame(self.nodes).to_csv(nodes_path, index=False, encoding='utf-8')
-            print(f"📄 节点数据已保存至: {nodes_path}")
-        
-        # 保存边
-        if self.edges:
-            pd.DataFrame(self.edges).to_csv(edges_path, index=False, encoding='utf-8')
-            print(f"📄 边数据已保存至: {edges_path}")
-    
-    def export_rdf(self, output_path: str = 'data/turing_kg.rdf'):
-        """导出为 RDF 格式"""
-        from rdflib import Graph, Namespace, URIRef, Literal, RDF, RDFS
-        
-        g = Graph()
-        
-        # 定义命名空间
-        TURING = Namespace("http://example.org/turing/")
-        g.bind("turing", TURING)
-        
-        # 添加节点
-        for node in self.nodes:
-            subject = TURING[node['id']]
-            g.add((subject, RDF.type, URIRef(f"http://example.org/turing/{node['type']}")))
-            g.add((subject, RDFS.label, Literal(node['label'])))
-        
-        # 添加边
-        for edge in self.edges:
-            subject = TURING[edge['source']]
-            obj = TURING[edge['target']]
-            predicate = URIRef(f"http://example.org/turing/{edge['relation']}")
-            g.add((subject, predicate, obj))
-        
-        g.serialize(output_path, format='xml')
-        print(f"📚 RDF 数据已保存至: {output_path}")
+        self.relation_defs = {
+            item.relation_id: item
+            for item in self._read_relations(SCHEMA_DIR / "relations.csv")
+        }
+        self.entity_defs = {
+            item.entity_id: item
+            for item in self._read_entities(INSTANCE_DIR / "entities.csv")
+        }
+        self.triples = self._read_triples(INSTANCE_DIR / "triples.csv")
+
+    def validate(self) -> None:
+        for class_id, class_def in self.class_defs.items():
+            if class_def.parent_class and class_def.parent_class not in self.class_defs:
+                raise ValueError(
+                    f"Class '{class_id}' references unknown parent_class '{class_def.parent_class}'."
+                )
+
+        for entity_id, entity in self.entity_defs.items():
+            if entity.class_id not in self.class_defs:
+                raise ValueError(
+                    f"Entity '{entity_id}' references unknown class '{entity.class_id}'."
+                )
+
+        for relation_id, relation in self.relation_defs.items():
+            if relation.domain not in self.class_defs:
+                raise ValueError(
+                    f"Relation '{relation_id}' references unknown domain '{relation.domain}'."
+                )
+            if relation.range != "Literal" and relation.range not in self.class_defs:
+                raise ValueError(
+                    f"Relation '{relation_id}' references unknown range '{relation.range}'."
+                )
+
+        for triple in self.triples:
+            if triple.subject not in self.entity_defs:
+                raise ValueError(f"Triple subject '{triple.subject}' is not defined.")
+            if triple.predicate not in self.relation_defs:
+                raise ValueError(f"Triple predicate '{triple.predicate}' is not defined.")
+
+            relation = self.relation_defs[triple.predicate]
+            subject_class = self.entity_defs[triple.subject].class_id
+            if not self._is_instance_of(subject_class, relation.domain):
+                raise ValueError(
+                    f"Subject '{triple.subject}' with class '{subject_class}' "
+                    f"does not satisfy relation domain '{relation.domain}'."
+                )
+
+            if triple.object_type == "entity":
+                if triple.object_value not in self.entity_defs:
+                    raise ValueError(f"Triple object '{triple.object_value}' is not defined.")
+                if relation.range == "Literal":
+                    raise ValueError(
+                        f"Relation '{triple.predicate}' expects literal, but got entity."
+                    )
+                object_class = self.entity_defs[triple.object_value].class_id
+                if not self._is_instance_of(object_class, relation.range):
+                    raise ValueError(
+                        f"Object '{triple.object_value}' with class '{object_class}' "
+                        f"does not satisfy relation range '{relation.range}'."
+                    )
+            elif triple.object_type == "literal":
+                if relation.range != "Literal":
+                    raise ValueError(
+                        f"Relation '{triple.predicate}' expects entity range '{relation.range}', "
+                        f"but got literal."
+                    )
+            else:
+                raise ValueError(f"Unknown object_type '{triple.object_type}'.")
+
+    def build(self) -> None:
+        self.graph.clear()
+        for entity in self.entity_defs.values():
+            self.graph.add_node(
+                entity.entity_id,
+                label=entity.label,
+                class_id=entity.class_id,
+                description=entity.description,
+                source=entity.source,
+            )
+
+        for triple in self.triples:
+            relation = self.relation_defs[triple.predicate]
+            if triple.object_type == "entity":
+                self.graph.add_edge(
+                    triple.subject,
+                    triple.object_value,
+                    predicate=triple.predicate,
+                    predicate_label=relation.label,
+                    source=triple.source,
+                    confidence=triple.confidence,
+                )
+            else:
+                literal_key = f"{triple.predicate}__values"
+                values = self.graph.nodes[triple.subject].setdefault(literal_key, [])
+                values.append(
+                    {
+                        "value": triple.object_value,
+                        "datatype": triple.object_datatype,
+                        "source": triple.source,
+                        "confidence": triple.confidence,
+                    }
+                )
+
+    def export(self) -> Dict[str, Path]:
+        EXPORT_DIR.mkdir(parents=True, exist_ok=True)
+        nodes_path = EXPORT_DIR / "nodes.csv"
+        edges_path = EXPORT_DIR / "edges.csv"
+        ttl_path = EXPORT_DIR / "turing_kg.ttl"
+        rdf_path = EXPORT_DIR / "turing_kg.rdf"
+        graphml_path = EXPORT_DIR / "turing_kg.graphml"
+        png_path = EXPORT_DIR / "turing_kg.png"
+        summary_path = EXPORT_DIR / "summary.json"
+
+        self._export_nodes_csv(nodes_path)
+        self._export_edges_csv(edges_path)
+        self._export_rdf(ttl_path, rdf_path)
+        nx.write_graphml(self._graphml_safe_graph(), graphml_path)
+        self._visualize(png_path)
+        self._export_summary(summary_path)
+
+        return {
+            "nodes_csv": nodes_path,
+            "edges_csv": edges_path,
+            "ttl": ttl_path,
+            "rdf": rdf_path,
+            "graphml": graphml_path,
+            "png": png_path,
+            "summary": summary_path,
+        }
+
+    def _graphml_safe_graph(self) -> nx.DiGraph:
+        safe_graph = nx.DiGraph()
+        for node_id, attrs in self.graph.nodes(data=True):
+            safe_attrs = {}
+            for key, value in attrs.items():
+                if isinstance(value, (list, dict)):
+                    safe_attrs[key] = json.dumps(value, ensure_ascii=False)
+                else:
+                    safe_attrs[key] = value
+            safe_graph.add_node(node_id, **safe_attrs)
+
+        for source, target, attrs in self.graph.edges(data=True):
+            safe_attrs = {}
+            for key, value in attrs.items():
+                if isinstance(value, (list, dict)):
+                    safe_attrs[key] = json.dumps(value, ensure_ascii=False)
+                else:
+                    safe_attrs[key] = value
+            safe_graph.add_edge(source, target, **safe_attrs)
+        return safe_graph
+
+    def _read_classes(self, path: Path) -> List[ClassDef]:
+        return [
+            ClassDef(
+                class_id=row["class_id"].strip(),
+                label=row["label"].strip(),
+                parent_class=row["parent_class"].strip(),
+                description=row["description"].strip(),
+            )
+            for row in self._read_csv(path)
+        ]
+
+    def _read_relations(self, path: Path) -> List[RelationDef]:
+        return [
+            RelationDef(
+                relation_id=row["relation_id"].strip(),
+                label=row["label"].strip(),
+                domain=row["domain"].strip(),
+                range=row["range"].strip(),
+                description=row["description"].strip(),
+            )
+            for row in self._read_csv(path)
+        ]
+
+    def _read_entities(self, path: Path) -> List[EntityDef]:
+        return [
+            EntityDef(
+                entity_id=row["entity_id"].strip(),
+                label=row["label"].strip(),
+                class_id=row["class_id"].strip(),
+                description=row["description"].strip(),
+                source=row["source"].strip(),
+            )
+            for row in self._read_csv(path)
+        ]
+
+    def _read_triples(self, path: Path) -> List[TripleDef]:
+        return [
+            TripleDef(
+                subject=row["subject"].strip(),
+                predicate=row["predicate"].strip(),
+                object_value=row["object"].strip(),
+                object_type=row["object_type"].strip(),
+                object_datatype=row["object_datatype"].strip(),
+                source=row["source"].strip(),
+                confidence=row["confidence"].strip(),
+            )
+            for row in self._read_csv(path)
+        ]
+
+    def _read_csv(self, path: Path) -> List[Dict[str, str]]:
+        with path.open("r", encoding="utf-8-sig", newline="") as file:
+            return list(csv.DictReader(file))
+
+    def _is_instance_of(self, class_id: str, target_class: str) -> bool:
+        current = class_id
+        while current:
+            if current == target_class:
+                return True
+            current = self.class_defs[current].parent_class
+        return False
+
+    def _export_nodes_csv(self, path: Path) -> None:
+        with path.open("w", encoding="utf-8-sig", newline="") as file:
+            writer = csv.DictWriter(
+                file,
+                fieldnames=["id", "label", "class_id", "description", "source"],
+            )
+            writer.writeheader()
+            for entity in self.entity_defs.values():
+                writer.writerow(
+                    {
+                        "id": entity.entity_id,
+                        "label": entity.label,
+                        "class_id": entity.class_id,
+                        "description": entity.description,
+                        "source": entity.source,
+                    }
+                )
+
+    def _export_edges_csv(self, path: Path) -> None:
+        with path.open("w", encoding="utf-8-sig", newline="") as file:
+            writer = csv.DictWriter(
+                file,
+                fieldnames=[
+                    "subject",
+                    "predicate",
+                    "predicate_label",
+                    "object",
+                    "object_type",
+                    "object_datatype",
+                    "source",
+                    "confidence",
+                ],
+            )
+            writer.writeheader()
+            for triple in self.triples:
+                writer.writerow(
+                    {
+                        "subject": triple.subject,
+                        "predicate": triple.predicate,
+                        "predicate_label": self.relation_defs[triple.predicate].label,
+                        "object": triple.object_value,
+                        "object_type": triple.object_type,
+                        "object_datatype": triple.object_datatype,
+                        "source": triple.source,
+                        "confidence": triple.confidence,
+                    }
+                )
+
+    def _export_rdf(self, ttl_path: Path, rdf_path: Path) -> None:
+        graph = Graph()
+        ex = Namespace("http://example.org/turing/")
+        graph.bind("ex", ex)
+        graph.bind("rdfs", RDFS)
+
+        for class_def in self.class_defs.values():
+            class_uri = ex[class_def.class_id]
+            graph.add((class_uri, RDF.type, RDFS.Class))
+            graph.add((class_uri, RDFS.label, Literal(class_def.label, lang="zh")))
+            if class_def.description:
+                graph.add((class_uri, RDFS.comment, Literal(class_def.description, lang="zh")))
+            if class_def.parent_class:
+                graph.add((class_uri, RDFS.subClassOf, ex[class_def.parent_class]))
+
+        for relation in self.relation_defs.values():
+            relation_uri = ex[relation.relation_id]
+            graph.add((relation_uri, RDF.type, RDF.Property))
+            graph.add((relation_uri, RDFS.label, Literal(relation.label, lang="zh")))
+            graph.add((relation_uri, RDFS.domain, ex[relation.domain]))
+            graph.add(
+                (relation_uri, RDFS.range, RDFS.Literal if relation.range == "Literal" else ex[relation.range])
+            )
+            if relation.description:
+                graph.add((relation_uri, RDFS.comment, Literal(relation.description, lang="zh")))
+
+        for entity in self.entity_defs.values():
+            entity_uri = ex[entity.entity_id]
+            graph.add((entity_uri, RDF.type, ex[entity.class_id]))
+            graph.add((entity_uri, RDFS.label, Literal(entity.label)))
+            if entity.description:
+                graph.add((entity_uri, RDFS.comment, Literal(entity.description, lang="zh")))
+
+        for triple in self.triples:
+            subject_uri = ex[triple.subject]
+            predicate_uri = ex[triple.predicate]
+            if triple.object_type == "entity":
+                obj = ex[triple.object_value]
+            else:
+                obj = self._literal_from_value(triple.object_value, triple.object_datatype)
+            graph.add((subject_uri, predicate_uri, obj))
+
+        graph.serialize(ttl_path, format="turtle")
+        graph.serialize(rdf_path, format="xml")
+
+    def _literal_from_value(self, value: str, datatype: str) -> Literal:
+        datatype_map = {"date": XSD.date, "gYear": XSD.gYear, "string": XSD.string}
+        return Literal(value, datatype=datatype_map.get(datatype, XSD.string))
+
+    def _visualize(self, output_path: Path) -> None:
+        plt.figure(figsize=(18, 12))
+        color_map = {
+            "Person": "#ff6b6b",
+            "Organization": "#4ecdc4",
+            "Place": "#ffd166",
+            "Work": "#5c7cfa",
+            "Concept": "#74c0fc",
+            "Machine": "#8ce99a",
+            "Event": "#f783ac",
+            "Field": "#9775fa",
+            "PublicationVenue": "#adb5bd",
+        }
+
+        labels = {}
+        node_colors = []
+        for node_id, attrs in self.graph.nodes(data=True):
+            labels[node_id] = attrs.get("label", node_id)
+            node_colors.append(color_map.get(attrs.get("class_id", "Entity"), "#ced4da"))
+
+        pos = nx.spring_layout(self.graph, seed=42, k=1.4)
+        nx.draw_networkx_nodes(self.graph, pos, node_color=node_colors, node_size=2200, alpha=0.92)
+        nx.draw_networkx_labels(self.graph, pos, labels=labels, font_size=9)
+        nx.draw_networkx_edges(
+            self.graph,
+            pos,
+            arrows=True,
+            arrowsize=18,
+            width=1.6,
+            edge_color="#666666",
+            alpha=0.7,
+        )
+        edge_labels = {
+            (source, target): attrs["predicate"]
+            for source, target, attrs in self.graph.edges(data=True)
+        }
+        nx.draw_networkx_edge_labels(self.graph, pos, edge_labels=edge_labels, font_size=8, rotate=False)
+
+        plt.title("Turing Knowledge Graph", fontsize=18, fontweight="bold")
+        plt.axis("off")
+        plt.tight_layout()
+        plt.savefig(output_path, dpi=300, bbox_inches="tight")
+        plt.close()
+
+    def _export_summary(self, path: Path) -> None:
+        entity_distribution: Dict[str, int] = {}
+        relation_distribution: Dict[str, int] = {}
+        for entity in self.entity_defs.values():
+            entity_distribution[entity.class_id] = entity_distribution.get(entity.class_id, 0) + 1
+        for triple in self.triples:
+            relation_distribution[triple.predicate] = relation_distribution.get(triple.predicate, 0) + 1
+
+        summary = {
+            "classes": len(self.class_defs),
+            "relations": len(self.relation_defs),
+            "entities": len(self.entity_defs),
+            "triples": len(self.triples),
+            "entity_distribution": entity_distribution,
+            "relation_distribution": relation_distribution,
+        }
+        path.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def main():
-    """主函数"""
-    print("=" * 50)
-    print("🧠 图灵知识图谱构建器")
-    print("   Turing Knowledge Graph Builder")
-    print("=" * 50)
-    
-    # 创建知识图谱
-    kg = TuringKnowledgeGraph()
-    kg.build_basic_turing_kg()
-    
-    # 保存数据
-    kg.save()
-    
-    # 导出 RDF
-    kg.export_rdf()
-    
-    # 可视化
-    kg.visualize('data/turing_kg.png')
-    
-    print("\n✅ 所有任务完成！")
-    return kg
+def main() -> None:
+    builder = TuringKnowledgeGraphBuilder()
+    builder.load()
+    builder.validate()
+    builder.build()
+    outputs = builder.export()
+
+    print("Knowledge graph build completed.")
+    for name, path in outputs.items():
+        print(f"- {name}: {path}")
 
 
 if __name__ == "__main__":

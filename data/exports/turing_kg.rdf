@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="http://example.org/turing/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/turing/london">
+    <rdf:type rdf:resource="http://example.org/turing/Place"/>
+    <rdfs:label>London</rdfs:label>
+    <rdfs:comment xml:lang="zh">英国首都</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/turing_test">
+    <rdf:type rdf:resource="http://example.org/turing/Concept"/>
+    <rdfs:label>Turing Test</rdfs:label>
+    <rdfs:comment xml:lang="zh">人工智能领域经典测试思想</rdfs:comment>
+    <ex:has_year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1950</ex:has_year>
+    <ex:foundation_of rdf:resource="http://example.org/turing/artificial_intelligence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/alan_turing">
+    <rdf:type rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:label>Alan Turing</rdfs:label>
+    <rdfs:comment xml:lang="zh">英国数学家逻辑学家计算机科学奠基者</rdfs:comment>
+    <ex:has_birth_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-06-23</ex:has_birth_date>
+    <ex:has_death_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1954-06-07</ex:has_death_date>
+    <ex:has_nationality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British</ex:has_nationality>
+    <ex:has_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">艾伦·图灵</ex:has_alias>
+    <ex:born_in rdf:resource="http://example.org/turing/maida_vale"/>
+    <ex:died_in rdf:resource="http://example.org/turing/wilmslow"/>
+    <ex:studied_at rdf:resource="http://example.org/turing/kings_college_cambridge"/>
+    <ex:studied_at rdf:resource="http://example.org/turing/princeton_university"/>
+    <ex:worked_at rdf:resource="http://example.org/turing/bletchley_park"/>
+    <ex:worked_at rdf:resource="http://example.org/turing/national_physical_laboratory"/>
+    <ex:collaborated_with rdf:resource="http://example.org/turing/joan_clarke"/>
+    <ex:collaborated_with rdf:resource="http://example.org/turing/alonzo_church"/>
+    <ex:authored rdf:resource="http://example.org/turing/on_computable_numbers"/>
+    <ex:authored rdf:resource="http://example.org/turing/computing_machinery_and_intelligence"/>
+    <ex:proposed rdf:resource="http://example.org/turing/turing_machine"/>
+    <ex:proposed rdf:resource="http://example.org/turing/turing_test"/>
+    <ex:designed rdf:resource="http://example.org/turing/automatic_computing_engine"/>
+    <ex:designed rdf:resource="http://example.org/turing/bombe_machine"/>
+    <ex:contributed_to rdf:resource="http://example.org/turing/allied_codebreaking"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/contributed_to">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">贡献于</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Event"/>
+    <rdfs:comment xml:lang="zh">人物参与或贡献的事件项目</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/bombe_machine">
+    <rdf:type rdf:resource="http://example.org/turing/Machine"/>
+    <rdfs:label>Bombe</rdfs:label>
+    <rdfs:comment xml:lang="zh">用于辅助破译恩尼格玛的设备</rdfs:comment>
+    <ex:related_to_field rdf:resource="http://example.org/turing/cryptanalysis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/proposed">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">提出</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Concept"/>
+    <rdfs:comment xml:lang="zh">人物提出某个理论或概念</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/on_computable_numbers">
+    <rdf:type rdf:resource="http://example.org/turing/Work"/>
+    <rdfs:label>On Computable Numbers</rdfs:label>
+    <rdfs:comment xml:lang="zh">1936 年发表的经典论文</rdfs:comment>
+    <ex:published_in rdf:resource="http://example.org/turing/proceedings_lms"/>
+    <ex:has_year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1936</ex:has_year>
+    <ex:related_to_field rdf:resource="http://example.org/turing/computer_science"/>
+    <ex:related_to_field rdf:resource="http://example.org/turing/mathematical_logic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/died_in">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">逝世于</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Place"/>
+    <rdfs:comment xml:lang="zh">人物逝世地点</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/Concept">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="zh">概念</rdfs:label>
+    <rdfs:comment xml:lang="zh">理论概念测试模型等抽象概念</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/turing/Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/princeton_university">
+    <rdf:type rdf:resource="http://example.org/turing/Organization"/>
+    <rdfs:label>Princeton University</rdfs:label>
+    <rdfs:comment xml:lang="zh">图灵攻读博士的大学</rdfs:comment>
+    <ex:located_in rdf:resource="http://example.org/turing/princeton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/occurred_at">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">发生于</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Event"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Organization"/>
+    <rdfs:comment xml:lang="zh">事件发生的机构或场所</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/has_birth_date">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">出生日期</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:comment xml:lang="zh">人物出生日期</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/mind_journal">
+    <rdf:type rdf:resource="http://example.org/turing/PublicationVenue"/>
+    <rdfs:label>Mind</rdfs:label>
+    <rdfs:comment xml:lang="zh">图灵测试论文发表期刊</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/joan_clarke">
+    <rdf:type rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:label>Joan Clarke</rdfs:label>
+    <rdfs:comment xml:lang="zh">英国密码分析学家二战期间在布莱切利园工作</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/collaborated_with">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">合作于</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:comment xml:lang="zh">人物之间的合作关系</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/computer_science">
+    <rdf:type rdf:resource="http://example.org/turing/Field"/>
+    <rdfs:label>Computer Science</rdfs:label>
+    <rdfs:comment xml:lang="zh">计算机科学</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/cambridge">
+    <rdf:type rdf:resource="http://example.org/turing/Place"/>
+    <rdfs:label>Cambridge</rdfs:label>
+    <rdfs:comment xml:lang="zh">剑桥大学所在地</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/Event">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="zh">事件</rdfs:label>
+    <rdfs:comment xml:lang="zh">具有时间和背景的历史事件或项目</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/turing/Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/studied_at">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">就读于</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Organization"/>
+    <rdfs:comment xml:lang="zh">人物学习经历所属机构</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/PublicationVenue">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="zh">发表载体</rdfs:label>
+    <rdfs:comment xml:lang="zh">论文发表的期刊或会议</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/turing/Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/published_in">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">发表于</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Work"/>
+    <rdfs:range rdf:resource="http://example.org/turing/PublicationVenue"/>
+    <rdfs:comment xml:lang="zh">作品发表的期刊或载体</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/foundation_of">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">奠定基础</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Concept"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Field"/>
+    <rdfs:comment xml:lang="zh">概念对学科的基础作用</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/worked_at">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">工作于</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Organization"/>
+    <rdfs:comment xml:lang="zh">人物工作经历所属机构</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/targeted_machine">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">目标机器</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Event"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Machine"/>
+    <rdfs:comment xml:lang="zh">事件或项目所针对的机器</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/Work">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="zh">作品</rdfs:label>
+    <rdfs:comment xml:lang="zh">论文文章等知识作品</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/turing/Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/has_year">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">年份</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Entity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:comment xml:lang="zh">实体相关年份</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/wilmslow">
+    <rdf:type rdf:resource="http://example.org/turing/Place"/>
+    <rdfs:label>Wilmslow</rdfs:label>
+    <rdfs:comment xml:lang="zh">图灵逝世地</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/kings_college_cambridge">
+    <rdf:type rdf:resource="http://example.org/turing/Organization"/>
+    <rdfs:label>King's College Cambridge</rdfs:label>
+    <rdfs:comment xml:lang="zh">图灵本科求学机构</rdfs:comment>
+    <ex:located_in rdf:resource="http://example.org/turing/cambridge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/alonzo_church">
+    <rdf:type rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:label>Alonzo Church</rdfs:label>
+    <rdfs:comment xml:lang="zh">逻辑学家图灵在普林斯顿期间的重要学术关联人物</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/has_nationality">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">国籍</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:comment xml:lang="zh">人物国籍</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/Place">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="zh">地点</rdfs:label>
+    <rdfs:comment xml:lang="zh">城市建筑地理位置等地点</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/turing/Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/allied_codebreaking">
+    <rdf:type rdf:resource="http://example.org/turing/Event"/>
+    <rdfs:label>Allied Codebreaking</rdfs:label>
+    <rdfs:comment xml:lang="zh">二战期间盟军密码破译项目</rdfs:comment>
+    <ex:occurred_at rdf:resource="http://example.org/turing/bletchley_park"/>
+    <ex:targeted_machine rdf:resource="http://example.org/turing/enigma_machine"/>
+    <ex:related_to_field rdf:resource="http://example.org/turing/cryptanalysis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/artificial_intelligence">
+    <rdf:type rdf:resource="http://example.org/turing/Field"/>
+    <rdfs:label>Artificial Intelligence</rdfs:label>
+    <rdfs:comment xml:lang="zh">人工智能</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/princeton">
+    <rdf:type rdf:resource="http://example.org/turing/Place"/>
+    <rdfs:label>Princeton</rdfs:label>
+    <rdfs:comment xml:lang="zh">普林斯顿大学所在地</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/turing_machine">
+    <rdf:type rdf:resource="http://example.org/turing/Concept"/>
+    <rdfs:label>Turing Machine</rdfs:label>
+    <rdfs:comment xml:lang="zh">可计算性理论中的核心概念</rdfs:comment>
+    <ex:has_year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1936</ex:has_year>
+    <ex:foundation_of rdf:resource="http://example.org/turing/computer_science"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/has_death_date">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">逝世日期</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:comment xml:lang="zh">人物逝世日期</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/located_in">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">位于</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Entity"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Place"/>
+    <rdfs:comment xml:lang="zh">实体所处地点</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/Person">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="zh">人物</rdfs:label>
+    <rdfs:comment xml:lang="zh">真实世界中的人物</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/turing/Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/automatic_computing_engine">
+    <rdf:type rdf:resource="http://example.org/turing/Machine"/>
+    <rdfs:label>Automatic Computing Engine</rdfs:label>
+    <rdfs:comment xml:lang="zh">ACE 计算机设计方案</rdfs:comment>
+    <ex:has_alias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACE</ex:has_alias>
+    <ex:related_to_field rdf:resource="http://example.org/turing/computer_science"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/Machine">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="zh">机器</rdfs:label>
+    <rdfs:comment xml:lang="zh">密码机计算机设计等设备或机器</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/turing/Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/church_turing_thesis">
+    <rdf:type rdf:resource="http://example.org/turing/Concept"/>
+    <rdfs:label>Church-Turing Thesis</rdfs:label>
+    <rdfs:comment xml:lang="zh">可计算性理论中的关键思想</rdfs:comment>
+    <ex:related_to_field rdf:resource="http://example.org/turing/computer_science"/>
+    <ex:related_to_field rdf:resource="http://example.org/turing/mathematical_logic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/proceedings_lms">
+    <rdf:type rdf:resource="http://example.org/turing/PublicationVenue"/>
+    <rdfs:label>Proceedings of the London Mathematical Society</rdfs:label>
+    <rdfs:comment xml:lang="zh">图灵论文发表期刊之一</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/born_in">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">出生于</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Place"/>
+    <rdfs:comment xml:lang="zh">人物出生地点</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/national_physical_laboratory">
+    <rdf:type rdf:resource="http://example.org/turing/Organization"/>
+    <rdfs:label>National Physical Laboratory</rdfs:label>
+    <rdfs:comment xml:lang="zh">英国国家物理实验室</rdfs:comment>
+    <ex:located_in rdf:resource="http://example.org/turing/london"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/cryptanalysis">
+    <rdf:type rdf:resource="http://example.org/turing/Field"/>
+    <rdfs:label>Cryptanalysis</rdfs:label>
+    <rdfs:comment xml:lang="zh">密码分析</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/bletchley">
+    <rdf:type rdf:resource="http://example.org/turing/Place"/>
+    <rdfs:label>Bletchley</rdfs:label>
+    <rdfs:comment xml:lang="zh">布莱切利园所在地</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/designed">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">设计</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Machine"/>
+    <rdfs:comment xml:lang="zh">人物设计的机器或系统</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/bletchley_park">
+    <rdf:type rdf:resource="http://example.org/turing/Organization"/>
+    <rdfs:label>Bletchley Park</rdfs:label>
+    <rdfs:comment xml:lang="zh">英国二战密码分析中心</rdfs:comment>
+    <ex:located_in rdf:resource="http://example.org/turing/bletchley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/has_alias">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">别名</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Entity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:comment xml:lang="zh">实体的别名或简称</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/mathematical_logic">
+    <rdf:type rdf:resource="http://example.org/turing/Field"/>
+    <rdfs:label>Mathematical Logic</rdfs:label>
+    <rdfs:comment xml:lang="zh">数理逻辑</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/computing_machinery_and_intelligence">
+    <rdf:type rdf:resource="http://example.org/turing/Work"/>
+    <rdfs:label>Computing Machinery and Intelligence</rdfs:label>
+    <rdfs:comment xml:lang="zh">1950 年提出图灵测试的重要论文</rdfs:comment>
+    <ex:published_in rdf:resource="http://example.org/turing/mind_journal"/>
+    <ex:has_year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1950</ex:has_year>
+    <ex:related_to_field rdf:resource="http://example.org/turing/artificial_intelligence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/Organization">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="zh">机构</rdfs:label>
+    <rdfs:comment xml:lang="zh">学校机构研究机构等组织</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/turing/Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/Entity">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="zh">实体</rdfs:label>
+    <rdfs:comment xml:lang="zh">知识图谱中的基础实体类型</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/maida_vale">
+    <rdf:type rdf:resource="http://example.org/turing/Place"/>
+    <rdfs:label>Maida Vale</rdfs:label>
+    <rdfs:comment xml:lang="zh">图灵出生地位于伦敦</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/authored">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">撰写</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Person"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Work"/>
+    <rdfs:comment xml:lang="zh">人物撰写作品</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/related_to_field">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label xml:lang="zh">相关领域</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/turing/Entity"/>
+    <rdfs:range rdf:resource="http://example.org/turing/Field"/>
+    <rdfs:comment xml:lang="zh">实体与学科方向的关联</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/Field">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="zh">学科</rdfs:label>
+    <rdfs:comment xml:lang="zh">知识领域或研究方向</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://example.org/turing/Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/turing/enigma_machine">
+    <rdf:type rdf:resource="http://example.org/turing/Machine"/>
+    <rdfs:label>Enigma Machine</rdfs:label>
+    <rdfs:comment xml:lang="zh">德国使用的密码机</rdfs:comment>
+  </rdf:Description>
+</rdf:RDF>
