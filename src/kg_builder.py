@@ -20,7 +20,7 @@ from typing import Dict, List
 
 import matplotlib.pyplot as plt
 import networkx as nx
-from rdflib import Graph, Literal, Namespace, RDF, RDFS
+from rdflib import Graph, Literal, Namespace, OWL, RDF, RDFS
 from rdflib.namespace import XSD
 
 
@@ -45,6 +45,8 @@ class RelationDef:
     label: str
     domain: str
     range: str
+    property_type: str
+    property_characteristics: str
     description: str
 
 
@@ -111,6 +113,18 @@ class TuringKnowledgeGraphBuilder:
             if relation.range != "Literal" and relation.range not in self.class_defs:
                 raise ValueError(
                     f"Relation '{relation_id}' references unknown range '{relation.range}'."
+                )
+            if relation.property_type not in {"ObjectProperty", "DatatypeProperty"}:
+                raise ValueError(
+                    f"Relation '{relation_id}' must use property_type ObjectProperty or DatatypeProperty."
+                )
+            if relation.range == "Literal" and relation.property_type != "DatatypeProperty":
+                raise ValueError(
+                    f"Relation '{relation_id}' with Literal range must be DatatypeProperty."
+                )
+            if relation.range != "Literal" and relation.property_type != "ObjectProperty":
+                raise ValueError(
+                    f"Relation '{relation_id}' with entity range must be ObjectProperty."
                 )
 
         for triple in self.triples:
@@ -249,6 +263,8 @@ class TuringKnowledgeGraphBuilder:
                 label=row["label"].strip(),
                 domain=row["domain"].strip(),
                 range=row["range"].strip(),
+                property_type=row["property_type"].strip(),
+                property_characteristics=row["property_characteristics"].strip(),
                 description=row["description"].strip(),
             )
             for row in self._read_csv(path)
@@ -344,11 +360,13 @@ class TuringKnowledgeGraphBuilder:
         graph = Graph()
         ex = Namespace("http://example.org/turing/")
         graph.bind("ex", ex)
+        graph.bind("owl", OWL)
         graph.bind("rdfs", RDFS)
 
         for class_def in self.class_defs.values():
             class_uri = ex[class_def.class_id]
             graph.add((class_uri, RDF.type, RDFS.Class))
+            graph.add((class_uri, RDF.type, OWL.Class))
             graph.add((class_uri, RDFS.label, Literal(class_def.label, lang="zh")))
             if class_def.description:
                 graph.add((class_uri, RDFS.comment, Literal(class_def.description, lang="zh")))
@@ -358,11 +376,23 @@ class TuringKnowledgeGraphBuilder:
         for relation in self.relation_defs.values():
             relation_uri = ex[relation.relation_id]
             graph.add((relation_uri, RDF.type, RDF.Property))
+            graph.add(
+                (
+                    relation_uri,
+                    RDF.type,
+                    OWL.ObjectProperty if relation.property_type == "ObjectProperty" else OWL.DatatypeProperty,
+                )
+            )
             graph.add((relation_uri, RDFS.label, Literal(relation.label, lang="zh")))
             graph.add((relation_uri, RDFS.domain, ex[relation.domain]))
             graph.add(
                 (relation_uri, RDFS.range, RDFS.Literal if relation.range == "Literal" else ex[relation.range])
             )
+            if relation.property_characteristics:
+                for characteristic in relation.property_characteristics.split("|"):
+                    characteristic = characteristic.strip()
+                    if characteristic:
+                        graph.add((relation_uri, RDF.type, OWL[characteristic]))
             if relation.description:
                 graph.add((relation_uri, RDFS.comment, Literal(relation.description, lang="zh")))
 

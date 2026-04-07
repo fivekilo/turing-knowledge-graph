@@ -1,53 +1,64 @@
 @prefix ex: <http://example.org/turing/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:Concept a rdfs:Class ;
+ex:Concept a rdfs:Class,
+        owl:Class ;
     rdfs:label "概念"@zh ;
     rdfs:comment "理论概念测试模型等抽象概念"@zh ;
     rdfs:subClassOf ex:Entity .
 
-ex:Entity a rdfs:Class ;
+ex:Entity a rdfs:Class,
+        owl:Class ;
     rdfs:label "实体"@zh ;
     rdfs:comment "知识图谱中的基础实体类型"@zh .
 
-ex:Event a rdfs:Class ;
+ex:Event a rdfs:Class,
+        owl:Class ;
     rdfs:label "事件"@zh ;
     rdfs:comment "具有时间和背景的历史事件或项目"@zh ;
     rdfs:subClassOf ex:Entity .
 
-ex:Field a rdfs:Class ;
+ex:Field a rdfs:Class,
+        owl:Class ;
     rdfs:label "学科"@zh ;
     rdfs:comment "知识领域或研究方向"@zh ;
     rdfs:subClassOf ex:Entity .
 
-ex:Machine a rdfs:Class ;
+ex:Machine a rdfs:Class,
+        owl:Class ;
     rdfs:label "机器"@zh ;
     rdfs:comment "密码机计算机设计等设备或机器"@zh ;
     rdfs:subClassOf ex:Entity .
 
-ex:Organization a rdfs:Class ;
+ex:Organization a rdfs:Class,
+        owl:Class ;
     rdfs:label "机构"@zh ;
     rdfs:comment "学校机构研究机构等组织"@zh ;
     rdfs:subClassOf ex:Entity .
 
-ex:Person a rdfs:Class ;
+ex:Person a rdfs:Class,
+        owl:Class ;
     rdfs:label "人物"@zh ;
     rdfs:comment "真实世界中的人物"@zh ;
     rdfs:subClassOf ex:Entity .
 
-ex:Place a rdfs:Class ;
+ex:Place a rdfs:Class,
+        owl:Class ;
     rdfs:label "地点"@zh ;
     rdfs:comment "城市建筑地理位置等地点"@zh ;
     rdfs:subClassOf ex:Entity .
 
-ex:PublicationVenue a rdfs:Class ;
+ex:PublicationVenue a rdfs:Class,
+        owl:Class ;
     rdfs:label "发表载体"@zh ;
     rdfs:comment "论文发表的期刊或会议"@zh ;
     rdfs:subClassOf ex:Entity .
 
-ex:Work a rdfs:Class ;
+ex:Work a rdfs:Class,
+        owl:Class ;
     rdfs:label "作品"@zh ;
     rdfs:comment "论文文章等知识作品"@zh ;
     rdfs:subClassOf ex:Entity .
@@ -75,13 +86,15 @@ ex:alan_turing a ex:Person ;
         ex:national_physical_laboratory ;
     rdfs:comment "英国数学家逻辑学家计算机科学奠基者"@zh .
 
-ex:authored a rdf:Property ;
+ex:authored a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "撰写"@zh ;
     rdfs:comment "人物撰写作品"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range ex:Work .
 
-ex:born_in a rdf:Property ;
+ex:born_in a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "出生于"@zh ;
     rdfs:comment "人物出生地点"@zh ;
     rdfs:domain ex:Person ;
@@ -93,109 +106,128 @@ ex:church_turing_thesis a ex:Concept ;
         ex:mathematical_logic ;
     rdfs:comment "可计算性理论中的关键思想"@zh .
 
-ex:collaborated_with a rdf:Property ;
+ex:collaborated_with a rdf:Property,
+        owl:ObjectProperty,
+        owl:SymmetricProperty ;
     rdfs:label "合作于"@zh ;
     rdfs:comment "人物之间的合作关系"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range ex:Person .
 
-ex:contributed_to a rdf:Property ;
+ex:contributed_to a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "贡献于"@zh ;
     rdfs:comment "人物参与或贡献的事件项目"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range ex:Event .
 
-ex:designed a rdf:Property ;
+ex:designed a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "设计"@zh ;
     rdfs:comment "人物设计的机器或系统"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range ex:Machine .
 
-ex:died_in a rdf:Property ;
+ex:died_in a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "逝世于"@zh ;
     rdfs:comment "人物逝世地点"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range ex:Place .
 
-ex:foundation_of a rdf:Property ;
+ex:foundation_of a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "奠定基础"@zh ;
     rdfs:comment "概念对学科的基础作用"@zh ;
     rdfs:domain ex:Concept ;
     rdfs:range ex:Field .
 
-ex:has_alias a rdf:Property ;
+ex:has_alias a rdf:Property,
+        owl:DatatypeProperty ;
     rdfs:label "别名"@zh ;
     rdfs:comment "实体的别名或简称"@zh ;
     rdfs:domain ex:Entity ;
     rdfs:range rdfs:Literal .
 
-ex:has_birth_date a rdf:Property ;
+ex:has_birth_date a rdf:Property,
+        owl:DatatypeProperty ;
     rdfs:label "出生日期"@zh ;
     rdfs:comment "人物出生日期"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range rdfs:Literal .
 
-ex:has_death_date a rdf:Property ;
+ex:has_death_date a rdf:Property,
+        owl:DatatypeProperty ;
     rdfs:label "逝世日期"@zh ;
     rdfs:comment "人物逝世日期"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range rdfs:Literal .
 
-ex:has_nationality a rdf:Property ;
+ex:has_nationality a rdf:Property,
+        owl:DatatypeProperty ;
     rdfs:label "国籍"@zh ;
     rdfs:comment "人物国籍"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range rdfs:Literal .
 
-ex:has_year a rdf:Property ;
+ex:has_year a rdf:Property,
+        owl:DatatypeProperty ;
     rdfs:label "年份"@zh ;
     rdfs:comment "实体相关年份"@zh ;
     rdfs:domain ex:Entity ;
     rdfs:range rdfs:Literal .
 
-ex:located_in a rdf:Property ;
+ex:located_in a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "位于"@zh ;
     rdfs:comment "实体所处地点"@zh ;
     rdfs:domain ex:Entity ;
     rdfs:range ex:Place .
 
-ex:occurred_at a rdf:Property ;
+ex:occurred_at a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "发生于"@zh ;
     rdfs:comment "事件发生的机构或场所"@zh ;
     rdfs:domain ex:Event ;
     rdfs:range ex:Organization .
 
-ex:proposed a rdf:Property ;
+ex:proposed a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "提出"@zh ;
     rdfs:comment "人物提出某个理论或概念"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range ex:Concept .
 
-ex:published_in a rdf:Property ;
+ex:published_in a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "发表于"@zh ;
     rdfs:comment "作品发表的期刊或载体"@zh ;
     rdfs:domain ex:Work ;
     rdfs:range ex:PublicationVenue .
 
-ex:related_to_field a rdf:Property ;
+ex:related_to_field a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "相关领域"@zh ;
     rdfs:comment "实体与学科方向的关联"@zh ;
     rdfs:domain ex:Entity ;
     rdfs:range ex:Field .
 
-ex:studied_at a rdf:Property ;
+ex:studied_at a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "就读于"@zh ;
     rdfs:comment "人物学习经历所属机构"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range ex:Organization .
 
-ex:targeted_machine a rdf:Property ;
+ex:targeted_machine a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "目标机器"@zh ;
     rdfs:comment "事件或项目所针对的机器"@zh ;
     rdfs:domain ex:Event ;
     rdfs:range ex:Machine .
 
-ex:worked_at a rdf:Property ;
+ex:worked_at a rdf:Property,
+        owl:ObjectProperty ;
     rdfs:label "工作于"@zh ;
     rdfs:comment "人物工作经历所属机构"@zh ;
     rdfs:domain ex:Person ;
