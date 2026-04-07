@@ -1,0 +1,2413 @@
+{
+  "entities": {
+    "Q189223": {
+      "pageid": 187775,
+      "ns": 0,
+      "title": "Q189223",
+      "lastrevid": 2466149207,
+      "modified": "2026-02-24T00:01:44Z",
+      "type": "item",
+      "id": "Q189223",
+      "labels": {
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "图灵测试"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "圖靈測試"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "圖靈測試"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "图灵测试"
+        },
+        "zh-sg": {
+          "language": "zh-sg",
+          "value": "图灵测试"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "圖靈測試"
+        },
+        "pl": {
+          "language": "pl",
+          "value": "Test Turinga"
+        },
+        "he": {
+          "language": "he",
+          "value": "מבחן טיורינג"
+        },
+        "fr": {
+          "language": "fr",
+          "value": "test de Turing"
+        },
+        "ko": {
+          "language": "ko",
+          "value": "튜링 테스트"
+        },
+        "es": {
+          "language": "es",
+          "value": "test de Turing"
+        },
+        "hu": {
+          "language": "hu",
+          "value": "Turing-teszt"
+        },
+        "lv": {
+          "language": "lv",
+          "value": "Tjūringa tests"
+        },
+        "it": {
+          "language": "it",
+          "value": "test di Turing"
+        },
+        "gl": {
+          "language": "gl",
+          "value": "proba de Turing"
+        },
+        "et": {
+          "language": "et",
+          "value": "Turingi test"
+        },
+        "de": {
+          "language": "de",
+          "value": "Turing-Test"
+        },
+        "ja": {
+          "language": "ja",
+          "value": "チューリング・テスト"
+        },
+        "ml": {
+          "language": "ml",
+          "value": "ടൂറിങ് ടെസ്റ്റ്"
+        },
+        "vi": {
+          "language": "vi",
+          "value": "Phép thử Turing"
+        },
+        "en": {
+          "language": "en",
+          "value": "Turing test"
+        },
+        "sv": {
+          "language": "sv",
+          "value": "Turingtest"
+        },
+        "nl": {
+          "language": "nl",
+          "value": "Turingtest"
+        },
+        "pt": {
+          "language": "pt",
+          "value": "teste de Turing"
+        },
+        "eo": {
+          "language": "eo",
+          "value": "testo de Turing"
+        },
+        "is": {
+          "language": "is",
+          "value": "Próf Turings"
+        },
+        "sk": {
+          "language": "sk",
+          "value": "Turingov test"
+        },
+        "ru": {
+          "language": "ru",
+          "value": "тест Тьюринга"
+        },
+        "sr-el": {
+          "language": "sr-el",
+          "value": "Tjuringov test"
+        },
+        "sr-ec": {
+          "language": "sr-ec",
+          "value": "Тјурингов тест"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Turing testi"
+        },
+        "ro": {
+          "language": "ro",
+          "value": "testul Turing"
+        },
+        "th": {
+          "language": "th",
+          "value": "การทดสอบทัวริง"
+        },
+        "ca": {
+          "language": "ca",
+          "value": "test de Turing"
+        },
+        "fi": {
+          "language": "fi",
+          "value": "Turingin testi"
+        },
+        "uk": {
+          "language": "uk",
+          "value": "тест Тюрінга"
+        },
+        "la": {
+          "language": "la",
+          "value": "Examen Turing"
+        },
+        "cs": {
+          "language": "cs",
+          "value": "Turingův test"
+        },
+        "bg": {
+          "language": "bg",
+          "value": "Тест на Тюринг"
+        },
+        "fa": {
+          "language": "fa",
+          "value": "آزمون تورینگ"
+        },
+        "hr": {
+          "language": "hr",
+          "value": "Turingov test"
+        },
+        "lt": {
+          "language": "lt",
+          "value": "Tiuringo testas"
+        },
+        "da": {
+          "language": "da",
+          "value": "Turing-test"
+        },
+        "sr": {
+          "language": "sr",
+          "value": "Тјурингов тест"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "图灵测试"
+        },
+        "id": {
+          "language": "id",
+          "value": "Tes Turing"
+        },
+        "sh": {
+          "language": "sh",
+          "value": "Turingov test"
+        },
+        "ar": {
+          "language": "ar",
+          "value": "اختبار تورنغ"
+        },
+        "nb": {
+          "language": "nb",
+          "value": "Turingtest"
+        },
+        "az": {
+          "language": "az",
+          "value": "Türinq testi"
+        },
+        "as": {
+          "language": "as",
+          "value": "টিওৰিং পৰীক্ষা"
+        },
+        "sl": {
+          "language": "sl",
+          "value": "Turingov test"
+        },
+        "sq": {
+          "language": "sq",
+          "value": "Testi i Turingut"
+        },
+        "ka": {
+          "language": "ka",
+          "value": "ტიურინგის ტესტი"
+        },
+        "bn": {
+          "language": "bn",
+          "value": "টুরিং পরীক্ষা"
+        },
+        "hy": {
+          "language": "hy",
+          "value": "Թյուրինգի թեստ"
+        },
+        "sco": {
+          "language": "sco",
+          "value": "Turing test"
+        },
+        "kk": {
+          "language": "kk",
+          "value": "Тьюринг тесті"
+        },
+        "eu": {
+          "language": "eu",
+          "value": "Turingen testa"
+        },
+        "ms": {
+          "language": "ms",
+          "value": "Ujian Turing"
+        },
+        "ga": {
+          "language": "ga",
+          "value": "Promhadh Turing"
+        },
+        "mn": {
+          "language": "mn",
+          "value": "Тюринг тест"
+        },
+        "cy": {
+          "language": "cy",
+          "value": "Prawf Turing"
+        },
+        "hi": {
+          "language": "hi",
+          "value": "ट्यूरिंग टेस्ट"
+        },
+        "yue": {
+          "language": "yue",
+          "value": "圖靈測試"
+        },
+        "frr": {
+          "language": "frr",
+          "value": "Turing-Test"
+        },
+        "wuu": {
+          "language": "wuu",
+          "value": "图灵测试"
+        },
+        "be": {
+          "language": "be",
+          "value": "тэст Цьюрынга"
+        },
+        "af": {
+          "language": "af",
+          "value": "Turingtoets"
+        },
+        "be-tarask": {
+          "language": "be-tarask",
+          "value": "тэст Т’юрынга"
+        },
+        "ps": {
+          "language": "ps",
+          "value": "د تورينګ ازموينه"
+        },
+        "mk": {
+          "language": "mk",
+          "value": "Тјурингова проверка"
+        },
+        "uz": {
+          "language": "uz",
+          "value": "Turing testi"
+        },
+        "pt-br": {
+          "language": "pt-br",
+          "value": "teste de Turing"
+        },
+        "os": {
+          "language": "os",
+          "value": "Тьюринджы тест"
+        },
+        "el": {
+          "language": "el",
+          "value": "Δοκιμή Τούρινγκ"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "test of a machine's ability to exhibit intelligent behaviour equivalent to, or indistinguishable from, that of a human"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "人工智能测试"
+        },
+        "it": {
+          "language": "it",
+          "value": "criterio per determinare se una macchina è in grado di esibire un comportamento intelligente"
+        },
+        "ar": {
+          "language": "ar",
+          "value": "إختبار علمي لتحديد وجود الذكاء من عدمه لدى الحاسوب"
+        },
+        "de": {
+          "language": "de",
+          "value": "Test, der feststellt, ob ein Computer ein dem Menschen gleichwertiges Denkvermögen aufweisen kann"
+        },
+        "nl": {
+          "language": "nl",
+          "value": "Een test die kan bepalen of dat waarmee ze communiceren een mens of een robot is"
+        },
+        "fr": {
+          "language": "fr",
+          "value": "test d'une intelligence artificielle"
+        },
+        "ru": {
+          "language": "ru",
+          "value": "эмпирический тест, предложенный Аланом Тьюрингом в статье «Вычислительные машины и разум»"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Alan Turing'in Computing Machinery and Intelligence başlıklı makalesinde geçen kavram"
+        },
+        "pt": {
+          "language": "pt",
+          "value": "teste para avaliar a capacidade de uma máquina de exibir o comportamento humano"
+        },
+        "ca": {
+          "language": "ca",
+          "value": "test de l'habilitat d'una màquina per a exhibir comportament intel·ligent equivalent al d'un humà"
+        },
+        "es": {
+          "language": "es",
+          "value": "prueba sobre la capacidad de una máquina de responder como un humano"
+        },
+        "fa": {
+          "language": "fa",
+          "value": "آزمایش تشخیص انسان از هوش مصنوعی"
+        },
+        "ko": {
+          "language": "ko",
+          "value": "인간의 것과 동등하거나 구별할 수 없는 지능적인 행동을 보여주는 기계의 능력에 대한 테스트"
+        },
+        "af": {
+          "language": "af",
+          "value": "toets van 'n masjien se vermoë om intelligente gedrag gelykstaande aan dié van 'n mens te toon"
+        },
+        "eo": {
+          "language": "eo",
+          "value": "testo de artefarita intelekto"
+        },
+        "be-tarask": {
+          "language": "be-tarask",
+          "value": "тэст на адрозьненьне машыны ад чалавека"
+        },
+        "fi": {
+          "language": "fi",
+          "value": "Alan Turingin vuonna 1950 esittämä tapa kysymyksen \"voivatko koneet ajatella?\" ratkaisuun"
+        },
+        "cs": {
+          "language": "cs",
+          "value": "pokus, který má za cíl prověřit, jestli se nějaký systém umělé inteligence opravdu chová inteligentně"
+        },
+        "sl": {
+          "language": "sl",
+          "value": "merilo za ugotavljanje, ali je stroj sposoben razmišljati, ki ga je izumil Alan Turing"
+        },
+        "hi": {
+          "language": "hi",
+          "value": "मानव के समान, या अविवेच्य के बराबर बुद्धिमान व्यवहार प्रदर्शित करने की मशीन की क्षमता का परीक्षण"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "一种对机器是否表现出与人类相当或无法区分的智能行为的能力的测试"
+        },
+        "ro": {
+          "language": "ro",
+          "value": "test al capacității unei mașini de a manifesta un comportament inteligent echivalent cu sau imposibil de distins de cel al unui om"
+        }
+      },
+      "aliases": {
+        "zh": [
+          {
+            "language": "zh",
+            "value": "图灵实验"
+          },
+          {
+            "language": "zh",
+            "value": "图灵试验"
+          },
+          {
+            "language": "zh",
+            "value": "圖靈試驗"
+          }
+        ],
+        "fr": [
+          {
+            "language": "fr",
+            "value": "Turing test"
+          }
+        ],
+        "es": [
+          {
+            "language": "es",
+            "value": "prueba de Turing"
+          }
+        ],
+        "gl": [
+          {
+            "language": "gl",
+            "value": "test de Turing"
+          },
+          {
+            "language": "gl",
+            "value": "máquina de Turing"
+          },
+          {
+            "language": "gl",
+            "value": "proba de Touring"
+          }
+        ],
+        "de": [
+          {
+            "language": "de",
+            "value": "Turingtest"
+          },
+          {
+            "language": "de",
+            "value": "Turing Test"
+          }
+        ],
+        "ja": [
+          {
+            "language": "ja",
+            "value": "チューリングテスト"
+          }
+        ],
+        "ml": [
+          {
+            "language": "ml",
+            "value": "Turing Test"
+          }
+        ],
+        "sv": [
+          {
+            "language": "sv",
+            "value": "Turingtestet"
+          }
+        ],
+        "nl": [
+          {
+            "language": "nl",
+            "value": "Turing-test"
+          },
+          {
+            "language": "nl",
+            "value": "Turing test"
+          }
+        ],
+        "eo": [
+          {
+            "language": "eo",
+            "value": "Turinga testo"
+          }
+        ],
+        "is": [
+          {
+            "language": "is",
+            "value": "Turingpróf"
+          },
+          {
+            "language": "is",
+            "value": "Turing test"
+          }
+        ],
+        "ru": [
+          {
+            "language": "ru",
+            "value": "Вычислительные машины и разум"
+          }
+        ],
+        "sr": [
+          {
+            "language": "sr",
+            "value": "Turing test"
+          }
+        ],
+        "th": [
+          {
+            "language": "th",
+            "value": "Turing test"
+          }
+        ],
+        "ca": [
+          {
+            "language": "ca",
+            "value": "prova de Turing"
+          }
+        ],
+        "fi": [
+          {
+            "language": "fi",
+            "value": "Turingin koe"
+          }
+        ],
+        "uk": [
+          {
+            "language": "uk",
+            "value": "тест Тюрінґа"
+          }
+        ],
+        "fa": [
+          {
+            "language": "fa",
+            "value": "تیورینگ تست"
+          },
+          {
+            "language": "fa",
+            "value": "ازمون تیورینگ"
+          },
+          {
+            "language": "fa",
+            "value": "ازمون تورینگ"
+          },
+          {
+            "language": "fa",
+            "value": "تست تورینگ"
+          },
+          {
+            "language": "fa",
+            "value": "آزمون تیورینگ"
+          },
+          {
+            "language": "fa",
+            "value": "آزمایش تورینگ"
+          },
+          {
+            "language": "fa",
+            "value": "ازمایش تورینگ"
+          }
+        ],
+        "hr": [
+          {
+            "language": "hr",
+            "value": "Turing test"
+          }
+        ],
+        "da": [
+          {
+            "language": "da",
+            "value": "Turingtest"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "imitation Game"
+          }
+        ],
+        "ar": [
+          {
+            "language": "ar",
+            "value": "اختبار تورنج"
+          }
+        ],
+        "he": [
+          {
+            "language": "he",
+            "value": "משחק החיקוי"
+          }
+        ],
+        "zh-cn": [
+          {
+            "language": "zh-cn",
+            "value": "模仿游戏"
+          }
+        ],
+        "ro": [
+          {
+            "language": "ro",
+            "value": "joc de imitație"
+          }
+        ]
+      },
+      "claims": {
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "642aa8547bd9d20872080968439983ed6a9a4080",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1003030,
+                  "id": "Q1003030"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q189223$5397bd50-47b3-b074-6dd2-2735c4b044da",
+            "rank": "normal"
+          }
+        ],
+        "P138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P138",
+              "hash": "70ad70552f009e6c5f5601a103f4cefd429407fa",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7251,
+                  "id": "Q7251"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q189223$76CFEF7B-C4FB-4A87-8019-46DAE34C7909",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "f7a99205e2902d0eba9e2a65fef67b0cd700a3ad",
+              "datavalue": {
+                "value": "Turing test",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q189223$8CA0BDF6-6DD6-4A19-A3D1-FF98895FF729",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "684d7e2d8d02e524a0d2214a715ef784e139087f",
+              "datavalue": {
+                "value": "/m/0b_42g",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$A34E1213-2059-4833-8248-8D1FFC9674F1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "4c9fa033b8bdd39ab911995298f620b997248e73",
+              "datavalue": {
+                "value": "/m/0b_42",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$04F1B15E-E9C4-44E2-AC1B-4F939D9ACC58",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "01aa7303377a945decaed7b729f51b426a0ebb39",
+              "datavalue": {
+                "value": "4770569-3",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$8d56481e-4853-c626-f86e-cb9653fbd8de",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "069f17e45e4acfb5188171f422c3efc86af686c5",
+              "datavalue": {
+                "value": "technology/Turing-test",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a85e1ee01d22bbbc09b74e77976a9d7bbc519bca",
+                  "datavalue": {
+                    "value": "Turing test",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q189223$e6ab0377-4a2b-93ba-ee35-877ed765d218",
+            "rank": "normal"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "9c7f7948f70a3a89d5ff26fe08418c0a8f2bb588",
+              "datavalue": {
+                "value": "Turing-Test",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$DC28A4C1-BA1B-4613-9643-5D5802C20986",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 51711,
+                          "id": "Q51711"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "510b14313d64a640c516cbe2b20c7bd310934232",
+              "datavalue": {
+                "value": "turing-test",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$82DECCEB-E4BF-47B1-91D0-43AA686B92BF",
+            "rank": "normal"
+          }
+        ],
+        "P3123": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3123",
+              "hash": "eef9a757257631b8018efc4765550bd17dabdb10",
+              "datavalue": {
+                "value": "turing-test",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "3bb997f9af34e493be4f8b53b21f59cd8198b7f7",
+                  "datavalue": {
+                    "value": "The Turing Test",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P2093": [
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "a3e13677b1e51fc4fb0ad01d4343d382765cc97f",
+                  "datavalue": {
+                    "value": "Oppy, Graham",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "8e127fdaddda2601cf8fd8a7b0abf18e41429870",
+                  "datavalue": {
+                    "value": "Dowe, David",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P577": [
+                {
+                  "snaktype": "value",
+                  "property": "P577",
+                  "hash": "23701251cc3c2de34c59bd3094b9f7523a4efd55",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2003-04-09T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P2093",
+              "P577"
+            ],
+            "id": "Q189223$E3CD7AD3-2B8D-4BC2-9E1A-2FD0A14A1DE6",
+            "rank": "normal"
+          }
+        ],
+        "P2163": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2163",
+              "hash": "bcc276edce58a5b32a4e5baa3d1484518c78ae1a",
+              "datavalue": {
+                "value": "1159286",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$7621c552-48a0-f8c7-c4d6-08dd7bcfc1b4",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "d72d7355b34d67ae7f817103aa8e0e1496f31041",
+              "datavalue": {
+                "value": "sh93008808",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$a1c346fa-4c25-880e-6c07-1a4fe18567c5",
+            "rank": "normal"
+          }
+        ],
+        "P269": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P269",
+              "hash": "24964a08f6af7c3f76f06790a55d7419442f13b0",
+              "datavalue": {
+                "value": "166106372",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$c41d730e-4a3a-3b6f-c904-2a5da57cefed",
+            "rank": "normal"
+          }
+        ],
+        "P268": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P268",
+              "hash": "b0cec3d58c35bdc83cf9e157a3ab63315f9439c1",
+              "datavalue": {
+                "value": "16644546h",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$3b63d3ca-4f7c-597b-1d75-12cf90a10a03",
+            "rank": "normal"
+          }
+        ],
+        "P3235": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3235",
+              "hash": "423bb6634bcc475cc13d80bcb0bad51a273dd21d",
+              "datavalue": {
+                "value": "the-turing-test",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$4A8F8DD1-EFA4-488A-810A-19B505B8E3FF",
+            "rank": "normal"
+          }
+        ],
+        "P1296": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1296",
+              "hash": "ef57b9c928ff8c236ab8e8b98ca54b35dbecd5bd",
+              "datavalue": {
+                "value": "0518916",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$9D9A6A08-2876-4CEA-AE93-24210F538EA0",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "0181033c1bb8c644e82e6b1be06f6091f1a0e54d",
+              "datavalue": {
+                "value": "577917",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$CFABACDD-DB46-477B-996A-DE1C64EB3983",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "afac802e59ac923eaa199e2b1a4b7f64ee37b4e2",
+              "datavalue": {
+                "value": "Turing Test version 3.png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q189223$0218830d-4aa7-5dc3-6060-7cb8ab76f66c",
+            "rank": "preferred"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "4ceef245bcaffaabc223c7c1d82bf92ee6d1c5aa",
+              "datavalue": {
+                "value": "Turing test diagram.png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q189223$839a5c77-4352-bbce-34eb-b5c5d4e32363",
+            "rank": "normal"
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "ac3419f4e0beaf8362a5183a99cb9aa39d4edf9b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 772056,
+                  "id": "Q772056"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q189223$646834c5-4697-63f8-0b30-9c491b644027",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d05039b4fd833f10332105652a70ec60665b5f9b",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "f634ab9cd6c69b283851548262ce8e14aca364e2",
+                      "datavalue": {
+                        "value": "https://academic.oup.com/mind/article/LIX/236/433/986238",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "77ec76dd492257b3dee52813ad6c9b2363fc6487",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 133280562,
+                  "id": "Q133280562"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q189223$F5914781-D35C-49C5-8417-8C68C8AE8D5A",
+            "rank": "normal"
+          }
+        ],
+        "P8408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8408",
+              "hash": "4dbfe9500cc575deb90bd897c972395c1a282db7",
+              "datavalue": {
+                "value": "TuringTest",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$53731DDA-0E4D-4DC4-BB6D-0EC8C01F8E32",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 64139102,
+                          "id": "Q64139102"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-07-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1269": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1269",
+              "hash": "5799d021bfc2115e63a61a4388d95e3dc760271b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2264109,
+                  "id": "Q2264109"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q189223$d35da3a9-4adf-4c82-34cd-61e6e19a31f4",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1269",
+              "hash": "1ecf63d4baaee0b38d155370b35d634d6ef9cc25",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 23407,
+                  "id": "Q23407"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q189223$1e2c66cf-4417-e29f-bba0-745f7a7c2e0d",
+            "rank": "normal"
+          }
+        ],
+        "P61": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P61",
+              "hash": "ff2ec6d950758ff4fb2db7ff7573573b44fd4976",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7251,
+                  "id": "Q7251"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q189223$d032a4be-49aa-7d8f-f725-3fdf028d3697",
+            "rank": "normal"
+          }
+        ],
+        "P3553": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3553",
+              "hash": "a972b93362c1a80fa0ba8f4451dca650e0fbeac5",
+              "datavalue": {
+                "value": "19565866",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "939daacced899eee34ef2c7454e3c5d7f42bf9ac",
+                  "datavalue": {
+                    "value": "图灵测试",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q189223$2ADAC5D3-429E-4F64-8BA7-3347632E5433",
+            "rank": "normal"
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "c66b7fa4ca013a5c7d7c45acd354efed1684180f",
+              "datavalue": {
+                "value": "987007549165905171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$93B8EC2E-C3DF-4A4D-9F94-C7FD4A1F3874",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c8a47202c92936005b390eb36ddd267921b51f43",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "0ea73b3596b49258a7b7ec6495950779b99e875d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 188915,
+                          "id": "Q188915"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "7a5d10d4b47536d54eb3a87fda7f233661c53f7c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 96273743,
+                  "id": "Q96273743"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q189223$6cce817f-4d3f-2f41-bfa5-304399fce154",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "ad9230c95410e65811fd3386f2b3fff4bc1ccfa0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24034552,
+                  "id": "Q24034552"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q189223$32f92054-4ee1-eb14-235a-de141fbe4890",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "e97e8a82d4e4cfe62a49936a72486101d425b799",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11492827,
+                  "id": "Q11492827"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q189223$2ce5ec59-4e67-3ba5-2726-90819631bbc6",
+            "rank": "normal"
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "acd1d36196f152c3a2c6d946cfcae80765a64485",
+              "datavalue": {
+                "value": "C577917",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$5D3AC0B2-A5FD-4EF3-86E1-C9209E8E6490",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e0b27d817c9a9b3247df341000fc490bafcba862",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "3134281f51e2490f88272d53c56ee95d9cc24e2c",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20220125070108/https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P2960": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2960",
+                      "hash": "f7ff3a0de7f9571ecb5e0740cba4122c6703e1ec",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854",
+                  "P1065",
+                  "P2960"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2347": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2347",
+              "hash": "7b1ca9cf2533b6df2a1463b67a938de210597a44",
+              "datavalue": {
+                "value": "25292",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "d8680cf69e41c3b0a9f5cc8c10d38176b6e2e539",
+                  "datavalue": {
+                    "value": "Turingin testi",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "fceca1aa934d8fda2e43a33e5557ee51e5ec0538",
+                  "datavalue": {
+                    "value": "Turingtestet",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a85e1ee01d22bbbc09b74e77976a9d7bbc519bca",
+                  "datavalue": {
+                    "value": "Turing test",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q189223$95C49B9F-7C1B-4FDE-B5C8-7F79EEDEF4C4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b5c19d654b60d5a9208e7f543f752614fbdeefb8",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "7133f11674741f52cadaae6029068fad9cbb52e3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 89345680,
+                          "id": "Q89345680"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "aac330a33b87f050700644fe11a00923198d1c1d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-02-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6839": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6839",
+              "hash": "227c88d491487d5766b4bd97189002a6ae2c7892",
+              "datavalue": {
+                "value": "Main/TuringTest",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$c1c0d768-443b-ad41-7750-ae746f911630",
+            "rank": "normal"
+          }
+        ],
+        "P10376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "a60b89a82f3d22f22c671454dd0e4d068f0f192c",
+              "datavalue": {
+                "value": "neuroscience/turing-test",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$8798fdff-49c2-4799-a441-919ababa9c6e",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "3275629f1befc79c29b44f71c1ebaa2dcc65d2b8",
+              "datavalue": {
+                "value": "psychology/turing-test",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$cffd5ca3-476b-46c0-e5c9-a7553b5c914a",
+            "rank": "normal"
+          }
+        ],
+        "P8885": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8885",
+              "hash": "cb33c6a946f671f9459fa7a840f78fdcb5f04f67",
+              "datavalue": {
+                "value": "튜링 테스트",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$343462a5-4e11-1fa4-de69-51f4faddbc2d",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "52d4c232b92b0ebb59ce214c72a1d55ebade1fcc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9691252,
+                  "id": "Q9691252"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q189223$CE692E10-6A85-4427-B489-421627E2E72D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1535": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1535",
+              "hash": "58311dd6bb0c1d116807275727db0b9e6120cde9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3175779,
+                  "id": "Q3175779"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q189223$f728d55a-4ac7-d38b-9474-8f9023370b77",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1535",
+              "hash": "0661edd7853d87dd3ff42613959313035cf43557",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2573697,
+                  "id": "Q2573697"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q189223$94f72eea-485e-7839-036b-0fae436f4d1e",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1535",
+              "hash": "00a25b265b8fe705c670556d482a3bf3aae3ecb6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 304726,
+                  "id": "Q304726"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q189223$af301d4b-4ad6-35d2-77c3-fc2aa8b4062a",
+            "rank": "normal"
+          }
+        ],
+        "P9621": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9621",
+              "hash": "2052f89cf03802dab85e53dcb8b4c41aece7652e",
+              "datavalue": {
+                "value": "test-di-turing",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "bde563f24c5ff94fb7367ec22f75fc0c7297612b",
+                  "datavalue": {
+                    "value": "Turing, test di",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P577": [
+                {
+                  "snaktype": "value",
+                  "property": "P577",
+                  "hash": "ccd6ea06a2c9c0f54f5b1f45991a659225b5f4ef",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2013-01-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P577"
+            ],
+            "id": "Q189223$ECF9A6B8-B3F1-41B2-A154-14947A6A1E5F",
+            "rank": "normal"
+          }
+        ],
+        "P12086": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12086",
+              "hash": "e5f91cb27fbb892faf6a36fdfc39d7b366e82b77",
+              "datavalue": {
+                "value": "Turingtest",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$D840A944-8F3C-412F-9963-2F5A9645F0B0",
+            "rank": "normal"
+          }
+        ],
+        "P12385": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12385",
+              "hash": "6c122f4197ac4c2641c71c00c6e5897f26dc93df",
+              "datavalue": {
+                "value": "test-de-turing",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$de0fd431-6632-47ef-a687-a015e1ded572",
+            "rank": "normal"
+          }
+        ],
+        "P8313": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8313",
+              "hash": "fa200a0967950b1a5400ccdfa26467b7f97f0031",
+              "datavalue": {
+                "value": "Turingtesten",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$972f8dda-4b45-0611-d20c-b61a3e442dc0",
+            "rank": "normal"
+          }
+        ],
+        "P12946": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12946",
+              "hash": "fc27e6807bd3bf34820d25511dca36110c8ac0b2",
+              "datavalue": {
+                "value": "Turing+test",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$5AF2FF26-8011-43C7-88B4-E1D4DEAC9CC9",
+            "rank": "normal"
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "7a9ee2d70d4dcda93554a11361d21beef52e97a9",
+              "datavalue": {
+                "value": "concept/2477ff2b-d0a7-408d-b3fe-c6c384ec44f4",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q189223$BE69096E-6950-4F57-AEA0-D95DCE114984",
+            "rank": "normal"
+          }
+        ],
+        "P508": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P508",
+              "hash": "0a3f528ffff8e6cc8b65b5f07a348760bb4e537e",
+              "datavalue": {
+                "value": "79537",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "fa6389b05c0f809316d100fb9ca50ee11d6e52e0",
+                  "datavalue": {
+                    "value": "Test di Turing",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q189223$0cac6a5a-494a-c088-b17d-42fedd31b46a",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Turingtoets",
+          "badges": [],
+          "url": "https://af.wikipedia.org/wiki/Turingtoets"
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "اختبار تورنغ",
+          "badges": [],
+          "url": "https://ar.wikipedia.org/wiki/%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1_%D8%AA%D9%88%D8%B1%D9%86%D8%BA"
+        },
+        "aswiki": {
+          "site": "aswiki",
+          "title": "টিউৰিং পৰীক্ষা",
+          "badges": [],
+          "url": "https://as.wikipedia.org/wiki/%E0%A6%9F%E0%A6%BF%E0%A6%89%E0%A7%B0%E0%A6%BF%E0%A6%82_%E0%A6%AA%E0%A7%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE"
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Türinq testi",
+          "badges": [],
+          "url": "https://az.wikipedia.org/wiki/T%C3%BCrinq_testi"
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Тэст Цьюрынга",
+          "badges": [],
+          "url": "https://be.wikipedia.org/wiki/%D0%A2%D1%8D%D1%81%D1%82_%D0%A6%D1%8C%D1%8E%D1%80%D1%8B%D0%BD%D0%B3%D0%B0"
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Тест на Тюринг",
+          "badges": [],
+          "url": "https://bg.wikipedia.org/wiki/%D0%A2%D0%B5%D1%81%D1%82_%D0%BD%D0%B0_%D0%A2%D1%8E%D1%80%D0%B8%D0%BD%D0%B3"
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "টুরিং পরীক্ষা",
+          "badges": [],
+          "url": "https://bn.wikipedia.org/wiki/%E0%A6%9F%E0%A7%81%E0%A6%B0%E0%A6%BF%E0%A6%82_%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE"
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Test de Turing",
+          "badges": [],
+          "url": "https://ca.wikipedia.org/wiki/Test_de_Turing"
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Turingův test",
+          "badges": [],
+          "url": "https://cs.wikipedia.org/wiki/Turing%C5%AFv_test"
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "Prawf Turing",
+          "badges": [],
+          "url": "https://cy.wikipedia.org/wiki/Prawf_Turing"
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Turing-test",
+          "badges": [],
+          "url": "https://da.wikipedia.org/wiki/Turing-test"
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Turing-Test",
+          "badges": [],
+          "url": "https://de.wikipedia.org/wiki/Turing-Test"
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Δοκιμή Τούρινγκ",
+          "badges": [],
+          "url": "https://el.wikipedia.org/wiki/%CE%94%CE%BF%CE%BA%CE%B9%CE%BC%CE%AE_%CE%A4%CE%BF%CF%8D%CF%81%CE%B9%CE%BD%CE%B3%CE%BA"
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Turing test",
+          "badges": [],
+          "url": "https://en.wikipedia.org/wiki/Turing_test"
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Testo de Turing",
+          "badges": [],
+          "url": "https://eo.wikipedia.org/wiki/Testo_de_Turing"
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Prueba de Turing",
+          "badges": [],
+          "url": "https://es.wikipedia.org/wiki/Prueba_de_Turing"
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Turingi test",
+          "badges": [],
+          "url": "https://et.wikipedia.org/wiki/Turingi_test"
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Turingen testa",
+          "badges": [],
+          "url": "https://eu.wikipedia.org/wiki/Turingen_testa"
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "آزمون تورینگ",
+          "badges": [],
+          "url": "https://fa.wikipedia.org/wiki/%D8%A2%D8%B2%D9%85%D9%88%D9%86_%D8%AA%D9%88%D8%B1%DB%8C%D9%86%DA%AF"
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Turingin testi",
+          "badges": [],
+          "url": "https://fi.wikipedia.org/wiki/Turingin_testi"
+        },
+        "frrwiki": {
+          "site": "frrwiki",
+          "title": "Turing-Test",
+          "badges": [],
+          "url": "https://frr.wikipedia.org/wiki/Turing-Test"
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Test de Turing",
+          "badges": [],
+          "url": "https://fr.wikipedia.org/wiki/Test_de_Turing"
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Tástáil Turing",
+          "badges": [],
+          "url": "https://ga.wikipedia.org/wiki/T%C3%A1st%C3%A1il_Turing"
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Proba de Turing",
+          "badges": [],
+          "url": "https://gl.wikipedia.org/wiki/Proba_de_Turing"
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "מבחן טיורינג",
+          "badges": [],
+          "url": "https://he.wikipedia.org/wiki/%D7%9E%D7%91%D7%97%D7%9F_%D7%98%D7%99%D7%95%D7%A8%D7%99%D7%A0%D7%92"
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "ट्यूरिंग टेस्ट",
+          "badges": [],
+          "url": "https://hi.wikipedia.org/wiki/%E0%A4%9F%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%B0%E0%A4%BF%E0%A4%82%E0%A4%97_%E0%A4%9F%E0%A5%87%E0%A4%B8%E0%A5%8D%E0%A4%9F"
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Turingov test",
+          "badges": [],
+          "url": "https://hr.wikipedia.org/wiki/Turingov_test"
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Turing-teszt",
+          "badges": [],
+          "url": "https://hu.wikipedia.org/wiki/Turing-teszt"
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Թյուրինգի թեստ",
+          "badges": [],
+          "url": "https://hy.wikipedia.org/wiki/%D4%B9%D5%B5%D5%B8%D6%82%D6%80%D5%AB%D5%B6%D5%A3%D5%AB_%D5%A9%D5%A5%D5%BD%D5%BF"
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Uji Turing",
+          "badges": [],
+          "url": "https://id.wikipedia.org/wiki/Uji_Turing"
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Próf Turings",
+          "badges": [],
+          "url": "https://is.wikipedia.org/wiki/Pr%C3%B3f_Turings"
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Test di Turing",
+          "badges": [],
+          "url": "https://it.wikipedia.org/wiki/Test_di_Turing"
+        },
+        "itwikibooks": {
+          "site": "itwikibooks",
+          "title": "Intelligenza artificiale/Test di Turing",
+          "badges": [],
+          "url": "https://it.wikibooks.org/wiki/Intelligenza_artificiale/Test_di_Turing"
+        },
+        "itwikiquote": {
+          "site": "itwikiquote",
+          "title": "Test di Turing",
+          "badges": [],
+          "url": "https://it.wikiquote.org/wiki/Test_di_Turing"
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "チューリング・テスト",
+          "badges": [],
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%BB%E3%83%86%E3%82%B9%E3%83%88"
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "ტიურინგის ტესტი",
+          "badges": [],
+          "url": "https://ka.wikipedia.org/wiki/%E1%83%A2%E1%83%98%E1%83%A3%E1%83%A0%E1%83%98%E1%83%9C%E1%83%92%E1%83%98%E1%83%A1_%E1%83%A2%E1%83%94%E1%83%A1%E1%83%A2%E1%83%98"
+        },
+        "kkwiki": {
+          "site": "kkwiki",
+          "title": "Тьюринг тесті",
+          "badges": [],
+          "url": "https://kk.wikipedia.org/wiki/%D0%A2%D1%8C%D1%8E%D1%80%D0%B8%D0%BD%D0%B3_%D1%82%D0%B5%D1%81%D1%82%D1%96"
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "튜링 검사",
+          "badges": [],
+          "url": "https://ko.wikipedia.org/wiki/%ED%8A%9C%EB%A7%81_%EA%B2%80%EC%82%AC"
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Examen Turing",
+          "badges": [],
+          "url": "https://la.wikipedia.org/wiki/Examen_Turing"
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Tiuringo testas",
+          "badges": [],
+          "url": "https://lt.wikipedia.org/wiki/Tiuringo_testas"
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Tjūringa tests",
+          "badges": [],
+          "url": "https://lv.wikipedia.org/wiki/Tj%C5%ABringa_tests"
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Тјурингова проверка",
+          "badges": [],
+          "url": "https://mk.wikipedia.org/wiki/%D0%A2%D1%98%D1%83%D1%80%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2%D0%B0_%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0"
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "ടൂറിങ് ടെസ്റ്റ്",
+          "badges": [],
+          "url": "https://ml.wikipedia.org/wiki/%E0%B4%9F%E0%B5%82%E0%B4%B1%E0%B4%BF%E0%B4%99%E0%B5%8D_%E0%B4%9F%E0%B5%86%E0%B4%B8%E0%B5%8D%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B5%8D"
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Тюринг тест",
+          "badges": [],
+          "url": "https://mn.wikipedia.org/wiki/%D0%A2%D1%8E%D1%80%D0%B8%D0%BD%D0%B3_%D1%82%D0%B5%D1%81%D1%82"
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Ujian Turing",
+          "badges": [],
+          "url": "https://ms.wikipedia.org/wiki/Ujian_Turing"
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Turingtest",
+          "badges": [],
+          "url": "https://nl.wikipedia.org/wiki/Turingtest"
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Turingtest",
+          "badges": [],
+          "url": "https://no.wikipedia.org/wiki/Turingtest"
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Test Turinga",
+          "badges": [],
+          "url": "https://pl.wikipedia.org/wiki/Test_Turinga"
+        },
+        "pswiki": {
+          "site": "pswiki",
+          "title": "د تورينګ ازموينه",
+          "badges": [],
+          "url": "https://ps.wikipedia.org/wiki/%D8%AF_%D8%AA%D9%88%D8%B1%D9%8A%D9%86%DA%AB_%D8%A7%D8%B2%D9%85%D9%88%D9%8A%D9%86%D9%87"
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Teste de Turing",
+          "badges": [],
+          "url": "https://pt.wikipedia.org/wiki/Teste_de_Turing"
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Testul Turing",
+          "badges": [],
+          "url": "https://ro.wikipedia.org/wiki/Testul_Turing"
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Тест Тьюринга",
+          "badges": [],
+          "url": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%81%D1%82_%D0%A2%D1%8C%D1%8E%D1%80%D0%B8%D0%BD%D0%B3%D0%B0"
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Тест Тьюринга",
+          "badges": [],
+          "url": "https://ru.wikinews.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A2%D0%B5%D1%81%D1%82_%D0%A2%D1%8C%D1%8E%D1%80%D0%B8%D0%BD%D0%B3%D0%B0"
+        },
+        "scowiki": {
+          "site": "scowiki",
+          "title": "Turing test",
+          "badges": [],
+          "url": "https://sco.wikipedia.org/wiki/Turing_test"
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Turingov test",
+          "badges": [],
+          "url": "https://sh.wikipedia.org/wiki/Turingov_test"
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Turing test",
+          "badges": [],
+          "url": "https://simple.wikipedia.org/wiki/Turing_test"
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Turingov test",
+          "badges": [],
+          "url": "https://sk.wikipedia.org/wiki/Turingov_test"
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Turingov test",
+          "badges": [],
+          "url": "https://sl.wikipedia.org/wiki/Turingov_test"
+        },
+        "sqwiki": {
+          "site": "sqwiki",
+          "title": "Testi i Turingut",
+          "badges": [],
+          "url": "https://sq.wikipedia.org/wiki/Testi_i_Turingut"
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Тјурингов тест",
+          "badges": [],
+          "url": "https://sr.wikipedia.org/wiki/%D0%A2%D1%98%D1%83%D1%80%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2_%D1%82%D0%B5%D1%81%D1%82"
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Turingtestet",
+          "badges": [],
+          "url": "https://sv.wikipedia.org/wiki/Turingtestet"
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "การทดสอบทัวริง",
+          "badges": [],
+          "url": "https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%94%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%97%E0%B8%B1%E0%B8%A7%E0%B8%A3%E0%B8%B4%E0%B8%87"
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Turing testi",
+          "badges": [],
+          "url": "https://tr.wikipedia.org/wiki/Turing_testi"
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Тест Тюрінга",
+          "badges": [],
+          "url": "https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D1%81%D1%82_%D0%A2%D1%8E%D1%80%D1%96%D0%BD%D0%B3%D0%B0"
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Turing testi",
+          "badges": [],
+          "url": "https://uz.wikipedia.org/wiki/Turing_testi"
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Phép thử Turing",
+          "badges": [],
+          "url": "https://vi.wikipedia.org/wiki/Ph%C3%A9p_th%E1%BB%AD_Turing"
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "图灵测试",
+          "badges": [],
+          "url": "https://wuu.wikipedia.org/wiki/%E5%9B%BE%E7%81%B5%E6%B5%8B%E8%AF%95"
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "圖靈測試",
+          "badges": [],
+          "url": "https://zh-yue.wikipedia.org/wiki/%E5%9C%96%E9%9D%88%E6%B8%AC%E8%A9%A6"
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "图灵测试",
+          "badges": [],
+          "url": "https://zh.wikipedia.org/wiki/%E5%9B%BE%E7%81%B5%E6%B5%8B%E8%AF%95"
+        }
+      }
+    }
+  }
+}

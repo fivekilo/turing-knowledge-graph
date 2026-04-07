@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Joan Clarke",
+  "displaytitle": "<span class=\"mw-page-title-main\">Joan Clarke</span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q15990084",
+  "titles": {
+    "canonical": "Joan_Clarke",
+    "normalized": "Joan Clarke",
+    "display": "<span class=\"mw-page-title-main\">Joan Clarke</span>"
+  },
+  "pageid": 40962833,
+  "thumbnail": {
+    "source": "https://upload.wikimedia.org/wikipedia/en/3/35/Joan_Clarke_%28cryptanalyst%29.jpg",
+    "width": 280,
+    "height": 355
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/en/3/35/Joan_Clarke_%28cryptanalyst%29.jpg",
+    "width": 280,
+    "height": 355
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1344757939",
+  "tid": "ed5402a8-25da-11f1-9abb-40a8b26abc77",
+  "timestamp": "2026-03-22T10:36:04Z",
+  "description": "English cryptanalyst (1917–1996)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Joan_Clarke",
+      "revisions": "https://en.wikipedia.org/wiki/Joan_Clarke?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Joan_Clarke?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Joan_Clarke"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Joan_Clarke",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Joan_Clarke",
+      "edit": "https://en.wikipedia.org/wiki/Joan_Clarke?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Joan_Clarke"
+    }
+  },
+  "extract": "Joan Elisabeth Lowther Murray, MBE was an English cryptanalyst and numismatist who worked as a code-breaker at Bletchley Park during the Second World War. Although she did not personally seek the spotlight, her role in the Enigma project that decrypted the German secret communications earned her awards and citations, such as appointment as a Member of the Order of the British Empire (MBE), in 1946.",
+  "extract_html": "<p><b>Joan Elisabeth Lowther Murray</b>, MBE was an English cryptanalyst and numismatist who worked as a code-breaker at Bletchley Park during the Second World War. Although she did not personally seek the spotlight, her role in the Enigma project that decrypted the German secret communications earned her awards and citations, such as appointment as a Member of the Order of the British Empire (MBE), in 1946.</p>"
+}

@@ -1,0 +1,39 @@
+{
+  "type": "standard",
+  "title": "Turing's proof",
+  "displaytitle": "<span class=\"mw-page-title-main\">Turing&#039;s proof</span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q7854954",
+  "titles": {
+    "canonical": "Turing's_proof",
+    "normalized": "Turing's proof",
+    "display": "<span class=\"mw-page-title-main\">Turing&#039;s proof</span>"
+  },
+  "pageid": 3739933,
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1319668413",
+  "tid": "5a5c016a-b616-11f0-b720-c47ed7f681d1",
+  "timestamp": "2025-10-31T04:59:17Z",
+  "description": "Proof by Alan Turing",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Turing's_proof",
+      "revisions": "https://en.wikipedia.org/wiki/Turing's_proof?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Turing's_proof?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Turing's_proof"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Turing's_proof",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Turing's_proof",
+      "edit": "https://en.wikipedia.org/wiki/Turing's_proof?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Turing's_proof"
+    }
+  },
+  "extract": "Turing's proof is a proof by Alan Turing, first published in November 1936 with the title \"On Computable Numbers, with an Application to the Entscheidungsproblem\". It was the second proof of the negation of Hilbert's Entscheidungsproblem; that is, the conjecture that some purely mathematical yes–no questions can never be answered by computation; more technically, that some decision problems are \"undecidable\" in the sense that there is no single algorithm that infallibly gives a correct \"yes\" or \"no\" answer to each instance of the problem. In Turing's own words:\n\"what I shall prove is quite different from the well-known results of Gödel ... I shall now show that there is no general method which tells whether a given formula U is provable in K [Principia Mathematica]\".",
+  "extract_html": "<p><b>Turing's proof</b> is a proof by Alan Turing, first published in November 1936 with the title \"<b>On Computable Numbers, with an Application to the <span><span style=\"font-style:normal\">Entscheidungsproblem</span></span></b>\". It was the second proof of the negation of Hilbert's <span><i lang=\"de\">Entscheidungsproblem</i></span>; that is, the conjecture that some purely mathematical yes–no questions can never be answered by computation; more technically, that some decision problems are \"undecidable\" in the sense that there is no single algorithm that infallibly gives a correct \"yes\" or \"no\" answer to each instance of the problem. In Turing's own words:\n\"what I shall prove is quite different from the well-known results of Gödel ... I shall now show that there is no general method which tells whether a given formula <b>U</b> is provable in <b>K</b> [<i>Principia Mathematica</i>]\".</p>"
+}

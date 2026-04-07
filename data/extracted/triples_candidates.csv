@@ -1,0 +1,94 @@
+﻿subject,predicate,object,object_label,object_type,object_datatype,object_class_hint,source,confidence
+alan_turing,has_birth_date,1912-06-23,1912-06-23,literal,date,,wikipedia,0.90
+alan_turing,born_in,maida_vale,Maida Vale,entity,,Place,wikipedia,0.88
+alan_turing,has_death_date,1954-06-07,1954-06-07,literal,date,,wikipedia,0.90
+alan_turing,died_in,wilmslow,Wilmslow,entity,,Place,wikipedia,0.88
+alan_turing,related_to_field,logic,Logic,entity,,Field,wikipedia,0.82
+alan_turing,related_to_field,mathematics,mathematics,entity,,Field,wikipedia,0.82
+alan_turing,related_to_field,cryptanalysis,cryptanalysis,entity,,Field,wikipedia,0.82
+alan_turing,related_to_field,computer_science,computer science,entity,,Field,wikipedia,0.82
+alan_turing,related_to_field,mathematical_and_theoretical_biology,mathematical and theoretical biology,entity,,Field,wikipedia,0.82
+alan_turing,worked_at,university_of_manchester,University of Manchester,entity,,Organization,wikipedia,0.85
+alan_turing,worked_at,government_code_and_cypher_school,Government Code and Cypher School,entity,,Organization,wikipedia,0.85
+alan_turing,worked_at,national_physical_laboratory,National Physical Laboratory,entity,,Organization,wikipedia,0.85
+alan_turing,has_alias,Alan M. Turing,Alan M. Turing,literal,string,,wikidata,0.95
+alan_turing,has_alias,Alan Mathieson Turing,Alan Mathieson Turing,literal,string,,wikidata,0.95
+alan_turing,has_alias,Turing,Turing,literal,string,,wikidata,0.95
+alan_turing,has_alias,Alan Mathison Turing,Alan Mathison Turing,literal,string,,wikidata,0.95
+alan_turing,has_birth_date,1912-06-23,1912-06-23,literal,date,,wikidata,0.98
+alan_turing,has_death_date,1954-06-07,1954-06-07,literal,date,,wikidata,0.98
+alan_turing,born_in,maida_vale,Maida Vale,entity,,Place,wikidata,0.98
+alan_turing,born_in,warrington_lodge,Warrington Lodge,entity,,Place,wikidata,0.98
+alan_turing,died_in,wilmslow,Wilmslow,entity,,Place,wikidata,0.98
+alan_turing,studied_at,king_s_college,King's College,entity,,Organization,wikidata,0.95
+alan_turing,studied_at,princeton_university,Princeton University,entity,,Organization,wikidata,0.95
+alan_turing,studied_at,sherborne_school,Sherborne School,entity,,Organization,wikidata,0.95
+alan_turing,studied_at,hazlehurst_community_primary_school,Hazlehurst Community Primary School,entity,,Organization,wikidata,0.95
+alan_turing,worked_at,victoria_university_of_manchester,Victoria University of Manchester,entity,,Organization,wikidata,0.95
+alan_turing,worked_at,government_communications_headquarters,Government Communications Headquarters,entity,,Organization,wikidata,0.95
+alan_turing,worked_at,university_of_cambridge,University of Cambridge,entity,,Organization,wikidata,0.95
+alan_turing,worked_at,national_physical_laboratory,National Physical Laboratory,entity,,Organization,wikidata,0.95
+alan_turing,related_to_field,cryptanalysis,cryptanalysis,entity,,Field,wikidata,0.90
+alan_turing,related_to_field,computer_science,computer science,entity,,Field,wikidata,0.90
+alan_turing,related_to_field,mathematics,mathematics,entity,,Field,wikidata,0.90
+alan_turing,related_to_field,logic,logic,entity,,Field,wikidata,0.90
+alan_turing,related_to_field,cryptography,cryptography,entity,,Field,wikidata,0.90
+alan_turing,has_nationality,United Kingdom,United Kingdom,literal,string,,wikidata,0.92
+joan_clarke,has_birth_date,1917-06-24,1917-06-24,literal,date,,wikipedia,0.90
+joan_clarke,born_in,west_norwood_london,"West Norwood, London",entity,,Place,wikipedia,0.88
+joan_clarke,has_death_date,1996-09-04,1996-09-04,literal,date,,wikipedia,0.90
+joan_clarke,died_in,headington,Headington,entity,,Place,wikipedia,0.88
+joan_clarke,has_alias,Joan Clarke Murray,Joan Clarke Murray,literal,string,,wikidata,0.95
+joan_clarke,has_alias,Joan Elisabeth Lowther Clarke,Joan Elisabeth Lowther Clarke,literal,string,,wikidata,0.95
+joan_clarke,has_alias,Joan Elisabeth Lowther Murray,Joan Elisabeth Lowther Murray,literal,string,,wikidata,0.95
+joan_clarke,has_alias,Joan Elisabeth Lowther Clarke Murray,Joan Elisabeth Lowther Clarke Murray,literal,string,,wikidata,0.95
+joan_clarke,has_alias,Joan Murray,Joan Murray,literal,string,,wikidata,0.95
+joan_clarke,has_birth_date,1917-06-24,1917-06-24,literal,date,,wikidata,0.98
+joan_clarke,has_death_date,1996-09-04,1996-09-04,literal,date,,wikidata,0.98
+joan_clarke,born_in,west_norwood,West Norwood,entity,,Place,wikidata,0.98
+joan_clarke,died_in,headington,Headington,entity,,Place,wikidata,0.98
+joan_clarke,studied_at,newnham_college,Newnham College,entity,,Organization,wikidata,0.95
+joan_clarke,studied_at,dulwich_college,Dulwich College,entity,,Organization,wikidata,0.95
+joan_clarke,worked_at,government_communications_headquarters,Government Communications Headquarters,entity,,Organization,wikidata,0.95
+joan_clarke,related_to_field,cryptography,cryptography,entity,,Field,wikidata,0.90
+joan_clarke,has_nationality,United Kingdom,United Kingdom,literal,string,,wikidata,0.92
+joan_clarke,has_nationality,United Kingdom of Great Britain and Ireland,United Kingdom of Great Britain and Ireland,literal,string,,wikidata,0.92
+alonzo_church,has_birth_date,1903-06-14,1903-06-14,literal,date,,wikipedia,0.90
+alonzo_church,born_in,washington_d_c,"Washington, D.C.",entity,,Place,wikipedia,0.88
+alonzo_church,has_death_date,1995-08-11,1995-08-11,literal,date,,wikipedia,0.90
+alonzo_church,died_in,hudson_ohio,"Hudson, Ohio",entity,,Place,wikipedia,0.88
+alonzo_church,related_to_field,computer_science,Computer science,entity,,Field,wikipedia,0.82
+alonzo_church,related_to_field,mathematics,Mathematics,entity,,Field,wikipedia,0.82
+alonzo_church,related_to_field,logic,Logic,entity,,Field,wikipedia,0.82
+alonzo_church,worked_at,princeton_university,Princeton University,entity,,Organization,wikipedia,0.85
+alonzo_church,worked_at,ucla,UCLA,entity,,Organization,wikipedia,0.85
+alonzo_church,has_birth_date,1903-06-14,1903-06-14,literal,date,,wikidata,0.98
+alonzo_church,has_death_date,1995-08-11,1995-08-11,literal,date,,wikidata,0.98
+alonzo_church,born_in,washington_d_c,"Washington, D.C.",entity,,Place,wikidata,0.98
+alonzo_church,died_in,hudson,Hudson,entity,,Place,wikidata,0.98
+alonzo_church,studied_at,harvard_university,Harvard University,entity,,Organization,wikidata,0.95
+alonzo_church,studied_at,princeton_university,Princeton University,entity,,Organization,wikidata,0.95
+alonzo_church,studied_at,university_of_g_ttingen,University of Göttingen,entity,,Organization,wikidata,0.95
+alonzo_church,studied_at,university_of_amsterdam,University of Amsterdam,entity,,Organization,wikidata,0.95
+alonzo_church,worked_at,princeton_university,Princeton University,entity,,Organization,wikidata,0.95
+alonzo_church,worked_at,university_of_california_los_angeles,"University of California, Los Angeles",entity,,Organization,wikidata,0.95
+alonzo_church,related_to_field,mathematical_logic,mathematical logic,entity,,Field,wikidata,0.90
+alonzo_church,related_to_field,theoretical_computer_science,theoretical computer science,entity,,Field,wikidata,0.90
+alonzo_church,related_to_field,mathematics,mathematics,entity,,Field,wikidata,0.90
+alonzo_church,related_to_field,logic,logic,entity,,Field,wikidata,0.90
+alonzo_church,has_nationality,United States,United States,literal,string,,wikidata,0.92
+bletchley_park,has_alias,Station X,Station X,literal,string,,wikidata,0.95
+bletchley_park,has_year,1877,1877,literal,gYear,,wikidata,0.90
+princeton_university,has_alias,College of New Jersey,College of New Jersey,literal,string,,wikidata,0.95
+princeton_university,has_alias,Princeton,Princeton,literal,string,,wikidata,0.95
+princeton_university,has_alias,Princeton College,Princeton College,literal,string,,wikidata,0.95
+princeton_university,has_alias,princeton.edu,princeton.edu,literal,string,,wikidata,0.95
+princeton_university,has_alias,University of Princeton,University of Princeton,literal,string,,wikidata,0.95
+princeton_university,has_year,1746,1746,literal,gYear,,wikidata,0.90
+turing_machine,has_alias,deterministic Turing machine,deterministic Turing machine,literal,string,,wikidata,0.95
+turing_machine,has_year,1936,1936,literal,gYear,,wikidata,0.90
+alan_turing,proposed,turing_machine,Turing machine,entity,,Concept,wikidata,0.90
+turing_test,has_alias,imitation Game,imitation Game,literal,string,,wikidata,0.95
+alan_turing,proposed,turing_test,Turing test,entity,,Concept,wikidata,0.90
+alan_turing,authored,on_computable_numbers,"On Computable Numbers, with an Application to the Entscheidungsproblem",entity,,Work,wikidata,0.95
+on_computable_numbers,published_in,proceedings_of_the_london_mathematical_society,Proceedings of the London Mathematical Society,entity,,PublicationVenue,wikidata,0.90

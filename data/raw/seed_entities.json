@@ -1,0 +1,10 @@
+[
+  {"entity_id": "alan_turing", "label": "Alan Turing", "class_id": "Person", "wikipedia_title": "Alan Turing"},
+  {"entity_id": "joan_clarke", "label": "Joan Clarke", "class_id": "Person", "wikipedia_title": "Joan Clarke"},
+  {"entity_id": "alonzo_church", "label": "Alonzo Church", "class_id": "Person", "wikipedia_title": "Alonzo Church"},
+  {"entity_id": "bletchley_park", "label": "Bletchley Park", "class_id": "Organization", "wikipedia_title": "Bletchley Park"},
+  {"entity_id": "princeton_university", "label": "Princeton University", "class_id": "Organization", "wikipedia_title": "Princeton University"},
+  {"entity_id": "turing_machine", "label": "Turing machine", "class_id": "Concept", "wikipedia_title": "Turing machine"},
+  {"entity_id": "turing_test", "label": "Turing test", "class_id": "Concept", "wikipedia_title": "Turing test"},
+  {"entity_id": "on_computable_numbers", "label": "On Computable Numbers, with an Application to the Entscheidungsproblem", "class_id": "Work", "wikipedia_title": "On Computable Numbers"}
+]

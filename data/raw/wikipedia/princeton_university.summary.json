@@ -1,0 +1,53 @@
+{
+  "type": "standard",
+  "title": "Princeton University",
+  "displaytitle": "<span class=\"mw-page-title-main\">Princeton University</span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q21578",
+  "titles": {
+    "canonical": "Princeton_University",
+    "normalized": "Princeton University",
+    "display": "<span class=\"mw-page-title-main\">Princeton University</span>"
+  },
+  "pageid": 23922,
+  "thumbnail": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Princeton_seal.svg/330px-Princeton_seal.svg.png",
+    "width": 330,
+    "height": 420
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Princeton_seal.svg/330px-Princeton_seal.svg.png",
+    "width": 263,
+    "height": 335
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1346272668",
+  "tid": "7af4bb55-2c8f-11f1-9d41-fb1231e5b01f",
+  "timestamp": "2026-03-30T23:23:38Z",
+  "description": "Private university in Princeton, New Jersey, US",
+  "description_source": "local",
+  "coordinates": {
+    "lat": 40.34527778,
+    "lon": -74.65611111
+  },
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Princeton_University",
+      "revisions": "https://en.wikipedia.org/wiki/Princeton_University?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Princeton_University?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Princeton_University"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Princeton_University",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Princeton_University",
+      "edit": "https://en.wikipedia.org/wiki/Princeton_University?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Princeton_University"
+    }
+  },
+  "extract": "Princeton University is a private Ivy League research university in Princeton, New Jersey, United States. Founded in 1746 in Elizabeth as the College of New Jersey, Princeton is the fourth-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution. The institution moved to Newark in 1747 and then to its Mercer County campus in Princeton nine years later. It officially became a university in 1896 and was subsequently renamed Princeton University.",
+  "extract_html": "<p><b>Princeton University</b> is a private Ivy League research university in Princeton, New Jersey, United States. Founded in 1746 in Elizabeth as the <b>College of New Jersey</b>, Princeton is the fourth-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution. The institution moved to Newark in 1747 and then to its Mercer County campus in Princeton nine years later. It officially became a university in 1896 and was subsequently renamed Princeton University.</p>"
+}

@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Turing test",
+  "displaytitle": "<span class=\"mw-page-title-main\">Turing test</span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q189223",
+  "titles": {
+    "canonical": "Turing_test",
+    "normalized": "Turing test",
+    "display": "<span class=\"mw-page-title-main\">Turing test</span>"
+  },
+  "pageid": 21391751,
+  "thumbnail": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Turing_test_diagram.png/330px-Turing_test_diagram.png",
+    "width": 330,
+    "height": 252
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/5/55/Turing_test_diagram.png",
+    "width": 661,
+    "height": 504
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1346073501",
+  "tid": "617a44cf-2bab-11f1-a3a6-6ba9524f19d5",
+  "timestamp": "2026-03-29T20:10:50Z",
+  "description": "Test of a machine's ability to imitate human intelligence",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Turing_test",
+      "revisions": "https://en.wikipedia.org/wiki/Turing_test?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Turing_test?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Turing_test"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Turing_test",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Turing_test",
+      "edit": "https://en.wikipedia.org/wiki/Turing_test?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Turing_test"
+    }
+  },
+  "extract": "The Turing test, originally called the imitation game by Alan Turing in 1949, is a test of a machine's ability to exhibit intelligent behaviour equivalent to that of a human. In the test, a human evaluator judges a text transcript of a natural-language conversation between a human and a machine. The evaluator tries to identify the machine, and the machine passes if the evaluator cannot reliably tell them apart. The results would not depend on the machine's ability to answer questions correctly, only on how closely its answers resembled those of a human. Since the Turing test is a test of indistinguishability in performance capacity, the verbal version generalizes naturally to all of human performance capacity, verbal as well as nonverbal (robotic).",
+  "extract_html": "<p>The <b>Turing test</b>, originally called the <b>imitation game</b> by Alan Turing in 1949, is a test of a machine's ability to exhibit intelligent behaviour equivalent to that of a human. In the test, a human evaluator judges a text transcript of a natural-language conversation between a human and a machine. The evaluator tries to identify the machine, and the machine passes if the evaluator cannot reliably tell them apart. The results would not depend on the machine's ability to answer questions correctly, only on how closely its answers resembled those of a human. Since the Turing test is a test of indistinguishability in performance capacity, the verbal version generalizes naturally to all of human performance capacity, verbal as well as nonverbal (robotic).</p>"
+}

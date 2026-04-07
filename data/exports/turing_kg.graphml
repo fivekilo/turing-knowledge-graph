@@ -3,388 +3,548 @@
 <key id="d11" for="edge" attr.name="source" attr.type="string"/>
 <key id="d10" for="edge" attr.name="predicate_label" attr.type="string"/>
 <key id="d9" for="edge" attr.name="predicate" attr.type="string"/>
-<key id="d8" for="node" attr.name="has_year__values" attr.type="string"/>
-<key id="d7" for="node" attr.name="has_alias__values" attr.type="string"/>
-<key id="d6" for="node" attr.name="has_nationality__values" attr.type="string"/>
-<key id="d5" for="node" attr.name="has_death_date__values" attr.type="string"/>
-<key id="d4" for="node" attr.name="has_birth_date__values" attr.type="string"/>
+<key id="d8" for="node" attr.name="has_nationality__values" attr.type="string"/>
+<key id="d7" for="node" attr.name="has_death_date__values" attr.type="string"/>
+<key id="d6" for="node" attr.name="has_birth_date__values" attr.type="string"/>
+<key id="d5" for="node" attr.name="has_year__values" attr.type="string"/>
+<key id="d4" for="node" attr.name="has_alias__values" attr.type="string"/>
 <key id="d3" for="node" attr.name="source" attr.type="string"/>
 <key id="d2" for="node" attr.name="description" attr.type="string"/>
 <key id="d1" for="node" attr.name="class_id" attr.type="string"/>
 <key id="d0" for="node" attr.name="label" attr.type="string"/>
-<graph edgedefault="directed"><node id="alan_turing">
-  <data key="d0">Alan Turing</data>
-  <data key="d1">Person</data>
-  <data key="d2">英国数学家逻辑学家计算机科学奠基者</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-  <data key="d4">[{"value": "1912-06-23", "datatype": "date", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
-  <data key="d5">[{"value": "1954-06-07", "datatype": "date", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
-  <data key="d6">[{"value": "British", "datatype": "string", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
-  <data key="d7">[{"value": "艾伦·图灵", "datatype": "string", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
+<graph edgedefault="directed"><node id="turing_machine">
+  <data key="d0">Turing machine</data>
+  <data key="d1">Concept</data>
+  <data key="d2">A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, it is capable of implementing any computer algorithm.</data>
+  <data key="d3">wikipedia</data>
+  <data key="d4">[{"value": "deterministic Turing machine", "datatype": "string", "source": "wikidata", "confidence": "0.95"}]</data>
+  <data key="d5">[{"value": "1936", "datatype": "gYear", "source": "wikidata", "confidence": "0.90"}]</data>
 </node>
-<node id="joan_clarke">
-  <data key="d0">Joan Clarke</data>
-  <data key="d1">Person</data>
-  <data key="d2">英国密码分析学家二战期间在布莱切利园工作</data>
-  <data key="d3">课程PPT与百科常识整理</data>
+<node id="turing_test">
+  <data key="d0">Turing test</data>
+  <data key="d1">Concept</data>
+  <data key="d2">The Turing test, originally called the imitation game by Alan Turing in 1949, is a test of a machine's ability to exhibit intelligent behaviour equivalent to that of a human. In the test, a human evaluator judges a text transcript of a natural-language conversation between a human and a machine. The evaluator tries to identify the machine, and the machine passes if the evaluator cannot reliably tell them apart. The results would not depend on the machine's ability to answer questions correctly, only on how closely its answers resembled those of a human. Since the Turing test is a test of indistinguishability in performance capacity, the verbal version generalizes naturally to all of human performance capacity, verbal as well as nonverbal (robotic).</data>
+  <data key="d3">wikipedia</data>
+  <data key="d4">[{"value": "imitation Game", "datatype": "string", "source": "wikidata", "confidence": "0.95"}]</data>
 </node>
-<node id="alonzo_church">
-  <data key="d0">Alonzo Church</data>
-  <data key="d1">Person</data>
-  <data key="d2">逻辑学家图灵在普林斯顿期间的重要学术关联人物</data>
-  <data key="d3">课程PPT与百科常识整理</data>
+<node id="logic">
+  <data key="d0">Logic</data>
+  <data key="d1">Field</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata|wikipedia</data>
 </node>
-<node id="kings_college_cambridge">
-  <data key="d0">King's College Cambridge</data>
-  <data key="d1">Organization</data>
-  <data key="d2">图灵本科求学机构</data>
-  <data key="d3">课程PPT与百科常识整理</data>
+<node id="computer_science">
+  <data key="d0">computer science</data>
+  <data key="d1">Field</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata|wikipedia</data>
 </node>
-<node id="princeton_university">
-  <data key="d0">Princeton University</data>
-  <data key="d1">Organization</data>
-  <data key="d2">图灵攻读博士的大学</data>
-  <data key="d3">课程PPT与百科常识整理</data>
+<node id="cryptanalysis">
+  <data key="d0">cryptanalysis</data>
+  <data key="d1">Field</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata|wikipedia</data>
+</node>
+<node id="cryptography">
+  <data key="d0">cryptography</data>
+  <data key="d1">Field</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="mathematical_and_theoretical_biology">
+  <data key="d0">mathematical and theoretical biology</data>
+  <data key="d1">Field</data>
+  <data key="d2"></data>
+  <data key="d3">wikipedia</data>
+</node>
+<node id="mathematical_logic">
+  <data key="d0">mathematical logic</data>
+  <data key="d1">Field</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="mathematics">
+  <data key="d0">mathematics</data>
+  <data key="d1">Field</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata|wikipedia</data>
+</node>
+<node id="theoretical_computer_science">
+  <data key="d0">theoretical computer science</data>
+  <data key="d1">Field</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
 </node>
 <node id="bletchley_park">
   <data key="d0">Bletchley Park</data>
   <data key="d1">Organization</data>
-  <data key="d2">英国二战密码分析中心</data>
-  <data key="d3">课程PPT与百科常识整理</data>
+  <data key="d2">Bletchley Park is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&amp;CS), which regularly penetrated the secret communications of the Axis powers – most importantly the German Enigma and Lorenz ciphers. The GC&amp;CS team of codebreakers included John Tiltman, Dilwyn Knox, Alan Turing, Harry Golombek, Gordon Welchman, Hugh Alexander, Donald Michie, Bill Tutte and Stuart Milner-Barry.</data>
+  <data key="d3">wikipedia</data>
+  <data key="d4">[{"value": "Station X", "datatype": "string", "source": "wikidata", "confidence": "0.95"}]</data>
+  <data key="d5">[{"value": "1877", "datatype": "gYear", "source": "wikidata", "confidence": "0.90"}]</data>
+</node>
+<node id="dulwich_college">
+  <data key="d0">Dulwich College</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="government_code_and_cypher_school">
+  <data key="d0">Government Code and Cypher School</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikipedia</data>
+</node>
+<node id="government_communications_headquarters">
+  <data key="d0">Government Communications Headquarters</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="harvard_university">
+  <data key="d0">Harvard University</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="hazlehurst_community_primary_school">
+  <data key="d0">Hazlehurst Community Primary School</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="king_s_college">
+  <data key="d0">King's College</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
 </node>
 <node id="national_physical_laboratory">
   <data key="d0">National Physical Laboratory</data>
   <data key="d1">Organization</data>
-  <data key="d2">英国国家物理实验室</data>
-  <data key="d3">课程PPT与百科常识整理</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata|wikipedia</data>
+</node>
+<node id="newnham_college">
+  <data key="d0">Newnham College</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="princeton_university">
+  <data key="d0">Princeton University</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata|wikipedia</data>
+  <data key="d4">[{"value": "College of New Jersey", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Princeton", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Princeton College", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "University of Princeton", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "princeton.edu", "datatype": "string", "source": "wikidata", "confidence": "0.95"}]</data>
+  <data key="d5">[{"value": "1746", "datatype": "gYear", "source": "wikidata", "confidence": "0.90"}]</data>
+</node>
+<node id="sherborne_school">
+  <data key="d0">Sherborne School</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="ucla">
+  <data key="d0">UCLA</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikipedia</data>
+</node>
+<node id="university_of_amsterdam">
+  <data key="d0">University of Amsterdam</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="university_of_california_los_angeles">
+  <data key="d0">University of California, Los Angeles</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="university_of_cambridge">
+  <data key="d0">University of Cambridge</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="university_of_g_ttingen">
+  <data key="d0">University of Göttingen</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="university_of_manchester">
+  <data key="d0">University of Manchester</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikipedia</data>
+</node>
+<node id="victoria_university_of_manchester">
+  <data key="d0">Victoria University of Manchester</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="alan_turing">
+  <data key="d0">Alan Turing</data>
+  <data key="d1">Person</data>
+  <data key="d2">Alan Mathison Turing was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science.</data>
+  <data key="d3">wikidata|wikipedia</data>
+  <data key="d4">[{"value": "Alan M. Turing", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Alan Mathieson Turing", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Alan Mathison Turing", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Turing", "datatype": "string", "source": "wikidata", "confidence": "0.95"}]</data>
+  <data key="d6">[{"value": "1912-06-23", "datatype": "date", "source": "wikidata|wikipedia", "confidence": "0.98"}]</data>
+  <data key="d7">[{"value": "1954-06-07", "datatype": "date", "source": "wikidata|wikipedia", "confidence": "0.98"}]</data>
+  <data key="d8">[{"value": "United Kingdom", "datatype": "string", "source": "wikidata", "confidence": "0.92"}]</data>
+</node>
+<node id="alonzo_church">
+  <data key="d0">Alonzo Church</data>
+  <data key="d1">Person</data>
+  <data key="d2">Alonzo Church was an American computer scientist, mathematician, logician, and philosopher who made major contributions to mathematical logic and the foundations of theoretical computer science. He is best known for the lambda calculus, the Church–Turing thesis, proving the unsolvability of the Entscheidungsproblem, the Frege–Church ontology, and the Church–Rosser theorem. Alongside his doctoral student Alan Turing, Church is considered one of the founders of computer science.</data>
+  <data key="d3">wikipedia</data>
+  <data key="d6">[{"value": "1903-06-14", "datatype": "date", "source": "wikidata|wikipedia", "confidence": "0.98"}]</data>
+  <data key="d7">[{"value": "1995-08-11", "datatype": "date", "source": "wikidata|wikipedia", "confidence": "0.98"}]</data>
+  <data key="d8">[{"value": "United States", "datatype": "string", "source": "wikidata", "confidence": "0.92"}]</data>
+</node>
+<node id="joan_clarke">
+  <data key="d0">Joan Clarke</data>
+  <data key="d1">Person</data>
+  <data key="d2">Joan Elisabeth Lowther Murray, MBE was an English cryptanalyst and numismatist who worked as a code-breaker at Bletchley Park during the Second World War. Although she did not personally seek the spotlight, her role in the Enigma project that decrypted the German secret communications earned her awards and citations, such as appointment as a Member of the Order of the British Empire (MBE), in 1946.</data>
+  <data key="d3">wikipedia</data>
+  <data key="d4">[{"value": "Joan Clarke Murray", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Joan Elisabeth Lowther Clarke", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Joan Elisabeth Lowther Clarke Murray", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Joan Elisabeth Lowther Murray", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Joan Murray", "datatype": "string", "source": "wikidata", "confidence": "0.95"}]</data>
+  <data key="d6">[{"value": "1917-06-24", "datatype": "date", "source": "wikidata|wikipedia", "confidence": "0.98"}]</data>
+  <data key="d7">[{"value": "1996-09-04", "datatype": "date", "source": "wikidata|wikipedia", "confidence": "0.98"}]</data>
+  <data key="d8">[{"value": "United Kingdom", "datatype": "string", "source": "wikidata", "confidence": "0.92"}, {"value": "United Kingdom of Great Britain and Ireland", "datatype": "string", "source": "wikidata", "confidence": "0.92"}]</data>
+</node>
+<node id="headington">
+  <data key="d0">Headington</data>
+  <data key="d1">Place</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata|wikipedia</data>
+</node>
+<node id="hudson">
+  <data key="d0">Hudson</data>
+  <data key="d1">Place</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="hudson_ohio">
+  <data key="d0">Hudson, Ohio</data>
+  <data key="d1">Place</data>
+  <data key="d2"></data>
+  <data key="d3">wikipedia</data>
 </node>
 <node id="maida_vale">
   <data key="d0">Maida Vale</data>
   <data key="d1">Place</data>
-  <data key="d2">图灵出生地位于伦敦</data>
-  <data key="d3">课程PPT与百科常识整理</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata|wikipedia</data>
+</node>
+<node id="warrington_lodge">
+  <data key="d0">Warrington Lodge</data>
+  <data key="d1">Place</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="washington_d_c">
+  <data key="d0">Washington, D.C.</data>
+  <data key="d1">Place</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata|wikipedia</data>
+</node>
+<node id="west_norwood">
+  <data key="d0">West Norwood</data>
+  <data key="d1">Place</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
+</node>
+<node id="west_norwood_london">
+  <data key="d0">West Norwood, London</data>
+  <data key="d1">Place</data>
+  <data key="d2"></data>
+  <data key="d3">wikipedia</data>
 </node>
 <node id="wilmslow">
   <data key="d0">Wilmslow</data>
   <data key="d1">Place</data>
-  <data key="d2">图灵逝世地</data>
-  <data key="d3">课程PPT与百科常识整理</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata|wikipedia</data>
 </node>
-<node id="cambridge">
-  <data key="d0">Cambridge</data>
-  <data key="d1">Place</data>
-  <data key="d2">剑桥大学所在地</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-</node>
-<node id="princeton">
-  <data key="d0">Princeton</data>
-  <data key="d1">Place</data>
-  <data key="d2">普林斯顿大学所在地</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-</node>
-<node id="bletchley">
-  <data key="d0">Bletchley</data>
-  <data key="d1">Place</data>
-  <data key="d2">布莱切利园所在地</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-</node>
-<node id="london">
-  <data key="d0">London</data>
-  <data key="d1">Place</data>
-  <data key="d2">英国首都</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-</node>
-<node id="on_computable_numbers">
-  <data key="d0">On Computable Numbers</data>
-  <data key="d1">Work</data>
-  <data key="d2">1936 年发表的经典论文</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-  <data key="d8">[{"value": "1936", "datatype": "gYear", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
-</node>
-<node id="computing_machinery_and_intelligence">
-  <data key="d0">Computing Machinery and Intelligence</data>
-  <data key="d1">Work</data>
-  <data key="d2">1950 年提出图灵测试的重要论文</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-  <data key="d8">[{"value": "1950", "datatype": "gYear", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
-</node>
-<node id="proceedings_lms">
+<node id="proceedings_of_the_london_mathematical_society">
   <data key="d0">Proceedings of the London Mathematical Society</data>
   <data key="d1">PublicationVenue</data>
-  <data key="d2">图灵论文发表期刊之一</data>
-  <data key="d3">课程PPT与百科常识整理</data>
+  <data key="d2"></data>
+  <data key="d3">wikidata</data>
 </node>
-<node id="mind_journal">
-  <data key="d0">Mind</data>
-  <data key="d1">PublicationVenue</data>
-  <data key="d2">图灵测试论文发表期刊</data>
-  <data key="d3">课程PPT与百科常识整理</data>
+<node id="on_computable_numbers">
+  <data key="d0">On Computable Numbers, with an Application to the Entscheidungsproblem</data>
+  <data key="d1">Work</data>
+  <data key="d2">Turing's proof is a proof by Alan Turing, first published in November 1936 with the title "On Computable Numbers, with an Application to the Entscheidungsproblem". It was the second proof of the negation of Hilbert's Entscheidungsproblem; that is, the conjecture that some purely mathematical yes–no questions can never be answered by computation; more technically, that some decision problems are "undecidable" in the sense that there is no single algorithm that infallibly gives a correct "yes" or "no" answer to each instance of the problem. In Turing's own words:
+"what I shall prove is quite different from the well-known results of Gödel ... I shall now show that there is no general method which tells whether a given formula U is provable in K [Principia Mathematica]".</data>
+  <data key="d3">wikipedia</data>
 </node>
-<node id="turing_machine">
-  <data key="d0">Turing Machine</data>
-  <data key="d1">Concept</data>
-  <data key="d2">可计算性理论中的核心概念</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-  <data key="d8">[{"value": "1936", "datatype": "gYear", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
-</node>
-<node id="turing_test">
-  <data key="d0">Turing Test</data>
-  <data key="d1">Concept</data>
-  <data key="d2">人工智能领域经典测试思想</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-  <data key="d8">[{"value": "1950", "datatype": "gYear", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
-</node>
-<node id="church_turing_thesis">
-  <data key="d0">Church-Turing Thesis</data>
-  <data key="d1">Concept</data>
-  <data key="d2">可计算性理论中的关键思想</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-</node>
-<node id="automatic_computing_engine">
-  <data key="d0">Automatic Computing Engine</data>
-  <data key="d1">Machine</data>
-  <data key="d2">ACE 计算机设计方案</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-  <data key="d7">[{"value": "ACE", "datatype": "string", "source": "课程PPT与百科常识整理", "confidence": "1.0"}]</data>
-</node>
-<node id="bombe_machine">
-  <data key="d0">Bombe</data>
-  <data key="d1">Machine</data>
-  <data key="d2">用于辅助破译恩尼格玛的设备</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-</node>
-<node id="enigma_machine">
-  <data key="d0">Enigma Machine</data>
-  <data key="d1">Machine</data>
-  <data key="d2">德国使用的密码机</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-</node>
-<node id="allied_codebreaking">
-  <data key="d0">Allied Codebreaking</data>
-  <data key="d1">Event</data>
-  <data key="d2">二战期间盟军密码破译项目</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-</node>
-<node id="computer_science">
-  <data key="d0">Computer Science</data>
-  <data key="d1">Field</data>
-  <data key="d2">计算机科学</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-</node>
-<node id="artificial_intelligence">
-  <data key="d0">Artificial Intelligence</data>
-  <data key="d1">Field</data>
-  <data key="d2">人工智能</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-</node>
-<node id="cryptanalysis">
-  <data key="d0">Cryptanalysis</data>
-  <data key="d1">Field</data>
-  <data key="d2">密码分析</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-</node>
-<node id="mathematical_logic">
-  <data key="d0">Mathematical Logic</data>
-  <data key="d1">Field</data>
-  <data key="d2">数理逻辑</data>
-  <data key="d3">课程PPT与百科常识整理</data>
-</node>
+<edge source="alan_turing" target="on_computable_numbers">
+  <data key="d9">authored</data>
+  <data key="d10">撰写</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
 <edge source="alan_turing" target="maida_vale">
   <data key="d9">born_in</data>
   <data key="d10">出生于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
+  <data key="d11">wikidata|wikipedia</data>
+  <data key="d12">0.98</data>
+</edge>
+<edge source="alan_turing" target="warrington_lodge">
+  <data key="d9">born_in</data>
+  <data key="d10">出生于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.98</data>
 </edge>
 <edge source="alan_turing" target="wilmslow">
   <data key="d9">died_in</data>
   <data key="d10">逝世于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="alan_turing" target="kings_college_cambridge">
-  <data key="d9">studied_at</data>
-  <data key="d10">就读于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="alan_turing" target="princeton_university">
-  <data key="d9">studied_at</data>
-  <data key="d10">就读于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="alan_turing" target="bletchley_park">
-  <data key="d9">worked_at</data>
-  <data key="d10">工作于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="alan_turing" target="national_physical_laboratory">
-  <data key="d9">worked_at</data>
-  <data key="d10">工作于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="alan_turing" target="joan_clarke">
-  <data key="d9">collaborated_with</data>
-  <data key="d10">合作于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">0.8</data>
-</edge>
-<edge source="alan_turing" target="alonzo_church">
-  <data key="d9">collaborated_with</data>
-  <data key="d10">合作于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">0.9</data>
-</edge>
-<edge source="alan_turing" target="on_computable_numbers">
-  <data key="d9">authored</data>
-  <data key="d10">撰写</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="alan_turing" target="computing_machinery_and_intelligence">
-  <data key="d9">authored</data>
-  <data key="d10">撰写</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
+  <data key="d11">wikidata|wikipedia</data>
+  <data key="d12">0.98</data>
 </edge>
 <edge source="alan_turing" target="turing_machine">
   <data key="d9">proposed</data>
   <data key="d10">提出</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.90</data>
 </edge>
 <edge source="alan_turing" target="turing_test">
   <data key="d9">proposed</data>
   <data key="d10">提出</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.90</data>
 </edge>
-<edge source="alan_turing" target="automatic_computing_engine">
-  <data key="d9">designed</data>
-  <data key="d10">设计</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
+<edge source="alan_turing" target="computer_science">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">wikidata|wikipedia</data>
+  <data key="d12">0.90</data>
 </edge>
-<edge source="alan_turing" target="bombe_machine">
-  <data key="d9">designed</data>
-  <data key="d10">设计</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">0.9</data>
+<edge source="alan_turing" target="cryptanalysis">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">wikidata|wikipedia</data>
+  <data key="d12">0.90</data>
 </edge>
-<edge source="alan_turing" target="allied_codebreaking">
-  <data key="d9">contributed_to</data>
-  <data key="d10">贡献于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
+<edge source="alan_turing" target="cryptography">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.90</data>
 </edge>
-<edge source="kings_college_cambridge" target="cambridge">
-  <data key="d9">located_in</data>
-  <data key="d10">位于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
+<edge source="alan_turing" target="logic">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">wikidata|wikipedia</data>
+  <data key="d12">0.90</data>
 </edge>
-<edge source="princeton_university" target="princeton">
-  <data key="d9">located_in</data>
-  <data key="d10">位于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
+<edge source="alan_turing" target="mathematical_and_theoretical_biology">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">wikipedia</data>
+  <data key="d12">0.82</data>
 </edge>
-<edge source="bletchley_park" target="bletchley">
-  <data key="d9">located_in</data>
-  <data key="d10">位于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
+<edge source="alan_turing" target="mathematics">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">wikidata|wikipedia</data>
+  <data key="d12">0.90</data>
 </edge>
-<edge source="national_physical_laboratory" target="london">
-  <data key="d9">located_in</data>
-  <data key="d10">位于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
+<edge source="alan_turing" target="hazlehurst_community_primary_school">
+  <data key="d9">studied_at</data>
+  <data key="d10">就读于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
 </edge>
-<edge source="on_computable_numbers" target="proceedings_lms">
+<edge source="alan_turing" target="king_s_college">
+  <data key="d9">studied_at</data>
+  <data key="d10">就读于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="alan_turing" target="princeton_university">
+  <data key="d9">studied_at</data>
+  <data key="d10">就读于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="alan_turing" target="sherborne_school">
+  <data key="d9">studied_at</data>
+  <data key="d10">就读于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="alan_turing" target="government_code_and_cypher_school">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">wikipedia</data>
+  <data key="d12">0.85</data>
+</edge>
+<edge source="alan_turing" target="government_communications_headquarters">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="alan_turing" target="national_physical_laboratory">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">wikidata|wikipedia</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="alan_turing" target="university_of_cambridge">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="alan_turing" target="university_of_manchester">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">wikipedia</data>
+  <data key="d12">0.85</data>
+</edge>
+<edge source="alan_turing" target="victoria_university_of_manchester">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="alonzo_church" target="washington_d_c">
+  <data key="d9">born_in</data>
+  <data key="d10">出生于</data>
+  <data key="d11">wikidata|wikipedia</data>
+  <data key="d12">0.98</data>
+</edge>
+<edge source="alonzo_church" target="hudson">
+  <data key="d9">died_in</data>
+  <data key="d10">逝世于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.98</data>
+</edge>
+<edge source="alonzo_church" target="hudson_ohio">
+  <data key="d9">died_in</data>
+  <data key="d10">逝世于</data>
+  <data key="d11">wikipedia</data>
+  <data key="d12">0.88</data>
+</edge>
+<edge source="alonzo_church" target="computer_science">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">wikipedia</data>
+  <data key="d12">0.82</data>
+</edge>
+<edge source="alonzo_church" target="logic">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">wikidata|wikipedia</data>
+  <data key="d12">0.90</data>
+</edge>
+<edge source="alonzo_church" target="mathematical_logic">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.90</data>
+</edge>
+<edge source="alonzo_church" target="mathematics">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">wikidata|wikipedia</data>
+  <data key="d12">0.90</data>
+</edge>
+<edge source="alonzo_church" target="theoretical_computer_science">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.90</data>
+</edge>
+<edge source="alonzo_church" target="harvard_university">
+  <data key="d9">studied_at</data>
+  <data key="d10">就读于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="alonzo_church" target="princeton_university">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">wikidata|wikipedia</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="alonzo_church" target="university_of_amsterdam">
+  <data key="d9">studied_at</data>
+  <data key="d10">就读于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="alonzo_church" target="university_of_g_ttingen">
+  <data key="d9">studied_at</data>
+  <data key="d10">就读于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="alonzo_church" target="ucla">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">wikipedia</data>
+  <data key="d12">0.85</data>
+</edge>
+<edge source="alonzo_church" target="university_of_california_los_angeles">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="joan_clarke" target="west_norwood">
+  <data key="d9">born_in</data>
+  <data key="d10">出生于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.98</data>
+</edge>
+<edge source="joan_clarke" target="west_norwood_london">
+  <data key="d9">born_in</data>
+  <data key="d10">出生于</data>
+  <data key="d11">wikipedia</data>
+  <data key="d12">0.88</data>
+</edge>
+<edge source="joan_clarke" target="headington">
+  <data key="d9">died_in</data>
+  <data key="d10">逝世于</data>
+  <data key="d11">wikidata|wikipedia</data>
+  <data key="d12">0.98</data>
+</edge>
+<edge source="joan_clarke" target="cryptography">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.90</data>
+</edge>
+<edge source="joan_clarke" target="dulwich_college">
+  <data key="d9">studied_at</data>
+  <data key="d10">就读于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="joan_clarke" target="newnham_college">
+  <data key="d9">studied_at</data>
+  <data key="d10">就读于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="joan_clarke" target="government_communications_headquarters">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.95</data>
+</edge>
+<edge source="on_computable_numbers" target="proceedings_of_the_london_mathematical_society">
   <data key="d9">published_in</data>
   <data key="d10">发表于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="on_computable_numbers" target="computer_science">
-  <data key="d9">related_to_field</data>
-  <data key="d10">相关领域</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="on_computable_numbers" target="mathematical_logic">
-  <data key="d9">related_to_field</data>
-  <data key="d10">相关领域</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="computing_machinery_and_intelligence" target="mind_journal">
-  <data key="d9">published_in</data>
-  <data key="d10">发表于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="computing_machinery_and_intelligence" target="artificial_intelligence">
-  <data key="d9">related_to_field</data>
-  <data key="d10">相关领域</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="turing_machine" target="computer_science">
-  <data key="d9">foundation_of</data>
-  <data key="d10">奠定基础</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="turing_test" target="artificial_intelligence">
-  <data key="d9">foundation_of</data>
-  <data key="d10">奠定基础</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="church_turing_thesis" target="computer_science">
-  <data key="d9">related_to_field</data>
-  <data key="d10">相关领域</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">0.8</data>
-</edge>
-<edge source="church_turing_thesis" target="mathematical_logic">
-  <data key="d9">related_to_field</data>
-  <data key="d10">相关领域</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">0.8</data>
-</edge>
-<edge source="automatic_computing_engine" target="computer_science">
-  <data key="d9">related_to_field</data>
-  <data key="d10">相关领域</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="bombe_machine" target="cryptanalysis">
-  <data key="d9">related_to_field</data>
-  <data key="d10">相关领域</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
-</edge>
-<edge source="allied_codebreaking" target="bletchley_park">
-  <data key="d9">occurred_at</data>
-  <data key="d10">发生于</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">0.9</data>
-</edge>
-<edge source="allied_codebreaking" target="enigma_machine">
-  <data key="d9">targeted_machine</data>
-  <data key="d10">目标机器</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">0.9</data>
-</edge>
-<edge source="allied_codebreaking" target="cryptanalysis">
-  <data key="d9">related_to_field</data>
-  <data key="d10">相关领域</data>
-  <data key="d11">课程PPT与百科常识整理</data>
-  <data key="d12">1.0</data>
+  <data key="d11">wikidata</data>
+  <data key="d12">0.90</data>
 </edge>
 </graph></graphml>

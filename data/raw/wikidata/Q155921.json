@@ -1,0 +1,3219 @@
+{
+  "entities": {
+    "Q155921": {
+      "pageid": 157083,
+      "ns": 0,
+      "title": "Q155921",
+      "lastrevid": 2456063523,
+      "modified": "2026-01-19T09:46:52Z",
+      "type": "item",
+      "id": "Q155921",
+      "labels": {
+        "pt": {
+          "language": "pt",
+          "value": "Bletchley Park"
+        },
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "布莱切利园"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "布萊切利園"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "布萊切利園"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "布莱切利园"
+        },
+        "zh-sg": {
+          "language": "zh-sg",
+          "value": "布莱切利园"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "布萊切利園"
+        },
+        "pl": {
+          "language": "pl",
+          "value": "Bletchley Park"
+        },
+        "ru": {
+          "language": "ru",
+          "value": "Блетчли-парк"
+        },
+        "fr": {
+          "language": "fr",
+          "value": "Bletchley Park"
+        },
+        "he": {
+          "language": "he",
+          "value": "בלצ'לי פארק"
+        },
+        "en": {
+          "language": "en",
+          "value": "Bletchley Park"
+        },
+        "es": {
+          "language": "es",
+          "value": "Bletchley Park"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Bletchley Park"
+        },
+        "ro": {
+          "language": "ro",
+          "value": "Bletchley Park"
+        },
+        "ca": {
+          "language": "ca",
+          "value": "Bletchley Park"
+        },
+        "hu": {
+          "language": "hu",
+          "value": "Bletchley Park Múzeum"
+        },
+        "fi": {
+          "language": "fi",
+          "value": "Bletchley Park"
+        },
+        "it": {
+          "language": "it",
+          "value": "Bletchley Park"
+        },
+        "cy": {
+          "language": "cy",
+          "value": "Parc Bletchley"
+        },
+        "de": {
+          "language": "de",
+          "value": "Bletchley Park"
+        },
+        "ja": {
+          "language": "ja",
+          "value": "ブレッチリー・パーク"
+        },
+        "el": {
+          "language": "el",
+          "value": "Μπλέτσλεϊ Παρκ"
+        },
+        "sv": {
+          "language": "sv",
+          "value": "Bletchley Park"
+        },
+        "ar": {
+          "language": "ar",
+          "value": "حديقة بلتشلي"
+        },
+        "nl": {
+          "language": "nl",
+          "value": "Bletchley Park"
+        },
+        "da": {
+          "language": "da",
+          "value": "Bletchley Park"
+        },
+        "nb": {
+          "language": "nb",
+          "value": "Bletchley Park"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "布萊切利園"
+        },
+        "ko": {
+          "language": "ko",
+          "value": "블레츨리 파크"
+        },
+        "uk": {
+          "language": "uk",
+          "value": "Блечлі-Парк"
+        },
+        "bg": {
+          "language": "bg",
+          "value": "Блечли Парк"
+        },
+        "hy": {
+          "language": "hy",
+          "value": "Բլեթչլի Փարկ"
+        },
+        "et": {
+          "language": "et",
+          "value": "Bletchley Park"
+        },
+        "ceb": {
+          "language": "ceb",
+          "value": "Bletchley Park"
+        },
+        "cs": {
+          "language": "cs",
+          "value": "Bletchley Park"
+        },
+        "myv": {
+          "language": "myv",
+          "value": "Блитчли Парк"
+        },
+        "af": {
+          "language": "af",
+          "value": "Bletchley Park"
+        },
+        "ckb": {
+          "language": "ckb",
+          "value": "بلێچلی پارک"
+        },
+        "sr": {
+          "language": "sr",
+          "value": "Blečli Park"
+        },
+        "fa": {
+          "language": "fa",
+          "value": "بلچلی پارک"
+        }
+      },
+      "descriptions": {
+        "de": {
+          "language": "de",
+          "value": "Landsitz in der englischen Stadt Bletchley"
+        },
+        "nl": {
+          "language": "nl",
+          "value": "museum in Bletchley, het Verenigd Koninkrijk"
+        },
+        "hu": {
+          "language": "hu",
+          "value": "brit második világháborús múzeum"
+        },
+        "en-gb": {
+          "language": "en-gb",
+          "value": "park in the United Kingdom"
+        },
+        "en": {
+          "language": "en",
+          "value": "WWII code-breaking site and British country house, and museum, United Kingdom"
+        },
+        "ar": {
+          "language": "ar",
+          "value": "متنزه في المملكة المتحدة"
+        },
+        "en-ca": {
+          "language": "en-ca",
+          "value": "park in the United Kingdom"
+        },
+        "cs": {
+          "language": "cs",
+          "value": "panské sídlo ležící poblíž města Milton Keynes"
+        },
+        "cy": {
+          "language": "cy",
+          "value": "atyniad twristaidd yn Lloegr"
+        },
+        "ru": {
+          "language": "ru",
+          "value": "особняк, расположенный в Блетчли (в городе Милтон Кинс) в графстве Бакингемшир в центре Англии"
+        },
+        "ca": {
+          "language": "ca",
+          "value": "Seu de descodificació de missatges enemics durant la Segona Guerra Mundial"
+        },
+        "fr": {
+          "language": "fr",
+          "value": "domaine de la ville Bletchley (ancien site de décryptage)"
+        },
+        "af": {
+          "language": "af",
+          "value": "Engelse herehuis en landgoed"
+        },
+        "pt": {
+          "language": "pt",
+          "value": "Local de quebra de código da Segunda Guerra Mundial e casa de campo britânica"
+        },
+        "ja": {
+          "language": "ja",
+          "value": "イングランドの公園"
+        },
+        "he": {
+          "language": "he",
+          "value": "א אחוזה בעיירה בלצ'לי שבאנגליה"
+        },
+        "es": {
+          "language": "es",
+          "value": "oficina del MI6 para descifrar mensajes durante la Segunda Guerra Mundial"
+        },
+        "ko": {
+          "language": "ko",
+          "value": "제 2차 세계 대전 때의 암호 해독 기관이자 영국의 컨트리 하우스, 박물관"
+        }
+      },
+      "aliases": {
+        "zh": [
+          {
+            "language": "zh",
+            "value": "布萊切利公園"
+          },
+          {
+            "language": "zh",
+            "value": "布莱切利园"
+          },
+          {
+            "language": "zh",
+            "value": "布莱切利公园"
+          }
+        ],
+        "ru": [
+          {
+            "language": "ru",
+            "value": "Bletchley Park"
+          },
+          {
+            "language": "ru",
+            "value": "Блетчли Парк"
+          }
+        ],
+        "he": [
+          {
+            "language": "he",
+            "value": "צריף 6"
+          },
+          {
+            "language": "he",
+            "value": "צריף 8"
+          },
+          {
+            "language": "he",
+            "value": "פארק בלצ'לי"
+          }
+        ],
+        "it": [
+          {
+            "language": "it",
+            "value": "Stazione X"
+          }
+        ],
+        "ja": [
+          {
+            "language": "ja",
+            "value": "ブレッチリー公園"
+          },
+          {
+            "language": "ja",
+            "value": "ブレッチレイ・パーク"
+          },
+          {
+            "language": "ja",
+            "value": "ブレッチレー・パーク"
+          },
+          {
+            "language": "ja",
+            "value": "ブレッチリーパーク"
+          },
+          {
+            "language": "ja",
+            "value": "ブレッチレイパーク"
+          },
+          {
+            "language": "ja",
+            "value": "ブレッチレーパーク"
+          },
+          {
+            "language": "ja",
+            "value": "ステーションX"
+          }
+        ],
+        "nl": [
+          {
+            "language": "nl",
+            "value": "Station X"
+          }
+        ],
+        "de": [
+          {
+            "language": "de",
+            "value": "GC&CS"
+          },
+          {
+            "language": "de",
+            "value": "Government Code and Cypher School"
+          },
+          {
+            "language": "de",
+            "value": "Station X"
+          }
+        ],
+        "cy": [
+          {
+            "language": "cy",
+            "value": "Station X"
+          }
+        ],
+        "sv": [
+          {
+            "language": "sv",
+            "value": "Bletchley Park (park i Storbritannien)"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "Station X"
+          }
+        ],
+        "fr": [
+          {
+            "language": "fr",
+            "value": "Station X"
+          }
+        ]
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "7d8320b5341b1a27349494a72c2c9c040d421017",
+              "datavalue": {
+                "value": "Bletchley Park",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q155921$E06DAFE4-3C94-45FE-B413-2560F127F3FA",
+            "rank": "normal"
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "2563c58e8374788a283e5ab3f447cc5214eedfac",
+              "datavalue": {
+                "value": {
+                  "latitude": 51.99805555555555,
+                  "longitude": -0.7411111111111112,
+                  "altitude": null,
+                  "precision": 0.0002777777777777778,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "Q155921$2C684A06-9767-4B03-A04F-13D022BCA989",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q155921$2E2234F1-4AF5-40CE-BFCD-1438F7E8CB70",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              },
+              {
+                "hash": "96ae24d7cbdd3ef470b080661ad362444497c20a",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "241924c0380fdc85c1af9bd53562d9313ddce90e",
+                      "datavalue": {
+                        "value": "https://vocaleyes.co.uk/research/heritage-access-2022/benchmark/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "05eb7264c1411a9b348b772c525ed280d785d3fe",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-02-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "a6961fce60289729f30dfeda7c2f5174c84b7116",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7879032,
+                  "id": "Q7879032"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q155921$B5FA080B-DBF1-428E-A6CE-272CE16F7141",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "d6b755aa4e026377de6a85323a1fc619fe11c389",
+              "datavalue": {
+                "value": "4358149-3",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$B7CC738F-9DC7-4C0D-9ECD-31D18A10EAC3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P214": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P214",
+              "hash": "e5d639abb07ce1d77900ff96e4ff5adadada4216",
+              "datavalue": {
+                "value": "221287859",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$6376872F-9331-4F39-8DA7-D4F0D8DE5B5E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "008a83bc69f21f0476ba884dddc02e0c18246d5b",
+              "datavalue": {
+                "value": "/m/019t6",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$71B60069-5FD0-4074-B963-838127D22E08",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "b50871bddbedd95a70e0ffcac81471fc8a898b40",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2087181,
+                  "id": "Q2087181"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q155921$7F45A36F-7C9B-4056-9429-7A4BE8694C68",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "dc21f349eba10d393a8a2fa67ea72d03af7dbb7b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1343246,
+                  "id": "Q1343246"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q155921$F1BCA50A-8F88-412C-A597-B94158893F5F",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "c2657efc2ac59d6fc840e8183d479a754c6d1090",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2772772,
+                  "id": "Q2772772"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q155921$BEA3D664-ACD6-41F3-9DF7-ACD35443BDE3",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "acd295a6dc52036dea8eb0527f179013bbd07906",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 570116,
+                  "id": "Q570116"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q155921$06ae095d-4884-80c9-b1b2-6d115ec1b624",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "5d13d8b76cc4686d4f5afe33dcecd87096e6de32",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 115154402,
+                  "id": "Q115154402"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q155921$9E035254-353C-4E80-859B-73177C140206",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "071b9e1d58b0cbcfb66e9f20139cf4e01c1f1924",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "241924c0380fdc85c1af9bd53562d9313ddce90e",
+                      "datavalue": {
+                        "value": "https://vocaleyes.co.uk/research/heritage-access-2022/benchmark/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "8922e76de82a30a4a03eec8a8f1e30211812e075",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-02-08T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "c014a1349077d9695883e2c1c24b744b7b1ac0ca",
+              "datavalue": {
+                "value": "https://www.bletchleypark.org.uk/",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P813": [
+                {
+                  "snaktype": "value",
+                  "property": "P813",
+                  "hash": "8d10236af6b1c3c009afea30340df530e9734bd5",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2016-03-12T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P813",
+              "P407"
+            ],
+            "id": "Q155921$fc6ebcfd-4599-bc5e-5e20-c27efa44d8c3",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "a82273a38b2f21dab38e7be1b1433643e67ebcb6",
+              "datavalue": {
+                "value": "https://bletchleypark.org.uk/",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407"
+            ],
+            "id": "Q155921$FD773EAF-1364-4395-8FED-F50365BF30F8",
+            "rank": "preferred",
+            "references": [
+              {
+                "hash": "9d756259280be42b8baca3d18a614be221177698",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "65794016f531a42153e4f3474d4448565600f799",
+                      "datavalue": {
+                        "value": "https://bletchleypark.org.uk/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "6cf93c260efc4750302adf12a92b32eefd6d75f5",
+                      "datavalue": {
+                        "value": {
+                          "text": "Bletchley Park | Home",
+                          "language": "en-gb"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "b81c9cf478d35a8e56a49699bdde9cb5c6fd56b2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-12-16T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "c0d61aa396d4229d9fdfc1f40dec2db743d8e5f0",
+              "datavalue": {
+                "value": {
+                  "time": "+1877-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q155921$0FD7661E-8F3A-4120-B885-40C1BF4FAFA1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "44621daf3309e0c69c3bb79dc8527535c36b3823",
+              "datavalue": {
+                "value": "Bletchley Park Mansion.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q155921$72BAE302-55CB-4B49-B097-77F0CA253D9B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "66f5a5109a566356fc6aabbfd9780729baba9518",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 204234,
+                  "id": "Q204234"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q155921$85ED7A44-AE8A-47B4-81CF-BC90F5D71373",
+            "rank": "normal"
+          }
+        ],
+        "P935": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P935",
+              "hash": "760667006adbd7437b4309f6930a1bb72c7ed829",
+              "datavalue": {
+                "value": "Bletchley Park",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q155921$C860C3EB-16FB-4B6D-9D76-E7B3CB68AFC6",
+            "rank": "normal"
+          }
+        ],
+        "P1602": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1602",
+              "hash": "25a7de35decd097a7543df317b0108f480c8c488",
+              "datavalue": {
+                "value": "the-mansion-bletchley-park-3770",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$63F91795-FEDA-41AD-B723-55C1DAE28A9F",
+            "rank": "normal"
+          }
+        ],
+        "P1619": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1619",
+              "hash": "c49488cfe67fccc2ae69b02d69557e8bee2600da",
+              "datavalue": {
+                "value": {
+                  "time": "+1938-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q155921$B2B18FA4-1578-4E13-8756-226F1EC5AA2E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11920,
+                          "id": "Q11920"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "88e2d8a224dd976dbdefd1ec802115c0b83b8506",
+              "datavalue": {
+                "value": "Bletchley-Park",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$411DFF9D-E996-4FBC-A657-3A0D17B390DE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 51711,
+                          "id": "Q51711"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1566": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1566",
+              "hash": "106208b47b4c3b1979c894253dff6b46491d2c6c",
+              "datavalue": {
+                "value": "8468728",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$794F9799-1012-4FE0-89B1-1CC7A0E3764B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "bd49d3e4f67bc460ce7a06b6ac3027347cf5ee55",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e84b0343e79e2a9aa8abadd7301051e15fba52d6",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 169514,
+                          "id": "Q169514"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3642": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3642",
+              "hash": "19e56435fd4e8b9cf8390f17d1753bc7ecfd13c5",
+              "datavalue": {
+                "value": "2767",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "ee678d46cca15051a619dcf343840c7884af2cea",
+                  "datavalue": {
+                    "value": "Bletchley Park Trust",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q155921$1686F6E9-DD5F-496B-B8D4-FDC357D428D8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b0d445d190d30448d93858a87e1c056007d2493d",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "6bc69dcb7b2c41fb7e2c86608be36afb272b9849",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-06-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "8a0b16a5b924a8dd5c23e123f9bdc42f5f9bf658",
+              "datavalue": {
+                "value": "place/Bletchley-Park",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a92fe0bd9d413a7f9f75e8e4fce75cee3a8b2bb7",
+                  "datavalue": {
+                    "value": "Bletchley Park",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P2093": [
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "08a70cf7df7f4031933f5d0db0f7cc4761df3def",
+                  "datavalue": {
+                    "value": "Robert Lewis",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P2093"
+            ],
+            "id": "Q155921$6BC6A5D6-C27D-40FD-B200-1142C0F6B0AC",
+            "rank": "normal"
+          }
+        ],
+        "P4527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4527",
+              "hash": "d7a92f01507a3f0db50853ce206ceb4d5424bcd5",
+              "datavalue": {
+                "value": "433416",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a92fe0bd9d413a7f9f75e8e4fce75cee3a8b2bb7",
+                  "datavalue": {
+                    "value": "Bletchley Park",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q155921$DDC0DBAC-39AE-4658-B8AA-3B29354DD487",
+            "rank": "normal"
+          }
+        ],
+        "P1705": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1705",
+              "hash": "09023e41ca0033f476eeb7c19178aa4f0fed2895",
+              "datavalue": {
+                "value": {
+                  "text": "Bletchley Park",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q155921$723ab9f9-4a0e-0273-9958-e3e9939be3c1",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "621f1ee6fc9e0564c1568a5340fd889caec5b156",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 56613012,
+                  "id": "Q56613012"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q155921$551E3695-A10E-43DC-B7AA-8DBC798040CC",
+            "rank": "normal"
+          }
+        ],
+        "P4702": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4702",
+              "hash": "4fa4cfbcedfe91a4a9b6fa267db8d77ee2c0b9bb",
+              "datavalue": {
+                "value": "bletchley-park",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$642AEFF0-98EE-4465-80D6-B5C77C3F9799",
+            "rank": "normal"
+          }
+        ],
+        "P3134": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3134",
+              "hash": "894cdd9c67bd2c4fff4c4639b3c4ef32cb992f5d",
+              "datavalue": {
+                "value": "534408",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$C5E90657-28D2-4A55-88F5-8ABA53B8BE19",
+            "rank": "normal"
+          }
+        ],
+        "P276": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P276",
+              "hash": "8cc852d685a2d5c97ec64c2dba0de29a60f8a8d7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 127159,
+                  "id": "Q127159"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q155921$489C3F63-9EF8-45A2-A392-3FD9354ECFCD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f87cefdc984a27697b40f06a85c73cd2cd27fb64",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "f4277c2d89aaf5622264f545dd232cad1ff4b6c9",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Bletchley_Park&oldid=941281825",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7772": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7772",
+              "hash": "a66787c725c51ce4f1a7c270864abeab35233667",
+              "datavalue": {
+                "value": "bletchley-park",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$BFF3C982-F0D7-45FC-8A96-C32C2A507B98",
+            "rank": "normal"
+          }
+        ],
+        "P7959": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7959",
+              "hash": "e288ccc31846c2767369d5917b21ffdf79235928",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 67285329,
+                  "id": "Q67285329"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q155921$89641f1a-94dc-4590-a495-59d9055fb191",
+            "rank": "normal"
+          }
+        ],
+        "P3222": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3222",
+              "hash": "1517d713cb52d70d8754f2e181ded0f69840f8b7",
+              "datavalue": {
+                "value": "bletchley-park",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$6A472B74-7AB4-49FC-98B4-C7CFF419B263",
+            "rank": "normal"
+          }
+        ],
+        "P2561": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2561",
+              "hash": "9f7f0919459a15e2b288755462183039fb64dbbc",
+              "datavalue": {
+                "value": {
+                  "text": "Bletchley Park",
+                  "language": "en-gb"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q155921$21E444DF-8A25-4501-9616-418987E9BCDA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9d756259280be42b8baca3d18a614be221177698",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "65794016f531a42153e4f3474d4448565600f799",
+                      "datavalue": {
+                        "value": "https://bletchleypark.org.uk/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "6cf93c260efc4750302adf12a92b32eefd6d75f5",
+                      "datavalue": {
+                        "value": {
+                          "text": "Bletchley Park | Home",
+                          "language": "en-gb"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "b81c9cf478d35a8e56a49699bdde9cb5c6fd56b2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-12-16T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2013": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2013",
+              "hash": "6084db539b1f9bd04207a901292f135612eb2158",
+              "datavalue": {
+                "value": "Bletchleypark1",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$D38FC613-2935-42A9-9B34-A1FADE7B2F54",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d355ae3e97c72a4fe008d3ddede1ff94ce39ee3e",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "0c089d5a1f2eac56e14b40b3d065d722a76639ef",
+                      "datavalue": {
+                        "value": "https://www.facebook.com/Bletchleypark1/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "9c9239e2d5c4b521b1e231f9dccc3bc2b1eed3db",
+                      "datavalue": {
+                        "value": {
+                          "text": "Bletchley Park",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "b81c9cf478d35a8e56a49699bdde9cb5c6fd56b2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-12-16T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2397": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2397",
+              "hash": "09618e45e3618994b35240c7e9228a2e29674d50",
+              "datavalue": {
+                "value": "UCJoOw-cqA7F6qU7i-Kf8nwg",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a92fe0bd9d413a7f9f75e8e4fce75cee3a8b2bb7",
+                  "datavalue": {
+                    "value": "Bletchley Park",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P3744": [
+                {
+                  "snaktype": "value",
+                  "property": "P3744",
+                  "hash": "ec49dbb774feb9d8925078040d2b92bf1aad3569",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+2770",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ],
+              "P3740": [
+                {
+                  "snaktype": "value",
+                  "property": "P3740",
+                  "hash": "a17a45323a6b1aa3619c2a4da777a534e4ace136",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+51",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ],
+              "P5436": [
+                {
+                  "snaktype": "value",
+                  "property": "P5436",
+                  "hash": "858841f0bbad0331615d95b3d6dabf67fb362544",
+                  "datavalue": {
+                    "value": {
+                      "amount": "+567731",
+                      "unit": "1"
+                    },
+                    "type": "quantity"
+                  },
+                  "datatype": "quantity"
+                }
+              ],
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "b3a29c9c916de4e437c192c6edc41fb0df5a2e14",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2013-08-30T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "621b53d504639bdc03b29d9957350c80d2177df2",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2021-12-19T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P3744",
+              "P3740",
+              "P5436",
+              "P580",
+              "P585"
+            ],
+            "id": "Q155921$4ADFF53E-9B0C-45C1-B7AB-B1DE06E1A4C5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "bc124689666cfa4023c1e93c608f6da315675436",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "e8174e92b9fe2d181f249378b7cce18a1475e979",
+                      "datavalue": {
+                        "value": "https://www.youtube.com/channel/UCJoOw-cqA7F6qU7i-Kf8nwg",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "c58f9b9ce6ff0cd657d250dec3d9dee8485b7614",
+                      "datavalue": {
+                        "value": {
+                          "text": "Bletchley Park - YouTube",
+                          "language": "en-gb"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "b81c9cf478d35a8e56a49699bdde9cb5c6fd56b2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-12-16T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P9957": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9957",
+              "hash": "0261e076aef5eea60a35f8fa3d2bfc8389dc9aa0",
+              "datavalue": {
+                "value": "14828",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$5C19EF60-DE1D-4E12-B00E-10E28FFEFFD4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "190527dca615f4510213808b0e1cb81522b247f6",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "9d638c2b86f0a48538336421421d81e676e6a966",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1360745,
+                          "id": "Q1360745"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6375": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6375",
+              "hash": "268f4f6b8aee64f322dc8f9535ddf0c850615e16",
+              "datavalue": {
+                "value": {
+                  "text": "Sherwood Drive, Milton Keynes, MK3 6EB",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q155921$0e3d5894-4d05-c60c-e586-541f20079987",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "4060b61a690fd02795da319c55563779c403f9aa",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "12110b39815ec92345e8d8e95a51f27628d5ab09",
+                      "datavalue": {
+                        "value": "https://bletchleypark.org.uk/contact-us/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10873": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10873",
+              "hash": "bb0de5fb01875605b782d2e9a1f1c921a22ce824",
+              "datavalue": {
+                "value": "mm.ace.1278",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a92fe0bd9d413a7f9f75e8e4fce75cee3a8b2bb7",
+                  "datavalue": {
+                    "value": "Bletchley Park",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q155921$3B5A9856-BB82-4D2F-A6C4-63E00C1F9BA4",
+            "rank": "normal"
+          }
+        ],
+        "P8313": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8313",
+              "hash": "8707beac32d7d6f23f4428b351f05523f8b1b70f",
+              "datavalue": {
+                "value": "Bletchley_Park",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$00e25b5b-4344-a3ee-4973-aa877057cbac",
+            "rank": "normal"
+          }
+        ],
+        "P912": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P912",
+              "hash": "a40466016be5a11553c66f81ae1ac4713bd59315",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2775009,
+                  "id": "Q2775009"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q155921$1CE3BE47-B924-41E8-9FD7-A36A8B2EA8B2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "f185b10a31a63264cd963d541154e26f9f57867a",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "241924c0380fdc85c1af9bd53562d9313ddce90e",
+                      "datavalue": {
+                        "value": "https://vocaleyes.co.uk/research/heritage-access-2022/benchmark/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "05eb7264c1411a9b348b772c525ed280d785d3fe",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-02-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "c4ca9749123b138984cc9852aa8cab0a6241105f",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20230209114628/https://vocaleyes.co.uk/research/heritage-access-2022/benchmark/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P2960": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2960",
+                      "hash": "3c8f52adb7e679f5693a56c5ca48e3f0f7dcffae",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-02-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813",
+                  "P1065",
+                  "P2960"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "0cd7c5d288a59f78bbe3dec70395fa805e9c3542",
+              "datavalue": {
+                "value": "mathematics/bletchley-park",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$f388400e-4e36-601d-b029-3df00dd33eb6",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "1d273c82d84bba7580cbfa5beeda0a49495493b5",
+              "datavalue": {
+                "value": "c17edb05-c38e-4700-bf9b-3006bb9f61c0",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$9FA502D1-4004-4A01-A538-C1153E6D5CCB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6200": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6200",
+              "hash": "e977b2ea2e9534035f3d4bc85c5d0d1f03dd03f6",
+              "datavalue": {
+                "value": "c9dv35zk0egt",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$83945e54-bcfe-40f8-8db3-0492c8cf5a57",
+            "rank": "normal"
+          }
+        ],
+        "P10689": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10689",
+              "hash": "0c39374f9025d6bf594a66ee807e1d04ec91a257",
+              "datavalue": {
+                "value": "235892598",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$97F3B5B2-B6DD-478F-BAED-340108FB856A",
+            "rank": "normal"
+          }
+        ],
+        "P3749": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3749",
+              "hash": "1297c55d01b1865a9dba6a0c82aad0820327df14",
+              "datavalue": {
+                "value": "12352360614758678387",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$5FDA4732-9628-4CF8-A9FF-F4E1BE7B3140",
+            "rank": "normal"
+          }
+        ],
+        "P8687": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "281852739eb7e3851c2f20ecabc4adfec3b41335",
+              "datavalue": {
+                "value": {
+                  "amount": "+5290",
+                  "unit": "1",
+                  "upperBound": "+5299",
+                  "lowerBound": "+5290"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "09618e45e3618994b35240c7e9228a2e29674d50",
+                  "datavalue": {
+                    "value": "UCJoOw-cqA7F6qU7i-Kf8nwg",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "ce6f832cb0250aac85835b59aff757c8f51049dc",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-04-29T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q155921$dab0b44b-f15d-4678-bda7-c8cf95409897",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "854394ed4c7908e00e06ac1943991dc13df087bf",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "6c27c780acdd3ae98e9a335f27df021e7524adfd",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-04-29T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8056784,
+                          "id": "Q8056784"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "d8848c2c44693503d5c48b159486d503a4f349b2",
+              "datavalue": {
+                "value": {
+                  "amount": "+6160",
+                  "unit": "1",
+                  "upperBound": "+6169",
+                  "lowerBound": "+6160"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "09618e45e3618994b35240c7e9228a2e29674d50",
+                  "datavalue": {
+                    "value": "UCJoOw-cqA7F6qU7i-Kf8nwg",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "8af25abdf6159e73eab2298cb0e2ba64d3aebd15",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-05-11T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q155921$b48d35b8-4f32-4e1e-a41c-af396f6ad854",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d9f8bcc1f19457c109d1611a27f98b11f466444a",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "5b9db19a3ae06d9d5d35db561af7dec25e2fb4cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-05-11T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8056784,
+                          "id": "Q8056784"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "bf438129f469e81f41e8323f7fab0ea9c87de558",
+              "datavalue": {
+                "value": {
+                  "amount": "+6850",
+                  "unit": "1",
+                  "upperBound": "+6859",
+                  "lowerBound": "+6850"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "09618e45e3618994b35240c7e9228a2e29674d50",
+                  "datavalue": {
+                    "value": "UCJoOw-cqA7F6qU7i-Kf8nwg",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "f1ba61523f43d35c1f353f9e7a3d958443bbd508",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-06-24T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q155921$8b6b6f77-3a09-4754-9edd-e123b86af897",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0a6cb82039aaf93e33d6bf51d509d53ac4b96d0f",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "1e4e845a11b82ea7b7e73ed8c573f8a51a80c345",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-06-24T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8056784,
+                          "id": "Q8056784"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "483ba09abd65953876afa757c978efb4f089a5f9",
+              "datavalue": {
+                "value": {
+                  "amount": "+7820",
+                  "unit": "1",
+                  "upperBound": "+7829",
+                  "lowerBound": "+7820"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "09618e45e3618994b35240c7e9228a2e29674d50",
+                  "datavalue": {
+                    "value": "UCJoOw-cqA7F6qU7i-Kf8nwg",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "36b0e09725e7299df44079b2c5169bf4995bd544",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-02-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q155921$38637c64-0557-459f-b68e-9febb633e32d",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "4f7208379b8e4d46239fc87d79e4534a304ba096",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9ba8f07731c89538a72b8214584055c9f5daf974",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-02-01T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8056784,
+                          "id": "Q8056784"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8687",
+              "hash": "ecd95f9b79026880840a90a413b6ca9b50872272",
+              "datavalue": {
+                "value": {
+                  "amount": "+8750",
+                  "unit": "1",
+                  "upperBound": "+8759",
+                  "lowerBound": "+8750"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2397": [
+                {
+                  "snaktype": "value",
+                  "property": "P2397",
+                  "hash": "09618e45e3618994b35240c7e9228a2e29674d50",
+                  "datavalue": {
+                    "value": "UCJoOw-cqA7F6qU7i-Kf8nwg",
+                    "type": "string"
+                  },
+                  "datatype": "external-id"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "ad4e6ac320b45ced24899cf8f4e4573f6218c83b",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2025-05-11T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2397",
+              "P585"
+            ],
+            "id": "Q155921$928d4fec-d83a-4db8-a9f4-3bf99fb3ecc5",
+            "rank": "preferred",
+            "references": [
+              {
+                "hash": "fb86b7e8c7d279508bc1536f08e9677cd94f28a0",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "fec7179390b0526ab131f461cd1c7064edfb811d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-05-11T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e6e6374525f7d680f01ff599745f367fb1369b87",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8056784,
+                          "id": "Q8056784"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10832": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10832",
+              "hash": "15728b10cd8f49d980944b3a2d1528ab58d9f00a",
+              "datavalue": {
+                "value": "E39PBJmDfkhJJDHTVWjYjHhfv3",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q155921$25D543CE-224A-48C5-A1F7-E6386034D991",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0006d151c47e3393126c1cba6db729ff9d3c7465",
+                "snaks": {
+                  "P11797": [
+                    {
+                      "snaktype": "value",
+                      "property": "P11797",
+                      "hash": "3b992a8b1d7f5bfbb710fb1b091cc424c4e3e7db",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 54919,
+                          "id": "Q54919"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P214": [
+                    {
+                      "snaktype": "value",
+                      "property": "P214",
+                      "hash": "e5d639abb07ce1d77900ff96e4ff5adadada4216",
+                      "datavalue": {
+                        "value": "221287859",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "51fdf56b7e0fc7fa09a6d0f553960d0b1e3f3c3d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-06-07T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P11797",
+                  "P214",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7938": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7938",
+              "hash": "86216547075979aab7c8c3f5d9686267b341e396",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 120703717,
+                  "id": "Q120703717"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "92b2a9bac12fb8e82c56dfef41567be36eeb563f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 27971968,
+                      "id": "Q27971968"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "a6be46f7ad0a963928c79e954c6bebb458ccd2d8",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2024-07-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 10,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P3831",
+              "P585"
+            ],
+            "id": "Q155921$FE978126-2FA6-434C-8189-C0199DEE09F0",
+            "rank": "normal"
+          }
+        ],
+        "P13249": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13249",
+              "hash": "3175a99b91c7e740631b6c3d55f07ea5562ce798",
+              "datavalue": {
+                "value": "Q155921",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2868": [
+                {
+                  "snaktype": "value",
+                  "property": "P2868",
+                  "hash": "bc5d94be88f42a613bd0cd3bfbe76cc219d13fef",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 131850128,
+                      "id": "Q131850128"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2868"
+            ],
+            "id": "Q155921$148A67AD-F310-4886-A360-BE5EDCC61124",
+            "rank": "normal"
+          }
+        ],
+        "P281": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P281",
+              "hash": "1bf422b3ad0a9eef4e297c23771efb0c4bee4ce2",
+              "datavalue": {
+                "value": "MK3 6EB",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q155921$C2EBE697-63BA-467F-BE49-1B4292C07B17",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://af.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "حديقة بلتشلي",
+          "badges": [],
+          "url": "https://ar.wikipedia.org/wiki/%D8%AD%D8%AF%D9%8A%D9%82%D8%A9_%D8%A8%D9%84%D8%AA%D8%B4%D9%84%D9%8A"
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Блечли парк",
+          "badges": [],
+          "url": "https://bg.wikipedia.org/wiki/%D0%91%D0%BB%D0%B5%D1%87%D0%BB%D0%B8_%D0%BF%D0%B0%D1%80%D0%BA"
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://ca.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "cebwiki": {
+          "site": "cebwiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://ceb.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "بلێچلی پارک",
+          "badges": [],
+          "url": "https://ckb.wikipedia.org/wiki/%D8%A8%D9%84%DB%8E%DA%86%D9%84%DB%8C_%D9%BE%D8%A7%D8%B1%DA%A9"
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://commons.wikimedia.org/wiki/Bletchley_Park"
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://cs.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "Parc Bletchley",
+          "badges": [],
+          "url": "https://cy.wikipedia.org/wiki/Parc_Bletchley"
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://da.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://de.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Μπλέτσλεϊ Παρκ",
+          "badges": [],
+          "url": "https://el.wikipedia.org/wiki/%CE%9C%CF%80%CE%BB%CE%AD%CF%84%CF%83%CE%BB%CE%B5%CF%8A_%CE%A0%CE%B1%CF%81%CE%BA"
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://en.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://es.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://et.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "بلچلی پارک",
+          "badges": [],
+          "url": "https://fa.wikipedia.org/wiki/%D8%A8%D9%84%DA%86%D9%84%DB%8C_%D9%BE%D8%A7%D8%B1%DA%A9"
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://fi.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://fr.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "בלצ'לי פארק",
+          "badges": [],
+          "url": "https://he.wikipedia.org/wiki/%D7%91%D7%9C%D7%A6%27%D7%9C%D7%99_%D7%A4%D7%90%D7%A8%D7%A7"
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Bletchley Park Múzeum",
+          "badges": [
+            "Q17437798"
+          ],
+          "url": "https://hu.wikipedia.org/wiki/Bletchley_Park_M%C3%BAzeum"
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Բլեթչլի պարկ",
+          "badges": [],
+          "url": "https://hy.wikipedia.org/wiki/%D4%B2%D5%AC%D5%A5%D5%A9%D5%B9%D5%AC%D5%AB_%D5%BA%D5%A1%D6%80%D5%AF"
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://it.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ブレッチリー・パーク",
+          "badges": [],
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AC%E3%83%83%E3%83%81%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%91%E3%83%BC%E3%82%AF"
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "블레츨리 파크",
+          "badges": [],
+          "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%A0%88%EC%B8%A8%EB%A6%AC_%ED%8C%8C%ED%81%AC"
+        },
+        "myvwiki": {
+          "site": "myvwiki",
+          "title": "Блитчли Парк",
+          "badges": [],
+          "url": "https://myv.wikipedia.org/wiki/%D0%91%D0%BB%D0%B8%D1%82%D1%87%D0%BB%D0%B8_%D0%9F%D0%B0%D1%80%D0%BA"
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://nl.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://no.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://pl.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://pt.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://ro.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Блетчли-парк",
+          "badges": [],
+          "url": "https://ru.wikipedia.org/wiki/%D0%91%D0%BB%D0%B5%D1%82%D1%87%D0%BB%D0%B8-%D0%BF%D0%B0%D1%80%D0%BA"
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://simple.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Blečli Park",
+          "badges": [],
+          "url": "https://sr.wikipedia.org/wiki/Ble%C4%8Dli_Park"
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://sv.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Bletchley Park",
+          "badges": [],
+          "url": "https://tr.wikipedia.org/wiki/Bletchley_Park"
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Блечлі-Парк",
+          "badges": [],
+          "url": "https://uk.wikipedia.org/wiki/%D0%91%D0%BB%D0%B5%D1%87%D0%BB%D1%96-%D0%9F%D0%B0%D1%80%D0%BA"
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "布萊切利園",
+          "badges": [],
+          "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E8%90%8A%E5%88%87%E5%88%A9%E5%9C%92"
+        }
+      }
+    }
+  }
+}

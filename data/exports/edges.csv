@@ -1,43 +1,76 @@
 ﻿subject,predicate,predicate_label,object,object_type,object_datatype,source,confidence
-alan_turing,has_birth_date,出生日期,1912-06-23,literal,date,课程PPT与百科常识整理,1.0
-alan_turing,has_death_date,逝世日期,1954-06-07,literal,date,课程PPT与百科常识整理,1.0
-alan_turing,has_nationality,国籍,British,literal,string,课程PPT与百科常识整理,1.0
-alan_turing,has_alias,别名,艾伦·图灵,literal,string,课程PPT与百科常识整理,1.0
-alan_turing,born_in,出生于,maida_vale,entity,,课程PPT与百科常识整理,1.0
-alan_turing,died_in,逝世于,wilmslow,entity,,课程PPT与百科常识整理,1.0
-alan_turing,studied_at,就读于,kings_college_cambridge,entity,,课程PPT与百科常识整理,1.0
-alan_turing,studied_at,就读于,princeton_university,entity,,课程PPT与百科常识整理,1.0
-alan_turing,worked_at,工作于,bletchley_park,entity,,课程PPT与百科常识整理,1.0
-alan_turing,worked_at,工作于,national_physical_laboratory,entity,,课程PPT与百科常识整理,1.0
-alan_turing,collaborated_with,合作于,joan_clarke,entity,,课程PPT与百科常识整理,0.8
-alan_turing,collaborated_with,合作于,alonzo_church,entity,,课程PPT与百科常识整理,0.9
-alan_turing,authored,撰写,on_computable_numbers,entity,,课程PPT与百科常识整理,1.0
-alan_turing,authored,撰写,computing_machinery_and_intelligence,entity,,课程PPT与百科常识整理,1.0
-alan_turing,proposed,提出,turing_machine,entity,,课程PPT与百科常识整理,1.0
-alan_turing,proposed,提出,turing_test,entity,,课程PPT与百科常识整理,1.0
-alan_turing,designed,设计,automatic_computing_engine,entity,,课程PPT与百科常识整理,1.0
-alan_turing,designed,设计,bombe_machine,entity,,课程PPT与百科常识整理,0.9
-alan_turing,contributed_to,贡献于,allied_codebreaking,entity,,课程PPT与百科常识整理,1.0
-kings_college_cambridge,located_in,位于,cambridge,entity,,课程PPT与百科常识整理,1.0
-princeton_university,located_in,位于,princeton,entity,,课程PPT与百科常识整理,1.0
-bletchley_park,located_in,位于,bletchley,entity,,课程PPT与百科常识整理,1.0
-national_physical_laboratory,located_in,位于,london,entity,,课程PPT与百科常识整理,1.0
-on_computable_numbers,published_in,发表于,proceedings_lms,entity,,课程PPT与百科常识整理,1.0
-computing_machinery_and_intelligence,published_in,发表于,mind_journal,entity,,课程PPT与百科常识整理,1.0
-on_computable_numbers,has_year,年份,1936,literal,gYear,课程PPT与百科常识整理,1.0
-computing_machinery_and_intelligence,has_year,年份,1950,literal,gYear,课程PPT与百科常识整理,1.0
-turing_machine,has_year,年份,1936,literal,gYear,课程PPT与百科常识整理,1.0
-turing_test,has_year,年份,1950,literal,gYear,课程PPT与百科常识整理,1.0
-automatic_computing_engine,has_alias,别名,ACE,literal,string,课程PPT与百科常识整理,1.0
-allied_codebreaking,occurred_at,发生于,bletchley_park,entity,,课程PPT与百科常识整理,0.9
-allied_codebreaking,targeted_machine,目标机器,enigma_machine,entity,,课程PPT与百科常识整理,0.9
-allied_codebreaking,related_to_field,相关领域,cryptanalysis,entity,,课程PPT与百科常识整理,1.0
-on_computable_numbers,related_to_field,相关领域,computer_science,entity,,课程PPT与百科常识整理,1.0
-on_computable_numbers,related_to_field,相关领域,mathematical_logic,entity,,课程PPT与百科常识整理,1.0
-computing_machinery_and_intelligence,related_to_field,相关领域,artificial_intelligence,entity,,课程PPT与百科常识整理,1.0
-turing_machine,foundation_of,奠定基础,computer_science,entity,,课程PPT与百科常识整理,1.0
-turing_test,foundation_of,奠定基础,artificial_intelligence,entity,,课程PPT与百科常识整理,1.0
-church_turing_thesis,related_to_field,相关领域,computer_science,entity,,课程PPT与百科常识整理,0.8
-church_turing_thesis,related_to_field,相关领域,mathematical_logic,entity,,课程PPT与百科常识整理,0.8
-bombe_machine,related_to_field,相关领域,cryptanalysis,entity,,课程PPT与百科常识整理,1.0
-automatic_computing_engine,related_to_field,相关领域,computer_science,entity,,课程PPT与百科常识整理,1.0
+alan_turing,authored,撰写,on_computable_numbers,entity,,wikidata,0.95
+alan_turing,born_in,出生于,maida_vale,entity,,wikidata|wikipedia,0.98
+alan_turing,born_in,出生于,warrington_lodge,entity,,wikidata,0.98
+alan_turing,died_in,逝世于,wilmslow,entity,,wikidata|wikipedia,0.98
+alan_turing,has_alias,别名,Alan M. Turing,literal,string,wikidata,0.95
+alan_turing,has_alias,别名,Alan Mathieson Turing,literal,string,wikidata,0.95
+alan_turing,has_alias,别名,Alan Mathison Turing,literal,string,wikidata,0.95
+alan_turing,has_alias,别名,Turing,literal,string,wikidata,0.95
+alan_turing,has_birth_date,出生日期,1912-06-23,literal,date,wikidata|wikipedia,0.98
+alan_turing,has_death_date,逝世日期,1954-06-07,literal,date,wikidata|wikipedia,0.98
+alan_turing,has_nationality,国籍,United Kingdom,literal,string,wikidata,0.92
+alan_turing,proposed,提出,turing_machine,entity,,wikidata,0.90
+alan_turing,proposed,提出,turing_test,entity,,wikidata,0.90
+alan_turing,related_to_field,相关领域,computer_science,entity,,wikidata|wikipedia,0.90
+alan_turing,related_to_field,相关领域,cryptanalysis,entity,,wikidata|wikipedia,0.90
+alan_turing,related_to_field,相关领域,cryptography,entity,,wikidata,0.90
+alan_turing,related_to_field,相关领域,logic,entity,,wikidata|wikipedia,0.90
+alan_turing,related_to_field,相关领域,mathematical_and_theoretical_biology,entity,,wikipedia,0.82
+alan_turing,related_to_field,相关领域,mathematics,entity,,wikidata|wikipedia,0.90
+alan_turing,studied_at,就读于,hazlehurst_community_primary_school,entity,,wikidata,0.95
+alan_turing,studied_at,就读于,king_s_college,entity,,wikidata,0.95
+alan_turing,studied_at,就读于,princeton_university,entity,,wikidata,0.95
+alan_turing,studied_at,就读于,sherborne_school,entity,,wikidata,0.95
+alan_turing,worked_at,工作于,government_code_and_cypher_school,entity,,wikipedia,0.85
+alan_turing,worked_at,工作于,government_communications_headquarters,entity,,wikidata,0.95
+alan_turing,worked_at,工作于,national_physical_laboratory,entity,,wikidata|wikipedia,0.95
+alan_turing,worked_at,工作于,university_of_cambridge,entity,,wikidata,0.95
+alan_turing,worked_at,工作于,university_of_manchester,entity,,wikipedia,0.85
+alan_turing,worked_at,工作于,victoria_university_of_manchester,entity,,wikidata,0.95
+alonzo_church,born_in,出生于,washington_d_c,entity,,wikidata|wikipedia,0.98
+alonzo_church,died_in,逝世于,hudson,entity,,wikidata,0.98
+alonzo_church,died_in,逝世于,hudson_ohio,entity,,wikipedia,0.88
+alonzo_church,has_birth_date,出生日期,1903-06-14,literal,date,wikidata|wikipedia,0.98
+alonzo_church,has_death_date,逝世日期,1995-08-11,literal,date,wikidata|wikipedia,0.98
+alonzo_church,has_nationality,国籍,United States,literal,string,wikidata,0.92
+alonzo_church,related_to_field,相关领域,computer_science,entity,,wikipedia,0.82
+alonzo_church,related_to_field,相关领域,logic,entity,,wikidata|wikipedia,0.90
+alonzo_church,related_to_field,相关领域,mathematical_logic,entity,,wikidata,0.90
+alonzo_church,related_to_field,相关领域,mathematics,entity,,wikidata|wikipedia,0.90
+alonzo_church,related_to_field,相关领域,theoretical_computer_science,entity,,wikidata,0.90
+alonzo_church,studied_at,就读于,harvard_university,entity,,wikidata,0.95
+alonzo_church,studied_at,就读于,princeton_university,entity,,wikidata,0.95
+alonzo_church,studied_at,就读于,university_of_amsterdam,entity,,wikidata,0.95
+alonzo_church,studied_at,就读于,university_of_g_ttingen,entity,,wikidata,0.95
+alonzo_church,worked_at,工作于,princeton_university,entity,,wikidata|wikipedia,0.95
+alonzo_church,worked_at,工作于,ucla,entity,,wikipedia,0.85
+alonzo_church,worked_at,工作于,university_of_california_los_angeles,entity,,wikidata,0.95
+bletchley_park,has_alias,别名,Station X,literal,string,wikidata,0.95
+bletchley_park,has_year,年份,1877,literal,gYear,wikidata,0.90
+joan_clarke,born_in,出生于,west_norwood,entity,,wikidata,0.98
+joan_clarke,born_in,出生于,west_norwood_london,entity,,wikipedia,0.88
+joan_clarke,died_in,逝世于,headington,entity,,wikidata|wikipedia,0.98
+joan_clarke,has_alias,别名,Joan Clarke Murray,literal,string,wikidata,0.95
+joan_clarke,has_alias,别名,Joan Elisabeth Lowther Clarke,literal,string,wikidata,0.95
+joan_clarke,has_alias,别名,Joan Elisabeth Lowther Clarke Murray,literal,string,wikidata,0.95
+joan_clarke,has_alias,别名,Joan Elisabeth Lowther Murray,literal,string,wikidata,0.95
+joan_clarke,has_alias,别名,Joan Murray,literal,string,wikidata,0.95
+joan_clarke,has_birth_date,出生日期,1917-06-24,literal,date,wikidata|wikipedia,0.98
+joan_clarke,has_death_date,逝世日期,1996-09-04,literal,date,wikidata|wikipedia,0.98
+joan_clarke,has_nationality,国籍,United Kingdom,literal,string,wikidata,0.92
+joan_clarke,has_nationality,国籍,United Kingdom of Great Britain and Ireland,literal,string,wikidata,0.92
+joan_clarke,related_to_field,相关领域,cryptography,entity,,wikidata,0.90
+joan_clarke,studied_at,就读于,dulwich_college,entity,,wikidata,0.95
+joan_clarke,studied_at,就读于,newnham_college,entity,,wikidata,0.95
+joan_clarke,worked_at,工作于,government_communications_headquarters,entity,,wikidata,0.95
+on_computable_numbers,published_in,发表于,proceedings_of_the_london_mathematical_society,entity,,wikidata,0.90
+princeton_university,has_alias,别名,College of New Jersey,literal,string,wikidata,0.95
+princeton_university,has_alias,别名,Princeton,literal,string,wikidata,0.95
+princeton_university,has_alias,别名,Princeton College,literal,string,wikidata,0.95
+princeton_university,has_alias,别名,University of Princeton,literal,string,wikidata,0.95
+princeton_university,has_alias,别名,princeton.edu,literal,string,wikidata,0.95
+princeton_university,has_year,年份,1746,literal,gYear,wikidata,0.90
+turing_machine,has_alias,别名,deterministic Turing machine,literal,string,wikidata,0.95
+turing_machine,has_year,年份,1936,literal,gYear,wikidata,0.90
+turing_test,has_alias,别名,imitation Game,literal,string,wikidata,0.95

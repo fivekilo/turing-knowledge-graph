@@ -1,0 +1,53 @@
+{
+  "type": "standard",
+  "title": "Bletchley Park",
+  "displaytitle": "<span class=\"mw-page-title-main\">Bletchley Park</span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q155921",
+  "titles": {
+    "canonical": "Bletchley_Park",
+    "normalized": "Bletchley Park",
+    "display": "<span class=\"mw-page-title-main\">Bletchley Park</span>"
+  },
+  "pageid": 4037,
+  "thumbnail": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bletchley_Park_Mansion.jpg/330px-Bletchley_Park_Mansion.jpg",
+    "width": 330,
+    "height": 194
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bletchley_Park_Mansion.jpg",
+    "width": 4248,
+    "height": 2502
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1345177992",
+  "tid": "49bd4c7f-27b2-11f1-969a-28bb0c5005d7",
+  "timestamp": "2026-03-24T18:50:12Z",
+  "description": "WWII code-breaking site",
+  "description_source": "local",
+  "coordinates": {
+    "lat": 51.99805556,
+    "lon": -0.74111111
+  },
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Bletchley_Park",
+      "revisions": "https://en.wikipedia.org/wiki/Bletchley_Park?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Bletchley_Park?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Bletchley_Park"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Bletchley_Park",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Bletchley_Park",
+      "edit": "https://en.wikipedia.org/wiki/Bletchley_Park?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Bletchley_Park"
+    }
+  },
+  "extract": "Bletchley Park is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&CS), which regularly penetrated the secret communications of the Axis powers – most importantly the German Enigma and Lorenz ciphers. The GC&CS team of codebreakers included John Tiltman, Dilwyn Knox, Alan Turing, Harry Golombek, Gordon Welchman, Hugh Alexander, Donald Michie, Bill Tutte and Stuart Milner-Barry.",
+  "extract_html": "<p><b>Bletchley Park</b> is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&amp;CS), which regularly penetrated the secret communications of the Axis powers – most importantly the German Enigma and Lorenz ciphers. The GC&amp;CS team of codebreakers included John Tiltman, Dilwyn Knox, Alan Turing, Harry Golombek, Gordon Welchman, Hugh Alexander, Donald Michie, Bill Tutte and Stuart Milner-Barry.</p>"
+}

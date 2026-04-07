@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Turing machine",
+  "displaytitle": "<span class=\"mw-page-title-main\">Turing machine</span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q163310",
+  "titles": {
+    "canonical": "Turing_machine",
+    "normalized": "Turing machine",
+    "display": "<span class=\"mw-page-title-main\">Turing machine</span>"
+  },
+  "pageid": 30403,
+  "thumbnail": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Turing_Machine_Model_Davey_2012.jpg/330px-Turing_Machine_Model_Davey_2012.jpg",
+    "width": 330,
+    "height": 220
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/0/03/Turing_Machine_Model_Davey_2012.jpg",
+    "width": 5066,
+    "height": 3377
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1341155475",
+  "tid": "cd19c220-15a5-11f1-9356-df3530f54d07",
+  "timestamp": "2026-03-01T19:35:28Z",
+  "description": "Computation model defining an abstract machine",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Turing_machine",
+      "revisions": "https://en.wikipedia.org/wiki/Turing_machine?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Turing_machine?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Turing_machine"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Turing_machine",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Turing_machine",
+      "edit": "https://en.wikipedia.org/wiki/Turing_machine?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Turing_machine"
+    }
+  },
+  "extract": "A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, it is capable of implementing any computer algorithm.",
+  "extract_html": "<p>A <b>Turing machine</b> is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, it is capable of implementing any computer algorithm.</p>"
+}

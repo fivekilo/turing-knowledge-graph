@@ -15,22 +15,10 @@ ex:Entity a rdfs:Class,
     rdfs:label "实体"@zh ;
     rdfs:comment "知识图谱中的基础实体类型"@zh .
 
-ex:Event a rdfs:Class,
-        owl:Class ;
-    rdfs:label "事件"@zh ;
-    rdfs:comment "具有时间和背景的历史事件或项目"@zh ;
-    rdfs:subClassOf ex:Entity .
-
 ex:Field a rdfs:Class,
         owl:Class ;
     rdfs:label "学科"@zh ;
     rdfs:comment "知识领域或研究方向"@zh ;
-    rdfs:subClassOf ex:Entity .
-
-ex:Machine a rdfs:Class,
-        owl:Class ;
-    rdfs:label "机器"@zh ;
-    rdfs:comment "密码机计算机设计等设备或机器"@zh ;
     rdfs:subClassOf ex:Entity .
 
 ex:Organization a rdfs:Class,
@@ -65,26 +53,58 @@ ex:Work a rdfs:Class,
 
 ex:alan_turing a ex:Person ;
     rdfs:label "Alan Turing" ;
-    ex:authored ex:computing_machinery_and_intelligence,
-        ex:on_computable_numbers ;
-    ex:born_in ex:maida_vale ;
-    ex:collaborated_with ex:alonzo_church,
-        ex:joan_clarke ;
-    ex:contributed_to ex:allied_codebreaking ;
-    ex:designed ex:automatic_computing_engine,
-        ex:bombe_machine ;
+    ex:authored ex:on_computable_numbers ;
+    ex:born_in ex:maida_vale,
+        ex:warrington_lodge ;
     ex:died_in ex:wilmslow ;
-    ex:has_alias "艾伦·图灵"^^xsd:string ;
+    ex:has_alias "Alan M. Turing"^^xsd:string,
+        "Alan Mathieson Turing"^^xsd:string,
+        "Alan Mathison Turing"^^xsd:string,
+        "Turing"^^xsd:string ;
     ex:has_birth_date "1912-06-23"^^xsd:date ;
     ex:has_death_date "1954-06-07"^^xsd:date ;
-    ex:has_nationality "British"^^xsd:string ;
+    ex:has_nationality "United Kingdom"^^xsd:string ;
     ex:proposed ex:turing_machine,
         ex:turing_test ;
-    ex:studied_at ex:kings_college_cambridge,
-        ex:princeton_university ;
-    ex:worked_at ex:bletchley_park,
-        ex:national_physical_laboratory ;
-    rdfs:comment "英国数学家逻辑学家计算机科学奠基者"@zh .
+    ex:related_to_field ex:computer_science,
+        ex:cryptanalysis,
+        ex:cryptography,
+        ex:logic,
+        ex:mathematical_and_theoretical_biology,
+        ex:mathematics ;
+    ex:studied_at ex:hazlehurst_community_primary_school,
+        ex:king_s_college,
+        ex:princeton_university,
+        ex:sherborne_school ;
+    ex:worked_at ex:government_code_and_cypher_school,
+        ex:government_communications_headquarters,
+        ex:national_physical_laboratory,
+        ex:university_of_cambridge,
+        ex:university_of_manchester,
+        ex:victoria_university_of_manchester ;
+    rdfs:comment "Alan Mathison Turing was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science."@zh .
+
+ex:alonzo_church a ex:Person ;
+    rdfs:label "Alonzo Church" ;
+    ex:born_in ex:washington_d_c ;
+    ex:died_in ex:hudson,
+        ex:hudson_ohio ;
+    ex:has_birth_date "1903-06-14"^^xsd:date ;
+    ex:has_death_date "1995-08-11"^^xsd:date ;
+    ex:has_nationality "United States"^^xsd:string ;
+    ex:related_to_field ex:computer_science,
+        ex:logic,
+        ex:mathematical_logic,
+        ex:mathematics,
+        ex:theoretical_computer_science ;
+    ex:studied_at ex:harvard_university,
+        ex:princeton_university,
+        ex:university_of_amsterdam,
+        ex:university_of_g_ttingen ;
+    ex:worked_at ex:princeton_university,
+        ex:ucla,
+        ex:university_of_california_los_angeles ;
+    rdfs:comment "Alonzo Church was an American computer scientist, mathematician, logician, and philosopher who made major contributions to mathematical logic and the foundations of theoretical computer science. He is best known for the lambda calculus, the Church–Turing thesis, proving the unsolvability of the Entscheidungsproblem, the Frege–Church ontology, and the Church–Rosser theorem. Alongside his doctoral student Alan Turing, Church is considered one of the founders of computer science."@zh .
 
 ex:authored a rdf:Property,
         owl:ObjectProperty ;
@@ -93,6 +113,12 @@ ex:authored a rdf:Property,
     rdfs:domain ex:Person ;
     rdfs:range ex:Work .
 
+ex:bletchley_park a ex:Organization ;
+    rdfs:label "Bletchley Park" ;
+    ex:has_alias "Station X"^^xsd:string ;
+    ex:has_year "1877"^^xsd:gYear ;
+    rdfs:comment "Bletchley Park is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&CS), which regularly penetrated the secret communications of the Axis powers – most importantly the German Enigma and Lorenz ciphers. The GC&CS team of codebreakers included John Tiltman, Dilwyn Knox, Alan Turing, Harry Golombek, Gordon Welchman, Hugh Alexander, Donald Michie, Bill Tutte and Stuart Milner-Barry."@zh .
+
 ex:born_in a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "出生于"@zh ;
@@ -100,47 +126,12 @@ ex:born_in a rdf:Property,
     rdfs:domain ex:Person ;
     rdfs:range ex:Place .
 
-ex:church_turing_thesis a ex:Concept ;
-    rdfs:label "Church-Turing Thesis" ;
-    ex:related_to_field ex:computer_science,
-        ex:mathematical_logic ;
-    rdfs:comment "可计算性理论中的关键思想"@zh .
-
-ex:collaborated_with a rdf:Property,
-        owl:ObjectProperty,
-        owl:SymmetricProperty ;
-    rdfs:label "合作于"@zh ;
-    rdfs:comment "人物之间的合作关系"@zh ;
-    rdfs:domain ex:Person ;
-    rdfs:range ex:Person .
-
-ex:contributed_to a rdf:Property,
-        owl:ObjectProperty ;
-    rdfs:label "贡献于"@zh ;
-    rdfs:comment "人物参与或贡献的事件项目"@zh ;
-    rdfs:domain ex:Person ;
-    rdfs:range ex:Event .
-
-ex:designed a rdf:Property,
-        owl:ObjectProperty ;
-    rdfs:label "设计"@zh ;
-    rdfs:comment "人物设计的机器或系统"@zh ;
-    rdfs:domain ex:Person ;
-    rdfs:range ex:Machine .
-
 ex:died_in a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "逝世于"@zh ;
     rdfs:comment "人物逝世地点"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range ex:Place .
-
-ex:foundation_of a rdf:Property,
-        owl:ObjectProperty ;
-    rdfs:label "奠定基础"@zh ;
-    rdfs:comment "概念对学科的基础作用"@zh ;
-    rdfs:domain ex:Concept ;
-    rdfs:range ex:Field .
 
 ex:has_alias a rdf:Property,
         owl:DatatypeProperty ;
@@ -177,19 +168,25 @@ ex:has_year a rdf:Property,
     rdfs:domain ex:Entity ;
     rdfs:range rdfs:Literal .
 
-ex:located_in a rdf:Property,
-        owl:ObjectProperty ;
-    rdfs:label "位于"@zh ;
-    rdfs:comment "实体所处地点"@zh ;
-    rdfs:domain ex:Entity ;
-    rdfs:range ex:Place .
-
-ex:occurred_at a rdf:Property,
-        owl:ObjectProperty ;
-    rdfs:label "发生于"@zh ;
-    rdfs:comment "事件发生的机构或场所"@zh ;
-    rdfs:domain ex:Event ;
-    rdfs:range ex:Organization .
+ex:joan_clarke a ex:Person ;
+    rdfs:label "Joan Clarke" ;
+    ex:born_in ex:west_norwood,
+        ex:west_norwood_london ;
+    ex:died_in ex:headington ;
+    ex:has_alias "Joan Clarke Murray"^^xsd:string,
+        "Joan Elisabeth Lowther Clarke"^^xsd:string,
+        "Joan Elisabeth Lowther Clarke Murray"^^xsd:string,
+        "Joan Elisabeth Lowther Murray"^^xsd:string,
+        "Joan Murray"^^xsd:string ;
+    ex:has_birth_date "1917-06-24"^^xsd:date ;
+    ex:has_death_date "1996-09-04"^^xsd:date ;
+    ex:has_nationality "United Kingdom"^^xsd:string,
+        "United Kingdom of Great Britain and Ireland"^^xsd:string ;
+    ex:related_to_field ex:cryptography ;
+    ex:studied_at ex:dulwich_college,
+        ex:newnham_college ;
+    ex:worked_at ex:government_communications_headquarters ;
+    rdfs:comment "Joan Elisabeth Lowther Murray, MBE was an English cryptanalyst and numismatist who worked as a code-breaker at Bletchley Park during the Second World War. Although she did not personally seek the spotlight, her role in the Enigma project that decrypted the German secret communications earned her awards and citations, such as appointment as a Member of the Order of the British Empire (MBE), in 1946."@zh .
 
 ex:proposed a rdf:Property,
         owl:ObjectProperty ;
@@ -219,13 +216,6 @@ ex:studied_at a rdf:Property,
     rdfs:domain ex:Person ;
     rdfs:range ex:Organization .
 
-ex:targeted_machine a rdf:Property,
-        owl:ObjectProperty ;
-    rdfs:label "目标机器"@zh ;
-    rdfs:comment "事件或项目所针对的机器"@zh ;
-    rdfs:domain ex:Event ;
-    rdfs:range ex:Machine .
-
 ex:worked_at a rdf:Property,
         owl:ObjectProperty ;
     rdfs:label "工作于"@zh ;
@@ -233,128 +223,131 @@ ex:worked_at a rdf:Property,
     rdfs:domain ex:Person ;
     rdfs:range ex:Organization .
 
-ex:allied_codebreaking a ex:Event ;
-    rdfs:label "Allied Codebreaking" ;
-    ex:occurred_at ex:bletchley_park ;
-    ex:related_to_field ex:cryptanalysis ;
-    ex:targeted_machine ex:enigma_machine ;
-    rdfs:comment "二战期间盟军密码破译项目"@zh .
+ex:cryptanalysis a ex:Field ;
+    rdfs:label "cryptanalysis" .
 
-ex:alonzo_church a ex:Person ;
-    rdfs:label "Alonzo Church" ;
-    rdfs:comment "逻辑学家图灵在普林斯顿期间的重要学术关联人物"@zh .
+ex:dulwich_college a ex:Organization ;
+    rdfs:label "Dulwich College" .
 
-ex:automatic_computing_engine a ex:Machine ;
-    rdfs:label "Automatic Computing Engine" ;
-    ex:has_alias "ACE"^^xsd:string ;
-    ex:related_to_field ex:computer_science ;
-    rdfs:comment "ACE 计算机设计方案"@zh .
+ex:government_code_and_cypher_school a ex:Organization ;
+    rdfs:label "Government Code and Cypher School" .
 
-ex:bletchley a ex:Place ;
-    rdfs:label "Bletchley" ;
-    rdfs:comment "布莱切利园所在地"@zh .
+ex:harvard_university a ex:Organization ;
+    rdfs:label "Harvard University" .
 
-ex:bombe_machine a ex:Machine ;
-    rdfs:label "Bombe" ;
-    ex:related_to_field ex:cryptanalysis ;
-    rdfs:comment "用于辅助破译恩尼格玛的设备"@zh .
+ex:hazlehurst_community_primary_school a ex:Organization ;
+    rdfs:label "Hazlehurst Community Primary School" .
 
-ex:cambridge a ex:Place ;
-    rdfs:label "Cambridge" ;
-    rdfs:comment "剑桥大学所在地"@zh .
+ex:headington a ex:Place ;
+    rdfs:label "Headington" .
 
-ex:computing_machinery_and_intelligence a ex:Work ;
-    rdfs:label "Computing Machinery and Intelligence" ;
-    ex:has_year "1950"^^xsd:gYear ;
-    ex:published_in ex:mind_journal ;
-    ex:related_to_field ex:artificial_intelligence ;
-    rdfs:comment "1950 年提出图灵测试的重要论文"@zh .
+ex:hudson a ex:Place ;
+    rdfs:label "Hudson" .
 
-ex:enigma_machine a ex:Machine ;
-    rdfs:label "Enigma Machine" ;
-    rdfs:comment "德国使用的密码机"@zh .
+ex:hudson_ohio a ex:Place ;
+    rdfs:label "Hudson, Ohio" .
 
-ex:joan_clarke a ex:Person ;
-    rdfs:label "Joan Clarke" ;
-    rdfs:comment "英国密码分析学家二战期间在布莱切利园工作"@zh .
-
-ex:kings_college_cambridge a ex:Organization ;
-    rdfs:label "King's College Cambridge" ;
-    ex:located_in ex:cambridge ;
-    rdfs:comment "图灵本科求学机构"@zh .
-
-ex:london a ex:Place ;
-    rdfs:label "London" ;
-    rdfs:comment "英国首都"@zh .
+ex:king_s_college a ex:Organization ;
+    rdfs:label "King's College" .
 
 ex:maida_vale a ex:Place ;
-    rdfs:label "Maida Vale" ;
-    rdfs:comment "图灵出生地位于伦敦"@zh .
+    rdfs:label "Maida Vale" .
 
-ex:mind_journal a ex:PublicationVenue ;
-    rdfs:label "Mind" ;
-    rdfs:comment "图灵测试论文发表期刊"@zh .
+ex:mathematical_and_theoretical_biology a ex:Field ;
+    rdfs:label "mathematical and theoretical biology" .
+
+ex:mathematical_logic a ex:Field ;
+    rdfs:label "mathematical logic" .
 
 ex:national_physical_laboratory a ex:Organization ;
-    rdfs:label "National Physical Laboratory" ;
-    ex:located_in ex:london ;
-    rdfs:comment "英国国家物理实验室"@zh .
+    rdfs:label "National Physical Laboratory" .
+
+ex:newnham_college a ex:Organization ;
+    rdfs:label "Newnham College" .
 
 ex:on_computable_numbers a ex:Work ;
-    rdfs:label "On Computable Numbers" ;
-    ex:has_year "1936"^^xsd:gYear ;
-    ex:published_in ex:proceedings_lms ;
-    ex:related_to_field ex:computer_science,
-        ex:mathematical_logic ;
-    rdfs:comment "1936 年发表的经典论文"@zh .
+    rdfs:label "On Computable Numbers, with an Application to the Entscheidungsproblem" ;
+    ex:published_in ex:proceedings_of_the_london_mathematical_society ;
+    rdfs:comment """Turing's proof is a proof by Alan Turing, first published in November 1936 with the title "On Computable Numbers, with an Application to the Entscheidungsproblem". It was the second proof of the negation of Hilbert's Entscheidungsproblem; that is, the conjecture that some purely mathematical yes–no questions can never be answered by computation; more technically, that some decision problems are "undecidable" in the sense that there is no single algorithm that infallibly gives a correct "yes" or "no" answer to each instance of the problem. In Turing's own words:
+"what I shall prove is quite different from the well-known results of Gödel ... I shall now show that there is no general method which tells whether a given formula U is provable in K [Principia Mathematica]"."""@zh .
 
-ex:princeton a ex:Place ;
-    rdfs:label "Princeton" ;
-    rdfs:comment "普林斯顿大学所在地"@zh .
+ex:proceedings_of_the_london_mathematical_society a ex:PublicationVenue ;
+    rdfs:label "Proceedings of the London Mathematical Society" .
+
+ex:sherborne_school a ex:Organization ;
+    rdfs:label "Sherborne School" .
+
+ex:theoretical_computer_science a ex:Field ;
+    rdfs:label "theoretical computer science" .
+
+ex:turing_machine a ex:Concept ;
+    rdfs:label "Turing machine" ;
+    ex:has_alias "deterministic Turing machine"^^xsd:string ;
+    ex:has_year "1936"^^xsd:gYear ;
+    rdfs:comment "A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, it is capable of implementing any computer algorithm."@zh .
+
+ex:turing_test a ex:Concept ;
+    rdfs:label "Turing test" ;
+    ex:has_alias "imitation Game"^^xsd:string ;
+    rdfs:comment "The Turing test, originally called the imitation game by Alan Turing in 1949, is a test of a machine's ability to exhibit intelligent behaviour equivalent to that of a human. In the test, a human evaluator judges a text transcript of a natural-language conversation between a human and a machine. The evaluator tries to identify the machine, and the machine passes if the evaluator cannot reliably tell them apart. The results would not depend on the machine's ability to answer questions correctly, only on how closely its answers resembled those of a human. Since the Turing test is a test of indistinguishability in performance capacity, the verbal version generalizes naturally to all of human performance capacity, verbal as well as nonverbal (robotic)."@zh .
+
+ex:ucla a ex:Organization ;
+    rdfs:label "UCLA" .
+
+ex:university_of_amsterdam a ex:Organization ;
+    rdfs:label "University of Amsterdam" .
+
+ex:university_of_california_los_angeles a ex:Organization ;
+    rdfs:label "University of California, Los Angeles" .
+
+ex:university_of_cambridge a ex:Organization ;
+    rdfs:label "University of Cambridge" .
+
+ex:university_of_g_ttingen a ex:Organization ;
+    rdfs:label "University of Göttingen" .
+
+ex:university_of_manchester a ex:Organization ;
+    rdfs:label "University of Manchester" .
+
+ex:victoria_university_of_manchester a ex:Organization ;
+    rdfs:label "Victoria University of Manchester" .
+
+ex:warrington_lodge a ex:Place ;
+    rdfs:label "Warrington Lodge" .
+
+ex:washington_d_c a ex:Place ;
+    rdfs:label "Washington, D.C." .
+
+ex:west_norwood a ex:Place ;
+    rdfs:label "West Norwood" .
+
+ex:west_norwood_london a ex:Place ;
+    rdfs:label "West Norwood, London" .
+
+ex:wilmslow a ex:Place ;
+    rdfs:label "Wilmslow" .
+
+ex:computer_science a ex:Field ;
+    rdfs:label "computer science" .
+
+ex:cryptography a ex:Field ;
+    rdfs:label "cryptography" .
+
+ex:government_communications_headquarters a ex:Organization ;
+    rdfs:label "Government Communications Headquarters" .
+
+ex:logic a ex:Field ;
+    rdfs:label "Logic" .
+
+ex:mathematics a ex:Field ;
+    rdfs:label "mathematics" .
 
 ex:princeton_university a ex:Organization ;
     rdfs:label "Princeton University" ;
-    ex:located_in ex:princeton ;
-    rdfs:comment "图灵攻读博士的大学"@zh .
-
-ex:proceedings_lms a ex:PublicationVenue ;
-    rdfs:label "Proceedings of the London Mathematical Society" ;
-    rdfs:comment "图灵论文发表期刊之一"@zh .
-
-ex:turing_machine a ex:Concept ;
-    rdfs:label "Turing Machine" ;
-    ex:foundation_of ex:computer_science ;
-    ex:has_year "1936"^^xsd:gYear ;
-    rdfs:comment "可计算性理论中的核心概念"@zh .
-
-ex:turing_test a ex:Concept ;
-    rdfs:label "Turing Test" ;
-    ex:foundation_of ex:artificial_intelligence ;
-    ex:has_year "1950"^^xsd:gYear ;
-    rdfs:comment "人工智能领域经典测试思想"@zh .
-
-ex:wilmslow a ex:Place ;
-    rdfs:label "Wilmslow" ;
-    rdfs:comment "图灵逝世地"@zh .
-
-ex:artificial_intelligence a ex:Field ;
-    rdfs:label "Artificial Intelligence" ;
-    rdfs:comment "人工智能"@zh .
-
-ex:bletchley_park a ex:Organization ;
-    rdfs:label "Bletchley Park" ;
-    ex:located_in ex:bletchley ;
-    rdfs:comment "英国二战密码分析中心"@zh .
-
-ex:cryptanalysis a ex:Field ;
-    rdfs:label "Cryptanalysis" ;
-    rdfs:comment "密码分析"@zh .
-
-ex:mathematical_logic a ex:Field ;
-    rdfs:label "Mathematical Logic" ;
-    rdfs:comment "数理逻辑"@zh .
-
-ex:computer_science a ex:Field ;
-    rdfs:label "Computer Science" ;
-    rdfs:comment "计算机科学"@zh .
+    ex:has_alias "College of New Jersey"^^xsd:string,
+        "Princeton"^^xsd:string,
+        "Princeton College"^^xsd:string,
+        "University of Princeton"^^xsd:string,
+        "princeton.edu"^^xsd:string ;
+    ex:has_year "1746"^^xsd:gYear .
 

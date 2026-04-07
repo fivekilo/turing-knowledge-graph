@@ -1,0 +1,57 @@
+﻿entity_id,label,class_id_hint,description,source,source_key
+alan_turing,Alan Turing,Person,"Alan Mathison Turing was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science.",wikipedia,Alan Turing
+maida_vale,Maida Vale,Place,,wikipedia,Maida Vale
+wilmslow,Wilmslow,Place,,wikipedia,Wilmslow
+logic,Logic,Field,,wikipedia,Logic
+mathematics,mathematics,Field,,wikipedia,mathematics
+cryptanalysis,cryptanalysis,Field,,wikipedia,cryptanalysis
+computer_science,computer science,Field,,wikipedia,computer science
+mathematical_and_theoretical_biology,mathematical and theoretical biology,Field,,wikipedia,mathematical and theoretical biology
+university_of_manchester,University of Manchester,Organization,,wikipedia,University of Manchester
+government_code_and_cypher_school,Government Code and Cypher School,Organization,,wikipedia,Government Code and Cypher School
+national_physical_laboratory,National Physical Laboratory,Organization,,wikipedia,National Physical Laboratory
+maida_vale,Maida Vale,Place,,wikidata,Maida Vale
+warrington_lodge,Warrington Lodge,Place,,wikidata,Warrington Lodge
+wilmslow,Wilmslow,Place,,wikidata,Wilmslow
+king_s_college,King's College,Organization,,wikidata,King's College
+princeton_university,Princeton University,Organization,,wikidata,Princeton University
+sherborne_school,Sherborne School,Organization,,wikidata,Sherborne School
+hazlehurst_community_primary_school,Hazlehurst Community Primary School,Organization,,wikidata,Hazlehurst Community Primary School
+victoria_university_of_manchester,Victoria University of Manchester,Organization,,wikidata,Victoria University of Manchester
+government_communications_headquarters,Government Communications Headquarters,Organization,,wikidata,Government Communications Headquarters
+university_of_cambridge,University of Cambridge,Organization,,wikidata,University of Cambridge
+national_physical_laboratory,National Physical Laboratory,Organization,,wikidata,National Physical Laboratory
+cryptanalysis,cryptanalysis,Field,,wikidata,cryptanalysis
+computer_science,computer science,Field,,wikidata,computer science
+mathematics,mathematics,Field,,wikidata,mathematics
+logic,logic,Field,,wikidata,logic
+cryptography,cryptography,Field,,wikidata,cryptography
+joan_clarke,Joan Clarke,Person,"Joan Elisabeth Lowther Murray, MBE was an English cryptanalyst and numismatist who worked as a code-breaker at Bletchley Park during the Second World War. Although she did not personally seek the spotlight, her role in the Enigma project that decrypted the German secret communications earned her awards and citations, such as appointment as a Member of the Order of the British Empire (MBE), in 1946.",wikipedia,Joan Clarke
+west_norwood_london,"West Norwood, London",Place,,wikipedia,"West Norwood, London"
+headington,Headington,Place,,wikipedia,Headington
+west_norwood,West Norwood,Place,,wikidata,West Norwood
+headington,Headington,Place,,wikidata,Headington
+newnham_college,Newnham College,Organization,,wikidata,Newnham College
+dulwich_college,Dulwich College,Organization,,wikidata,Dulwich College
+alonzo_church,Alonzo Church,Person,"Alonzo Church was an American computer scientist, mathematician, logician, and philosopher who made major contributions to mathematical logic and the foundations of theoretical computer science. He is best known for the lambda calculus, the Church–Turing thesis, proving the unsolvability of the Entscheidungsproblem, the Frege–Church ontology, and the Church–Rosser theorem. Alongside his doctoral student Alan Turing, Church is considered one of the founders of computer science.",wikipedia,Alonzo Church
+washington_d_c,"Washington, D.C.",Place,,wikipedia,"Washington, D.C."
+hudson_ohio,"Hudson, Ohio",Place,,wikipedia,"Hudson, Ohio"
+computer_science,Computer science,Field,,wikipedia,Computer science
+mathematics,Mathematics,Field,,wikipedia,Mathematics
+princeton_university,Princeton University,Organization,,wikipedia,Princeton University
+ucla,UCLA,Organization,,wikipedia,UCLA
+washington_d_c,"Washington, D.C.",Place,,wikidata,"Washington, D.C."
+hudson,Hudson,Place,,wikidata,Hudson
+harvard_university,Harvard University,Organization,,wikidata,Harvard University
+university_of_g_ttingen,University of Göttingen,Organization,,wikidata,University of Göttingen
+university_of_amsterdam,University of Amsterdam,Organization,,wikidata,University of Amsterdam
+university_of_california_los_angeles,"University of California, Los Angeles",Organization,,wikidata,"University of California, Los Angeles"
+mathematical_logic,mathematical logic,Field,,wikidata,mathematical logic
+theoretical_computer_science,theoretical computer science,Field,,wikidata,theoretical computer science
+bletchley_park,Bletchley Park,Organization,"Bletchley Park is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&CS), which regularly penetrated the secret communications of the Axis powers – most importantly the German Enigma and Lorenz ciphers. The GC&CS team of codebreakers included John Tiltman, Dilwyn Knox, Alan Turing, Harry Golombek, Gordon Welchman, Hugh Alexander, Donald Michie, Bill Tutte and Stuart Milner-Barry.",wikipedia,Bletchley Park
+turing_machine,Turing machine,Concept,"A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, it is capable of implementing any computer algorithm.",wikipedia,Turing machine
+alan_turing,Alan Turing,Person,,wikidata,Alan Turing
+turing_test,Turing test,Concept,"The Turing test, originally called the imitation game by Alan Turing in 1949, is a test of a machine's ability to exhibit intelligent behaviour equivalent to that of a human. In the test, a human evaluator judges a text transcript of a natural-language conversation between a human and a machine. The evaluator tries to identify the machine, and the machine passes if the evaluator cannot reliably tell them apart. The results would not depend on the machine's ability to answer questions correctly, only on how closely its answers resembled those of a human. Since the Turing test is a test of indistinguishability in performance capacity, the verbal version generalizes naturally to all of human performance capacity, verbal as well as nonverbal (robotic).",wikipedia,Turing test
+on_computable_numbers,"On Computable Numbers, with an Application to the Entscheidungsproblem",Work,"Turing's proof is a proof by Alan Turing, first published in November 1936 with the title ""On Computable Numbers, with an Application to the Entscheidungsproblem"". It was the second proof of the negation of Hilbert's Entscheidungsproblem; that is, the conjecture that some purely mathematical yes–no questions can never be answered by computation; more technically, that some decision problems are ""undecidable"" in the sense that there is no single algorithm that infallibly gives a correct ""yes"" or ""no"" answer to each instance of the problem. In Turing's own words:
+""what I shall prove is quite different from the well-known results of Gödel ... I shall now show that there is no general method which tells whether a given formula U is provable in K [Principia Mathematica]"".",wikipedia,"On Computable Numbers, with an Application to the Entscheidungsproblem"
+proceedings_of_the_london_mathematical_society,Proceedings of the London Mathematical Society,PublicationVenue,,wikidata,Proceedings of the London Mathematical Society

@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Alan Turing",
+  "displaytitle": "<span class=\"mw-page-title-main\">Alan Turing</span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q7251",
+  "titles": {
+    "canonical": "Alan_Turing",
+    "normalized": "Alan Turing",
+    "display": "<span class=\"mw-page-title-main\">Alan Turing</span>"
+  },
+  "pageid": 1208,
+  "thumbnail": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Alan_turing_header.jpg/330px-Alan_turing_header.jpg",
+    "width": 330,
+    "height": 440
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Alan_turing_header.jpg",
+    "width": 752,
+    "height": 1002
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1347373989",
+  "tid": "7fdad1a5-3199-11f1-b05f-75392471f8d5",
+  "timestamp": "2026-04-06T09:17:57Z",
+  "description": "English computer scientist (1912–1954)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Alan_Turing",
+      "revisions": "https://en.wikipedia.org/wiki/Alan_Turing?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Alan_Turing?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Alan_Turing"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Alan_Turing",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Alan_Turing",
+      "edit": "https://en.wikipedia.org/wiki/Alan_Turing?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Alan_Turing"
+    }
+  },
+  "extract": "Alan Mathison Turing was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science.",
+  "extract_html": "<p><b>Alan Mathison Turing</b> was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science.</p>"
+}

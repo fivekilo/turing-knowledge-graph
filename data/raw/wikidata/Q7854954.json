@@ -1,0 +1,269 @@
+{
+  "entities": {
+    "Q7854954": {
+      "pageid": 7790068,
+      "ns": 0,
+      "title": "Q7854954",
+      "lastrevid": 2452183326,
+      "modified": "2026-01-06T21:16:34Z",
+      "type": "item",
+      "id": "Q7854954",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Turing's proof"
+        },
+        "pl": {
+          "language": "pl",
+          "value": "Dowód Turinga"
+        },
+        "uk": {
+          "language": "uk",
+          "value": "Тюрінгове доведення"
+        },
+        "sr": {
+          "language": "sr",
+          "value": "Tjuringov dokaz"
+        },
+        "es": {
+          "language": "es",
+          "value": "prueba de Turing"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "Proof by Alan Turing"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P138",
+              "hash": "70ad70552f009e6c5f5601a103f4cefd429407fa",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7251,
+                  "id": "Q7251"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q7854954$d1b2f84b-4b36-1ce8-f51d-e4290ea254d9",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "c58b317037bf7c720709faa72a6bf1c0bcc8b436",
+              "datavalue": {
+                "value": "2779408685",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7854954$5066602A-6E2E-4869-9E75-3791CF03DE73",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "9782694344361e699d46b32b4bcdd19f90edd906",
+              "datavalue": {
+                "value": "/m/09yd22",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7854954$A124BD75-7F4A-436E-9D76-C7E57F88C682",
+            "rank": "normal"
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "ff9618b7ecf9fae6d8b04a5a229a1025dab3e2a8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20895949,
+                  "id": "Q20895949"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7854954$317db1fb-463d-cdc2-6b10-9cf3349c27b2",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "5a5acf913bd7ef6f02f836cdc8506ccdc17c99ee",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11538,
+                  "id": "Q11538"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7854954$74139432-485c-7852-f46a-7d4ac24505ce",
+            "rank": "normal"
+          }
+        ],
+        "P50": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P50",
+              "hash": "fadd8cc387c7db81135aebe0347a3db523d69e93",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7251,
+                  "id": "Q7251"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7854954$dd6cc777-4b89-8c1b-410e-8cd480b421ef",
+            "rank": "normal"
+          }
+        ],
+        "P921": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P921",
+              "hash": "e25333cc4113afedbaef853305545b5d52e3279a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11030584,
+                  "id": "Q11030584"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7854954$7e38afcf-4382-4b9a-701f-41f4bc423516",
+            "rank": "normal"
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "db6798433ea38a625fd00810a28b4c2bdaaf88ba",
+              "datavalue": {
+                "value": {
+                  "time": "+1936-11-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q7854954$a6bb7011-4a38-dc7f-204d-91bf944b9f98",
+            "rank": "normal"
+          }
+        ],
+        "P291": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P291",
+              "hash": "63c0ffd4c0db7f25d09bb3b3e24eb57c8d4603ad",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1810244,
+                  "id": "Q1810244"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7854954$de2c155f-4d80-7c30-cafe-bf733396d15c",
+            "rank": "normal"
+          }
+        ],
+        "P1433": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1433",
+              "hash": "8f80b6a77e20c0a4db685e461b473188213f1803",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6087100,
+                  "id": "Q6087100"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7854954$d2e56e82-4fb6-443c-6596-3753bb1c988d",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Turing's proof",
+          "badges": [],
+          "url": "https://en.wikipedia.org/wiki/Turing%27s_proof"
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Dowód Turinga",
+          "badges": [],
+          "url": "https://pl.wikipedia.org/wiki/Dow%C3%B3d_Turinga"
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Tjuringov dokaz",
+          "badges": [],
+          "url": "https://sr.wikipedia.org/wiki/Tjuringov_dokaz"
+        }
+      }
+    }
+  }
+}

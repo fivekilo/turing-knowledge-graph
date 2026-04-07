@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Alonzo Church",
+  "displaytitle": "<span class=\"mw-page-title-main\">Alonzo Church</span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q92741",
+  "titles": {
+    "canonical": "Alonzo_Church",
+    "normalized": "Alonzo Church",
+    "display": "<span class=\"mw-page-title-main\">Alonzo Church</span>"
+  },
+  "pageid": 49731,
+  "thumbnail": {
+    "source": "https://upload.wikimedia.org/wikipedia/en/a/a6/Alonzo_Church.jpg",
+    "width": 235,
+    "height": 314
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/en/a/a6/Alonzo_Church.jpg",
+    "width": 235,
+    "height": 314
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1346015065",
+  "tid": "cc0c8d5c-2b6d-11f1-a288-c6045cc25896",
+  "timestamp": "2026-03-29T12:50:00Z",
+  "description": "American mathematician and computer scientist (1903–1995)",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Alonzo_Church",
+      "revisions": "https://en.wikipedia.org/wiki/Alonzo_Church?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Alonzo_Church?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Alonzo_Church"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Alonzo_Church",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Alonzo_Church",
+      "edit": "https://en.wikipedia.org/wiki/Alonzo_Church?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Alonzo_Church"
+    }
+  },
+  "extract": "Alonzo Church was an American computer scientist, mathematician, logician, and philosopher who made major contributions to mathematical logic and the foundations of theoretical computer science. He is best known for the lambda calculus, the Church–Turing thesis, proving the unsolvability of the Entscheidungsproblem, the Frege–Church ontology, and the Church–Rosser theorem. Alongside his doctoral student Alan Turing, Church is considered one of the founders of computer science.",
+  "extract_html": "<p><b>Alonzo Church</b> was an American computer scientist, mathematician, logician, and philosopher who made major contributions to mathematical logic and the foundations of theoretical computer science. He is best known for the lambda calculus, the Church–Turing thesis, proving the unsolvability of the <i>Entscheidungsproblem</i>, the Frege–Church ontology, and the Church–Rosser theorem. Alongside his doctoral student Alan Turing, Church is considered one of the founders of computer science.</p>"
+}

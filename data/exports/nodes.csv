@@ -1,29 +1,44 @@
 ﻿id,label,class_id,description,source
-alan_turing,Alan Turing,Person,英国数学家逻辑学家计算机科学奠基者,课程PPT与百科常识整理
-joan_clarke,Joan Clarke,Person,英国密码分析学家二战期间在布莱切利园工作,课程PPT与百科常识整理
-alonzo_church,Alonzo Church,Person,逻辑学家图灵在普林斯顿期间的重要学术关联人物,课程PPT与百科常识整理
-kings_college_cambridge,King's College Cambridge,Organization,图灵本科求学机构,课程PPT与百科常识整理
-princeton_university,Princeton University,Organization,图灵攻读博士的大学,课程PPT与百科常识整理
-bletchley_park,Bletchley Park,Organization,英国二战密码分析中心,课程PPT与百科常识整理
-national_physical_laboratory,National Physical Laboratory,Organization,英国国家物理实验室,课程PPT与百科常识整理
-maida_vale,Maida Vale,Place,图灵出生地位于伦敦,课程PPT与百科常识整理
-wilmslow,Wilmslow,Place,图灵逝世地,课程PPT与百科常识整理
-cambridge,Cambridge,Place,剑桥大学所在地,课程PPT与百科常识整理
-princeton,Princeton,Place,普林斯顿大学所在地,课程PPT与百科常识整理
-bletchley,Bletchley,Place,布莱切利园所在地,课程PPT与百科常识整理
-london,London,Place,英国首都,课程PPT与百科常识整理
-on_computable_numbers,On Computable Numbers,Work,1936 年发表的经典论文,课程PPT与百科常识整理
-computing_machinery_and_intelligence,Computing Machinery and Intelligence,Work,1950 年提出图灵测试的重要论文,课程PPT与百科常识整理
-proceedings_lms,Proceedings of the London Mathematical Society,PublicationVenue,图灵论文发表期刊之一,课程PPT与百科常识整理
-mind_journal,Mind,PublicationVenue,图灵测试论文发表期刊,课程PPT与百科常识整理
-turing_machine,Turing Machine,Concept,可计算性理论中的核心概念,课程PPT与百科常识整理
-turing_test,Turing Test,Concept,人工智能领域经典测试思想,课程PPT与百科常识整理
-church_turing_thesis,Church-Turing Thesis,Concept,可计算性理论中的关键思想,课程PPT与百科常识整理
-automatic_computing_engine,Automatic Computing Engine,Machine,ACE 计算机设计方案,课程PPT与百科常识整理
-bombe_machine,Bombe,Machine,用于辅助破译恩尼格玛的设备,课程PPT与百科常识整理
-enigma_machine,Enigma Machine,Machine,德国使用的密码机,课程PPT与百科常识整理
-allied_codebreaking,Allied Codebreaking,Event,二战期间盟军密码破译项目,课程PPT与百科常识整理
-computer_science,Computer Science,Field,计算机科学,课程PPT与百科常识整理
-artificial_intelligence,Artificial Intelligence,Field,人工智能,课程PPT与百科常识整理
-cryptanalysis,Cryptanalysis,Field,密码分析,课程PPT与百科常识整理
-mathematical_logic,Mathematical Logic,Field,数理逻辑,课程PPT与百科常识整理
+turing_machine,Turing machine,Concept,"A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, it is capable of implementing any computer algorithm.",wikipedia
+turing_test,Turing test,Concept,"The Turing test, originally called the imitation game by Alan Turing in 1949, is a test of a machine's ability to exhibit intelligent behaviour equivalent to that of a human. In the test, a human evaluator judges a text transcript of a natural-language conversation between a human and a machine. The evaluator tries to identify the machine, and the machine passes if the evaluator cannot reliably tell them apart. The results would not depend on the machine's ability to answer questions correctly, only on how closely its answers resembled those of a human. Since the Turing test is a test of indistinguishability in performance capacity, the verbal version generalizes naturally to all of human performance capacity, verbal as well as nonverbal (robotic).",wikipedia
+logic,Logic,Field,,wikidata|wikipedia
+computer_science,computer science,Field,,wikidata|wikipedia
+cryptanalysis,cryptanalysis,Field,,wikidata|wikipedia
+cryptography,cryptography,Field,,wikidata
+mathematical_and_theoretical_biology,mathematical and theoretical biology,Field,,wikipedia
+mathematical_logic,mathematical logic,Field,,wikidata
+mathematics,mathematics,Field,,wikidata|wikipedia
+theoretical_computer_science,theoretical computer science,Field,,wikidata
+bletchley_park,Bletchley Park,Organization,"Bletchley Park is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&CS), which regularly penetrated the secret communications of the Axis powers – most importantly the German Enigma and Lorenz ciphers. The GC&CS team of codebreakers included John Tiltman, Dilwyn Knox, Alan Turing, Harry Golombek, Gordon Welchman, Hugh Alexander, Donald Michie, Bill Tutte and Stuart Milner-Barry.",wikipedia
+dulwich_college,Dulwich College,Organization,,wikidata
+government_code_and_cypher_school,Government Code and Cypher School,Organization,,wikipedia
+government_communications_headquarters,Government Communications Headquarters,Organization,,wikidata
+harvard_university,Harvard University,Organization,,wikidata
+hazlehurst_community_primary_school,Hazlehurst Community Primary School,Organization,,wikidata
+king_s_college,King's College,Organization,,wikidata
+national_physical_laboratory,National Physical Laboratory,Organization,,wikidata|wikipedia
+newnham_college,Newnham College,Organization,,wikidata
+princeton_university,Princeton University,Organization,,wikidata|wikipedia
+sherborne_school,Sherborne School,Organization,,wikidata
+ucla,UCLA,Organization,,wikipedia
+university_of_amsterdam,University of Amsterdam,Organization,,wikidata
+university_of_california_los_angeles,"University of California, Los Angeles",Organization,,wikidata
+university_of_cambridge,University of Cambridge,Organization,,wikidata
+university_of_g_ttingen,University of Göttingen,Organization,,wikidata
+university_of_manchester,University of Manchester,Organization,,wikipedia
+victoria_university_of_manchester,Victoria University of Manchester,Organization,,wikidata
+alan_turing,Alan Turing,Person,"Alan Mathison Turing was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science.",wikidata|wikipedia
+alonzo_church,Alonzo Church,Person,"Alonzo Church was an American computer scientist, mathematician, logician, and philosopher who made major contributions to mathematical logic and the foundations of theoretical computer science. He is best known for the lambda calculus, the Church–Turing thesis, proving the unsolvability of the Entscheidungsproblem, the Frege–Church ontology, and the Church–Rosser theorem. Alongside his doctoral student Alan Turing, Church is considered one of the founders of computer science.",wikipedia
+joan_clarke,Joan Clarke,Person,"Joan Elisabeth Lowther Murray, MBE was an English cryptanalyst and numismatist who worked as a code-breaker at Bletchley Park during the Second World War. Although she did not personally seek the spotlight, her role in the Enigma project that decrypted the German secret communications earned her awards and citations, such as appointment as a Member of the Order of the British Empire (MBE), in 1946.",wikipedia
+headington,Headington,Place,,wikidata|wikipedia
+hudson,Hudson,Place,,wikidata
+hudson_ohio,"Hudson, Ohio",Place,,wikipedia
+maida_vale,Maida Vale,Place,,wikidata|wikipedia
+warrington_lodge,Warrington Lodge,Place,,wikidata
+washington_d_c,"Washington, D.C.",Place,,wikidata|wikipedia
+west_norwood,West Norwood,Place,,wikidata
+west_norwood_london,"West Norwood, London",Place,,wikipedia
+wilmslow,Wilmslow,Place,,wikidata|wikipedia
+proceedings_of_the_london_mathematical_society,Proceedings of the London Mathematical Society,PublicationVenue,,wikidata
+on_computable_numbers,"On Computable Numbers, with an Application to the Entscheidungsproblem",Work,"Turing's proof is a proof by Alan Turing, first published in November 1936 with the title ""On Computable Numbers, with an Application to the Entscheidungsproblem"". It was the second proof of the negation of Hilbert's Entscheidungsproblem; that is, the conjecture that some purely mathematical yes–no questions can never be answered by computation; more technically, that some decision problems are ""undecidable"" in the sense that there is no single algorithm that infallibly gives a correct ""yes"" or ""no"" answer to each instance of the problem. In Turing's own words:
+""what I shall prove is quite different from the well-known results of Gödel ... I shall now show that there is no general method which tells whether a given formula U is provable in K [Principia Mathematica]"".",wikipedia

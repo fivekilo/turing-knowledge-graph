@@ -1,0 +1,2929 @@
+{
+  "entities": {
+    "Q163310": {
+      "pageid": 164090,
+      "ns": 0,
+      "title": "Q163310",
+      "lastrevid": 2478476466,
+      "modified": "2026-04-05T06:55:30Z",
+      "type": "item",
+      "id": "Q163310",
+      "labels": {
+        "lb": {
+          "language": "lb",
+          "value": "Turingmaschinn"
+        },
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "图灵机"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "圖靈機"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "杜林機"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "图灵机"
+        },
+        "zh-sg": {
+          "language": "zh-sg",
+          "value": "图灵机"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "圖靈機"
+        },
+        "eu": {
+          "language": "eu",
+          "value": "Turingen makina"
+        },
+        "pl": {
+          "language": "pl",
+          "value": "maszyna Turinga"
+        },
+        "bs": {
+          "language": "bs",
+          "value": "Turingova mašina"
+        },
+        "es": {
+          "language": "es",
+          "value": "máquina de Turing"
+        },
+        "hu": {
+          "language": "hu",
+          "value": "Turing-gép"
+        },
+        "et": {
+          "language": "et",
+          "value": "Turingi masin"
+        },
+        "sq": {
+          "language": "sq",
+          "value": "makina Turing"
+        },
+        "el": {
+          "language": "el",
+          "value": "Μηχανή Τούρινγκ"
+        },
+        "nl": {
+          "language": "nl",
+          "value": "Turingmachine"
+        },
+        "sv": {
+          "language": "sv",
+          "value": "Turingmaskin"
+        },
+        "ar": {
+          "language": "ar",
+          "value": "آلة تورنغ"
+        },
+        "pt": {
+          "language": "pt",
+          "value": "máquina de Turing"
+        },
+        "eo": {
+          "language": "eo",
+          "value": "maŝino de Turing"
+        },
+        "ru": {
+          "language": "ru",
+          "value": "машина Тьюринга"
+        },
+        "sr-el": {
+          "language": "sr-el",
+          "value": "Tjuringova mašina"
+        },
+        "sr-ec": {
+          "language": "sr-ec",
+          "value": "Тјурингова машина"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "Turing makinesi"
+        },
+        "mk": {
+          "language": "mk",
+          "value": "Тјурингова машина"
+        },
+        "fi": {
+          "language": "fi",
+          "value": "Turingin kone"
+        },
+        "uk": {
+          "language": "uk",
+          "value": "машина Тюринга"
+        },
+        "be-tarask": {
+          "language": "be-tarask",
+          "value": "машына Т’юрынга"
+        },
+        "hr": {
+          "language": "hr",
+          "value": "Turingov stroj"
+        },
+        "fur": {
+          "language": "fur",
+          "value": "machine di Turing"
+        },
+        "da": {
+          "language": "da",
+          "value": "Turingmaskine"
+        },
+        "gsw": {
+          "language": "gsw",
+          "value": "Turing-Maschine"
+        },
+        "be": {
+          "language": "be",
+          "value": "машына Т'юрынга"
+        },
+        "he": {
+          "language": "he",
+          "value": "מכונת טיורינג"
+        },
+        "ko": {
+          "language": "ko",
+          "value": "튜링 기계"
+        },
+        "fr": {
+          "language": "fr",
+          "value": "machine de Turing"
+        },
+        "lv": {
+          "language": "lv",
+          "value": "Tjūringa mašīna"
+        },
+        "it": {
+          "language": "it",
+          "value": "macchina di Turing"
+        },
+        "de": {
+          "language": "de",
+          "value": "Turingmaschine"
+        },
+        "id": {
+          "language": "id",
+          "value": "mesin Turing"
+        },
+        "ml": {
+          "language": "ml",
+          "value": "ടൂറിങ് മെഷീൻ"
+        },
+        "ja": {
+          "language": "ja",
+          "value": "チューリングマシン"
+        },
+        "vi": {
+          "language": "vi",
+          "value": "máy Turing"
+        },
+        "en": {
+          "language": "en",
+          "value": "Turing machine"
+        },
+        "sh": {
+          "language": "sh",
+          "value": "Turingov stroj"
+        },
+        "sk": {
+          "language": "sk",
+          "value": "Turingov stroj"
+        },
+        "th": {
+          "language": "th",
+          "value": "เครื่องจักรทัวริง"
+        },
+        "ro": {
+          "language": "ro",
+          "value": "mașină Turing"
+        },
+        "ca": {
+          "language": "ca",
+          "value": "Màquina de Turing"
+        },
+        "la": {
+          "language": "la",
+          "value": "machina Turing"
+        },
+        "sl": {
+          "language": "sl",
+          "value": "Turingov stroj"
+        },
+        "cs": {
+          "language": "cs",
+          "value": "Turingův stroj"
+        },
+        "fa": {
+          "language": "fa",
+          "value": "ماشین تورینگ"
+        },
+        "bg": {
+          "language": "bg",
+          "value": "машина на Тюринг"
+        },
+        "lt": {
+          "language": "lt",
+          "value": "Tiuringo mašina"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "图灵机"
+        },
+        "sr": {
+          "language": "sr",
+          "value": "Тјурингова машина"
+        },
+        "pt-br": {
+          "language": "pt-br",
+          "value": "máquina de Turing"
+        },
+        "nb": {
+          "language": "nb",
+          "value": "Turingmaskin"
+        },
+        "mwl": {
+          "language": "mwl",
+          "value": "máquina de Turing"
+        },
+        "ki": {
+          "language": "ki",
+          "value": "macini ya Turing"
+        },
+        "de-at": {
+          "language": "de-at",
+          "value": "Turingmaschine"
+        },
+        "hy": {
+          "language": "hy",
+          "value": "Թյուրինգի մեքենա"
+        },
+        "nan": {
+          "language": "nan",
+          "value": "Turing ki-hâi"
+        },
+        "ia": {
+          "language": "ia",
+          "value": "machina de Turing"
+        },
+        "ckb": {
+          "language": "ckb",
+          "value": "مەکینەی تیورینگ"
+        },
+        "lmo": {
+          "language": "lmo",
+          "value": "macchina del Turing"
+        },
+        "yue": {
+          "language": "yue",
+          "value": "圖靈機"
+        },
+        "wuu": {
+          "language": "wuu",
+          "value": "图灵机"
+        },
+        "ka": {
+          "language": "ka",
+          "value": "ტურინგის მანქანა"
+        },
+        "tl": {
+          "language": "tl",
+          "value": "Makinang Turing"
+        },
+        "oc": {
+          "language": "oc",
+          "value": "Maquina de Turing"
+        },
+        "io": {
+          "language": "io",
+          "value": "Mashino di Turing"
+        },
+        "az": {
+          "language": "az",
+          "value": "Türinq maşını"
+        },
+        "ga": {
+          "language": "ga",
+          "value": "Meaisín Turing"
+        },
+        "gl": {
+          "language": "gl",
+          "value": "Máquina de Turing"
+        },
+        "nn": {
+          "language": "nn",
+          "value": "Turingmaskin"
+        },
+        "af": {
+          "language": "af",
+          "value": "Turingmasjien"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "abstract computation model; mathematical model of computation that defines an abstract machine which manipulates symbols on a strip of tape according to a table of rules"
+        },
+        "de": {
+          "language": "de",
+          "value": "Rechnermodell der theoretischen Informatik"
+        },
+        "de-at": {
+          "language": "de-at",
+          "value": "ein Rechnermodell der Theoretischen Informatik"
+        },
+        "it": {
+          "language": "it",
+          "value": "modello matematico computazionale che descrive una macchina astratta"
+        },
+        "cs": {
+          "language": "cs",
+          "value": "teoretický model počítače popsaný matematikem Alanem Turingem"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "抽象計算模型"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "抽象計算模型"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "抽象計算模型"
+        },
+        "eo": {
+          "language": "eo",
+          "value": "abstrakta matematika modelo de komputado, kiu skribas signojn sur bendon laŭ tabelo da reguloj"
+        },
+        "es": {
+          "language": "es",
+          "value": "máquina teórica ideada por Alan Turing, usada para estudiar los límites de las máquinas"
+        },
+        "fr": {
+          "language": "fr",
+          "value": "modèle abstrait du fonctionnement des appareils mécaniques de calcul, tel un ordinateur et sa mémoire"
+        },
+        "ia": {
+          "language": "ia",
+          "value": "un modello mathematic de computation qui defini un machina abstracte le qual manipula symbolos super un banda accordante un tabula de regulas, inventate in 1936 per Alan Turing"
+        },
+        "sv": {
+          "language": "sv",
+          "value": "teoretisk modell för att utföra beräkningar som utvecklades av Alan Turing år 1936"
+        },
+        "nl": {
+          "language": "nl",
+          "value": "model van berekening en berekenbaarheid, ontwikkeld door wiskundige Alan Turing"
+        },
+        "ru": {
+          "language": "ru",
+          "value": "абстрактная вычислительная машина"
+        },
+        "ja": {
+          "language": "ja",
+          "value": "アラン・チューリングが計算可能性に関する議論のために提示した抽象機械"
+        },
+        "fi": {
+          "language": "fi",
+          "value": "tietokoneen teoreettinen malli"
+        },
+        "tr": {
+          "language": "tr",
+          "value": "bilgisayar biliminde belirli işlemleri yapabilen bir araç modeli, belirli kurallara göre hareket eden bir banttan oluşan araç"
+        },
+        "pt-br": {
+          "language": "pt-br",
+          "value": "modelo abstrato de um computador"
+        },
+        "pt": {
+          "language": "pt",
+          "value": "modelo abstrato de um computador"
+        },
+        "uk": {
+          "language": "uk",
+          "value": "абстрактна обчислювальна модель; математична модель обчислення, що визначає абстрактну машину, яка маніпулює символами на смузі стрічки відповідно до таблиці правил"
+        },
+        "af": {
+          "language": "af",
+          "value": "abstrakte berekeningsmodel; wiskundige berekeningsmodel wat 'n abstrakte masjien definieer wat simbole op 'n strook band manipuleer volgens 'n tabel van reëls"
+        },
+        "ro": {
+          "language": "ro",
+          "value": "model de calcul abstract"
+        }
+      },
+      "aliases": {
+        "zh": [
+          {
+            "language": "zh",
+            "value": "通用计算"
+          },
+          {
+            "language": "zh",
+            "value": "圖靈機"
+          },
+          {
+            "language": "zh",
+            "value": "图林机"
+          },
+          {
+            "language": "zh",
+            "value": "Turing机"
+          },
+          {
+            "language": "zh",
+            "value": "确定型图灵机"
+          }
+        ],
+        "es": [
+          {
+            "language": "es",
+            "value": "maquina de Turing determinista"
+          },
+          {
+            "language": "es",
+            "value": "maquina de Turing"
+          },
+          {
+            "language": "es",
+            "value": "máquina de Turing determinista"
+          },
+          {
+            "language": "es",
+            "value": "computador universal"
+          }
+        ],
+        "sq": [
+          {
+            "language": "sq",
+            "value": "Makinat Turing"
+          }
+        ],
+        "nl": [
+          {
+            "language": "nl",
+            "value": "Turing machine"
+          },
+          {
+            "language": "nl",
+            "value": "Turing-machine"
+          }
+        ],
+        "sv": [
+          {
+            "language": "sv",
+            "value": "Universell Turingmaskin"
+          }
+        ],
+        "ar": [
+          {
+            "language": "ar",
+            "value": "آلة التورينغ"
+          },
+          {
+            "language": "ar",
+            "value": "آلات تورينغ"
+          },
+          {
+            "language": "ar",
+            "value": "آلة تورينغ"
+          },
+          {
+            "language": "ar",
+            "value": "آلة التورنغ"
+          }
+        ],
+        "eo": [
+          {
+            "language": "eo",
+            "value": "Turingilo"
+          },
+          {
+            "language": "eo",
+            "value": "Turing-maŝino"
+          },
+          {
+            "language": "eo",
+            "value": "komputilo de Turing"
+          }
+        ],
+        "ru": [
+          {
+            "language": "ru",
+            "value": "детерминированная машина Тьюринга"
+          }
+        ],
+        "sr": [
+          {
+            "language": "sr",
+            "value": "Турингова машина"
+          },
+          {
+            "language": "sr",
+            "value": "Детерминистичка Тјурингова машина"
+          }
+        ],
+        "tr": [
+          {
+            "language": "tr",
+            "value": "Turing machine"
+          },
+          {
+            "language": "tr",
+            "value": "Turing makinası"
+          },
+          {
+            "language": "tr",
+            "value": "The Turing Machine"
+          }
+        ],
+        "uk": [
+          {
+            "language": "uk",
+            "value": "машина Тьюрінга"
+          },
+          {
+            "language": "uk",
+            "value": "машина Тьюринга"
+          },
+          {
+            "language": "uk",
+            "value": "машина Тюрінга"
+          },
+          {
+            "language": "uk",
+            "value": "машина Т'юрінга"
+          }
+        ],
+        "be-tarask": [
+          {
+            "language": "be-tarask",
+            "value": "Машына Т'юрынга"
+          }
+        ],
+        "hr": [
+          {
+            "language": "hr",
+            "value": "Deterministički Turingov stroj"
+          }
+        ],
+        "da": [
+          {
+            "language": "da",
+            "value": "Turing-maskine"
+          }
+        ],
+        "gsw": [
+          {
+            "language": "gsw",
+            "value": "Turingmaschine"
+          }
+        ],
+        "he": [
+          {
+            "language": "he",
+            "value": "מכונת טורינג"
+          }
+        ],
+        "ko": [
+          {
+            "language": "ko",
+            "value": "튜링 머신"
+          },
+          {
+            "language": "ko",
+            "value": "튜링머신"
+          },
+          {
+            "language": "ko",
+            "value": "결정론적 튜링 기계"
+          }
+        ],
+        "it": [
+          {
+            "language": "it",
+            "value": "MdT"
+          },
+          {
+            "language": "it",
+            "value": "MDT"
+          },
+          {
+            "language": "it",
+            "value": "macchine di Turing"
+          }
+        ],
+        "de": [
+          {
+            "language": "de",
+            "value": "Turing-Maschine"
+          },
+          {
+            "language": "de",
+            "value": "Turing Maschine"
+          },
+          {
+            "language": "de",
+            "value": "Turingmodell"
+          }
+        ],
+        "ml": [
+          {
+            "language": "ml",
+            "value": "Turing Machine"
+          }
+        ],
+        "ja": [
+          {
+            "language": "ja",
+            "value": "チューリングマシーン"
+          },
+          {
+            "language": "ja",
+            "value": "テューリングマシン"
+          },
+          {
+            "language": "ja",
+            "value": "チューリング・マシーン"
+          },
+          {
+            "language": "ja",
+            "value": "チューリング機械"
+          },
+          {
+            "language": "ja",
+            "value": "テューリング機械"
+          },
+          {
+            "language": "ja",
+            "value": "チューリング・マシン"
+          }
+        ],
+        "ro": [
+          {
+            "language": "ro",
+            "value": "mașina Turing"
+          }
+        ],
+        "ca": [
+          {
+            "language": "ca",
+            "value": "Màquina universal de Turing"
+          }
+        ],
+        "cs": [
+          {
+            "language": "cs",
+            "value": "Přechodová funkce"
+          }
+        ],
+        "fa": [
+          {
+            "language": "fa",
+            "value": "ماشین‌های تورینگ"
+          }
+        ],
+        "lt": [
+          {
+            "language": "lt",
+            "value": "Churcho tezė"
+          },
+          {
+            "language": "lt",
+            "value": "Tiuringo mašinos sustojimo problema"
+          }
+        ],
+        "nb": [
+          {
+            "language": "nb",
+            "value": "Turing-maskin"
+          },
+          {
+            "language": "nb",
+            "value": "Turing maskin"
+          }
+        ],
+        "de-at": [
+          {
+            "language": "de-at",
+            "value": "Turing-Maschine"
+          },
+          {
+            "language": "de-at",
+            "value": "Turing Maschine"
+          }
+        ],
+        "zh-hant": [
+          {
+            "language": "zh-hant",
+            "value": "杜林機"
+          }
+        ],
+        "zh-tw": [
+          {
+            "language": "zh-tw",
+            "value": "確定型圖靈機"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "deterministic Turing machine"
+          }
+        ],
+        "tl": [
+          {
+            "language": "tl",
+            "value": "Turing machine"
+          }
+        ],
+        "eu": [
+          {
+            "language": "eu",
+            "value": "Turing makina"
+          }
+        ]
+      },
+      "claims": {
+        "P138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P138",
+              "hash": "70ad70552f009e6c5f5601a103f4cefd429407fa",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7251,
+                  "id": "Q7251"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q163310$22426CD2-802D-4F94-8A4B-4D1C2110764F",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "9b5d9f9fae9a012939a913584c74ffd4198a67fd",
+              "datavalue": {
+                "value": "Turing machines",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q163310$00AD20A9-DB78-451D-AD0A-A6E16D7F71CD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "7464b678a14495128c4504620fcac10d370b1136",
+              "datavalue": {
+                "value": "4203525-9",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "5f2146e511000ce3e573ae027becdc2eb9bf6ee1",
+                  "datavalue": {
+                    "value": "Turingmaschine",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q163310$CEE21C53-D0C0-4BB2-A07C-FFDE9B06890B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P349": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P349",
+              "hash": "bbc69db303371d9fca181dbb28c64a15289b67cb",
+              "datavalue": {
+                "value": "00573533",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$CF35EDDD-7EF4-47EA-BC2B-9EF9683F80E0",
+            "rank": "normal"
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "3a3928113d51ba260f6e3e982fda47a21c9818f8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7485144,
+                  "id": "Q7485144"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q163310$F2F5B9FB-AD00-42C3-A357-8BF5BD0EE0C6",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "a6d5135a624afca58722981d0f4ee7ba44173133",
+              "datavalue": {
+                "value": "/m/07h4k",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$F44D3F61-F066-4911-ABF4-7BD72D984C04",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1482": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1482",
+              "hash": "7ce7f365f3d95e392f5c2f5b3358ecbc1813df7e",
+              "datavalue": {
+                "value": "https://stackoverflow.com/tags/turing-machines",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q163310$874E1A19-5064-4F0E-97FA-246DBF226795",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1482",
+              "hash": "490c8f5f88e687072fa0b2b3d8118d0eea55f866",
+              "datavalue": {
+                "value": "https://cstheory.stackexchange.com/tags/turing-machines",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q163310$a9f20081-4b88-38c5-ef75-d994cf6877e5",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "feaee0f26cbb4494cecc651f45226fe09535182f",
+              "datavalue": {
+                "value": "Maquina.png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q163310$AB6A1F77-D60D-48F2-85D7-09A4A953397B",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "1c224267e4062e8402bb5a1c6465387866a44e7b",
+              "datavalue": {
+                "value": "topic/Turing-machine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "163e6bb4fbf579753a423a99c157ec6ffac46354",
+                  "datavalue": {
+                    "value": "Turing machine",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q163310$06FC813B-0B94-4619-A127-78CE05D3262B",
+            "rank": "normal"
+          }
+        ],
+        "P3123": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3123",
+              "hash": "82f7aff0a9b7cfbf3aa600bbd250bf30642da17a",
+              "datavalue": {
+                "value": "turing-machine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "359718eadaa162e103dc236a7cde160f11ff6ddb",
+                  "datavalue": {
+                    "value": "Turing Machines",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P2093": [
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "efb42e0faa13e415bca70f764e5d2310e0b2dee1",
+                  "datavalue": {
+                    "value": "De Mol, Liesbeth",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P577": [
+                {
+                  "snaktype": "value",
+                  "property": "P577",
+                  "hash": "c6b92ca77ec78461e04cb954fc76ad54f7026ba2",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2018-09-24T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P2093",
+              "P577"
+            ],
+            "id": "Q163310$5E8439A1-287E-48D1-BCAC-1AB38F7E16F5",
+            "rank": "normal"
+          }
+        ],
+        "P3222": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3222",
+              "hash": "bf3a03947a244e473f799c0a9fe5f925669019a2",
+              "datavalue": {
+                "value": "turingmaskin",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$67A05433-17A1-4A20-9AB2-316B402ADB06",
+            "rank": "normal"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "eebc3a738a9de8220dd09e9ad40ed70880e5bd6e",
+              "datavalue": {
+                "value": "Turing-Machine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$687367C8-974F-4F9D-9C39-AD0FC0D35B40",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "3ac9682e789a3a3791d4fd088b265ea03abef101",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 51711,
+                          "id": "Q51711"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3827": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3827",
+              "hash": "d66ae5152ad655eb68278b9bbb9e914b1003e2ce",
+              "datavalue": {
+                "value": "turing-machines",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$4030DC92-AD5B-4D41-904F-DF9EB9993FC8",
+            "rank": "normal"
+          }
+        ],
+        "P2812": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2812",
+              "hash": "a1b7c21723734994c5c9dced16c5be1fda340f5a",
+              "datavalue": {
+                "value": "TuringMachine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "9519c0bec46f21ab23be4ea495e2f417ce933c89",
+                  "datavalue": {
+                    "value": "Turing Machine",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q163310$5A40E437-FD44-4BF2-886D-D86E8901BA5A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "c6f1777471211df31724ac60175786f3872c83e9",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 177837,
+                          "id": "Q177837"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P935": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P935",
+              "hash": "535761926eb46d5087ffad383b0a7a72bca4a0a4",
+              "datavalue": {
+                "value": "Turing Machine",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q163310$11D218B0-5070-42BC-BD2C-9FBDB5166309",
+            "rank": "normal"
+          }
+        ],
+        "P2581": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2581",
+              "hash": "9f6f7110a2e92901f2db6f32130107d373c16cc6",
+              "datavalue": {
+                "value": "00078634n",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$B81DCE72-F176-4F58-A7F5-0E32E1673F4A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248ac337a217a5f5eed7139a82a4e60931611af0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "25b816aab41db18565946259c950aed6de05dd1e",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 4837690,
+                          "id": "Q4837690"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3219": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3219",
+              "hash": "8afcd40541be98375e7479cd1f4a0ae8afe7ce25",
+              "datavalue": {
+                "value": "machine-de-turing",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$5B04D45B-A8BA-475D-8221-62C05315C78F",
+            "rank": "normal"
+          }
+        ],
+        "P244": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P244",
+              "hash": "8218a3dd5f669ca0f3a21f59d19cd6241cfd5c5e",
+              "datavalue": {
+                "value": "sh85138778",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$5e26df40-4e76-f432-c728-c985ed097769",
+            "rank": "normal"
+          }
+        ],
+        "P268": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P268",
+              "hash": "d1a9d41798ebfa76ab9876640f0a2b2b407ec829",
+              "datavalue": {
+                "value": "11978871z",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$1e59a3e3-4cea-252e-acc3-918839ff44d2",
+            "rank": "normal"
+          }
+        ],
+        "P950": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P950",
+              "hash": "171f372de3e9c7d70149a87d141a8983f8d8f658",
+              "datavalue": {
+                "value": "XX550362",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$df450032-42e0-cca7-81ed-45ca8c9b5843",
+            "rank": "normal"
+          }
+        ],
+        "P2163": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2163",
+              "hash": "cbda5bd5cf0f06280cbabd34aa74e3b5f5905e16",
+              "datavalue": {
+                "value": "1159283",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$0cc69da4-49f6-464b-ed9c-752062f51e2d",
+            "rank": "normal"
+          }
+        ],
+        "P269": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P269",
+              "hash": "86387326598b2d8967fe30858d1dc87857a33163",
+              "datavalue": {
+                "value": "027831655",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$8de436c4-4748-6b57-0cd2-4dd1e46f8f0c",
+            "rank": "normal"
+          }
+        ],
+        "P61": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P61",
+              "hash": "ff2ec6d950758ff4fb2db7ff7573573b44fd4976",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7251,
+                  "id": "Q7251"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q163310$00ceb525-438c-68ba-8e73-e47895ff6122",
+            "rank": "normal"
+          }
+        ],
+        "P1245": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1245",
+              "hash": "a3b51992f2081ffe480e4b6e8b93082338b8c5e6",
+              "datavalue": {
+                "value": "687652",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$62323BD5-B81D-4342-ABA1-6105A8EF1AEC",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "930368f1cb39be0621f7e6503598dd9972d66804",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 137172521,
+                  "id": "Q137172521"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q163310$33991046-43cd-c6a7-f5b9-eb126fb2aaca",
+            "rank": "normal"
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "5d15b6dfced7ed3c3f532f6bf108080a616f001c",
+              "datavalue": {
+                "value": "29248071",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$1FC5FB02-15F1-4C58-A74F-49724EA8897E",
+            "rank": "normal"
+          }
+        ],
+        "P5106": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5106",
+              "hash": "8e0bcdf276e4c390102d505911e75ebfb425c5d4",
+              "datavalue": {
+                "value": "turingMachine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$C0380C94-46FD-403D-9F8C-EABDE827F2A0",
+            "rank": "normal"
+          }
+        ],
+        "P9526": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9526",
+              "hash": "832ff1299723509e475490dde5b2b6179f68e678",
+              "datavalue": {
+                "value": "Turing_machine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$53148486-4eb5-4e9e-83d9-238d4f475b1c",
+            "rank": "normal"
+          }
+        ],
+        "P3553": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3553",
+              "hash": "e8544e599192988bea40f6202cb1cdc23a410adb",
+              "datavalue": {
+                "value": "19599012",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "baaa9903ccab70ba740f3cdfb999fab0d7dcd9f6",
+                  "datavalue": {
+                    "value": "图灵机",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q163310$A766D75A-FDD9-4077-9D4B-B420A5501CC7",
+            "rank": "normal"
+          }
+        ],
+        "P7305": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7305",
+              "hash": "3ca5d62b40f54dc7df5487f94350805b0e64da2e",
+              "datavalue": {
+                "value": "3990108",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$6C5D3150-4FF0-4A13-AE30-88424174FC87",
+            "rank": "normal"
+          }
+        ],
+        "P8189": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8189",
+              "hash": "a8fb481307240b6a85a825924e3a52f3c3695963",
+              "datavalue": {
+                "value": "987007555894805171",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$46EFFB86-79F3-4816-A3C2-1C1757220613",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c8a47202c92936005b390eb36ddd267921b51f43",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "0ea73b3596b49258a7b7ec6495950779b99e875d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 188915,
+                          "id": "Q188915"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P10283": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10283",
+              "hash": "c779eab39ae9afc9ce1d9f0cd7a1380312abb42c",
+              "datavalue": {
+                "value": "C29248071",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$9FC02FA1-9E20-4A9B-9D53-FDF8A53666AC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e0b27d817c9a9b3247df341000fc490bafcba862",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "4a4f26a5361b5707266e48e425bf2be2f99fd2ab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 107507571,
+                          "id": "Q107507571"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "435834d08182bb9f3dbe974ba9840af0f12899cc",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-26T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "a4a4bf53f22268815c51ec10fed608da703c9c7f",
+                      "datavalue": {
+                        "value": "https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1065": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1065",
+                      "hash": "3134281f51e2490f88272d53c56ee95d9cc24e2c",
+                      "datavalue": {
+                        "value": "https://web.archive.org/web/20220125070108/https://docs.openalex.org/download-snapshot/snapshot-data-format",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P2960": [
+                    {
+                      "snaktype": "value",
+                      "property": "P2960",
+                      "hash": "f7ff3a0de7f9571ecb5e0740cba4122c6703e1ec",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-01-25T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813",
+                  "P854",
+                  "P1065",
+                  "P2960"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8313": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8313",
+              "hash": "c718042336b02769cf1efbfbdcd5964170e3bd59",
+              "datavalue": {
+                "value": "Turingmaskine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$7428CE84-3B06-4B41-BC9E-744995D6C15F",
+            "rank": "normal"
+          }
+        ],
+        "P10565": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10565",
+              "hash": "578ee0dbdef842b4419682ca557d1a2582659d31",
+              "datavalue": {
+                "value": "108386",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$301CF9C3-3638-404C-AA96-0C1F18A4AF9B",
+            "rank": "normal"
+          }
+        ],
+        "P10037": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10037",
+              "hash": "2b2723be283af0c476f449a5f2e0205d65b12d8e",
+              "datavalue": {
+                "value": "macchina-di-turing",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "91823d6a3f44e0f51a5aba0e07621519aa089121",
+                  "datavalue": {
+                    "value": "macchina di Turing",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P2093": [
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "a867db4dd80d562212e6d61fad102ae956a44a09",
+                  "datavalue": {
+                    "value": "Mauro Cappelli",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P577": [
+                {
+                  "snaktype": "value",
+                  "property": "P577",
+                  "hash": "69218402add8938075ebc08e1fb1c31d44f661dd",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2008-01-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P2093",
+              "P577"
+            ],
+            "id": "Q163310$5773c193-455d-0914-fbee-74df71d0d12d",
+            "rank": "normal"
+          }
+        ],
+        "P7502": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7502",
+              "hash": "8b748fe4c1d014850162a10779ff399ff6a4013c",
+              "datavalue": {
+                "value": "Turing_machine-8ADZ8",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$544F57B5-C18C-4B29-857A-29E2DCDCE66A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "6a4d5291af716a5b6884268f2c61ce41fe6677b8",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "849bf31a75ee81eef52deceed6ee34b2f429e12c",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-09-10T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "fc67a918aa6e249c73f058f6bc93526add998a9e",
+                      "datavalue": {
+                        "value": "https://golden.com/wiki/Turing_machine-8ADZ8",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P11514": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11514",
+              "hash": "2c7d045d2b0d66d4e8ac487ed2c576fb68b7b2c7",
+              "datavalue": {
+                "value": "mashina-t-iuringa-0191da",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$9CB26580-CE8F-441E-9B7F-E7CFDAF652BF",
+            "rank": "normal"
+          }
+        ],
+        "P10376": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "af0016bc95fe957f5458e942ac32754feb54da8a",
+              "datavalue": {
+                "value": "computer-science/turing-machine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$a63147f2-4e49-9f01-cf70-48ecd63be98c",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "bb34da06ec35f3c1de9c5bc5a9bdea186bea1fa3",
+              "datavalue": {
+                "value": "earth-and-planetary-sciences/turing-machine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$f6c80f4d-4058-ffb3-fe97-c02b68842313",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "baede40dc82328d47c44ddb040a4e0f42d92d470",
+              "datavalue": {
+                "value": "mathematics/turing-machine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$e10f7677-4571-c90b-9eda-213e51037c91",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10376",
+              "hash": "83a87621d62701475baa3cbc528b0a9989c4d884",
+              "datavalue": {
+                "value": "physics-and-astronomy/turing-machine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$20b1b1f5-4c1e-9e19-dca5-4f315e6d7297",
+            "rank": "normal"
+          }
+        ],
+        "P6900": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6900",
+              "hash": "cad8bbeffd2ad173cbc04f4ddb21022c133743bb",
+              "datavalue": {
+                "value": "チューリングマシン",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$2bac04f6-43bf-a719-d095-5be6801a68d9",
+            "rank": "normal"
+          }
+        ],
+        "P6104": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6104",
+              "hash": "a27c5fdb35b42381f12b2a603711e56d98dd77fd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8487137,
+                  "id": "Q8487137"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q163310$2A47EEF8-EDA7-4ADE-B32B-43B4A641F5D9",
+            "rank": "normal"
+          }
+        ],
+        "P2924": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2924",
+              "hash": "9f1b4e62dbe0a6caa20ae9d2fa24f3dd9579563f",
+              "datavalue": {
+                "value": "4212818",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$6C8ED4B8-D4BF-4D47-810F-A9F08FF66645",
+            "rank": "normal"
+          }
+        ],
+        "P6781": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6781",
+              "hash": "f9ddcfde2d83656e921ff23ac9d9722d07591c30",
+              "datavalue": {
+                "value": "Definition:Turing_Machine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$ceb5a025-4055-319d-8c7d-b8b94f4258bb",
+            "rank": "normal"
+          }
+        ],
+        "P6564": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6564",
+              "hash": "28943bc4a093d855a5cc40bb7105831459b89d5c",
+              "datavalue": {
+                "value": "turing-machines",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$a2672e9a-4ae9-c283-b976-5116b5960c7d",
+            "rank": "normal"
+          }
+        ],
+        "P9621": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P9621",
+              "hash": "4517129bf32c40d319e7b8effee0a00fa84d9018",
+              "datavalue": {
+                "value": "macchina-di-turing",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "307e2f39c37ff94535a53ad4bea043d5a1cc5502",
+                  "datavalue": {
+                    "value": "Turing, macchina di",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P577": [
+                {
+                  "snaktype": "value",
+                  "property": "P577",
+                  "hash": "ccd6ea06a2c9c0f54f5b1f45991a659225b5f4ef",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2013-01-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P577"
+            ],
+            "id": "Q163310$D9D6578B-41AD-4FE0-9EFF-10C7974EC609",
+            "rank": "normal"
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "b69b26da287243f01feb309f288bcb027aaf2bd2",
+              "datavalue": {
+                "value": {
+                  "time": "+1936-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q163310$2a14c69f-4b94-4239-9d21-ce9cda3e97fb",
+            "rank": "normal"
+          }
+        ],
+        "P1071": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1071",
+              "hash": "2bb761ef81afff4326cf2a70fca5a078c18bb1cd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 245247,
+                  "id": "Q245247"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q163310$5d792d5b-4a93-efd8-f3bf-5145f681a60a",
+            "rank": "normal"
+          }
+        ],
+        "P7726": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7726",
+              "hash": "ce6548fb50bf4faca4d04032c60e9511f4ee1e31",
+              "datavalue": {
+                "value": "DeterministicTuringMachine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$74efe2ab-449a-6443-115f-ef40a9df14ea",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7726",
+              "hash": "013eb4a0f8a3165455069499613c19d15a4bb9b9",
+              "datavalue": {
+                "value": "FormalDefinitionOfATuringMachine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$7d2ca143-4696-84f6-4eb6-56567135de21",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7726",
+              "hash": "d5234082de2bfd7d03ee2326c9710888db193605",
+              "datavalue": {
+                "value": "TuringMachine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$1322a5cf-4582-ed01-593e-cb7b9d3bba1d",
+            "rank": "normal"
+          }
+        ],
+        "P1036": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1036",
+              "hash": "4919705a176735e52501f0598e3813a6378e821b",
+              "datavalue": {
+                "value": "511.35",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$8824e903-4894-921b-ce72-a23d8cc176a4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ced024eb12b5fe38ed87cb5720ea18f3c54229a9",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 36578,
+                          "id": "Q36578"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P12946": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12946",
+              "hash": "20a18f4afc345610de7a822661992e4399f31c38",
+              "datavalue": {
+                "value": "Turing+Machine",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$5F6E3BB8-2189-4305-9A47-113B930AFAAB",
+            "rank": "normal"
+          }
+        ],
+        "P10695": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10695",
+              "hash": "abef9794812e4f79049ff6c74c491166cfcd31b8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20895949,
+                  "id": "Q20895949"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q163310$7252bf45-49ef-022e-a6de-aa2408c2a482",
+            "rank": "normal"
+          }
+        ],
+        "P2579": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2579",
+              "hash": "3873b7ebfb757bf95f3ea04cca8d073bb719ea1d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2878974,
+                  "id": "Q2878974"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q163310$8f0c763a-45df-403b-1a05-b0ba7a07a91b",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2579",
+              "hash": "32fecbdfb6098215bedc586555b1fc71149ea634",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 844718,
+                  "id": "Q844718"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q163310$0fc20408-4f7d-e72a-34c7-62d44ca37d2f",
+            "rank": "normal"
+          }
+        ],
+        "P8885": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8885",
+              "hash": "dfe81e65fa0c31529bc71cc816eb6b3e20149cf4",
+              "datavalue": {
+                "value": "튜링 머신",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$0782f235-4e8b-dc60-9cfd-0f2eccb1e475",
+            "rank": "normal"
+          }
+        ],
+        "P1535": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1535",
+              "hash": "e9bf54ba57121d843c2d4ec8b0ccaefd1d5a406c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21198,
+                  "id": "Q21198"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q163310$1AAE6C0D-4172-4DC4-B8B6-B3D1BEF6FE15",
+            "rank": "normal"
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "9f7c0782ada9bbbac8c0b680c7cd92d4e8ef0c6c",
+              "datavalue": {
+                "value": "concept/1df9c532-a391-4535-9219-c0db04c23ed8",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$2C79577A-4CD3-427E-878E-0D9F66A5B86D",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "eb021e652f24dfc609de6b2cd84ac9c62e6e5327",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2623243,
+                  "id": "Q2623243"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q163310$e4ad4a31-4a9c-477a-e719-af8eb73e8752",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "844d0e38c7228bc698e4b7926fff9565682939cf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2651576,
+                  "id": "Q2651576"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q163310$c17a8295-43c2-b451-6e93-195f020fa410",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "c9bc1e4952aa7b344584a2a8afa5ad856a665241",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 137172521,
+                  "id": "Q137172521"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "f093ff7cd48e6288151f63625b3a52494087784e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 87346598,
+                      "id": "Q87346598"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241"
+            ],
+            "id": "Q163310$5692e661-4184-ff6f-8ad7-927604438fc0",
+            "rank": "deprecated"
+          }
+        ],
+        "P13204": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13204",
+              "hash": "c451660b0b2af85c51d9a7bb714c9866686682d7",
+              "datavalue": {
+                "value": "ga9u3sf8",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q163310$23557D62-8E38-4108-91D8-FEE37067CDDB",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Turingmasjien",
+          "badges": [],
+          "url": "https://af.wikipedia.org/wiki/Turingmasjien"
+        },
+        "alswiki": {
+          "site": "alswiki",
+          "title": "Turingmaschine",
+          "badges": [],
+          "url": "https://als.wikipedia.org/wiki/Turingmaschine"
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "آلة تورنغ",
+          "badges": [],
+          "url": "https://ar.wikipedia.org/wiki/%D8%A2%D9%84%D8%A9_%D8%AA%D9%88%D8%B1%D9%86%D8%BA"
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Машына Т’юрынга",
+          "badges": [],
+          "url": "https://be-tarask.wikipedia.org/wiki/%D0%9C%D0%B0%D1%88%D1%8B%D0%BD%D0%B0_%D0%A2%E2%80%99%D1%8E%D1%80%D1%8B%D0%BD%D0%B3%D0%B0"
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Машына Цьюрынга",
+          "badges": [],
+          "url": "https://be.wikipedia.org/wiki/%D0%9C%D0%B0%D1%88%D1%8B%D0%BD%D0%B0_%D0%A6%D1%8C%D1%8E%D1%80%D1%8B%D0%BD%D0%B3%D0%B0"
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Машина на Тюринг",
+          "badges": [],
+          "url": "https://bg.wikipedia.org/wiki/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%B0_%D0%BD%D0%B0_%D0%A2%D1%8E%D1%80%D0%B8%D0%BD%D0%B3"
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Turingova mašina",
+          "badges": [],
+          "url": "https://bs.wikipedia.org/wiki/Turingova_ma%C5%A1ina"
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Màquina de Turing",
+          "badges": [],
+          "url": "https://ca.wikipedia.org/wiki/M%C3%A0quina_de_Turing"
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "مەکینەی تیورینگ",
+          "badges": [],
+          "url": "https://ckb.wikipedia.org/wiki/%D9%85%DB%95%DA%A9%DB%8C%D9%86%DB%95%DB%8C_%D8%AA%DB%8C%D9%88%D8%B1%DB%8C%D9%86%DA%AF"
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Turing Machine",
+          "badges": [],
+          "url": "https://commons.wikimedia.org/wiki/Turing_Machine"
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Turingův stroj",
+          "badges": [],
+          "url": "https://cs.wikipedia.org/wiki/Turing%C5%AFv_stroj"
+        },
+        "cswikiversity": {
+          "site": "cswikiversity",
+          "title": "Turingův stroj",
+          "badges": [],
+          "url": "https://cs.wikiversity.org/wiki/Turing%C5%AFv_stroj"
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Turingmaskine",
+          "badges": [],
+          "url": "https://da.wikipedia.org/wiki/Turingmaskine"
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Turingmaschine",
+          "badges": [],
+          "url": "https://de.wikipedia.org/wiki/Turingmaschine"
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Μηχανή Τούρινγκ",
+          "badges": [],
+          "url": "https://el.wikipedia.org/wiki/%CE%9C%CE%B7%CF%87%CE%B1%CE%BD%CE%AE_%CE%A4%CE%BF%CF%8D%CF%81%CE%B9%CE%BD%CE%B3%CE%BA"
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Turing machine",
+          "badges": [],
+          "url": "https://en.wikipedia.org/wiki/Turing_machine"
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Maŝino de Turing",
+          "badges": [],
+          "url": "https://eo.wikipedia.org/wiki/Ma%C5%9Dino_de_Turing"
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Máquina de Turing",
+          "badges": [],
+          "url": "https://es.wikipedia.org/wiki/M%C3%A1quina_de_Turing"
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Turingi masin",
+          "badges": [],
+          "url": "https://et.wikipedia.org/wiki/Turingi_masin"
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Turingen makina",
+          "badges": [],
+          "url": "https://eu.wikipedia.org/wiki/Turingen_makina"
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "ماشین تورینگ",
+          "badges": [],
+          "url": "https://fa.wikipedia.org/wiki/%D9%85%D8%A7%D8%B4%DB%8C%D9%86_%D8%AA%D9%88%D8%B1%DB%8C%D9%86%DA%AF"
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Turingin kone",
+          "badges": [],
+          "url": "https://fi.wikipedia.org/wiki/Turingin_kone"
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Machine de Turing",
+          "badges": [],
+          "url": "https://fr.wikipedia.org/wiki/Machine_de_Turing"
+        },
+        "frwikiversity": {
+          "site": "frwikiversity",
+          "title": "Calculabilité et complexité",
+          "badges": [],
+          "url": "https://fr.wikiversity.org/wiki/Calculabilit%C3%A9_et_complexit%C3%A9"
+        },
+        "furwiki": {
+          "site": "furwiki",
+          "title": "Machine di Turing",
+          "badges": [],
+          "url": "https://fur.wikipedia.org/wiki/Machine_di_Turing"
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Meaisín Turing",
+          "badges": [],
+          "url": "https://ga.wikipedia.org/wiki/Meais%C3%ADn_Turing"
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Máquina de Turing",
+          "badges": [],
+          "url": "https://gl.wikipedia.org/wiki/M%C3%A1quina_de_Turing"
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "מכונת טיורינג",
+          "badges": [],
+          "url": "https://he.wikipedia.org/wiki/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA_%D7%98%D7%99%D7%95%D7%A8%D7%99%D7%A0%D7%92"
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Turingov stroj",
+          "badges": [],
+          "url": "https://hr.wikipedia.org/wiki/Turingov_stroj"
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Turing-gép",
+          "badges": [],
+          "url": "https://hu.wikipedia.org/wiki/Turing-g%C3%A9p"
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Թյուրինգի մեքենա",
+          "badges": [],
+          "url": "https://hy.wikipedia.org/wiki/%D4%B9%D5%B5%D5%B8%D6%82%D6%80%D5%AB%D5%B6%D5%A3%D5%AB_%D5%B4%D5%A5%D6%84%D5%A5%D5%B6%D5%A1"
+        },
+        "iawiki": {
+          "site": "iawiki",
+          "title": "Machina de Turing",
+          "badges": [],
+          "url": "https://ia.wikipedia.org/wiki/Machina_de_Turing"
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Mesin Turing",
+          "badges": [],
+          "url": "https://id.wikipedia.org/wiki/Mesin_Turing"
+        },
+        "iowiki": {
+          "site": "iowiki",
+          "title": "Mashino di Turing",
+          "badges": [],
+          "url": "https://io.wikipedia.org/wiki/Mashino_di_Turing"
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Macchina di Turing",
+          "badges": [],
+          "url": "https://it.wikipedia.org/wiki/Macchina_di_Turing"
+        },
+        "itwikiversity": {
+          "site": "itwikiversity",
+          "title": "Macchina di Turing",
+          "badges": [],
+          "url": "https://it.wikiversity.org/wiki/Macchina_di_Turing"
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "チューリングマシン",
+          "badges": [],
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%9E%E3%82%B7%E3%83%B3"
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "ტურინგის მანქანა",
+          "badges": [],
+          "url": "https://ka.wikipedia.org/wiki/%E1%83%A2%E1%83%A3%E1%83%A0%E1%83%98%E1%83%9C%E1%83%92%E1%83%98%E1%83%A1_%E1%83%9B%E1%83%90%E1%83%9C%E1%83%A5%E1%83%90%E1%83%9C%E1%83%90"
+        },
+        "kiwiki": {
+          "site": "kiwiki",
+          "title": "Macini ya Turing",
+          "badges": [],
+          "url": "https://ki.wikipedia.org/wiki/Macini_ya_Turing"
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "튜링 기계",
+          "badges": [],
+          "url": "https://ko.wikipedia.org/wiki/%ED%8A%9C%EB%A7%81_%EA%B8%B0%EA%B3%84"
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Machina Turing",
+          "badges": [],
+          "url": "https://la.wikipedia.org/wiki/Machina_Turing"
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Turingmaschinn",
+          "badges": [],
+          "url": "https://lb.wikipedia.org/wiki/Turingmaschinn"
+        },
+        "lmowiki": {
+          "site": "lmowiki",
+          "title": "Macchina del Turing",
+          "badges": [],
+          "url": "https://lmo.wikipedia.org/wiki/Macchina_del_Turing"
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Tiuringo mašina",
+          "badges": [],
+          "url": "https://lt.wikipedia.org/wiki/Tiuringo_ma%C5%A1ina"
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Tjūringa mašīna",
+          "badges": [],
+          "url": "https://lv.wikipedia.org/wiki/Tj%C5%ABringa_ma%C5%A1%C4%ABna"
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Тјурингова машина",
+          "badges": [],
+          "url": "https://mk.wikipedia.org/wiki/%D0%A2%D1%98%D1%83%D1%80%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2%D0%B0_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0"
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "ടൂറിങ് മെഷീൻ",
+          "badges": [],
+          "url": "https://ml.wikipedia.org/wiki/%E0%B4%9F%E0%B5%82%E0%B4%B1%E0%B4%BF%E0%B4%99%E0%B5%8D_%E0%B4%AE%E0%B5%86%E0%B4%B7%E0%B5%80%E0%B5%BB"
+        },
+        "mwlwiki": {
+          "site": "mwlwiki",
+          "title": "Máquina de Turing",
+          "badges": [],
+          "url": "https://mwl.wikipedia.org/wiki/M%C3%A1quina_de_Turing"
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Turingmachine",
+          "badges": [],
+          "url": "https://nl.wikipedia.org/wiki/Turingmachine"
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Turingmaskin",
+          "badges": [],
+          "url": "https://nn.wikipedia.org/wiki/Turingmaskin"
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Turingmaskin",
+          "badges": [],
+          "url": "https://no.wikipedia.org/wiki/Turingmaskin"
+        },
+        "ocwiki": {
+          "site": "ocwiki",
+          "title": "Maquina de Turing",
+          "badges": [],
+          "url": "https://oc.wikipedia.org/wiki/Maquina_de_Turing"
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Maszyna Turinga",
+          "badges": [],
+          "url": "https://pl.wikipedia.org/wiki/Maszyna_Turinga"
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Máquina de Turing",
+          "badges": [],
+          "url": "https://pt.wikipedia.org/wiki/M%C3%A1quina_de_Turing"
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Mașină Turing",
+          "badges": [],
+          "url": "https://ro.wikipedia.org/wiki/Ma%C8%99in%C4%83_Turing"
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Машина Тьюринга",
+          "badges": [],
+          "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%B0_%D0%A2%D1%8C%D1%8E%D1%80%D0%B8%D0%BD%D0%B3%D0%B0"
+        },
+        "ruwikibooks": {
+          "site": "ruwikibooks",
+          "title": "Журнал «Потенциал»/Машина Тьюринга",
+          "badges": [],
+          "url": "https://ru.wikibooks.org/wiki/%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB_%C2%AB%D0%9F%D0%BE%D1%82%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%C2%BB/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%B0_%D0%A2%D1%8C%D1%8E%D1%80%D0%B8%D0%BD%D0%B3%D0%B0"
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Turingov stroj",
+          "badges": [],
+          "url": "https://sh.wikipedia.org/wiki/Turingov_stroj"
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Turing machine",
+          "badges": [],
+          "url": "https://simple.wikipedia.org/wiki/Turing_machine"
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Turingov stroj",
+          "badges": [],
+          "url": "https://sk.wikipedia.org/wiki/Turingov_stroj"
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Turingov stroj",
+          "badges": [],
+          "url": "https://sl.wikipedia.org/wiki/Turingov_stroj"
+        },
+        "sqwiki": {
+          "site": "sqwiki",
+          "title": "Makina Turing",
+          "badges": [],
+          "url": "https://sq.wikipedia.org/wiki/Makina_Turing"
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Тјурингова машина",
+          "badges": [],
+          "url": "https://sr.wikipedia.org/wiki/%D0%A2%D1%98%D1%83%D1%80%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2%D0%B0_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0"
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Turingmaskin",
+          "badges": [],
+          "url": "https://sv.wikipedia.org/wiki/Turingmaskin"
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "เครื่องทัวริง",
+          "badges": [],
+          "url": "https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B1%E0%B8%A7%E0%B8%A3%E0%B8%B4%E0%B8%87"
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Makinang Turing",
+          "badges": [],
+          "url": "https://tl.wikipedia.org/wiki/Makinang_Turing"
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Turing makinesi",
+          "badges": [],
+          "url": "https://tr.wikipedia.org/wiki/Turing_makinesi"
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Машина Тюрінга",
+          "badges": [],
+          "url": "https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%B0_%D0%A2%D1%8E%D1%80%D1%96%D0%BD%D0%B3%D0%B0"
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Máy Turing",
+          "badges": [],
+          "url": "https://vi.wikipedia.org/wiki/M%C3%A1y_Turing"
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "图灵机",
+          "badges": [],
+          "url": "https://wuu.wikipedia.org/wiki/%E5%9B%BE%E7%81%B5%E6%9C%BA"
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Turing ki-hâi",
+          "badges": [],
+          "url": "https://zh-min-nan.wikipedia.org/wiki/Turing_ki-h%C3%A2i"
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "圖靈機",
+          "badges": [],
+          "url": "https://zh-yue.wikipedia.org/wiki/%E5%9C%96%E9%9D%88%E6%A9%9F"
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "图灵机",
+          "badges": [],
+          "url": "https://zh.wikipedia.org/wiki/%E5%9B%BE%E7%81%B5%E6%9C%BA"
+        }
+      }
+    }
+  }
+}
