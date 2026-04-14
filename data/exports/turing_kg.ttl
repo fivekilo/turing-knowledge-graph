@@ -15,6 +15,12 @@ ex:Entity a rdfs:Class,
     rdfs:label "实体"@zh ;
     rdfs:comment "知识图谱中的基础实体类型"@zh .
 
+ex:Event a rdfs:Class,
+        owl:Class ;
+    rdfs:label "事件"@zh ;
+    rdfs:comment "具有时间和背景的历史事件或项目"@zh ;
+    rdfs:subClassOf ex:Entity .
+
 ex:Field a rdfs:Class,
         owl:Class ;
     rdfs:label "学科"@zh ;
@@ -71,7 +77,8 @@ ex:alan_turing a ex:Person ;
         ex:cryptography,
         ex:logic,
         ex:mathematical_and_theoretical_biology,
-        ex:mathematics ;
+        ex:mathematics,
+        ex:theoretical_computer_science ;
     ex:studied_at ex:hazlehurst_community_primary_school,
         ex:king_s_college,
         ex:princeton_university,
@@ -117,6 +124,7 @@ ex:bletchley_park a ex:Organization ;
     rdfs:label "Bletchley Park" ;
     ex:has_alias "Station X"^^xsd:string ;
     ex:has_year "1877"^^xsd:gYear ;
+    ex:located_in ex:buckinghamshire ;
     rdfs:comment "Bletchley Park is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&CS), which regularly penetrated the secret communications of the Axis powers – most importantly the German Enigma and Lorenz ciphers. The GC&CS team of codebreakers included John Tiltman, Dilwyn Knox, Alan Turing, Harry Golombek, Gordon Welchman, Hugh Alexander, Donald Michie, Bill Tutte and Stuart Milner-Barry."@zh .
 
 ex:born_in a rdf:Property,
@@ -125,6 +133,13 @@ ex:born_in a rdf:Property,
     rdfs:comment "人物出生地点"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range ex:Place .
+
+ex:contributed_to a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "贡献于"@zh ;
+    rdfs:comment "人物参与或贡献的事件项目"@zh ;
+    rdfs:domain ex:Person ;
+    rdfs:range ex:Event .
 
 ex:died_in a rdf:Property,
         owl:ObjectProperty ;
@@ -172,6 +187,7 @@ ex:joan_clarke a ex:Person ;
     rdfs:label "Joan Clarke" ;
     ex:born_in ex:west_norwood,
         ex:west_norwood_london ;
+    ex:contributed_to ex:second_world_war ;
     ex:died_in ex:headington ;
     ex:has_alias "Joan Clarke Murray"^^xsd:string,
         "Joan Elisabeth Lowther Clarke"^^xsd:string,
@@ -187,6 +203,13 @@ ex:joan_clarke a ex:Person ;
         ex:newnham_college ;
     ex:worked_at ex:government_communications_headquarters ;
     rdfs:comment "Joan Elisabeth Lowther Murray, MBE was an English cryptanalyst and numismatist who worked as a code-breaker at Bletchley Park during the Second World War. Although she did not personally seek the spotlight, her role in the Enigma project that decrypted the German secret communications earned her awards and citations, such as appointment as a Member of the Order of the British Empire (MBE), in 1946."@zh .
+
+ex:located_in a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "位于"@zh ;
+    rdfs:comment "实体所处地点"@zh ;
+    rdfs:domain ex:Entity ;
+    rdfs:range ex:Place .
 
 ex:proposed a rdf:Property,
         owl:ObjectProperty ;
@@ -222,6 +245,9 @@ ex:worked_at a rdf:Property,
     rdfs:comment "人物工作经历所属机构"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range ex:Organization .
+
+ex:buckinghamshire a ex:Place ;
+    rdfs:label "Buckinghamshire" .
 
 ex:cryptanalysis a ex:Field ;
     rdfs:label "cryptanalysis" .
@@ -262,6 +288,9 @@ ex:mathematical_logic a ex:Field ;
 ex:national_physical_laboratory a ex:Organization ;
     rdfs:label "National Physical Laboratory" .
 
+ex:new_jersey a ex:Place ;
+    rdfs:label "New Jersey" .
+
 ex:newnham_college a ex:Organization ;
     rdfs:label "Newnham College" .
 
@@ -271,14 +300,17 @@ ex:on_computable_numbers a ex:Work ;
     rdfs:comment """Turing's proof is a proof by Alan Turing, first published in November 1936 with the title "On Computable Numbers, with an Application to the Entscheidungsproblem". It was the second proof of the negation of Hilbert's Entscheidungsproblem; that is, the conjecture that some purely mathematical yes–no questions can never be answered by computation; more technically, that some decision problems are "undecidable" in the sense that there is no single algorithm that infallibly gives a correct "yes" or "no" answer to each instance of the problem. In Turing's own words:
 "what I shall prove is quite different from the well-known results of Gödel ... I shall now show that there is no general method which tells whether a given formula U is provable in K [Principia Mathematica]"."""@zh .
 
+ex:princeton a ex:Place ;
+    rdfs:label "Princeton" .
+
 ex:proceedings_of_the_london_mathematical_society a ex:PublicationVenue ;
     rdfs:label "Proceedings of the London Mathematical Society" .
 
+ex:second_world_war a ex:Event ;
+    rdfs:label "Second World War" .
+
 ex:sherborne_school a ex:Organization ;
     rdfs:label "Sherborne School" .
-
-ex:theoretical_computer_science a ex:Field ;
-    rdfs:label "theoretical computer science" .
 
 ex:turing_machine a ex:Concept ;
     rdfs:label "Turing machine" ;
@@ -342,6 +374,9 @@ ex:logic a ex:Field ;
 ex:mathematics a ex:Field ;
     rdfs:label "mathematics" .
 
+ex:theoretical_computer_science a ex:Field ;
+    rdfs:label "theoretical computer science" .
+
 ex:princeton_university a ex:Organization ;
     rdfs:label "Princeton University" ;
     ex:has_alias "College of New Jersey"^^xsd:string,
@@ -349,5 +384,7 @@ ex:princeton_university a ex:Organization ;
         "Princeton College"^^xsd:string,
         "University of Princeton"^^xsd:string,
         "princeton.edu"^^xsd:string ;
-    ex:has_year "1746"^^xsd:gYear .
+    ex:has_year "1746"^^xsd:gYear ;
+    ex:located_in ex:new_jersey,
+        ex:princeton .
 

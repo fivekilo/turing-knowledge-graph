@@ -281,14 +281,26 @@ def main() -> None:
         parse_wikipedia(seed, entities, triples)
         parse_wikidata(seed, entities, triples)
 
+    entity_rows = unique_rows(entities, ["entity_id", "label", "source"])
     write_csv(
-        EXTRACTED_DIR / "entities_candidates.csv",
-        unique_rows(entities, ["entity_id", "label", "source"]),
+        EXTRACTED_DIR / "entities_candidates_structured.csv",
+        entity_rows,
         ["entity_id", "label", "class_id_hint", "description", "source", "source_key"],
     )
     write_csv(
+        EXTRACTED_DIR / "entities_candidates.csv",
+        entity_rows,
+        ["entity_id", "label", "class_id_hint", "description", "source", "source_key"],
+    )
+    triple_rows = unique_rows(triples, ["subject", "predicate", "object", "source"])
+    write_csv(
+        EXTRACTED_DIR / "triples_candidates_structured.csv",
+        triple_rows,
+        ["subject", "predicate", "object", "object_label", "object_type", "object_datatype", "object_class_hint", "source", "confidence"],
+    )
+    write_csv(
         EXTRACTED_DIR / "triples_candidates.csv",
-        unique_rows(triples, ["subject", "predicate", "object", "source"]),
+        triple_rows,
         ["subject", "predicate", "object", "object_label", "object_type", "object_datatype", "object_class_hint", "source", "confidence"],
     )
     print("Extraction completed.")

@@ -21,6 +21,11 @@ def main() -> None:
     for name in [
         "fetch_sources.py",
         "extract_candidates.py",
+        "extract_text_blocks.py",
+        "ner_candidates.py",
+        "merge_entity_candidates.py",
+        "text_relation_candidates.py",
+        "merge_triple_candidates.py",
         "normalize_candidates.py",
         "fuse_knowledge.py",
         "kg_builder.py",

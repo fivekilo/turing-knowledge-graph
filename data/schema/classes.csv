@@ -5,5 +5,6 @@ Organization,机构,Entity,学校机构研究机构等组织
 Place,地点,Entity,城市建筑地理位置等地点
 Work,作品,Entity,论文文章等知识作品
 Concept,概念,Entity,理论概念测试模型等抽象概念
+Event,事件,Entity,具有时间和背景的历史事件或项目
 Field,学科,Entity,知识领域或研究方向
 PublicationVenue,发表载体,Entity,论文发表的期刊或会议

@@ -92,16 +92,3 @@ turing_test,has_alias,imitation Game,imitation Game,literal,string,,wikidata,0.9
 alan_turing,proposed,turing_test,Turing test,entity,,Concept,wikidata,0.90
 alan_turing,authored,on_computable_numbers,"On Computable Numbers, with an Application to the Entscheidungsproblem",entity,,Work,wikidata,0.95
 on_computable_numbers,published_in,proceedings_of_the_london_mathematical_society,Proceedings of the London Mathematical Society,entity,,PublicationVenue,wikidata,0.90
-alan_turing,related_to_field,computer_science,computer science,entity,,Field,wikipedia_text_rule,0.62
-alan_turing,related_to_field,theoretical_computer_science,theoretical computer science,entity,,Field,wikipedia_text_rule,0.62
-joan_clarke,contributed_to,second_world_war,Second World War,entity,,Event,wikipedia_text_rule,0.60
-alonzo_church,related_to_field,logic,logic,entity,,Field,wikipedia_text_rule,0.62
-alonzo_church,related_to_field,computer_science,computer science,entity,,Field,wikipedia_text_rule,0.62
-alonzo_church,related_to_field,mathematical_logic,mathematical logic,entity,,Field,wikipedia_text_rule,0.62
-alonzo_church,related_to_field,theoretical_computer_science,theoretical computer science,entity,,Field,wikipedia_text_rule,0.62
-bletchley_park,located_in,bletchley,Bletchley,entity,,Place,wikipedia_text_rule,0.68
-bletchley_park,located_in,buckinghamshire,Buckinghamshire,entity,,Place,wikipedia_text_rule,0.68
-princeton_university,located_in,princeton,Princeton,entity,,Place,wikipedia_text_rule,0.68
-princeton_university,located_in,new_jersey,New Jersey,entity,,Place,wikipedia_text_rule,0.68
-alan_turing,proposed,turing_machine,Turing machine,entity,,Concept,wikipedia_text_rule,0.66
-alan_turing,authored,on_computable_numbers,"On Computable Numbers, with an Application to the Entscheidungsproblem",entity,,Work,wikipedia_text_rule,0.64

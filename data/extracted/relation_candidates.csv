@@ -1,5 +1,5 @@
 ﻿relation_id,count
-related_to_field,18
+related_to_field,24
 has_alias,17
 worked_at,12
 studied_at,10
@@ -8,7 +8,9 @@ has_birth_date,6
 has_death_date,6
 died_in,6
 has_nationality,4
+located_in,4
 has_year,3
-proposed,2
-authored,1
+proposed,3
+authored,2
 published_in,1
+contributed_to,1

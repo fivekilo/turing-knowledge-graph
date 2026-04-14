@@ -1,12 +1,14 @@
 ﻿relation_id,label,domain,range,property_type,property_characteristics,description
 authored,撰写,Person,Work,ObjectProperty,,人物撰写作品
 born_in,出生于,Person,Place,ObjectProperty,,人物出生地点
+contributed_to,贡献于,Person,Event,ObjectProperty,,人物参与或贡献的事件项目
 died_in,逝世于,Person,Place,ObjectProperty,,人物逝世地点
 has_alias,别名,Entity,Literal,DatatypeProperty,,实体的别名或简称
 has_birth_date,出生日期,Person,Literal,DatatypeProperty,,人物出生日期
 has_death_date,逝世日期,Person,Literal,DatatypeProperty,,人物逝世日期
 has_nationality,国籍,Person,Literal,DatatypeProperty,,人物国籍
 has_year,年份,Entity,Literal,DatatypeProperty,,实体相关年份
+located_in,位于,Entity,Place,ObjectProperty,,实体所处地点
 proposed,提出,Person,Concept,ObjectProperty,,人物提出某个理论或概念
 published_in,发表于,Work,PublicationVenue,ObjectProperty,,作品发表的期刊或载体
 related_to_field,相关领域,Entity,Field,ObjectProperty,,实体与学科方向的关联

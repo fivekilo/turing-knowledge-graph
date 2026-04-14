@@ -1,6 +1,7 @@
 ﻿id,label,class_id,description,source
 turing_machine,Turing machine,Concept,"A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, it is capable of implementing any computer algorithm.",wikipedia
 turing_test,Turing test,Concept,"The Turing test, originally called the imitation game by Alan Turing in 1949, is a test of a machine's ability to exhibit intelligent behaviour equivalent to that of a human. In the test, a human evaluator judges a text transcript of a natural-language conversation between a human and a machine. The evaluator tries to identify the machine, and the machine passes if the evaluator cannot reliably tell them apart. The results would not depend on the machine's ability to answer questions correctly, only on how closely its answers resembled those of a human. Since the Turing test is a test of indistinguishability in performance capacity, the verbal version generalizes naturally to all of human performance capacity, verbal as well as nonverbal (robotic).",wikipedia
+second_world_war,Second World War,Event,,wikipedia_ner
 logic,Logic,Field,,wikidata|wikipedia
 computer_science,computer science,Field,,wikidata|wikipedia
 cryptanalysis,cryptanalysis,Field,,wikidata|wikipedia
@@ -9,7 +10,7 @@ mathematical_and_theoretical_biology,mathematical and theoretical biology,Field,
 mathematical_logic,mathematical logic,Field,,wikidata
 mathematics,mathematics,Field,,wikidata|wikipedia
 theoretical_computer_science,theoretical computer science,Field,,wikidata
-bletchley_park,Bletchley Park,Organization,"Bletchley Park is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&CS), which regularly penetrated the secret communications of the Axis powers – most importantly the German Enigma and Lorenz ciphers. The GC&CS team of codebreakers included John Tiltman, Dilwyn Knox, Alan Turing, Harry Golombek, Gordon Welchman, Hugh Alexander, Donald Michie, Bill Tutte and Stuart Milner-Barry.",wikipedia
+bletchley_park,Bletchley Park,Organization,"Bletchley Park is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&CS), which regularly penetrated the secret communications of the Axis powers – most importantly the German Enigma and Lorenz ciphers. The GC&CS team of codebreakers included John Tiltman, Dilwyn Knox, Alan Turing, Harry Golombek, Gordon Welchman, Hugh Alexander, Donald Michie, Bill Tutte and Stuart Milner-Barry.",wikipedia|wikipedia_ner
 dulwich_college,Dulwich College,Organization,,wikidata
 government_code_and_cypher_school,Government Code and Cypher School,Organization,,wikipedia
 government_communications_headquarters,Government Communications Headquarters,Organization,,wikidata
@@ -18,22 +19,25 @@ hazlehurst_community_primary_school,Hazlehurst Community Primary School,Organiza
 king_s_college,King's College,Organization,,wikidata
 national_physical_laboratory,National Physical Laboratory,Organization,,wikidata|wikipedia
 newnham_college,Newnham College,Organization,,wikidata
-princeton_university,Princeton University,Organization,,wikidata|wikipedia
+princeton_university,Princeton University,Organization,,wikidata|wikipedia|wikipedia_ner
 sherborne_school,Sherborne School,Organization,,wikidata
 ucla,UCLA,Organization,,wikipedia
 university_of_amsterdam,University of Amsterdam,Organization,,wikidata
 university_of_california_los_angeles,"University of California, Los Angeles",Organization,,wikidata
 university_of_cambridge,University of Cambridge,Organization,,wikidata
 university_of_g_ttingen,University of Göttingen,Organization,,wikidata
-university_of_manchester,University of Manchester,Organization,,wikipedia
+university_of_manchester,University of Manchester,Organization,,wikipedia|wikipedia_ner
 victoria_university_of_manchester,Victoria University of Manchester,Organization,,wikidata
-alan_turing,Alan Turing,Person,"Alan Mathison Turing was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science.",wikidata|wikipedia
-alonzo_church,Alonzo Church,Person,"Alonzo Church was an American computer scientist, mathematician, logician, and philosopher who made major contributions to mathematical logic and the foundations of theoretical computer science. He is best known for the lambda calculus, the Church–Turing thesis, proving the unsolvability of the Entscheidungsproblem, the Frege–Church ontology, and the Church–Rosser theorem. Alongside his doctoral student Alan Turing, Church is considered one of the founders of computer science.",wikipedia
+alan_turing,Alan Turing,Person,"Alan Mathison Turing was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science.",wikidata|wikipedia|wikipedia_ner
+alonzo_church,Alonzo Church,Person,"Alonzo Church was an American computer scientist, mathematician, logician, and philosopher who made major contributions to mathematical logic and the foundations of theoretical computer science. He is best known for the lambda calculus, the Church–Turing thesis, proving the unsolvability of the Entscheidungsproblem, the Frege–Church ontology, and the Church–Rosser theorem. Alongside his doctoral student Alan Turing, Church is considered one of the founders of computer science.",wikipedia|wikipedia_ner
 joan_clarke,Joan Clarke,Person,"Joan Elisabeth Lowther Murray, MBE was an English cryptanalyst and numismatist who worked as a code-breaker at Bletchley Park during the Second World War. Although she did not personally seek the spotlight, her role in the Enigma project that decrypted the German secret communications earned her awards and citations, such as appointment as a Member of the Order of the British Empire (MBE), in 1946.",wikipedia
+buckinghamshire,Buckinghamshire,Place,,wikipedia_ner
 headington,Headington,Place,,wikidata|wikipedia
 hudson,Hudson,Place,,wikidata
 hudson_ohio,"Hudson, Ohio",Place,,wikipedia
 maida_vale,Maida Vale,Place,,wikidata|wikipedia
+new_jersey,New Jersey,Place,,wikipedia_ner
+princeton,Princeton,Place,,wikipedia_ner
 warrington_lodge,Warrington Lodge,Place,,wikidata
 washington_d_c,"Washington, D.C.",Place,,wikidata|wikipedia
 west_norwood,West Norwood,Place,,wikidata

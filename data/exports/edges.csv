@@ -1,5 +1,5 @@
 ﻿subject,predicate,predicate_label,object,object_type,object_datatype,source,confidence
-alan_turing,authored,撰写,on_computable_numbers,entity,,wikidata,0.95
+alan_turing,authored,撰写,on_computable_numbers,entity,,wikidata|wikipedia_text_rule,0.95
 alan_turing,born_in,出生于,maida_vale,entity,,wikidata|wikipedia,0.98
 alan_turing,born_in,出生于,warrington_lodge,entity,,wikidata,0.98
 alan_turing,died_in,逝世于,wilmslow,entity,,wikidata|wikipedia,0.98
@@ -10,14 +10,15 @@ alan_turing,has_alias,别名,Turing,literal,string,wikidata,0.95
 alan_turing,has_birth_date,出生日期,1912-06-23,literal,date,wikidata|wikipedia,0.98
 alan_turing,has_death_date,逝世日期,1954-06-07,literal,date,wikidata|wikipedia,0.98
 alan_turing,has_nationality,国籍,United Kingdom,literal,string,wikidata,0.92
-alan_turing,proposed,提出,turing_machine,entity,,wikidata,0.90
+alan_turing,proposed,提出,turing_machine,entity,,wikidata|wikipedia_text_rule,0.90
 alan_turing,proposed,提出,turing_test,entity,,wikidata,0.90
-alan_turing,related_to_field,相关领域,computer_science,entity,,wikidata|wikipedia,0.90
+alan_turing,related_to_field,相关领域,computer_science,entity,,wikidata|wikipedia|wikipedia_text_rule,0.90
 alan_turing,related_to_field,相关领域,cryptanalysis,entity,,wikidata|wikipedia,0.90
 alan_turing,related_to_field,相关领域,cryptography,entity,,wikidata,0.90
 alan_turing,related_to_field,相关领域,logic,entity,,wikidata|wikipedia,0.90
 alan_turing,related_to_field,相关领域,mathematical_and_theoretical_biology,entity,,wikipedia,0.82
 alan_turing,related_to_field,相关领域,mathematics,entity,,wikidata|wikipedia,0.90
+alan_turing,related_to_field,相关领域,theoretical_computer_science,entity,,wikipedia_text_rule,0.62
 alan_turing,studied_at,就读于,hazlehurst_community_primary_school,entity,,wikidata,0.95
 alan_turing,studied_at,就读于,king_s_college,entity,,wikidata,0.95
 alan_turing,studied_at,就读于,princeton_university,entity,,wikidata,0.95
@@ -34,11 +35,11 @@ alonzo_church,died_in,逝世于,hudson_ohio,entity,,wikipedia,0.88
 alonzo_church,has_birth_date,出生日期,1903-06-14,literal,date,wikidata|wikipedia,0.98
 alonzo_church,has_death_date,逝世日期,1995-08-11,literal,date,wikidata|wikipedia,0.98
 alonzo_church,has_nationality,国籍,United States,literal,string,wikidata,0.92
-alonzo_church,related_to_field,相关领域,computer_science,entity,,wikipedia,0.82
-alonzo_church,related_to_field,相关领域,logic,entity,,wikidata|wikipedia,0.90
-alonzo_church,related_to_field,相关领域,mathematical_logic,entity,,wikidata,0.90
+alonzo_church,related_to_field,相关领域,computer_science,entity,,wikipedia|wikipedia_text_rule,0.82
+alonzo_church,related_to_field,相关领域,logic,entity,,wikidata|wikipedia|wikipedia_text_rule,0.90
+alonzo_church,related_to_field,相关领域,mathematical_logic,entity,,wikidata|wikipedia_text_rule,0.90
 alonzo_church,related_to_field,相关领域,mathematics,entity,,wikidata|wikipedia,0.90
-alonzo_church,related_to_field,相关领域,theoretical_computer_science,entity,,wikidata,0.90
+alonzo_church,related_to_field,相关领域,theoretical_computer_science,entity,,wikidata|wikipedia_text_rule,0.90
 alonzo_church,studied_at,就读于,harvard_university,entity,,wikidata,0.95
 alonzo_church,studied_at,就读于,princeton_university,entity,,wikidata,0.95
 alonzo_church,studied_at,就读于,university_of_amsterdam,entity,,wikidata,0.95
@@ -48,8 +49,10 @@ alonzo_church,worked_at,工作于,ucla,entity,,wikipedia,0.85
 alonzo_church,worked_at,工作于,university_of_california_los_angeles,entity,,wikidata,0.95
 bletchley_park,has_alias,别名,Station X,literal,string,wikidata,0.95
 bletchley_park,has_year,年份,1877,literal,gYear,wikidata,0.90
+bletchley_park,located_in,位于,buckinghamshire,entity,,wikipedia_text_rule,0.68
 joan_clarke,born_in,出生于,west_norwood,entity,,wikidata,0.98
 joan_clarke,born_in,出生于,west_norwood_london,entity,,wikipedia,0.88
+joan_clarke,contributed_to,贡献于,second_world_war,entity,,wikipedia_text_rule,0.60
 joan_clarke,died_in,逝世于,headington,entity,,wikidata|wikipedia,0.98
 joan_clarke,has_alias,别名,Joan Clarke Murray,literal,string,wikidata,0.95
 joan_clarke,has_alias,别名,Joan Elisabeth Lowther Clarke,literal,string,wikidata,0.95
@@ -71,6 +74,8 @@ princeton_university,has_alias,别名,Princeton College,literal,string,wikidata,
 princeton_university,has_alias,别名,University of Princeton,literal,string,wikidata,0.95
 princeton_university,has_alias,别名,princeton.edu,literal,string,wikidata,0.95
 princeton_university,has_year,年份,1746,literal,gYear,wikidata,0.90
+princeton_university,located_in,位于,new_jersey,entity,,wikipedia_text_rule,0.68
+princeton_university,located_in,位于,princeton,entity,,wikipedia_text_rule,0.68
 turing_machine,has_alias,别名,deterministic Turing machine,literal,string,wikidata,0.95
 turing_machine,has_year,年份,1936,literal,gYear,wikidata,0.90
 turing_test,has_alias,别名,imitation Game,literal,string,wikidata,0.95

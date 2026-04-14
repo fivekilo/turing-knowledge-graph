@@ -27,6 +27,12 @@
   <data key="d3">wikipedia</data>
   <data key="d4">[{"value": "imitation Game", "datatype": "string", "source": "wikidata", "confidence": "0.95"}]</data>
 </node>
+<node id="second_world_war">
+  <data key="d0">Second World War</data>
+  <data key="d1">Event</data>
+  <data key="d2"></data>
+  <data key="d3">wikipedia_ner</data>
+</node>
 <node id="logic">
   <data key="d0">Logic</data>
   <data key="d1">Field</data>
@@ -79,7 +85,7 @@
   <data key="d0">Bletchley Park</data>
   <data key="d1">Organization</data>
   <data key="d2">Bletchley Park is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&amp;CS), which regularly penetrated the secret communications of the Axis powers – most importantly the German Enigma and Lorenz ciphers. The GC&amp;CS team of codebreakers included John Tiltman, Dilwyn Knox, Alan Turing, Harry Golombek, Gordon Welchman, Hugh Alexander, Donald Michie, Bill Tutte and Stuart Milner-Barry.</data>
-  <data key="d3">wikipedia</data>
+  <data key="d3">wikipedia|wikipedia_ner</data>
   <data key="d4">[{"value": "Station X", "datatype": "string", "source": "wikidata", "confidence": "0.95"}]</data>
   <data key="d5">[{"value": "1877", "datatype": "gYear", "source": "wikidata", "confidence": "0.90"}]</data>
 </node>
@@ -135,7 +141,7 @@
   <data key="d0">Princeton University</data>
   <data key="d1">Organization</data>
   <data key="d2"></data>
-  <data key="d3">wikidata|wikipedia</data>
+  <data key="d3">wikidata|wikipedia|wikipedia_ner</data>
   <data key="d4">[{"value": "College of New Jersey", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Princeton", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Princeton College", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "University of Princeton", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "princeton.edu", "datatype": "string", "source": "wikidata", "confidence": "0.95"}]</data>
   <data key="d5">[{"value": "1746", "datatype": "gYear", "source": "wikidata", "confidence": "0.90"}]</data>
 </node>
@@ -179,7 +185,7 @@
   <data key="d0">University of Manchester</data>
   <data key="d1">Organization</data>
   <data key="d2"></data>
-  <data key="d3">wikipedia</data>
+  <data key="d3">wikipedia|wikipedia_ner</data>
 </node>
 <node id="victoria_university_of_manchester">
   <data key="d0">Victoria University of Manchester</data>
@@ -191,7 +197,7 @@
   <data key="d0">Alan Turing</data>
   <data key="d1">Person</data>
   <data key="d2">Alan Mathison Turing was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science.</data>
-  <data key="d3">wikidata|wikipedia</data>
+  <data key="d3">wikidata|wikipedia|wikipedia_ner</data>
   <data key="d4">[{"value": "Alan M. Turing", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Alan Mathieson Turing", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Alan Mathison Turing", "datatype": "string", "source": "wikidata", "confidence": "0.95"}, {"value": "Turing", "datatype": "string", "source": "wikidata", "confidence": "0.95"}]</data>
   <data key="d6">[{"value": "1912-06-23", "datatype": "date", "source": "wikidata|wikipedia", "confidence": "0.98"}]</data>
   <data key="d7">[{"value": "1954-06-07", "datatype": "date", "source": "wikidata|wikipedia", "confidence": "0.98"}]</data>
@@ -201,7 +207,7 @@
   <data key="d0">Alonzo Church</data>
   <data key="d1">Person</data>
   <data key="d2">Alonzo Church was an American computer scientist, mathematician, logician, and philosopher who made major contributions to mathematical logic and the foundations of theoretical computer science. He is best known for the lambda calculus, the Church–Turing thesis, proving the unsolvability of the Entscheidungsproblem, the Frege–Church ontology, and the Church–Rosser theorem. Alongside his doctoral student Alan Turing, Church is considered one of the founders of computer science.</data>
-  <data key="d3">wikipedia</data>
+  <data key="d3">wikipedia|wikipedia_ner</data>
   <data key="d6">[{"value": "1903-06-14", "datatype": "date", "source": "wikidata|wikipedia", "confidence": "0.98"}]</data>
   <data key="d7">[{"value": "1995-08-11", "datatype": "date", "source": "wikidata|wikipedia", "confidence": "0.98"}]</data>
   <data key="d8">[{"value": "United States", "datatype": "string", "source": "wikidata", "confidence": "0.92"}]</data>
@@ -215,6 +221,12 @@
   <data key="d6">[{"value": "1917-06-24", "datatype": "date", "source": "wikidata|wikipedia", "confidence": "0.98"}]</data>
   <data key="d7">[{"value": "1996-09-04", "datatype": "date", "source": "wikidata|wikipedia", "confidence": "0.98"}]</data>
   <data key="d8">[{"value": "United Kingdom", "datatype": "string", "source": "wikidata", "confidence": "0.92"}, {"value": "United Kingdom of Great Britain and Ireland", "datatype": "string", "source": "wikidata", "confidence": "0.92"}]</data>
+</node>
+<node id="buckinghamshire">
+  <data key="d0">Buckinghamshire</data>
+  <data key="d1">Place</data>
+  <data key="d2"></data>
+  <data key="d3">wikipedia_ner</data>
 </node>
 <node id="headington">
   <data key="d0">Headington</data>
@@ -239,6 +251,18 @@
   <data key="d1">Place</data>
   <data key="d2"></data>
   <data key="d3">wikidata|wikipedia</data>
+</node>
+<node id="new_jersey">
+  <data key="d0">New Jersey</data>
+  <data key="d1">Place</data>
+  <data key="d2"></data>
+  <data key="d3">wikipedia_ner</data>
+</node>
+<node id="princeton">
+  <data key="d0">Princeton</data>
+  <data key="d1">Place</data>
+  <data key="d2"></data>
+  <data key="d3">wikipedia_ner</data>
 </node>
 <node id="warrington_lodge">
   <data key="d0">Warrington Lodge</data>
@@ -283,10 +307,28 @@
 "what I shall prove is quite different from the well-known results of Gödel ... I shall now show that there is no general method which tells whether a given formula U is provable in K [Principia Mathematica]".</data>
   <data key="d3">wikipedia</data>
 </node>
+<edge source="bletchley_park" target="buckinghamshire">
+  <data key="d9">located_in</data>
+  <data key="d10">位于</data>
+  <data key="d11">wikipedia_text_rule</data>
+  <data key="d12">0.68</data>
+</edge>
+<edge source="princeton_university" target="new_jersey">
+  <data key="d9">located_in</data>
+  <data key="d10">位于</data>
+  <data key="d11">wikipedia_text_rule</data>
+  <data key="d12">0.68</data>
+</edge>
+<edge source="princeton_university" target="princeton">
+  <data key="d9">located_in</data>
+  <data key="d10">位于</data>
+  <data key="d11">wikipedia_text_rule</data>
+  <data key="d12">0.68</data>
+</edge>
 <edge source="alan_turing" target="on_computable_numbers">
   <data key="d9">authored</data>
   <data key="d10">撰写</data>
-  <data key="d11">wikidata</data>
+  <data key="d11">wikidata|wikipedia_text_rule</data>
   <data key="d12">0.95</data>
 </edge>
 <edge source="alan_turing" target="maida_vale">
@@ -310,7 +352,7 @@
 <edge source="alan_turing" target="turing_machine">
   <data key="d9">proposed</data>
   <data key="d10">提出</data>
-  <data key="d11">wikidata</data>
+  <data key="d11">wikidata|wikipedia_text_rule</data>
   <data key="d12">0.90</data>
 </edge>
 <edge source="alan_turing" target="turing_test">
@@ -322,7 +364,7 @@
 <edge source="alan_turing" target="computer_science">
   <data key="d9">related_to_field</data>
   <data key="d10">相关领域</data>
-  <data key="d11">wikidata|wikipedia</data>
+  <data key="d11">wikidata|wikipedia|wikipedia_text_rule</data>
   <data key="d12">0.90</data>
 </edge>
 <edge source="alan_turing" target="cryptanalysis">
@@ -354,6 +396,12 @@
   <data key="d10">相关领域</data>
   <data key="d11">wikidata|wikipedia</data>
   <data key="d12">0.90</data>
+</edge>
+<edge source="alan_turing" target="theoretical_computer_science">
+  <data key="d9">related_to_field</data>
+  <data key="d10">相关领域</data>
+  <data key="d11">wikipedia_text_rule</data>
+  <data key="d12">0.62</data>
 </edge>
 <edge source="alan_turing" target="hazlehurst_community_primary_school">
   <data key="d9">studied_at</data>
@@ -436,19 +484,19 @@
 <edge source="alonzo_church" target="computer_science">
   <data key="d9">related_to_field</data>
   <data key="d10">相关领域</data>
-  <data key="d11">wikipedia</data>
+  <data key="d11">wikipedia|wikipedia_text_rule</data>
   <data key="d12">0.82</data>
 </edge>
 <edge source="alonzo_church" target="logic">
   <data key="d9">related_to_field</data>
   <data key="d10">相关领域</data>
-  <data key="d11">wikidata|wikipedia</data>
+  <data key="d11">wikidata|wikipedia|wikipedia_text_rule</data>
   <data key="d12">0.90</data>
 </edge>
 <edge source="alonzo_church" target="mathematical_logic">
   <data key="d9">related_to_field</data>
   <data key="d10">相关领域</data>
-  <data key="d11">wikidata</data>
+  <data key="d11">wikidata|wikipedia_text_rule</data>
   <data key="d12">0.90</data>
 </edge>
 <edge source="alonzo_church" target="mathematics">
@@ -460,7 +508,7 @@
 <edge source="alonzo_church" target="theoretical_computer_science">
   <data key="d9">related_to_field</data>
   <data key="d10">相关领域</data>
-  <data key="d11">wikidata</data>
+  <data key="d11">wikidata|wikipedia_text_rule</data>
   <data key="d12">0.90</data>
 </edge>
 <edge source="alonzo_church" target="harvard_university">
@@ -510,6 +558,12 @@
   <data key="d10">出生于</data>
   <data key="d11">wikipedia</data>
   <data key="d12">0.88</data>
+</edge>
+<edge source="joan_clarke" target="second_world_war">
+  <data key="d9">contributed_to</data>
+  <data key="d10">贡献于</data>
+  <data key="d11">wikipedia_text_rule</data>
+  <data key="d12">0.60</data>
 </edge>
 <edge source="joan_clarke" target="headington">
   <data key="d9">died_in</data>

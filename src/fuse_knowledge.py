@@ -107,15 +107,34 @@ def fuse_triples(entity_rows: List[Dict[str, str]], triple_rows: List[Dict[str, 
     return sorted(fused_rows, key=lambda row: (row["subject"], row["predicate"], row["object"]))
 
 
+def prune_entities(entity_rows: List[Dict[str, str]], triple_rows: List[Dict[str, str]]) -> List[Dict[str, str]]:
+    referenced: Set[str] = set()
+    for row in triple_rows:
+        referenced.add(row["subject"])
+        if row.get("object_type") == "entity":
+            referenced.add(row["object"])
+
+    pruned: List[Dict[str, str]] = []
+    for row in entity_rows:
+        sources = set((row.get("source") or "").split("|"))
+        ner_only = sources == {"wikipedia_ner"}
+        if ner_only and row["entity_id"] not in referenced:
+            continue
+        pruned.append(row)
+    return pruned
+
+
 def main() -> None:
     ensure_dirs()
     backup_active_csvs()
 
     entities = sorted(read_csv(EXTRACTED_DIR / "entities_normalized.csv"), key=lambda row: (row["class_id"], row["label"]))
     triples_candidates = read_csv(EXTRACTED_DIR / "triples_candidates.csv")
-    classes = fuse_classes(entities, triples_candidates)
-    relations = fuse_relations(triples_candidates)
     triples = fuse_triples(entities, triples_candidates)
+    entities = prune_entities(entities, triples)
+    triples = fuse_triples(entities, triples_candidates)
+    classes = fuse_classes(entities, triples)
+    relations = fuse_relations(triples)
 
     write_csv(FUSED_DIR / "classes_fused.csv", classes, CLASS_FIELDS)
     write_csv(FUSED_DIR / "relations_fused.csv", relations, RELATION_FIELDS)
