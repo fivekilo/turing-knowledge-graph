@@ -1,6 +1,16 @@
 ﻿subject,predicate,object,object_label,object_type,object_datatype,object_class_hint,source,confidence
 alan_turing,related_to_field,computer_science,computer science,entity,,Field,wikipedia_text_rule,0.62
 alan_turing,related_to_field,theoretical_computer_science,theoretical computer science,entity,,Field,wikipedia_text_rule,0.62
+alan_turing,studied_at,king_s_college,King's College,entity,,Organization,wikipedia_text_rule,0.72
+alan_turing,studied_at,princeton_university,Princeton University,entity,,Organization,wikipedia_text_rule,0.72
+alan_turing,worked_at,cypher_school,Cypher School,entity,,Organization,wikipedia_text_rule,0.70
+alan_turing,worked_at,bletchley_park,Bletchley Park,entity,,Organization,wikipedia_text_rule,0.70
+alan_turing,contributed_to,world_war_ii,World War II,entity,,Event,wikipedia_text_rule,0.60
+alan_turing,related_to_field,cryptanalysis,cryptanalysis,entity,,Field,wikipedia_text_rule,0.62
+alan_turing,worked_at,national_physical_laboratory,National Physical Laboratory,entity,,Organization,wikipedia_text_rule,0.70
+alan_turing,worked_at,automatic_computing_engine,Automatic Computing Engine,entity,,Organization,wikipedia_text_rule,0.70
+alan_turing,worked_at,computing_machine_laboratory,Computing Machine Laboratory,entity,,Organization,wikipedia_text_rule,0.70
+alan_turing,worked_at,university_of_manchester,University of Manchester,entity,,Organization,wikipedia_text_rule,0.70
 joan_clarke,contributed_to,second_world_war,Second World War,entity,,Event,wikipedia_text_rule,0.60
 alonzo_church,related_to_field,logic,logic,entity,,Field,wikipedia_text_rule,0.62
 alonzo_church,related_to_field,computer_science,computer science,entity,,Field,wikipedia_text_rule,0.62

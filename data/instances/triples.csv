@@ -2,6 +2,7 @@
 alan_turing,authored,on_computable_numbers,entity,,wikidata|wikipedia_text_rule,0.95
 alan_turing,born_in,maida_vale,entity,,wikidata|wikipedia,0.98
 alan_turing,born_in,warrington_lodge,entity,,wikidata,0.98
+alan_turing,contributed_to,world_war_ii,entity,,wikipedia_text_rule,0.60
 alan_turing,died_in,wilmslow,entity,,wikidata|wikipedia,0.98
 alan_turing,has_alias,Alan M. Turing,literal,string,wikidata,0.95
 alan_turing,has_alias,Alan Mathieson Turing,literal,string,wikidata,0.95
@@ -13,21 +14,24 @@ alan_turing,has_nationality,United Kingdom,literal,string,wikidata,0.92
 alan_turing,proposed,turing_machine,entity,,wikidata|wikipedia_text_rule,0.90
 alan_turing,proposed,turing_test,entity,,wikidata,0.90
 alan_turing,related_to_field,computer_science,entity,,wikidata|wikipedia|wikipedia_text_rule,0.90
-alan_turing,related_to_field,cryptanalysis,entity,,wikidata|wikipedia,0.90
+alan_turing,related_to_field,cryptanalysis,entity,,wikidata|wikipedia|wikipedia_text_rule,0.90
 alan_turing,related_to_field,cryptography,entity,,wikidata,0.90
 alan_turing,related_to_field,logic,entity,,wikidata|wikipedia,0.90
 alan_turing,related_to_field,mathematical_and_theoretical_biology,entity,,wikipedia,0.82
 alan_turing,related_to_field,mathematics,entity,,wikidata|wikipedia,0.90
 alan_turing,related_to_field,theoretical_computer_science,entity,,wikipedia_text_rule,0.62
 alan_turing,studied_at,hazlehurst_community_primary_school,entity,,wikidata,0.95
-alan_turing,studied_at,king_s_college,entity,,wikidata,0.95
-alan_turing,studied_at,princeton_university,entity,,wikidata,0.95
+alan_turing,studied_at,king_s_college,entity,,wikidata|wikipedia_text_rule,0.95
+alan_turing,studied_at,princeton_university,entity,,wikidata|wikipedia_text_rule,0.95
 alan_turing,studied_at,sherborne_school,entity,,wikidata,0.95
+alan_turing,worked_at,automatic_computing_engine,entity,,wikipedia_text_rule,0.70
+alan_turing,worked_at,bletchley_park,entity,,wikipedia_text_rule,0.70
+alan_turing,worked_at,computing_machine_laboratory,entity,,wikipedia_text_rule,0.70
 alan_turing,worked_at,government_code_and_cypher_school,entity,,wikipedia,0.85
 alan_turing,worked_at,government_communications_headquarters,entity,,wikidata,0.95
-alan_turing,worked_at,national_physical_laboratory,entity,,wikidata|wikipedia,0.95
+alan_turing,worked_at,national_physical_laboratory,entity,,wikidata|wikipedia|wikipedia_text_rule,0.95
 alan_turing,worked_at,university_of_cambridge,entity,,wikidata,0.95
-alan_turing,worked_at,university_of_manchester,entity,,wikipedia,0.85
+alan_turing,worked_at,university_of_manchester,entity,,wikipedia|wikipedia_text_rule,0.85
 alan_turing,worked_at,victoria_university_of_manchester,entity,,wikidata,0.95
 alonzo_church,born_in,washington_d_c,entity,,wikidata|wikipedia,0.98
 alonzo_church,died_in,hudson,entity,,wikidata,0.98

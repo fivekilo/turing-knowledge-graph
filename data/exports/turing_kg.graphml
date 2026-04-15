@@ -33,6 +33,12 @@
   <data key="d2"></data>
   <data key="d3">wikipedia_ner</data>
 </node>
+<node id="world_war_ii">
+  <data key="d0">World War II</data>
+  <data key="d1">Event</data>
+  <data key="d2"></data>
+  <data key="d3">wikipedia_ner</data>
+</node>
 <node id="logic">
   <data key="d0">Logic</data>
   <data key="d1">Field</data>
@@ -81,6 +87,12 @@
   <data key="d2"></data>
   <data key="d3">wikidata</data>
 </node>
+<node id="automatic_computing_engine">
+  <data key="d0">Automatic Computing Engine</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikipedia_ner</data>
+</node>
 <node id="bletchley_park">
   <data key="d0">Bletchley Park</data>
   <data key="d1">Organization</data>
@@ -88,6 +100,12 @@
   <data key="d3">wikipedia|wikipedia_ner</data>
   <data key="d4">[{"value": "Station X", "datatype": "string", "source": "wikidata", "confidence": "0.95"}]</data>
   <data key="d5">[{"value": "1877", "datatype": "gYear", "source": "wikidata", "confidence": "0.90"}]</data>
+</node>
+<node id="computing_machine_laboratory">
+  <data key="d0">Computing Machine Laboratory</data>
+  <data key="d1">Organization</data>
+  <data key="d2"></data>
+  <data key="d3">wikipedia_ner</data>
 </node>
 <node id="dulwich_college">
   <data key="d0">Dulwich College</data>
@@ -123,13 +141,13 @@
   <data key="d0">King's College</data>
   <data key="d1">Organization</data>
   <data key="d2"></data>
-  <data key="d3">wikidata</data>
+  <data key="d3">wikidata|wikipedia_ner</data>
 </node>
 <node id="national_physical_laboratory">
   <data key="d0">National Physical Laboratory</data>
   <data key="d1">Organization</data>
   <data key="d2"></data>
-  <data key="d3">wikidata|wikipedia</data>
+  <data key="d3">wikidata|wikipedia|wikipedia_ner</data>
 </node>
 <node id="newnham_college">
   <data key="d0">Newnham College</data>
@@ -343,6 +361,12 @@
   <data key="d11">wikidata</data>
   <data key="d12">0.98</data>
 </edge>
+<edge source="alan_turing" target="world_war_ii">
+  <data key="d9">contributed_to</data>
+  <data key="d10">贡献于</data>
+  <data key="d11">wikipedia_text_rule</data>
+  <data key="d12">0.60</data>
+</edge>
 <edge source="alan_turing" target="wilmslow">
   <data key="d9">died_in</data>
   <data key="d10">逝世于</data>
@@ -370,7 +394,7 @@
 <edge source="alan_turing" target="cryptanalysis">
   <data key="d9">related_to_field</data>
   <data key="d10">相关领域</data>
-  <data key="d11">wikidata|wikipedia</data>
+  <data key="d11">wikidata|wikipedia|wikipedia_text_rule</data>
   <data key="d12">0.90</data>
 </edge>
 <edge source="alan_turing" target="cryptography">
@@ -412,13 +436,13 @@
 <edge source="alan_turing" target="king_s_college">
   <data key="d9">studied_at</data>
   <data key="d10">就读于</data>
-  <data key="d11">wikidata</data>
+  <data key="d11">wikidata|wikipedia_text_rule</data>
   <data key="d12">0.95</data>
 </edge>
 <edge source="alan_turing" target="princeton_university">
   <data key="d9">studied_at</data>
   <data key="d10">就读于</data>
-  <data key="d11">wikidata</data>
+  <data key="d11">wikidata|wikipedia_text_rule</data>
   <data key="d12">0.95</data>
 </edge>
 <edge source="alan_turing" target="sherborne_school">
@@ -426,6 +450,24 @@
   <data key="d10">就读于</data>
   <data key="d11">wikidata</data>
   <data key="d12">0.95</data>
+</edge>
+<edge source="alan_turing" target="automatic_computing_engine">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">wikipedia_text_rule</data>
+  <data key="d12">0.70</data>
+</edge>
+<edge source="alan_turing" target="bletchley_park">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">wikipedia_text_rule</data>
+  <data key="d12">0.70</data>
+</edge>
+<edge source="alan_turing" target="computing_machine_laboratory">
+  <data key="d9">worked_at</data>
+  <data key="d10">工作于</data>
+  <data key="d11">wikipedia_text_rule</data>
+  <data key="d12">0.70</data>
 </edge>
 <edge source="alan_turing" target="government_code_and_cypher_school">
   <data key="d9">worked_at</data>
@@ -442,7 +484,7 @@
 <edge source="alan_turing" target="national_physical_laboratory">
   <data key="d9">worked_at</data>
   <data key="d10">工作于</data>
-  <data key="d11">wikidata|wikipedia</data>
+  <data key="d11">wikidata|wikipedia|wikipedia_text_rule</data>
   <data key="d12">0.95</data>
 </edge>
 <edge source="alan_turing" target="university_of_cambridge">
@@ -454,7 +496,7 @@
 <edge source="alan_turing" target="university_of_manchester">
   <data key="d9">worked_at</data>
   <data key="d10">工作于</data>
-  <data key="d11">wikipedia</data>
+  <data key="d11">wikipedia|wikipedia_text_rule</data>
   <data key="d12">0.85</data>
 </edge>
 <edge source="alan_turing" target="victoria_university_of_manchester">

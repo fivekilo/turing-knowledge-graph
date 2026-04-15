@@ -2,16 +2,27 @@
 alan_turing,Alan Turing,Person,"Alan Mathison Turing was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science.",wikidata|wikipedia|wikipedia_ner
 alonzo_church,Alonzo Church,Person,"Alonzo Church was an American computer scientist, mathematician, logician, and philosopher who made major contributions to mathematical logic and the foundations of theoretical computer science. He is best known for the lambda calculus, the Church–Turing thesis, proving the unsolvability of the Entscheidungsproblem, the Frege–Church ontology, and the Church–Rosser theorem. Alongside his doctoral student Alan Turing, Church is considered one of the founders of computer science.",wikipedia|wikipedia_ner
 american_revolution,American Revolution,Event,,wikipedia_ner
+automatic_computing_engine,Automatic Computing Engine,Organization,,wikipedia_ner
+battle_of_the_atlantic,Battle of the Atlantic,Work,,wikipedia_ner
+bendheim_center_for_finance,Bendheim Center for Finance,Organization,,wikipedia_ner
 bill_tutte,Bill Tutte,Person,,wikipedia_ner
 bletchley_park,Bletchley Park,Organization,"Bletchley Park is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&CS), which regularly penetrated the secret communications of the Axis powers – most importantly the German Enigma and Lorenz ciphers. The GC&CS team of codebreakers included John Tiltman, Dilwyn Knox, Alan Turing, Harry Golombek, Gordon Welchman, Hugh Alexander, Donald Michie, Bill Tutte and Stuart Milner-Barry.",wikipedia|wikipedia_ner
+britain,Britain,Place,,wikipedia_ner
 buckinghamshire,Buckinghamshire,Place,,wikipedia_ner
+cambridge,Cambridge,Place,,wikipedia_ner
 college_of_new_jersey,College of New Jersey,Organization,,wikipedia_ner
 computer_science,computer science,Field,,wikidata|wikipedia
+computing_machine_laboratory,Computing Machine Laboratory,Organization,,wikipedia_ner
 cryptanalysis,cryptanalysis,Field,,wikidata|wikipedia
 cryptography,cryptography,Field,,wikidata
+department_of_energy_s,Department of Energy's,Organization,,wikipedia_ner
 dilwyn_knox,Dilwyn Knox,Person,,wikipedia_ner
 donald_michie,Donald Michie,Person,,wikipedia_ner
 dulwich_college,Dulwich College,Organization,,wikidata
+england,England,Place,,wikipedia_ner
+fields_medalists,Fields Medalists,Organization,,wikipedia_ner
+geophysical_fluid_dynamics_laboratory,Geophysical Fluid Dynamics Laboratory,Organization,,wikipedia_ner
+gordon_brown,Gordon Brown,Person,,wikipedia_ner
 gordon_welchman,Gordon Welchman,Person,,wikipedia_ner
 government_code_and_cypher_school,Government Code and Cypher School,Organization,,wikipedia
 government_communications_headquarters,Government Communications Headquarters,Organization,,wikidata
@@ -24,28 +35,44 @@ hudson_ohio,"Hudson, Ohio",Place,,wikipedia
 hugh_alexander,Hugh Alexander,Person,,wikipedia_ner
 joan_clarke,Joan Clarke,Person,"Joan Elisabeth Lowther Murray, MBE was an English cryptanalyst and numismatist who worked as a code-breaker at Bletchley Park during the Second World War. Although she did not personally seek the spotlight, her role in the Enigma project that decrypted the German secret communications earned her awards and citations, such as appointment as a Member of the Order of the British Empire (MBE), in 1946.",wikipedia
 john_tiltman,John Tiltman,Person,,wikipedia_ner
-king_s_college,King's College,Organization,,wikidata
+joint_chiefs_of_staff,Joint Chiefs of Staff,Organization,,wikipedia_ner
+king_s_college,King's College,Organization,,wikidata|wikipedia_ner
 logic,Logic,Field,,wikidata|wikipedia
+london,London,Place,,wikipedia_ner
 maida_vale,Maida Vale,Place,,wikidata|wikipedia
+marshall_scholars,Marshall Scholars,Person,,wikipedia_ner
 mathematical_and_theoretical_biology,mathematical and theoretical biology,Field,,wikipedia
 mathematical_logic,mathematical logic,Field,,wikidata
 mathematics,mathematics,Field,,wikidata|wikipedia
 mercer_county,Mercer County,Place,,wikipedia_ner
-national_physical_laboratory,National Physical Laboratory,Organization,,wikidata|wikipedia
+national_physical_laboratory,National Physical Laboratory,Organization,,wikidata|wikipedia|wikipedia_ner
 new_jersey,New Jersey,Place,,wikipedia_ner
 newark,Newark,Place,,wikipedia_ner
 newnham_college,Newnham College,Organization,,wikidata
+olympics,Olympics,Event,,wikipedia_ner
 on_computable_numbers,"On Computable Numbers, with an Application to the Entscheidungsproblem",Work,"Turing's proof is a proof by Alan Turing, first published in November 1936 with the title ""On Computable Numbers, with an Application to the Entscheidungsproblem"". It was the second proof of the negation of Hilbert's Entscheidungsproblem; that is, the conjecture that some purely mathematical yes–no questions can never be answered by computation; more technically, that some decision problems are ""undecidable"" in the sense that there is no single algorithm that infallibly gives a correct ""yes"" or ""no"" answer to each instance of the problem. In Turing's own words:
 ""what I shall prove is quite different from the well-known results of Gödel ... I shall now show that there is no general method which tells whether a given formula U is provable in K [Principia Mathematica]"".",wikipedia
 princeton,Princeton,Place,,wikipedia_ner
+princeton_plasma_physics_laboratory,Princeton Plasma Physics Laboratory,Organization,,wikipedia_ner
+princeton_school_of_public_and_international_affairs,Princeton School of Public and International Affairs,Organization,,wikipedia_ner
+princeton_tigers,Princeton Tigers,Organization,,wikipedia_ner
 princeton_university,Princeton University,Organization,,wikidata|wikipedia|wikipedia_ner
 proceedings_of_the_london_mathematical_society,Proceedings of the London Mathematical Society,PublicationVenue,,wikidata
+r1_doctoral_universities,R1: Doctoral Universities,Work,,wikipedia_ner
+rhodes_scholars,Rhodes Scholars,Person,,wikipedia_ner
+school_of_architecture,School of Architecture,Organization,,wikipedia_ner
+school_of_engineering_and_applied_science,School of Engineering and Applied Science,Organization,,wikipedia_ner
 second_world_war,Second World War,Event,,wikipedia_ner
 sherborne_school,Sherborne School,Organization,,wikidata
 stuart_milner_barry,Stuart Milner-Barry,Person,,wikipedia_ner
 theoretical_computer_science,theoretical computer science,Field,,wikidata
+trustees_of_princeton_university,Trustees of Princeton University,Organization,,wikipedia_ner
+turing,Turing,Place,,wikipedia_ner
 turing_machine,Turing machine,Concept,"A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules. Despite the model's simplicity, it is capable of implementing any computer algorithm.",wikipedia
 turing_test,Turing test,Concept,"The Turing test, originally called the imitation game by Alan Turing in 1949, is a test of a machine's ability to exhibit intelligent behaviour equivalent to that of a human. In the test, a human evaluator judges a text transcript of a natural-language conversation between a human and a machine. The evaluator tries to identify the machine, and the machine passes if the evaluator cannot reliably tell them apart. The results would not depend on the machine's ability to answer questions correctly, only on how closely its answers resembled those of a human. Since the Turing test is a test of indistinguishability in performance capacity, the verbal version generalizes naturally to all of human performance capacity, verbal as well as nonverbal (robotic).",wikipedia
+u_s_cabinet,U.S. Cabinet,Organization,,wikipedia_ner
+u_s_congress,U.S. Congress,Organization,,wikipedia_ner
+u_s_supreme_court,U.S. Supreme Court,Organization,,wikipedia_ner
 ucla,UCLA,Organization,,wikipedia
 united_states,United States,Place,,wikipedia_ner
 university_of_amsterdam,University of Amsterdam,Organization,,wikidata

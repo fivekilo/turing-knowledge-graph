@@ -31,7 +31,9 @@ def clean_text(text: str) -> str:
 
 def extract_lead_paragraphs(html: str, max_paragraphs: int = 4) -> List[str]:
     soup = BeautifulSoup(html, "html.parser")
-    content = soup.find("div", class_=lambda value: value and "mw-parser-output" in value)
+    content = soup.select_one("div.mw-content-ltr.mw-parser-output")
+    if not content:
+        content = soup.find("div", class_=lambda value: value and "mw-parser-output" in value)
     if not content:
         return []
 

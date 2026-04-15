@@ -1,13 +1,13 @@
 {
   "classes": 9,
   "relations": 15,
-  "entities": 46,
-  "triples": 80,
+  "entities": 49,
+  "triples": 84,
   "entity_distribution": {
     "Concept": 2,
-    "Event": 1,
+    "Event": 2,
     "Field": 8,
-    "Organization": 18,
+    "Organization": 20,
     "Person": 3,
     "Place": 12,
     "PublicationVenue": 1,
@@ -16,6 +16,7 @@
   "relation_distribution": {
     "authored": 1,
     "born_in": 5,
+    "contributed_to": 2,
     "died_in": 4,
     "has_alias": 17,
     "has_birth_date": 3,
@@ -24,10 +25,9 @@
     "proposed": 2,
     "related_to_field": 13,
     "studied_at": 10,
-    "worked_at": 10,
+    "worked_at": 13,
     "has_year": 3,
     "located_in": 3,
-    "contributed_to": 1,
     "published_in": 1
   }
 }

@@ -2,6 +2,7 @@
 alan_turing,authored,撰写,on_computable_numbers,entity,,wikidata|wikipedia_text_rule,0.95
 alan_turing,born_in,出生于,maida_vale,entity,,wikidata|wikipedia,0.98
 alan_turing,born_in,出生于,warrington_lodge,entity,,wikidata,0.98
+alan_turing,contributed_to,贡献于,world_war_ii,entity,,wikipedia_text_rule,0.60
 alan_turing,died_in,逝世于,wilmslow,entity,,wikidata|wikipedia,0.98
 alan_turing,has_alias,别名,Alan M. Turing,literal,string,wikidata,0.95
 alan_turing,has_alias,别名,Alan Mathieson Turing,literal,string,wikidata,0.95
@@ -13,21 +14,24 @@ alan_turing,has_nationality,国籍,United Kingdom,literal,string,wikidata,0.92
 alan_turing,proposed,提出,turing_machine,entity,,wikidata|wikipedia_text_rule,0.90
 alan_turing,proposed,提出,turing_test,entity,,wikidata,0.90
 alan_turing,related_to_field,相关领域,computer_science,entity,,wikidata|wikipedia|wikipedia_text_rule,0.90
-alan_turing,related_to_field,相关领域,cryptanalysis,entity,,wikidata|wikipedia,0.90
+alan_turing,related_to_field,相关领域,cryptanalysis,entity,,wikidata|wikipedia|wikipedia_text_rule,0.90
 alan_turing,related_to_field,相关领域,cryptography,entity,,wikidata,0.90
 alan_turing,related_to_field,相关领域,logic,entity,,wikidata|wikipedia,0.90
 alan_turing,related_to_field,相关领域,mathematical_and_theoretical_biology,entity,,wikipedia,0.82
 alan_turing,related_to_field,相关领域,mathematics,entity,,wikidata|wikipedia,0.90
 alan_turing,related_to_field,相关领域,theoretical_computer_science,entity,,wikipedia_text_rule,0.62
 alan_turing,studied_at,就读于,hazlehurst_community_primary_school,entity,,wikidata,0.95
-alan_turing,studied_at,就读于,king_s_college,entity,,wikidata,0.95
-alan_turing,studied_at,就读于,princeton_university,entity,,wikidata,0.95
+alan_turing,studied_at,就读于,king_s_college,entity,,wikidata|wikipedia_text_rule,0.95
+alan_turing,studied_at,就读于,princeton_university,entity,,wikidata|wikipedia_text_rule,0.95
 alan_turing,studied_at,就读于,sherborne_school,entity,,wikidata,0.95
+alan_turing,worked_at,工作于,automatic_computing_engine,entity,,wikipedia_text_rule,0.70
+alan_turing,worked_at,工作于,bletchley_park,entity,,wikipedia_text_rule,0.70
+alan_turing,worked_at,工作于,computing_machine_laboratory,entity,,wikipedia_text_rule,0.70
 alan_turing,worked_at,工作于,government_code_and_cypher_school,entity,,wikipedia,0.85
 alan_turing,worked_at,工作于,government_communications_headquarters,entity,,wikidata,0.95
-alan_turing,worked_at,工作于,national_physical_laboratory,entity,,wikidata|wikipedia,0.95
+alan_turing,worked_at,工作于,national_physical_laboratory,entity,,wikidata|wikipedia|wikipedia_text_rule,0.95
 alan_turing,worked_at,工作于,university_of_cambridge,entity,,wikidata,0.95
-alan_turing,worked_at,工作于,university_of_manchester,entity,,wikipedia,0.85
+alan_turing,worked_at,工作于,university_of_manchester,entity,,wikipedia|wikipedia_text_rule,0.85
 alan_turing,worked_at,工作于,victoria_university_of_manchester,entity,,wikidata,0.95
 alonzo_church,born_in,出生于,washington_d_c,entity,,wikidata|wikipedia,0.98
 alonzo_church,died_in,逝世于,hudson,entity,,wikidata,0.98

@@ -62,6 +62,7 @@ ex:alan_turing a ex:Person ;
     ex:authored ex:on_computable_numbers ;
     ex:born_in ex:maida_vale,
         ex:warrington_lodge ;
+    ex:contributed_to ex:world_war_ii ;
     ex:died_in ex:wilmslow ;
     ex:has_alias "Alan M. Turing"^^xsd:string,
         "Alan Mathieson Turing"^^xsd:string,
@@ -83,7 +84,10 @@ ex:alan_turing a ex:Person ;
         ex:king_s_college,
         ex:princeton_university,
         ex:sherborne_school ;
-    ex:worked_at ex:government_code_and_cypher_school,
+    ex:worked_at ex:automatic_computing_engine,
+        ex:bletchley_park,
+        ex:computing_machine_laboratory,
+        ex:government_code_and_cypher_school,
         ex:government_communications_headquarters,
         ex:national_physical_laboratory,
         ex:university_of_cambridge,
@@ -119,13 +123,6 @@ ex:authored a rdf:Property,
     rdfs:comment "人物撰写作品"@zh ;
     rdfs:domain ex:Person ;
     rdfs:range ex:Work .
-
-ex:bletchley_park a ex:Organization ;
-    rdfs:label "Bletchley Park" ;
-    ex:has_alias "Station X"^^xsd:string ;
-    ex:has_year "1877"^^xsd:gYear ;
-    ex:located_in ex:buckinghamshire ;
-    rdfs:comment "Bletchley Park is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&CS), which regularly penetrated the secret communications of the Axis powers – most importantly the German Enigma and Lorenz ciphers. The GC&CS team of codebreakers included John Tiltman, Dilwyn Knox, Alan Turing, Harry Golombek, Gordon Welchman, Hugh Alexander, Donald Michie, Bill Tutte and Stuart Milner-Barry."@zh .
 
 ex:born_in a rdf:Property,
         owl:ObjectProperty ;
@@ -246,8 +243,21 @@ ex:worked_at a rdf:Property,
     rdfs:domain ex:Person ;
     rdfs:range ex:Organization .
 
+ex:automatic_computing_engine a ex:Organization ;
+    rdfs:label "Automatic Computing Engine" .
+
+ex:bletchley_park a ex:Organization ;
+    rdfs:label "Bletchley Park" ;
+    ex:has_alias "Station X"^^xsd:string ;
+    ex:has_year "1877"^^xsd:gYear ;
+    ex:located_in ex:buckinghamshire ;
+    rdfs:comment "Bletchley Park is an English country house and estate in Bletchley, Milton Keynes (Buckinghamshire), that became the principal centre of Allied code-breaking during the Second World War. During World War II, the estate housed the Government Code and Cypher School (GC&CS), which regularly penetrated the secret communications of the Axis powers – most importantly the German Enigma and Lorenz ciphers. The GC&CS team of codebreakers included John Tiltman, Dilwyn Knox, Alan Turing, Harry Golombek, Gordon Welchman, Hugh Alexander, Donald Michie, Bill Tutte and Stuart Milner-Barry."@zh .
+
 ex:buckinghamshire a ex:Place ;
     rdfs:label "Buckinghamshire" .
+
+ex:computing_machine_laboratory a ex:Organization ;
+    rdfs:label "Computing Machine Laboratory" .
 
 ex:cryptanalysis a ex:Field ;
     rdfs:label "cryptanalysis" .
@@ -358,6 +368,9 @@ ex:west_norwood_london a ex:Place ;
 
 ex:wilmslow a ex:Place ;
     rdfs:label "Wilmslow" .
+
+ex:world_war_ii a ex:Event ;
+    rdfs:label "World War II" .
 
 ex:computer_science a ex:Field ;
     rdfs:label "computer science" .
