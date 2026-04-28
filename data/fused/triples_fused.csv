@@ -35,7 +35,6 @@ alan_turing,worked_at,university_of_manchester,entity,,wikipedia|wikipedia_text_
 alan_turing,worked_at,victoria_university_of_manchester,entity,,wikidata,0.95
 alonzo_church,born_in,washington_d_c,entity,,wikidata|wikipedia,0.98
 alonzo_church,died_in,hudson,entity,,wikidata,0.98
-alonzo_church,died_in,hudson_ohio,entity,,wikipedia,0.88
 alonzo_church,has_birth_date,1903-06-14,literal,date,wikidata|wikipedia,0.98
 alonzo_church,has_death_date,1995-08-11,literal,date,wikidata|wikipedia,0.98
 alonzo_church,has_nationality,United States,literal,string,wikidata,0.92
@@ -55,8 +54,6 @@ bletchley_park,has_alias,Station X,literal,string,wikidata,0.95
 bletchley_park,has_year,1877,literal,gYear,wikidata,0.90
 bletchley_park,located_in,buckinghamshire,entity,,wikipedia_text_rule,0.68
 joan_clarke,born_in,west_norwood,entity,,wikidata,0.98
-joan_clarke,born_in,west_norwood_london,entity,,wikipedia,0.88
-joan_clarke,contributed_to,second_world_war,entity,,wikipedia_text_rule,0.60
 joan_clarke,died_in,headington,entity,,wikidata|wikipedia,0.98
 joan_clarke,has_alias,Joan Clarke Murray,literal,string,wikidata,0.95
 joan_clarke,has_alias,Joan Elisabeth Lowther Clarke,literal,string,wikidata,0.95

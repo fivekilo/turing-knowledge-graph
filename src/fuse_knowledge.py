@@ -12,7 +12,6 @@ from auto_pipeline_utils import (
     FUSED_DIR,
     INSTANCE_DIR,
     SCHEMA_DIR,
-    backup_active_csvs,
     ensure_dirs,
     parent_chain,
     read_csv,
@@ -126,7 +125,6 @@ def prune_entities(entity_rows: List[Dict[str, str]], triple_rows: List[Dict[str
 
 def main() -> None:
     ensure_dirs()
-    backup_active_csvs()
 
     entities = sorted(read_csv(EXTRACTED_DIR / "entities_normalized.csv"), key=lambda row: (row["class_id"], row["label"]))
     triples_candidates = read_csv(EXTRACTED_DIR / "triples_candidates.csv")

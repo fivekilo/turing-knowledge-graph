@@ -6,7 +6,6 @@ from __future__ import annotations
 import csv
 import json
 import re
-import shutil
 from pathlib import Path
 from typing import Dict, Iterable, List
 
@@ -18,7 +17,6 @@ EXTRACTED_DIR = DATA_DIR / "extracted"
 FUSED_DIR = DATA_DIR / "fused"
 SCHEMA_DIR = DATA_DIR / "schema"
 INSTANCE_DIR = DATA_DIR / "instances"
-BACKUP_DIR = DATA_DIR / "manual_backup"
 
 WIKIPEDIA_RAW_DIR = RAW_DIR / "wikipedia"
 WIKIDATA_RAW_DIR = RAW_DIR / "wikidata"
@@ -64,7 +62,7 @@ DEFAULT_RELATION_SCHEMA = {
 
 
 def ensure_dirs() -> None:
-    for path in [RAW_DIR, WIKIPEDIA_RAW_DIR, WIKIDATA_RAW_DIR, EXTRACTED_DIR, FUSED_DIR, BACKUP_DIR]:
+    for path in [RAW_DIR, WIKIPEDIA_RAW_DIR, WIKIDATA_RAW_DIR, EXTRACTED_DIR, FUSED_DIR]:
         path.mkdir(parents=True, exist_ok=True)
 
 
@@ -124,15 +122,3 @@ def parent_chain(class_id: str) -> List[str]:
         chain.append(current)
         current = mapping[current]["parent_class"]
     return list(reversed(chain))
-
-
-def backup_active_csvs() -> None:
-    ensure_dirs()
-    for source in [
-        SCHEMA_DIR / "classes.csv",
-        SCHEMA_DIR / "relations.csv",
-        INSTANCE_DIR / "entities.csv",
-        INSTANCE_DIR / "triples.csv",
-    ]:
-        if source.exists():
-            shutil.copy2(source, BACKUP_DIR / source.name)

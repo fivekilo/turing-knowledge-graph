@@ -1,111 +1,153 @@
 ﻿# 图灵知识图谱 | Turing Knowledge Graph
 
-这是一个面向课程作业的可扩展知识图谱项目，主题是“图灵”。当前版本严格按照前 5 章已经讲授的内容来组织架构，不追求一次做成大而全，而是优先保证：
+这是一个围绕图灵主题构建的课程作业项目。当前版本已经形成一条可重复执行的自动化知识图谱流水线，支持从 `Wikipedia + Wikidata` 获取原始数据，抽取实体和关系，完成归一化与融合，并导出为多种图谱格式。
 
-- 现在就能构建出一个结构清晰、可展示的知识图谱
-- 后续课程继续讲到抽取、融合、消歧时，可以直接在当前工程上扩展
+## 主干流程
 
-## 当前设计思路
+项目当前保留的工作主干是：
 
-项目采用“模式层 + 实例层 + 导出层”的结构。
+```text
+raw -> extracted -> entity_disambiguation -> fused -> schema / instances -> exports
+```
 
-- 模式层：定义类层级和关系约束，对应课程中的本体、分类体系、关系定义、`Domain` / `Range`
-- 实例层：存放图灵相关实体和三元组，对应课程中的实体、关系、知识表示
-- 导出层：把图数据导出为 `CSV`、`RDF/Turtle`、`GraphML` 和图片，方便展示和后续接入 Neo4j、Protégé 等工具
+- `raw`
+  - 原始来源数据
+  - 包括 Wikipedia `summary.json`、`page.html` 和 Wikidata JSON
+- `extracted`
+  - 抽取阶段中间结果
+  - 包括文本块、NER mentions、实体候选、关系候选
+- `entity_disambiguation`
+  - 实体消歧阶段
+  - 对正文 mention 做候选发现、局部链接和 NIL 保留，并生成规范实体映射
+- `fused`
+  - 融合后的中间结果
+  - 用于检查自动化融合质量
+- `schema / instances`
+  - 当前生效的知识图谱模式层和实例层
+- `exports`
+  - 面向展示和交换的导出结果
 
-这个架构和前 5 章课程内容是对应的：
-
-- 第 1 章：明确知识图谱对象、范围和主题
-- 第 2 章：使用三元组、本体、RDF 来表示知识
-- 第 3 章：把 schema 和 instance 分开，方便后续融合与扩展
-- 第 4 章：预留 `data/raw/` 目录，便于后续接实体抽取结果
-- 第 5 章：实体采用规范 ID，并保留 `alias`、`source`、`confidence`，便于后续做消歧与链接
-
-## 项目结构
+## 目录结构
 
 ```text
 turing-knowledge-graph/
 ├─ data/
+│  ├─ raw/
+│  │  ├─ seed_entities.json
+│  │  ├─ wikipedia/
+│  │  └─ wikidata/
+│  ├─ extracted/
+│  │  ├─ text_blocks.csv
+│  │  ├─ ner_mentions.csv
+│  │  ├─ entities_candidates*.csv
+│  │  └─ triples_candidates*.csv
+│  ├─ fused/
+│  │  ├─ classes_fused.csv
+│  │  ├─ relations_fused.csv
+│  │  ├─ entities_fused.csv
+│  │  ├─ triples_fused.csv
+│  │  └─ fusion_summary.json
 │  ├─ schema/
 │  │  ├─ classes.csv
 │  │  └─ relations.csv
 │  ├─ instances/
 │  │  ├─ entities.csv
 │  │  └─ triples.csv
-│  ├─ raw/
-│  │  └─ README.md
-│  ├─ exports/
-│  │  ├─ nodes.csv
-│  │  ├─ edges.csv
-│  │  ├─ turing_kg.ttl
-│  │  ├─ turing_kg.rdf
-│  │  ├─ turing_kg.graphml
-│  │  ├─ turing_kg.png
-│  │  └─ summary.json
-│  └─ nodes/
-│     └─ .gitkeep
+│  └─ exports/
+│     ├─ nodes.csv
+│     ├─ edges.csv
+│     ├─ turing_kg.ttl
+│     ├─ turing_kg.rdf
+│     ├─ turing_kg.graphml
+│     ├─ turing_kg.png
+│     └─ summary.json
 ├─ src/
-│  └─ kg_builder.py
+│  ├─ auto_pipeline_utils.py
+│  ├─ fetch_sources.py
+│  ├─ extract_candidates.py
+│  ├─ extract_text_blocks.py
+│  ├─ ner_candidates.py
+│  ├─ entity_disambiguation.py
+│  ├─ merge_entity_candidates.py
+│  ├─ text_relation_candidates.py
+│  ├─ merge_triple_candidates.py
+│  ├─ normalize_candidates.py
+│  ├─ fuse_knowledge.py
+│  ├─ kg_builder.py
+│  └─ run_auto_pipeline.py
 ├─ requirements.txt
-├─ README.md
-└─ 知识图谱PPT关键技术总结.md
+└─ README.md
 ```
 
-## 已构建的知识范围
+## 核心脚本
 
-当前图谱围绕图灵的以下几类知识展开：
+- `fetch_sources.py`
+  - 按种子实体抓取 Wikipedia 和 Wikidata 原始数据
+- `extract_candidates.py`
+  - 从信息框和 Wikidata claims 抽取结构化实体与关系
+- `extract_text_blocks.py`
+  - 从 Wikipedia 摘要和正文导语提取文本块
+- `ner_candidates.py`
+  - 使用 `spaCy en_core_web_sm` 做正文实体识别
+- `entity_disambiguation.py`
+  - 根据别名、表层相似度、类型和上下文做候选实体链接，并保留 NIL 实体
+- `text_relation_candidates.py`
+  - 基于规则从正文句子中抽取一部分关系
+- `normalize_candidates.py`
+  - 对候选实体、类和关系做归一化统计
+- `fuse_knowledge.py`
+  - 生成最终 `schema` 和 `instances`
+- `kg_builder.py`
+  - 校验并导出知识图谱
+- `run_auto_pipeline.py`
+  - 一键运行完整流水线
 
-- 人物：Alan Turing、Joan Clarke、Alonzo Church
-- 机构：King's College Cambridge、Princeton University、Bletchley Park、National Physical Laboratory
-- 地点：Maida Vale、Wilmslow、Cambridge、Princeton、Bletchley、London
-- 作品：`On Computable Numbers`、`Computing Machinery and Intelligence`
-- 概念：`Turing Machine`、`Turing Test`、`Church-Turing Thesis`
-- 机器：`Automatic Computing Engine`、`Bombe`、`Enigma Machine`
-- 事件：`Allied Codebreaking`
-- 学科：Computer Science、Artificial Intelligence、Cryptanalysis、Mathematical Logic
+## 当前实现对应课程内容
 
-## 为什么这样设计
+- 第 2 章
+  - 三元组表示
+  - RDF / RDFS / OWL 风格导出
+- 第 3 章
+  - `schema` 与 `instances` 分层
+  - 自动抽取到融合的流程
+- 第 4 章
+  - 接入现成 NER 模型做正文实体识别
+  - 增加正文关系抽取
+- 第 5 章
+  - 保留 `source`、`confidence` 和规范化实体 ID
 
-相比把所有节点和边直接写死在一个 Python 文件里，这种设计更适合课程作业持续迭代：
-
-- 增加新实体：直接往 `entities.csv` 中追加
-- 增加新关系：直接往 `triples.csv` 中追加
-- 增加新类别或关系类型：修改 `schema` 层即可
-- 接入后续讲到的信息抽取：可把抽取结果先放到 `data/raw/`，清洗后再入库
-- 接入后续讲到的实体消歧：可基于现有规范 ID、别名、来源、置信度继续扩展
-
-## 安装依赖
+## 依赖安装
 
 ```bash
 pip install -r requirements.txt
+python -m spacy download en_core_web_sm
 ```
 
-## 运行构建
+## 运行方式
+
+仅重建导出结果：
 
 ```bash
 python src/kg_builder.py
 ```
 
-运行完成后会在 `data/exports/` 下生成：
+运行完整自动化流水线：
 
-- `nodes.csv`
-- `edges.csv`
-- `turing_kg.ttl`
-- `turing_kg.rdf`
-- `turing_kg.graphml`
-- `turing_kg.png`
-- `summary.json`
+```bash
+python src/run_auto_pipeline.py
+```
 
-## 后续扩展建议
+## 主要输出文件
 
-如果后面课程继续推进，可以沿着下面的方向扩展：
+- `data/instances/entities.csv`
+- `data/instances/triples.csv`
+- `data/exports/turing_kg.png`
+- `data/exports/turing_kg.ttl`
+- `data/exports/turing_kg.rdf`
+- `data/exports/summary.json`
 
-1. 增加更多图灵相关实体，例如导师、同事、奖项、历史事件、组织机构
-2. 从百科文本中抽取新的属性和关系，补充到 `triples.csv`
-3. 引入跨来源数据，开始做融合和对齐
-4. 将别名、缩写、证据句、候选实体表单独建表，为实体消歧做准备
-5. 接入 Neo4j 或 Protégé，做查询展示和语义建模
+## 说明
 
-## 作者
-
-- 李嘉轩
+- 当前 `confidence` 是按来源和规则强弱设置的启发式分数，不是模型概率
+- 当前正文抽取主要覆盖 Wikipedia 摘要和导语段落，还没有扩展到全文
+- 当前保留了 `raw / extracted / fused / exports` 四层，便于课程汇报时展示完整流程

@@ -23,6 +23,7 @@ def main() -> None:
         "extract_candidates.py",
         "extract_text_blocks.py",
         "ner_candidates.py",
+        "entity_disambiguation.py",
         "merge_entity_candidates.py",
         "text_relation_candidates.py",
         "merge_triple_candidates.py",

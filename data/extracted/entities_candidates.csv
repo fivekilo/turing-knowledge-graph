@@ -84,7 +84,6 @@ bill_tutte,Bill Tutte,Person,,wikipedia_ner,bletchley_park
 stuart_milner_barry,Stuart Milner-Barry,Person,,wikipedia_ner,bletchley_park
 new_jersey,New Jersey,Place,,wikipedia_ner,princeton_university
 united_states,United States,Place,,wikipedia_ner,princeton_university
-college_of_new_jersey,College of New Jersey,Organization,,wikipedia_ner,princeton_university
 princeton,Princeton,Place,,wikipedia_ner,princeton_university
 american_revolution,American Revolution,Event,,wikipedia_ner,princeton_university
 newark,Newark,Place,,wikipedia_ner,princeton_university

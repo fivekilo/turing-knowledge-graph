@@ -21,6 +21,32 @@ RELATION_FIELDS = ["relation_id", "count"]
 CLASS_FIELDS = ["class_id", "count"]
 
 
+def apply_canonical_entity_map(
+    entity_rows: List[Dict[str, str]],
+    triple_rows: List[Dict[str, str]],
+) -> tuple[List[Dict[str, str]], List[Dict[str, str]]]:
+    canonical_rows = read_csv(EXTRACTED_DIR / "entity_canonical_map.csv")
+    if not canonical_rows:
+        return entity_rows, triple_rows
+
+    canonical_map = {row["entity_id"]: row["canonical_entity_id"] for row in canonical_rows if row.get("canonical_entity_id")}
+
+    remapped_entities: List[Dict[str, str]] = []
+    for row in entity_rows:
+        updated = dict(row)
+        updated["entity_id"] = canonical_map.get(row["entity_id"], row["entity_id"])
+        remapped_entities.append(updated)
+
+    remapped_triples: List[Dict[str, str]] = []
+    for row in triple_rows:
+        updated = dict(row)
+        updated["subject"] = canonical_map.get(row["subject"], row["subject"])
+        if row.get("object_type") == "entity":
+            updated["object"] = canonical_map.get(row["object"], row["object"])
+        remapped_triples.append(updated)
+    return remapped_entities, remapped_triples
+
+
 def choose_best_label(rows: List[Dict[str, str]]) -> str:
     counts = Counter(row["label"] for row in rows if row.get("label"))
     return max(counts.items(), key=lambda item: (item[1], len(item[0])))[0] if counts else ""
@@ -44,6 +70,7 @@ def main() -> None:
     ensure_dirs()
     entity_rows = read_csv(EXTRACTED_DIR / "entities_candidates.csv")
     triple_rows = read_csv(EXTRACTED_DIR / "triples_candidates.csv")
+    entity_rows, triple_rows = apply_canonical_entity_map(entity_rows, triple_rows)
     seed_map = {item["entity_id"]: item for item in load_seeds()}
 
     grouped: Dict[str, List[Dict[str, str]]] = defaultdict(list)

@@ -1,0 +1,97 @@
+﻿seed_entity_id,block_id,mention,original_entity_id,resolved_entity_id,resolved_label,class_id_hint,status,candidate_count,best_score,margin,reason
+alan_turing,alan_turing_lead_2,London,london,london,London,Place,nil,1,0.59,0.59,nil_after_token_containment
+alan_turing,alan_turing_lead_2,Turing,turing,turing,Turing,Place,nil,0,0.00,0.00,no_candidate
+alan_turing,alan_turing_lead_2,England,england,england,England,Place,nil,0,0.00,0.00,no_candidate
+alan_turing,alan_turing_lead_2,King's College,king_s_college,king_s_college,King's College,Organization,linked,1,0.77,0.77,exact_label
+alan_turing,alan_turing_lead_2,Cambridge,cambridge,cambridge,Cambridge,Place,nil,0,0.00,0.00,no_candidate
+alan_turing,alan_turing_lead_2,Princeton University,princeton_university,princeton_university,Princeton University,Organization,linked,1,0.81,0.81,exact_label
+alan_turing,alan_turing_lead_2,World War II,world_war_ii,world_war_ii,World War II,Event,nil,0,0.00,0.00,no_candidate
+alan_turing,alan_turing_lead_2,Bletchley Park,bletchley_park,bletchley_park,Bletchley Park,Organization,linked,1,1.16,1.16,exact_label
+alan_turing,alan_turing_lead_2,Britain,britain,britain,Britain,Place,nil,0,0.00,0.00,no_candidate
+alan_turing,alan_turing_lead_2,Battle of the Atlantic,battle_of_the_atlantic,battle_of_the_atlantic,Battle of the Atlantic,Work,nil,0,0.00,0.00,no_candidate
+alan_turing,alan_turing_lead_3,National Physical Laboratory,national_physical_laboratory,national_physical_laboratory,National Physical Laboratory,Organization,linked,1,0.82,0.82,exact_label
+alan_turing,alan_turing_lead_3,Automatic Computing Engine,automatic_computing_engine,automatic_computing_engine,Automatic Computing Engine,Organization,nil,0,0.00,0.00,no_candidate
+alan_turing,alan_turing_lead_3,Computing Machine Laboratory,computing_machine_laboratory,computing_machine_laboratory,Computing Machine Laboratory,Organization,nil,0,0.00,0.00,no_candidate
+alan_turing,alan_turing_lead_3,University of Manchester,university_of_manchester,university_of_manchester,University of Manchester,Organization,linked,1,0.77,0.77,exact_label
+alan_turing,alan_turing_lead_4,Gordon Brown,gordon_brown,gordon_brown,Gordon Brown,Person,nil,0,0.00,0.00,no_candidate
+alan_turing,alan_turing_lead_4,Alan Turing,alan_turing,alan_turing,Alan Turing,Person,linked,1,0.78,0.78,exact_label
+joan_clarke,joan_clarke_summary,Bletchley Park,bletchley_park,bletchley_park,Bletchley Park,Organization,linked,1,0.97,0.97,exact_label
+joan_clarke,joan_clarke_summary,Second World War,second_world_war,second_world_war,Second World War,Event,nil,0,0.00,0.00,no_candidate
+joan_clarke,joan_clarke_lead_1,Bletchley Park,bletchley_park,bletchley_park,Bletchley Park,Organization,linked,1,0.97,0.97,exact_label
+joan_clarke,joan_clarke_lead_1,Second World War,second_world_war,second_world_war,Second World War,Event,nil,0,0.00,0.00,no_candidate
+alonzo_church,alonzo_church_summary,Alonzo Church,alonzo_church,alonzo_church,Alonzo Church,Person,linked,1,1.34,1.34,exact_label
+alonzo_church,alonzo_church_summary,Alan Turing,alan_turing,alan_turing,Alan Turing,Person,linked,1,0.85,0.85,exact_label
+alonzo_church,alonzo_church_lead_1,Alonzo Church,alonzo_church,alonzo_church,Alonzo Church,Person,linked,1,1.49,1.49,exact_label
+alonzo_church,alonzo_church_lead_1,Alan Turing,alan_turing,alan_turing,Alan Turing,Person,linked,1,0.85,0.85,exact_label
+bletchley_park,bletchley_park_summary,Bletchley Park,bletchley_park,bletchley_park,Bletchley Park,Organization,linked,1,1.42,1.42,exact_label
+bletchley_park,bletchley_park_summary,Buckinghamshire,buckinghamshire,buckinghamshire,Buckinghamshire,Place,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_summary,Second World War,second_world_war,second_world_war,Second World War,Event,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_summary,World War II,world_war_ii,world_war_ii,World War II,Event,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_summary,John Tiltman,john_tiltman,john_tiltman,John Tiltman,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_summary,Dilwyn Knox,dilwyn_knox,dilwyn_knox,Dilwyn Knox,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_summary,Alan Turing,alan_turing,alan_turing,Alan Turing,Person,linked,1,0.78,0.78,exact_label
+bletchley_park,bletchley_park_summary,Harry Golombek,harry_golombek,harry_golombek,Harry Golombek,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_summary,Gordon Welchman,gordon_welchman,gordon_welchman,Gordon Welchman,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_summary,Hugh Alexander,hugh_alexander,hugh_alexander,Hugh Alexander,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_summary,Donald Michie,donald_michie,donald_michie,Donald Michie,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_summary,Bill Tutte,bill_tutte,bill_tutte,Bill Tutte,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_summary,Stuart Milner-Barry,stuart_milner_barry,stuart_milner_barry,Stuart Milner-Barry,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_lead_1,Bletchley Park,bletchley_park,bletchley_park,Bletchley Park,Organization,linked,1,1.42,1.42,exact_label
+bletchley_park,bletchley_park_lead_1,Buckinghamshire,buckinghamshire,buckinghamshire,Buckinghamshire,Place,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_lead_1,Second World War,second_world_war,second_world_war,Second World War,Event,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_lead_1,World War II,world_war_ii,world_war_ii,World War II,Event,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_lead_1,John Tiltman,john_tiltman,john_tiltman,John Tiltman,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_lead_1,Dilwyn Knox,dilwyn_knox,dilwyn_knox,Dilwyn Knox,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_lead_1,Alan Turing,alan_turing,alan_turing,Alan Turing,Person,linked,1,0.78,0.78,exact_label
+bletchley_park,bletchley_park_lead_1,Harry Golombek,harry_golombek,harry_golombek,Harry Golombek,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_lead_1,Gordon Welchman,gordon_welchman,gordon_welchman,Gordon Welchman,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_lead_1,Hugh Alexander,hugh_alexander,hugh_alexander,Hugh Alexander,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_lead_1,Donald Michie,donald_michie,donald_michie,Donald Michie,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_lead_1,Bill Tutte,bill_tutte,bill_tutte,Bill Tutte,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_lead_1,Stuart Milner-Barry,stuart_milner_barry,stuart_milner_barry,Stuart Milner-Barry,Person,nil,0,0.00,0.00,no_candidate
+bletchley_park,bletchley_park_lead_2,Bletchley Park,bletchley_park,bletchley_park,Bletchley Park,Organization,linked,1,0.82,0.82,exact_label
+princeton_university,princeton_university_summary,Princeton University,princeton_university,princeton_university,Princeton University,Organization,linked,1,0.85,0.85,exact_label
+princeton_university,princeton_university_summary,New Jersey,new_jersey,new_jersey,New Jersey,Place,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_summary,United States,united_states,united_states,United States,Place,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_summary,College of New Jersey,college_of_new_jersey,princeton_university,Princeton University,Organization,linked,1,0.86,0.86,exact_alias
+princeton_university,princeton_university_summary,Princeton,princeton,princeton,Princeton,Place,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_summary,American Revolution,american_revolution,american_revolution,American Revolution,Event,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_summary,Newark,newark,newark,Newark,Place,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_summary,Mercer County,mercer_county,mercer_county,Mercer County,Place,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_1,Princeton University,princeton_university,princeton_university,Princeton University,Organization,linked,1,0.85,0.85,exact_label
+princeton_university,princeton_university_lead_1,New Jersey,new_jersey,new_jersey,New Jersey,Place,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_1,United States,united_states,united_states,United States,Place,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_1,College of New Jersey,college_of_new_jersey,princeton_university,Princeton University,Organization,linked,1,0.86,0.86,exact_alias
+princeton_university,princeton_university_lead_1,Princeton,princeton,princeton,Princeton,Place,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_1,American Revolution,american_revolution,american_revolution,American Revolution,Event,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_1,Newark,newark,newark,Newark,Place,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_1,Mercer County,mercer_county,mercer_county,Mercer County,Place,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_2,Trustees of Princeton University,trustees_of_princeton_university,trustees_of_princeton_university,Trustees of Princeton University,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_2,United States,united_states,united_states,United States,Place,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_2,Princeton,princeton,princeton,Princeton,Place,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_2,Princeton School of Public and International Affairs,princeton_school_of_public_and_international_affairs,princeton_school_of_public_and_international_affairs,Princeton School of Public and International Affairs,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_2,School of Engineering and Applied Science,school_of_engineering_and_applied_science,school_of_engineering_and_applied_science,School of Engineering and Applied Science,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_2,School of Architecture,school_of_architecture,school_of_architecture,School of Architecture,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_2,Bendheim Center for Finance,bendheim_center_for_finance,bendheim_center_for_finance,Bendheim Center for Finance,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_2,Department of Energy's,department_of_energy_s,department_of_energy_s,Department of Energy's,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_2,Princeton Plasma Physics Laboratory,princeton_plasma_physics_laboratory,princeton_plasma_physics_laboratory,Princeton Plasma Physics Laboratory,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_2,Geophysical Fluid Dynamics Laboratory,geophysical_fluid_dynamics_laboratory,geophysical_fluid_dynamics_laboratory,Geophysical Fluid Dynamics Laboratory,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_2,R1: Doctoral Universities,r1_doctoral_universities,r1_doctoral_universities,R1: Doctoral Universities,Work,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_3,Princeton Tigers,princeton_tigers,princeton_tigers,Princeton Tigers,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_3,Olympics,olympics,olympics,Olympics,Event,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_4,Fields Medalists,fields_medalists,fields_medalists,Fields Medalists,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_4,Princeton University,princeton_university,princeton_university,Princeton University,Organization,linked,1,0.81,0.81,exact_label
+princeton_university,princeton_university_lead_4,Rhodes Scholars,rhodes_scholars,rhodes_scholars,Rhodes Scholars,Person,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_4,Marshall Scholars,marshall_scholars,marshall_scholars,Marshall Scholars,Person,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_4,U.S. Supreme Court,u_s_supreme_court,u_s_supreme_court,U.S. Supreme Court,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_4,U.S. Congress,u_s_congress,u_s_congress,U.S. Congress,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_4,U.S. Cabinet,u_s_cabinet,u_s_cabinet,U.S. Cabinet,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_4,Joint Chiefs of Staff,joint_chiefs_of_staff,joint_chiefs_of_staff,Joint Chiefs of Staff,Organization,nil,0,0.00,0.00,no_candidate
+princeton_university,princeton_university_lead_4,Olympics,olympics,olympics,Olympics,Event,nil,0,0.00,0.00,no_candidate
+turing_machine,turing_machine_lead_3,Alan Turing,alan_turing,alan_turing,Alan Turing,Person,linked,1,0.81,0.81,exact_label
+turing_machine,turing_machine_lead_3,Alonzo Church,alonzo_church,alonzo_church,Alonzo Church,Person,linked,1,0.89,0.89,exact_label
+turing_test,turing_test_summary,Alan Turing,alan_turing,alan_turing,Alan Turing,Person,linked,1,0.89,0.89,exact_label
+turing_test,turing_test_lead_1,Alan Turing,alan_turing,alan_turing,Alan Turing,Person,linked,1,0.89,0.89,exact_label
+turing_test,turing_test_lead_2,University of Manchester,university_of_manchester,university_of_manchester,University of Manchester,Organization,linked,1,0.77,0.77,exact_label
+on_computable_numbers,on_computable_numbers_summary,Alan Turing,alan_turing,alan_turing,Alan Turing,Person,linked,1,0.96,0.96,exact_label
+on_computable_numbers,on_computable_numbers_lead_1,Alan Turing,alan_turing,alan_turing,Alan Turing,Person,linked,1,0.96,0.96,exact_label

@@ -98,8 +98,7 @@ ex:alan_turing a ex:Person ;
 ex:alonzo_church a ex:Person ;
     rdfs:label "Alonzo Church" ;
     ex:born_in ex:washington_d_c ;
-    ex:died_in ex:hudson,
-        ex:hudson_ohio ;
+    ex:died_in ex:hudson ;
     ex:has_birth_date "1903-06-14"^^xsd:date ;
     ex:has_death_date "1995-08-11"^^xsd:date ;
     ex:has_nationality "United States"^^xsd:string ;
@@ -182,9 +181,7 @@ ex:has_year a rdf:Property,
 
 ex:joan_clarke a ex:Person ;
     rdfs:label "Joan Clarke" ;
-    ex:born_in ex:west_norwood,
-        ex:west_norwood_london ;
-    ex:contributed_to ex:second_world_war ;
+    ex:born_in ex:west_norwood ;
     ex:died_in ex:headington ;
     ex:has_alias "Joan Clarke Murray"^^xsd:string,
         "Joan Elisabeth Lowther Clarke"^^xsd:string,
@@ -278,9 +275,6 @@ ex:headington a ex:Place ;
     rdfs:label "Headington" .
 
 ex:hudson a ex:Place ;
-    rdfs:label "Hudson" .
-
-ex:hudson_ohio a ex:Place ;
     rdfs:label "Hudson, Ohio" .
 
 ex:king_s_college a ex:Organization ;
@@ -315,9 +309,6 @@ ex:princeton a ex:Place ;
 
 ex:proceedings_of_the_london_mathematical_society a ex:PublicationVenue ;
     rdfs:label "Proceedings of the London Mathematical Society" .
-
-ex:second_world_war a ex:Event ;
-    rdfs:label "Second World War" .
 
 ex:sherborne_school a ex:Organization ;
     rdfs:label "Sherborne School" .
@@ -361,16 +352,13 @@ ex:washington_d_c a ex:Place ;
     rdfs:label "Washington, D.C." .
 
 ex:west_norwood a ex:Place ;
-    rdfs:label "West Norwood" .
-
-ex:west_norwood_london a ex:Place ;
     rdfs:label "West Norwood, London" .
 
 ex:wilmslow a ex:Place ;
     rdfs:label "Wilmslow" .
 
 ex:world_war_ii a ex:Event ;
-    rdfs:label "World War II" .
+    rdfs:label "Second World War" .
 
 ex:computer_science a ex:Field ;
     rdfs:label "computer science" .

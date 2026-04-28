@@ -14,7 +14,8 @@ ENTITY_FIELDS = ["entity_id", "label", "class_id_hint", "description", "source",
 def main() -> None:
     ensure_dirs()
     structured = read_csv(EXTRACTED_DIR / "entities_candidates_structured.csv")
-    ner_rows = read_csv(EXTRACTED_DIR / "entities_candidates_ner.csv")
+    linked_path = EXTRACTED_DIR / "entities_candidates_ner_linked.csv"
+    ner_rows = read_csv(linked_path) if linked_path.exists() else read_csv(EXTRACTED_DIR / "entities_candidates_ner.csv")
     merged: List[Dict[str, str]] = structured + ner_rows
     write_csv(
         EXTRACTED_DIR / "entities_candidates.csv",

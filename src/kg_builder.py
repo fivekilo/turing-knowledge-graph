@@ -204,14 +204,12 @@ class TuringKnowledgeGraphBuilder:
         ttl_path = EXPORT_DIR / "turing_kg.ttl"
         rdf_path = EXPORT_DIR / "turing_kg.rdf"
         graphml_path = EXPORT_DIR / "turing_kg.graphml"
-        png_path = EXPORT_DIR / "turing_kg.png"
         summary_path = EXPORT_DIR / "summary.json"
 
         self._export_nodes_csv(nodes_path)
         self._export_edges_csv(edges_path)
         self._export_rdf(ttl_path, rdf_path)
         nx.write_graphml(self._graphml_safe_graph(), graphml_path)
-        self._visualize(png_path)
         self._export_summary(summary_path)
 
         return {
@@ -220,7 +218,6 @@ class TuringKnowledgeGraphBuilder:
             "ttl": ttl_path,
             "rdf": rdf_path,
             "graphml": graphml_path,
-            "png": png_path,
             "summary": summary_path,
         }
 
@@ -451,12 +448,6 @@ class TuringKnowledgeGraphBuilder:
             edge_color="#666666",
             alpha=0.7,
         )
-        edge_labels = {
-            (source, target): attrs["predicate"]
-            for source, target, attrs in self.graph.edges(data=True)
-        }
-        nx.draw_networkx_edge_labels(self.graph, pos, edge_labels=edge_labels, font_size=8, rotate=False)
-
         plt.title("Turing Knowledge Graph", fontsize=18, fontweight="bold")
         plt.axis("off")
         plt.tight_layout()

@@ -1,2 +1,3 @@
-temp
-manual_backup
+temp/
+data/manual_backup/
+src/__pycache__/

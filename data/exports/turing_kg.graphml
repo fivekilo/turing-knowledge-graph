@@ -27,14 +27,8 @@
   <data key="d3">wikipedia</data>
   <data key="d4">[{"value": "imitation Game", "datatype": "string", "source": "wikidata", "confidence": "0.95"}]</data>
 </node>
-<node id="second_world_war">
-  <data key="d0">Second World War</data>
-  <data key="d1">Event</data>
-  <data key="d2"></data>
-  <data key="d3">wikipedia_ner</data>
-</node>
 <node id="world_war_ii">
-  <data key="d0">World War II</data>
+  <data key="d0">Second World War</data>
   <data key="d1">Event</data>
   <data key="d2"></data>
   <data key="d3">wikipedia_ner</data>
@@ -253,16 +247,10 @@
   <data key="d3">wikidata|wikipedia</data>
 </node>
 <node id="hudson">
-  <data key="d0">Hudson</data>
-  <data key="d1">Place</data>
-  <data key="d2"></data>
-  <data key="d3">wikidata</data>
-</node>
-<node id="hudson_ohio">
   <data key="d0">Hudson, Ohio</data>
   <data key="d1">Place</data>
   <data key="d2"></data>
-  <data key="d3">wikipedia</data>
+  <data key="d3">wikidata|wikipedia</data>
 </node>
 <node id="maida_vale">
   <data key="d0">Maida Vale</data>
@@ -295,16 +283,10 @@
   <data key="d3">wikidata|wikipedia</data>
 </node>
 <node id="west_norwood">
-  <data key="d0">West Norwood</data>
-  <data key="d1">Place</data>
-  <data key="d2"></data>
-  <data key="d3">wikidata</data>
-</node>
-<node id="west_norwood_london">
   <data key="d0">West Norwood, London</data>
   <data key="d1">Place</data>
   <data key="d2"></data>
-  <data key="d3">wikipedia</data>
+  <data key="d3">wikidata|wikipedia</data>
 </node>
 <node id="wilmslow">
   <data key="d0">Wilmslow</data>
@@ -517,12 +499,6 @@
   <data key="d11">wikidata</data>
   <data key="d12">0.98</data>
 </edge>
-<edge source="alonzo_church" target="hudson_ohio">
-  <data key="d9">died_in</data>
-  <data key="d10">逝世于</data>
-  <data key="d11">wikipedia</data>
-  <data key="d12">0.88</data>
-</edge>
 <edge source="alonzo_church" target="computer_science">
   <data key="d9">related_to_field</data>
   <data key="d10">相关领域</data>
@@ -594,18 +570,6 @@
   <data key="d10">出生于</data>
   <data key="d11">wikidata</data>
   <data key="d12">0.98</data>
-</edge>
-<edge source="joan_clarke" target="west_norwood_london">
-  <data key="d9">born_in</data>
-  <data key="d10">出生于</data>
-  <data key="d11">wikipedia</data>
-  <data key="d12">0.88</data>
-</edge>
-<edge source="joan_clarke" target="second_world_war">
-  <data key="d9">contributed_to</data>
-  <data key="d10">贡献于</data>
-  <data key="d11">wikipedia_text_rule</data>
-  <data key="d12">0.60</data>
 </edge>
 <edge source="joan_clarke" target="headington">
   <data key="d9">died_in</data>

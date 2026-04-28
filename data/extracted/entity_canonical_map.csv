@@ -1,0 +1,87 @@
+﻿entity_id,canonical_entity_id,canonical_label,class_id,reason
+alan_turing,alan_turing,Alan Turing,Person,self
+alonzo_church,alonzo_church,Alonzo Church,Person,self
+american_revolution,american_revolution,American Revolution,Event,self
+automatic_computing_engine,automatic_computing_engine,Automatic Computing Engine,Organization,self
+battle_of_the_atlantic,battle_of_the_atlantic,Battle of the Atlantic,Work,self
+bendheim_center_for_finance,bendheim_center_for_finance,Bendheim Center for Finance,Organization,self
+bill_tutte,bill_tutte,Bill Tutte,Person,self
+bletchley_park,bletchley_park,Bletchley Park,Organization,self
+britain,britain,Britain,Place,self
+buckinghamshire,buckinghamshire,Buckinghamshire,Place,self
+cambridge,cambridge,Cambridge,Place,self
+computer_science,computer_science,computer science,Field,self
+computing_machine_laboratory,computing_machine_laboratory,Computing Machine Laboratory,Organization,self
+cryptanalysis,cryptanalysis,cryptanalysis,Field,self
+cryptography,cryptography,cryptography,Field,self
+department_of_energy_s,department_of_energy_s,Department of Energy's,Organization,self
+dilwyn_knox,dilwyn_knox,Dilwyn Knox,Person,self
+donald_michie,donald_michie,Donald Michie,Person,self
+dulwich_college,dulwich_college,Dulwich College,Organization,self
+england,england,England,Place,self
+fields_medalists,fields_medalists,Fields Medalists,Organization,self
+geophysical_fluid_dynamics_laboratory,geophysical_fluid_dynamics_laboratory,Geophysical Fluid Dynamics Laboratory,Organization,self
+gordon_brown,gordon_brown,Gordon Brown,Person,self
+gordon_welchman,gordon_welchman,Gordon Welchman,Person,self
+government_code_and_cypher_school,government_code_and_cypher_school,Government Code and Cypher School,Organization,self
+government_communications_headquarters,government_communications_headquarters,Government Communications Headquarters,Organization,self
+harry_golombek,harry_golombek,Harry Golombek,Person,self
+harvard_university,harvard_university,Harvard University,Organization,self
+hazlehurst_community_primary_school,hazlehurst_community_primary_school,Hazlehurst Community Primary School,Organization,self
+headington,headington,Headington,Place,self
+hudson,hudson,Hudson,Place,self
+hudson_ohio,hudson,Hudson,Place,alias_or_surface_cluster
+hugh_alexander,hugh_alexander,Hugh Alexander,Person,self
+joan_clarke,joan_clarke,Joan Clarke,Person,self
+john_tiltman,john_tiltman,John Tiltman,Person,self
+joint_chiefs_of_staff,joint_chiefs_of_staff,Joint Chiefs of Staff,Organization,self
+king_s_college,king_s_college,King's College,Organization,self
+logic,logic,logic,Field,self
+london,london,London,Place,self
+maida_vale,maida_vale,Maida Vale,Place,self
+marshall_scholars,marshall_scholars,Marshall Scholars,Person,self
+mathematical_and_theoretical_biology,mathematical_and_theoretical_biology,mathematical and theoretical biology,Field,self
+mathematical_logic,mathematical_logic,mathematical logic,Field,self
+mathematics,mathematics,mathematics,Field,self
+mercer_county,mercer_county,Mercer County,Place,self
+national_physical_laboratory,national_physical_laboratory,National Physical Laboratory,Organization,self
+new_jersey,new_jersey,New Jersey,Place,self
+newark,newark,Newark,Place,self
+newnham_college,newnham_college,Newnham College,Organization,self
+olympics,olympics,Olympics,Event,self
+on_computable_numbers,on_computable_numbers,"On Computable Numbers, with an Application to the Entscheidungsproblem",Work,self
+princeton,princeton,Princeton,Place,self
+princeton_plasma_physics_laboratory,princeton_plasma_physics_laboratory,Princeton Plasma Physics Laboratory,Organization,self
+princeton_school_of_public_and_international_affairs,princeton_school_of_public_and_international_affairs,Princeton School of Public and International Affairs,Organization,self
+princeton_tigers,princeton_tigers,Princeton Tigers,Organization,self
+princeton_university,princeton_university,Princeton University,Organization,self
+proceedings_of_the_london_mathematical_society,proceedings_of_the_london_mathematical_society,Proceedings of the London Mathematical Society,PublicationVenue,self
+r1_doctoral_universities,r1_doctoral_universities,R1: Doctoral Universities,Work,self
+rhodes_scholars,rhodes_scholars,Rhodes Scholars,Person,self
+school_of_architecture,school_of_architecture,School of Architecture,Organization,self
+school_of_engineering_and_applied_science,school_of_engineering_and_applied_science,School of Engineering and Applied Science,Organization,self
+second_world_war,world_war_ii,World War II,Event,alias_or_surface_cluster
+sherborne_school,sherborne_school,Sherborne School,Organization,self
+stuart_milner_barry,stuart_milner_barry,Stuart Milner-Barry,Person,self
+theoretical_computer_science,theoretical_computer_science,theoretical computer science,Field,self
+trustees_of_princeton_university,trustees_of_princeton_university,Trustees of Princeton University,Organization,self
+turing,turing,Turing,Place,self
+turing_machine,turing_machine,Turing machine,Concept,self
+turing_test,turing_test,Turing test,Concept,self
+u_s_cabinet,u_s_cabinet,U.S. Cabinet,Organization,self
+u_s_congress,u_s_congress,U.S. Congress,Organization,self
+u_s_supreme_court,u_s_supreme_court,U.S. Supreme Court,Organization,self
+ucla,ucla,UCLA,Organization,self
+united_states,united_states,United States,Place,self
+university_of_amsterdam,university_of_amsterdam,University of Amsterdam,Organization,self
+university_of_california_los_angeles,university_of_california_los_angeles,"University of California, Los Angeles",Organization,self
+university_of_cambridge,university_of_cambridge,University of Cambridge,Organization,self
+university_of_g_ttingen,university_of_g_ttingen,University of Göttingen,Organization,self
+university_of_manchester,university_of_manchester,University of Manchester,Organization,self
+victoria_university_of_manchester,victoria_university_of_manchester,Victoria University of Manchester,Organization,self
+warrington_lodge,warrington_lodge,Warrington Lodge,Place,self
+washington_d_c,washington_d_c,"Washington, D.C.",Place,self
+west_norwood,west_norwood,West Norwood,Place,self
+west_norwood_london,west_norwood,West Norwood,Place,alias_or_surface_cluster
+wilmslow,wilmslow,Wilmslow,Place,self
+world_war_ii,world_war_ii,World War II,Event,self

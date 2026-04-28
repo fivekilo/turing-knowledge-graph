@@ -10,7 +10,6 @@ bletchley_park,Bletchley Park,Organization,"Bletchley Park is an English country
 britain,Britain,Place,,wikipedia_ner
 buckinghamshire,Buckinghamshire,Place,,wikipedia_ner
 cambridge,Cambridge,Place,,wikipedia_ner
-college_of_new_jersey,College of New Jersey,Organization,,wikipedia_ner
 computer_science,computer science,Field,,wikidata|wikipedia
 computing_machine_laboratory,Computing Machine Laboratory,Organization,,wikipedia_ner
 cryptanalysis,cryptanalysis,Field,,wikidata|wikipedia
@@ -30,8 +29,7 @@ harry_golombek,Harry Golombek,Person,,wikipedia_ner
 harvard_university,Harvard University,Organization,,wikidata
 hazlehurst_community_primary_school,Hazlehurst Community Primary School,Organization,,wikidata
 headington,Headington,Place,,wikidata|wikipedia
-hudson,Hudson,Place,,wikidata
-hudson_ohio,"Hudson, Ohio",Place,,wikipedia
+hudson,"Hudson, Ohio",Place,,wikidata|wikipedia
 hugh_alexander,Hugh Alexander,Person,,wikipedia_ner
 joan_clarke,Joan Clarke,Person,"Joan Elisabeth Lowther Murray, MBE was an English cryptanalyst and numismatist who worked as a code-breaker at Bletchley Park during the Second World War. Although she did not personally seek the spotlight, her role in the Enigma project that decrypted the German secret communications earned her awards and citations, such as appointment as a Member of the Order of the British Empire (MBE), in 1946.",wikipedia
 john_tiltman,John Tiltman,Person,,wikipedia_ner
@@ -62,7 +60,6 @@ r1_doctoral_universities,R1: Doctoral Universities,Work,,wikipedia_ner
 rhodes_scholars,Rhodes Scholars,Person,,wikipedia_ner
 school_of_architecture,School of Architecture,Organization,,wikipedia_ner
 school_of_engineering_and_applied_science,School of Engineering and Applied Science,Organization,,wikipedia_ner
-second_world_war,Second World War,Event,,wikipedia_ner
 sherborne_school,Sherborne School,Organization,,wikidata
 stuart_milner_barry,Stuart Milner-Barry,Person,,wikipedia_ner
 theoretical_computer_science,theoretical computer science,Field,,wikidata
@@ -83,7 +80,6 @@ university_of_manchester,University of Manchester,Organization,,wikipedia|wikipe
 victoria_university_of_manchester,Victoria University of Manchester,Organization,,wikidata
 warrington_lodge,Warrington Lodge,Place,,wikidata
 washington_d_c,"Washington, D.C.",Place,,wikidata|wikipedia
-west_norwood,West Norwood,Place,,wikidata
-west_norwood_london,"West Norwood, London",Place,,wikipedia
+west_norwood,"West Norwood, London",Place,,wikidata|wikipedia
 wilmslow,Wilmslow,Place,,wikidata|wikipedia
-world_war_ii,World War II,Event,,wikipedia_ner
+world_war_ii,Second World War,Event,,wikipedia_ner

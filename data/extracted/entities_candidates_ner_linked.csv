@@ -1,0 +1,64 @@
+﻿entity_id,label,class_id_hint,description,source,source_key
+london,London,Place,,wikipedia_ner,alan_turing
+turing,Turing,Place,,wikipedia_ner,alan_turing
+england,England,Place,,wikipedia_ner,alan_turing
+king_s_college,King's College,Organization,,wikipedia_ner,alan_turing
+cambridge,Cambridge,Place,,wikipedia_ner,alan_turing
+princeton_university,Princeton University,Organization,,wikipedia_ner,alan_turing
+world_war_ii,World War II,Event,,wikipedia_ner,alan_turing
+bletchley_park,Bletchley Park,Organization,,wikipedia_ner,alan_turing
+britain,Britain,Place,,wikipedia_ner,alan_turing
+battle_of_the_atlantic,Battle of the Atlantic,Work,,wikipedia_ner,alan_turing
+national_physical_laboratory,National Physical Laboratory,Organization,,wikipedia_ner,alan_turing
+automatic_computing_engine,Automatic Computing Engine,Organization,,wikipedia_ner,alan_turing
+computing_machine_laboratory,Computing Machine Laboratory,Organization,,wikipedia_ner,alan_turing
+university_of_manchester,University of Manchester,Organization,,wikipedia_ner,alan_turing
+gordon_brown,Gordon Brown,Person,,wikipedia_ner,alan_turing
+alan_turing,Alan Turing,Person,,wikipedia_ner,alan_turing
+bletchley_park,Bletchley Park,Organization,,wikipedia_ner,joan_clarke
+second_world_war,Second World War,Event,,wikipedia_ner,joan_clarke
+alonzo_church,Alonzo Church,Person,,wikipedia_ner,alonzo_church
+alan_turing,Alan Turing,Person,,wikipedia_ner,alonzo_church
+bletchley_park,Bletchley Park,Organization,,wikipedia_ner,bletchley_park
+buckinghamshire,Buckinghamshire,Place,,wikipedia_ner,bletchley_park
+second_world_war,Second World War,Event,,wikipedia_ner,bletchley_park
+world_war_ii,World War II,Event,,wikipedia_ner,bletchley_park
+john_tiltman,John Tiltman,Person,,wikipedia_ner,bletchley_park
+dilwyn_knox,Dilwyn Knox,Person,,wikipedia_ner,bletchley_park
+alan_turing,Alan Turing,Person,,wikipedia_ner,bletchley_park
+harry_golombek,Harry Golombek,Person,,wikipedia_ner,bletchley_park
+gordon_welchman,Gordon Welchman,Person,,wikipedia_ner,bletchley_park
+hugh_alexander,Hugh Alexander,Person,,wikipedia_ner,bletchley_park
+donald_michie,Donald Michie,Person,,wikipedia_ner,bletchley_park
+bill_tutte,Bill Tutte,Person,,wikipedia_ner,bletchley_park
+stuart_milner_barry,Stuart Milner-Barry,Person,,wikipedia_ner,bletchley_park
+princeton_university,Princeton University,Organization,,wikipedia_ner,princeton_university
+new_jersey,New Jersey,Place,,wikipedia_ner,princeton_university
+united_states,United States,Place,,wikipedia_ner,princeton_university
+princeton,Princeton,Place,,wikipedia_ner,princeton_university
+american_revolution,American Revolution,Event,,wikipedia_ner,princeton_university
+newark,Newark,Place,,wikipedia_ner,princeton_university
+mercer_county,Mercer County,Place,,wikipedia_ner,princeton_university
+trustees_of_princeton_university,Trustees of Princeton University,Organization,,wikipedia_ner,princeton_university
+princeton_school_of_public_and_international_affairs,Princeton School of Public and International Affairs,Organization,,wikipedia_ner,princeton_university
+school_of_engineering_and_applied_science,School of Engineering and Applied Science,Organization,,wikipedia_ner,princeton_university
+school_of_architecture,School of Architecture,Organization,,wikipedia_ner,princeton_university
+bendheim_center_for_finance,Bendheim Center for Finance,Organization,,wikipedia_ner,princeton_university
+department_of_energy_s,Department of Energy's,Organization,,wikipedia_ner,princeton_university
+princeton_plasma_physics_laboratory,Princeton Plasma Physics Laboratory,Organization,,wikipedia_ner,princeton_university
+geophysical_fluid_dynamics_laboratory,Geophysical Fluid Dynamics Laboratory,Organization,,wikipedia_ner,princeton_university
+r1_doctoral_universities,R1: Doctoral Universities,Work,,wikipedia_ner,princeton_university
+princeton_tigers,Princeton Tigers,Organization,,wikipedia_ner,princeton_university
+olympics,Olympics,Event,,wikipedia_ner,princeton_university
+fields_medalists,Fields Medalists,Organization,,wikipedia_ner,princeton_university
+rhodes_scholars,Rhodes Scholars,Person,,wikipedia_ner,princeton_university
+marshall_scholars,Marshall Scholars,Person,,wikipedia_ner,princeton_university
+u_s_supreme_court,U.S. Supreme Court,Organization,,wikipedia_ner,princeton_university
+u_s_congress,U.S. Congress,Organization,,wikipedia_ner,princeton_university
+u_s_cabinet,U.S. Cabinet,Organization,,wikipedia_ner,princeton_university
+joint_chiefs_of_staff,Joint Chiefs of Staff,Organization,,wikipedia_ner,princeton_university
+alan_turing,Alan Turing,Person,,wikipedia_ner,turing_machine
+alonzo_church,Alonzo Church,Person,,wikipedia_ner,turing_machine
+alan_turing,Alan Turing,Person,,wikipedia_ner,turing_test
+university_of_manchester,University of Manchester,Organization,,wikipedia_ner,turing_test
+alan_turing,Alan Turing,Person,,wikipedia_ner,on_computable_numbers
