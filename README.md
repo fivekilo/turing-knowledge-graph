@@ -75,7 +75,13 @@ turing-knowledge-graph/
 │  ├─ normalize_candidates.py
 │  ├─ fuse_knowledge.py
 │  ├─ kg_builder.py
+│  ├─ export_frontend_data.py
 │  └─ run_auto_pipeline.py
+├─ frontend/
+│  ├─ index.html
+│  ├─ styles.css
+│  ├─ app.js
+│  └─ data.js
 ├─ requirements.txt
 └─ README.md
 ```
@@ -102,6 +108,8 @@ turing-knowledge-graph/
   - 生成最终 `schema` 和 `instances`
 - `kg_builder.py`
   - 校验并导出知识图谱
+- `export_frontend_data.py`
+  - 将 `nodes.csv / edges.csv / summary.json` 同步成前端展示页直接可用的 `frontend/data.js`
 - `run_auto_pipeline.py`
   - 一键运行完整流水线
 
@@ -140,6 +148,18 @@ python src/kg_builder.py
 python src/run_auto_pipeline.py
 ```
 
+打开前端展示页：
+
+```bash
+frontend/index.html
+```
+
+如果数据有更新，也可以单独同步一次前端数据：
+
+```bash
+python src/export_frontend_data.py
+```
+
 ## 主要输出文件
 
 - `data/instances/entities.csv`
@@ -148,6 +168,7 @@ python src/run_auto_pipeline.py
 - `data/exports/turing_kg.ttl`
 - `data/exports/turing_kg.rdf`
 - `data/exports/summary.json`
+- `frontend/index.html`
 
 ## 说明
 

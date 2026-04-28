@@ -31,6 +31,7 @@ def main() -> None:
         "normalize_candidates.py",
         "fuse_knowledge.py",
         "kg_builder.py",
+        "export_frontend_data.py",
     ]:
         run_script(name)
     print("Auto pipeline completed.")

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>图灵知识图谱展示</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar">
+        <div>
+          <h1>图灵知识图谱展示</h1>
+          <p>支持全图模式和实体邻域模式，适合课堂汇报时切换展示。</p>
+        </div>
+        <div class="topbar-stats" id="hero-stats"></div>
+      </header>
+
+      <main class="layout">
+        <aside class="panel sidebar">
+          <div class="section">
+            <h2>展示模式</h2>
+            <div class="mode-switch" id="mode-switch"></div>
+          </div>
+
+          <div class="section">
+            <h2>实体筛选</h2>
+            <input id="search-input" class="search-input" type="text" placeholder="搜索实体名称" />
+            <div class="chip-group" id="class-filters"></div>
+          </div>
+
+          <div class="section">
+            <div class="section-head">
+              <h2>实体列表</h2>
+              <span id="entity-count"></span>
+            </div>
+            <div id="entity-list" class="entity-list"></div>
+          </div>
+        </aside>
+
+        <section class="panel graph-panel">
+          <div class="graph-head">
+            <div>
+              <h2 id="graph-title">知识图谱</h2>
+              <p id="graph-subtitle">全图模式支持缩放与拖动，邻域模式聚焦单个实体的一跳关系。</p>
+            </div>
+            <div class="graph-actions">
+              <button id="zoom-in" class="ghost-button" type="button">放大</button>
+              <button id="zoom-out" class="ghost-button" type="button">缩小</button>
+              <button id="zoom-reset" class="ghost-button" type="button">重置</button>
+            </div>
+          </div>
+
+          <div class="graph-legend" id="graph-legend"></div>
+          <div class="graph-stage">
+            <svg id="graph-svg" viewBox="0 0 1200 760" preserveAspectRatio="xMidYMid meet"></svg>
+          </div>
+        </section>
+
+        <aside class="panel detail-panel">
+          <div class="section">
+            <h2>实体详情</h2>
+            <div id="entity-detail"></div>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
