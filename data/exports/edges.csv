@@ -75,7 +75,7 @@ princeton_university,has_alias,别名,Princeton College,literal,string,wikidata,
 princeton_university,has_alias,别名,University of Princeton,literal,string,wikidata,0.95
 princeton_university,has_alias,别名,princeton.edu,literal,string,wikidata,0.95
 princeton_university,has_year,年份,1746,literal,gYear,wikidata,0.90
-princeton_university,located_in,位于,new_jersey,entity,,wikipedia_text_rule,0.68
+princeton_university,located_in,位于,new_jersey,entity,,wikipedia_text_re_model|wikipedia_text_rule,0.96
 princeton_university,located_in,位于,princeton,entity,,wikipedia_text_rule,0.68
 turing_machine,has_alias,别名,deterministic Turing machine,literal,string,wikidata,0.95
 turing_machine,has_year,年份,1936,literal,gYear,wikidata,0.90

@@ -70,6 +70,7 @@ turing-knowledge-graph/
 │  ├─ entity_disambiguation.py
 │  ├─ merge_entity_candidates.py
 │  ├─ text_relation_candidates.py
+│  ├─ pretrained_relation_candidates.py
 │  ├─ merge_triple_candidates.py
 │  ├─ normalize_candidates.py
 │  ├─ fuse_knowledge.py
@@ -93,6 +94,8 @@ turing-knowledge-graph/
   - 根据别名、表层相似度、类型和上下文做候选实体链接，并保留 NIL 实体
 - `text_relation_candidates.py`
   - 基于规则从正文句子中抽取一部分关系
+- `pretrained_relation_candidates.py`
+  - 使用预训练 TACRED 关系分类模型对正文句子里的实体对做监督式关系抽取
 - `normalize_candidates.py`
   - 对候选实体、类和关系做归一化统计
 - `fuse_knowledge.py`
@@ -112,7 +115,7 @@ turing-knowledge-graph/
   - 自动抽取到融合的流程
 - 第 4 章
   - 接入现成 NER 模型做正文实体识别
-  - 增加正文关系抽取
+  - 同时保留规则法和预训练监督模型两条正文关系抽取链路
 - 第 5 章
   - 保留 `source`、`confidence` 和规范化实体 ID
 

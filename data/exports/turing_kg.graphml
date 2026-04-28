@@ -316,8 +316,8 @@
 <edge source="princeton_university" target="new_jersey">
   <data key="d9">located_in</data>
   <data key="d10">位于</data>
-  <data key="d11">wikipedia_text_rule</data>
-  <data key="d12">0.68</data>
+  <data key="d11">wikipedia_text_re_model|wikipedia_text_rule</data>
+  <data key="d12">0.96</data>
 </edge>
 <edge source="princeton_university" target="princeton">
   <data key="d9">located_in</data>

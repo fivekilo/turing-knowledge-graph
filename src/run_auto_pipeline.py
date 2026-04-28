@@ -26,6 +26,7 @@ def main() -> None:
         "entity_disambiguation.py",
         "merge_entity_candidates.py",
         "text_relation_candidates.py",
+        "pretrained_relation_candidates.py",
         "merge_triple_candidates.py",
         "normalize_candidates.py",
         "fuse_knowledge.py",

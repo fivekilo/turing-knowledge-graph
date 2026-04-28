@@ -25,7 +25,8 @@ def main() -> None:
     ensure_dirs()
     structured = read_csv(EXTRACTED_DIR / "triples_candidates_structured.csv")
     text_rows = read_csv(EXTRACTED_DIR / "triples_candidates_text.csv")
-    merged: List[Dict[str, str]] = structured + text_rows
+    model_rows = read_csv(EXTRACTED_DIR / "triples_candidates_text_model.csv")
+    merged: List[Dict[str, str]] = structured + text_rows + model_rows
     write_csv(
         EXTRACTED_DIR / "triples_candidates.csv",
         unique_rows(merged, ["subject", "predicate", "object", "source"]),

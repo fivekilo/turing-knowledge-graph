@@ -1,0 +1,4 @@
+﻿subject,predicate,object,object_label,object_type,object_datatype,object_class_hint,source,confidence
+alan_turing,born_in,london,London,entity,,Place,wikipedia_text_re_model,0.81
+alan_turing,worked_at,national_physical_laboratory,National Physical Laboratory,entity,,Organization,wikipedia_text_re_model,0.84
+princeton_university,located_in,new_jersey,New Jersey,entity,,Place,wikipedia_text_re_model,0.96

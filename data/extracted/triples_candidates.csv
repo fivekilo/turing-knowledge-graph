@@ -115,3 +115,4 @@ princeton_university,located_in,princeton,Princeton,entity,,Place,wikipedia_text
 princeton_university,located_in,new_jersey,New Jersey,entity,,Place,wikipedia_text_rule,0.68
 alan_turing,proposed,turing_machine,Turing machine,entity,,Concept,wikipedia_text_rule,0.66
 alan_turing,authored,on_computable_numbers,"On Computable Numbers, with an Application to the Entscheidungsproblem",entity,,Work,wikipedia_text_rule,0.64
+princeton_university,located_in,new_jersey,New Jersey,entity,,Place,wikipedia_text_re_model,0.96
